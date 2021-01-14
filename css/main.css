@@ -122,9 +122,9 @@ a.tosu { color: #b00000; background: #f5f5f5; text-decoration: none; padding: 2p
 
 .news { grid-column: span 4; grid-row: 1 / 2; }
 
-.contact { grid-column: span 6; }
+.col-8 { grid-column: span 6; }
 
-.map { grid-column: span 4; }
+.col-4 { grid-column: span 4; }
 
 @media (max-width: 768px) { .container { grid-template-columns: repeat(8, 1fr); } .news { grid-column: span 8; grid-row: 3; } .contact { grid-column: span 8; } }
 
