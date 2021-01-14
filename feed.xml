@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Srikrishnan Research Group</title>
+    <description>This is the website for the Srikrishnan Research Group at Cornell BEE. We study the impact of dynamic environmental hazards, particularly those intensified by climate change, on infrastructure performance and management. We are interested in a broad range of applications.
+</description>
+    <link>//</link>
+    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 13 Jan 2021 21:19:10 -0500</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2021 21:19:10 -0500</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Postdoctoral Position Available</title>
+        <description>&lt;p&gt;Cornell BEE is &lt;a href=&quot;https://academicjobsonline.org/ajo/jobs/17811&quot;&gt;advertising&lt;/a&gt; for a postdoc! The position is part of a USDA-funded, interdisciplinary team looking at agricultural-to-energy transitions in New York State. The postdoc will be co-supervised by &lt;a href=&quot;https://blogs.cornell.edu/anderson1/&quot;&gt;Lindsay Anderson&lt;/a&gt;, &lt;a href=&quot;https://blogs.cornell.edu/steinschneider/&quot;&gt;Scott Steinschneider&lt;/a&gt;, and myself, and will have the opportunity to interact widely with other faculty.&lt;/p&gt;
+
+&lt;p&gt;We’re interested in developing an energy demand model which is sensitive to nonlinear climate dynamics, as well as applying a climate stress test to a model of the New York State power system, which the postdoc would also help to develop. There are many interesting questions at the nexus of energy, water, and climate that the hired candidate would be able to explore.&lt;/p&gt;
+
+&lt;p&gt;A successful candidate would have:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A Ph.D in power and energy systems or operations research;&lt;/li&gt;
+  &lt;li&gt;Programming skills in at least one major programming language (&lt;em&gt;e.g.&lt;/em&gt; R, Python, Julia, etc.)&lt;/li&gt;
+  &lt;li&gt;Experience and proficiency with statistical modeling;&lt;/li&gt;
+  &lt;li&gt;Good communication skills and an interest and ability in developing working relationships with stakeholders.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The anticipated start date is April 1, 2021, though this is flexible. To apply, go to &lt;a href=&quot;https://academicjobsonline.org/ajo/jobs/17811&quot;&gt;Academic Jobs Online&lt;/a&gt;. And feel free to &lt;a href=&quot;mailto: vs498@cornell.edu&quot;&gt;email me&lt;/a&gt; if you have any questions!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Jan 2021 00:00:00 -0500</pubDate>
+        <link>//2021/01/postdoc-available-usda/</link>
+        <guid isPermaLink="true">//2021/01/postdoc-available-usda/</guid>
+        
+        <category>news</category>
+        
+        
+        <category>Openings</category>
+        
+      </item>
+    
+      <item>
+        <title>Excited to join Cornell BEE</title>
+        <description>&lt;p&gt;After several years at Penn State’s &lt;a href=&quot;https://eesi.psu.edu&quot;&gt;Earth and Environmental Systems Institute&lt;/a&gt;, I’m excited to announce that I will be joining Cornell’s &lt;a href=&quot;https://bee.cals.cornell.edu&quot;&gt;Department of Biological &amp;amp; Environmental Engineering&lt;/a&gt; as an assistant professor in July 2021. Throughout my interactions with the faculty (and some students) at BEE, I’ve been impressed with their collegiality and friendliness, not to mention the quality of their research.&lt;/p&gt;
+
+&lt;p&gt;My group at Cornell will work on understanding the impacts of dynamic environmental hazards, particularly those influenced by climate change, on infrastructure resilience and performance. The broad goal is to provide decision support for the management of infrastructure systems under deep climate, technological, and socioeconomic uncertainty. I’m particularly interested in (i) understanding the impact of climate change on electric power system operations, (ii) developing strategies for managing flood risk, and (iii) quantifying the interactions between the human, built, and natural systems, and how these feedbacks and decisions affect system dynamics. Please &lt;a href=&quot;/contact&quot;&gt;contact me&lt;/a&gt; if this seems interesting to you!&lt;/p&gt;
+
+&lt;p&gt;Leaving Penn State is definitely bittersweet. I’ve been lucky to call State College home, and I’ve had the opportunity to work on some very fun projects with an incredible and intellectually diverse team. I can only hope to reproduce this environment in my own research group.&lt;/p&gt;
+
+&lt;p&gt;I’ll be affiliated with BEE immediately as a visiting assistant professor.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2021 00:00:00 -0500</pubDate>
+        <link>//2021/01/join-cornell/</link>
+        <guid isPermaLink="true">//2021/01/join-cornell/</guid>
+        
+        <category>news</category>
+        
+        
+        <category>Announcements</category>
+        
+      </item>
+    
+  </channel>
+</rss>
