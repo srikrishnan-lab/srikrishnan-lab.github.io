@@ -124,6 +124,8 @@ a.tosu { color: #b00000; background: #f5f5f5; text-decoration: none; padding: 2p
 
 .news { grid-column: span 4; grid-row: 1 / 2; }
 
+.col-12 { grid-column: span 12; }
+
 .col-8 { grid-column: span 8; }
 
 .col-4 { grid-column: span 4; }
@@ -336,5 +338,9 @@ background-color:#3d3535;
 .bibcard-notes { width: 100%; background: #222222; padding: 0px; min-height: 20px; display: flex; align-items: center; }
 
 .bibcard-notes a { padding: 10px; }
+
+.card-title { width: 100%; background: #222222; color: #f7f7f7; min-height: 50px; text-align: center; font-size: 18px; }
+
+.card-text { padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */
