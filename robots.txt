@@ -1,1 +1,1 @@
-Sitemap: //sitemap.xml
+Sitemap: https://srikrishnan-lab.github.io/sitemap.xml
