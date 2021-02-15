@@ -122,7 +122,7 @@ a.tosu { color: #b00000; background: #f5f5f5; text-decoration: none; padding: 2p
 
 .submain { grid-column: span 4; justify-content: center; grid-row: 2; }
 
-.news { grid-column: span 4; grid-row: 1 / 2; }
+.news { grid-column: span 4; grid-row: 1 / span 2; }
 
 .col-12 { grid-column: span 12; }
 
