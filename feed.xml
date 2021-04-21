@@ -6,8 +6,8 @@
 </description>
     <link>https://srikrishnan-lab.github.io/</link>
     <atom:link href="https://srikrishnan-lab.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Apr 2021 16:11:10 +0000</pubDate>
-    <lastBuildDate>Wed, 21 Apr 2021 16:11:10 +0000</lastBuildDate>
+    <pubDate>Wed, 21 Apr 2021 16:33:11 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Apr 2021 16:33:11 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -19,7 +19,7 @@
 &lt;ul&gt;
   &lt;li&gt;accounting for climate-system uncertainty results in a decreased estimate compared to that used by the US government, partially due to nonlinear relationships between uncertainties related to temperature dynamics;&lt;/li&gt;
   &lt;li&gt;the sensitivity of SC-CH&lt;sub&gt;4&lt;/sub&gt; to scenarios of future warming is of a comparable magnitude to that resulting from different discount rates;&lt;/li&gt;
-  &lt;li&gt;the SC-CH&lt;sub&gt;4&lt;/sub&gt; estimates vary little when different climate models are used, but show large sensitivities to the choice of integrated assessment model; and&lt;/li&gt;
+  &lt;li&gt;the SC-CH&lt;sub&gt;4&lt;/sub&gt; estimates vary little when different climate models are used, but show large sensitivities to the choice of damage function (which is usually the most contentious part of any monetized climate impacts analysis); and&lt;/li&gt;
   &lt;li&gt;the use of equity-weighting instead of constant discount rates results in large increases in the SC-CH&lt;sub&gt;4&lt;/sub&gt; for wealthier regions such as the US compared to regions which consume less, justifying higher mitigation expenditures in high-income countries, and these increases dwarf the decreases from climate uncertainties.&lt;/li&gt;
 &lt;/ul&gt;
 
