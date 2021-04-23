@@ -120,7 +120,7 @@ a.tosu { color: #b00000; background: #f5f5f5; text-decoration: none; padding: 2p
 
 .main { grid-column: span 8; justify-content: center; grid-row: 1; }
 
-.submain { grid-column: span 4; justify-content: center; }
+.submain { grid-column: span 4; }
 
 .news { grid-column: span 4; grid-row: 1 / span 2; }
 
@@ -134,7 +134,7 @@ a.tosu { color: #b00000; background: #f5f5f5; text-decoration: none; padding: 2p
 
 @media (max-width: 600px) { .container { grid-template-columns: repeat(4, 1fr); } .news { grid-column: span 4; grid-row: 4; } }
 
-@media (min-width: 600px) { .submain { grid-row: 2; } }
+@media (min-width: 600px) { .submain { grid-row: 2; justify-content: center; } }
 
 /** Site footer */
 .site-footer { border-top: 1px solid #888888; padding: 30px 0; }
