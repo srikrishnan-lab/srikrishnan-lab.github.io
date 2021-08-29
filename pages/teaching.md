@@ -4,4 +4,4 @@ title: Teaching
 permalink: /teaching/
 ---
 
-I won't be teaching until Fall 2022, but this page will be updated closer to then.
+In Fall 2021, I will be co-teaching BEE 4750/5750 with Prof. Lindsay Anderson. Offices hours are TBA.
