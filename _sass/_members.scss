@@ -3,14 +3,14 @@
   */
 
 .group-member-photo {
-  grid-column: span 3;
+  grid-column: 1 / 3;
   align-content: center;
   justify-content: center;
   vertical-align: text-top;
 }
 
 .group-member-bio {
-  grid-column: span 8;
+  grid-column: 4 / 9;
 }
 
 .group-member-photo img {
