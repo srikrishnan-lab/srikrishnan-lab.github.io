@@ -10,13 +10,17 @@ permalink: /members/
 {% assign counter = 1 %}
 {% assign people = site.data.people %}
 {% for person in people %}
-  {% if person.former != true %}
-  {% if counter > 1 %}
-  <hr />
-  {% endif %}
+{% if counter > 1 %}
+<div style="grid-column: span 12">
+<hr>
+</div>
+{% endif %}
+
   <div class="group-member-photo">
-    <img src="/assets/img/members/{{ person.photo }}" alt="{{ person.first_name }} {{ person.last_name }}"></img>
+    <span class="helper"></span>
+    <img src="/assets/img/members/{{ person.photo }}" alt="{{ person.first_name }} {{ person.last_name }}">
   </div>
+
   <div class="group-member-bio">
     {% if person.anchor %}
     <a name="{{ person.anchor }}"></a>
@@ -91,15 +95,16 @@ permalink: /members/
         alt="GitHub Profile">
     </a>
     {% endif %}
-  </div>
-  <!-- bio and description -->
+
+    <!-- bio and description -->
   {% if person.bio %}
   <p>{{ person.bio | markdownify }}</p>
   {% endif %}
-</div>
-</div>
-<div class="clearfix"></div>
-{% endif %}
+    </div>
+  </div>
+
+{% assign counter = counter | plus: 1 %}
 {% endfor %}
+<div class="clearfix"></div>
 
 </div>
