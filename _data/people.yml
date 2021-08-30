@@ -16,3 +16,21 @@
   pronouns: he/him/his # your preferred pronouns
   bio: # format with Markdown
     Vivek Srikrishnan is an Assistant Professor in the Department of Biological & Environmental Engineering at Cornell. He works on climate risk management, at the interface of systems engineering, climate dynamics, economics, data science, and decision science. Dr. Srikrishnan received an M.S. and Ph.D in Energy & Mineral Engineering from Penn State and a B.S. in Mathematics and a B.A. in Philosophy from the University of Illinois at Urbana-Champaign.
+  
+  
+  - first_name: Parin # your first name
+  last_name: Bhaduri # your last name
+  title: Mr. # Mr., Mrs., Ms., Dr., etc
+  anchor: vsrikrish # allows you to link to a specific person
+  position: Ph.D. Student # your role within the group
+  photo: pbhaduri.jpg # your photo in /assets/img/members/
+  website:  # URL for your personal website
+  cv:  # URL for your CV -- optional, but recommended
+  email: pbb62@cornell.edu
+  github: parinbhaduri # your github user name
+  scholar:  # your google scholar id
+  orcid:  # your orcid id
+  researchgate:  # your researchgate profile name
+  pronouns: he/him/his # your preferred pronouns
+  bio: # format with Markdown
+    Parin Bhaduri is a first-year Ph.D. student in the Department of Biological and Environmental Engineering at Cornell. He graduated with a B.S from the Johns Hopkins University in Environmental Health and Engineering and Public Health Studies in the Spring of 2021. Parin is interested in the utilization of systems-level modeling to inform decision makers on climate adaptation, particularly on issues surrounding climate justice and equity. In his free time, Parin enjoys baking, photography, and playing soccer.   
