@@ -324,7 +324,7 @@ background-color:#3d3535;
 
 .group-member-photo { grid-column: span 3; justify-content: center; }
 
-.group-member-bio { grid-column: 4 / span 9; }
+.group-member-bio { grid-column: span 9; }
 
 .group-member-photo img { width: 200px; padding-right: 10px; vertical-align: middle; }
 
