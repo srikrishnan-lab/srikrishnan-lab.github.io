@@ -6,10 +6,11 @@
   grid-column: span 3;
   align-content: center;
   justify-content: center;
+  vertical-align: text-top;
 }
 
 .group-member-bio {
-  grid-column: span 9;
+  grid-column: span 8;
 }
 
 .group-member-photo img {
