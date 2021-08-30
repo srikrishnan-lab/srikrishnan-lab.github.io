@@ -318,9 +318,9 @@ background-color:#3d3535;
 .grouplogo { position: relative; text-align: center; background: url(/assets/img/logos/sea_level_rise_banner.png) top left no-repeat; height: 225px; width: 100%; }
 
 /** Group member layouts */
-.group-member-photo { grid-column: span 3; align-content: center; justify-content: center; }
+.group-member-photo { grid-column: span 3; align-content: center; justify-content: center; vertical-align: text-top; }
 
-.group-member-bio { grid-column: span 9; }
+.group-member-bio { grid-column: span 8; }
 
 .group-member-photo img { width: 200px; padding-top: 50px; }
 
