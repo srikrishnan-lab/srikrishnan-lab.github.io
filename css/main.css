@@ -330,9 +330,9 @@ background-color:#3d3535;
 
 .group-member-bio h3 { font-family: "Mulish", Helvetica, Arial, sans-serif; font-style: normal; color: #222222; font-size: 1.425em; }
 
-@media (max-width: 480px) { .group-member-photo { grid-column: span 4; } .group-member-bio { grid-column: span 8; } }
+@media (max-width: 480px) { .group-member-photo { grid-column: span 12; } .group-member-bio { grid-column: span 12; } }
 
-@media (max-width: 768px) { .group-member-photo { padding-top: 0; grid-column: span 9; } }
+@media (max-width: 1000px) { .group-member-photo { grid-column: span 3; } .group-member-photo img { vertical-align: top; } .group-member-bio { grid-column: span 12; } .helper { height: 0%; } }
 
 /** bibliography styling */
 .card { width: 80%; border: 1px solid #222222; margin: 20px; }
