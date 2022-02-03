@@ -337,7 +337,7 @@ background-color:#3d3535;
 /** bibliography styling */
 .card { width: 80%; border: 1px solid #222222; margin: 20px; }
 
-.bibcard-ref { width: 100%; padding: 5px; }
+.bibcard-ref { width: 100%; padding: 5px; padding-right: 10px; }
 
 .bibcard-notes { width: 100%; background: #222222; padding: 0px; min-height: 20px; display: flex; align-items: center; }
 
