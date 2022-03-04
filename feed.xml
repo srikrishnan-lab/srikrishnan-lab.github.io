@@ -6,9 +6,32 @@
 </description>
     <link>https://srikrishnan-lab.github.io/</link>
     <atom:link href="https://srikrishnan-lab.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Mar 2022 15:03:55 +0000</pubDate>
-    <lastBuildDate>Fri, 04 Mar 2022 15:03:55 +0000</lastBuildDate>
+    <pubDate>Fri, 04 Mar 2022 15:52:43 +0000</pubDate>
+    <lastBuildDate>Fri, 04 Mar 2022 15:52:43 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Uncertainty Book Released</title>
+        <description>&lt;p&gt;We have just released a new e-book, “Addressing Uncertainty in MultiSector Dynamics Research,” which can be accessed at &lt;a href=&quot;https://immm-sfa.github.io/msd_uncertainty_ebook/&quot;&gt;https://immm-sfa.github.io/msd_uncertainty_ebook/&lt;/a&gt;. This book is open-access (we recommend the HTML version, but a PDF version is available as well) and &lt;a href=&quot;https://github.com/IMMM-SFA/msd_uncertainty_ebook&quot;&gt;open source&lt;/a&gt;, and we intend for it to be a living document, evolving as new problems, perspectives, and techniques emerge.&lt;/p&gt;
+
+&lt;p&gt;This book was written in collaboration with several members of the &lt;a href=&quot;https://reed.cee.cornell.edu/&quot;&gt;Reed research group&lt;/a&gt; at Cornell and the &lt;a href=&quot;https://keller-lab.github.io/&quot;&gt;Keller Lab&lt;/a&gt; (formerly at Penn State, now at Dartmouth) as well as team members from the &lt;a href=&quot;https://im3.pnnl.gov/&quot;&gt;IM3 MultiSector Dynamics project&lt;/a&gt; (which also funded and supported the book’s development).&lt;/p&gt;
+
+&lt;p&gt;A plain language summary of the book is provided below.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The presence of uncertainty challenges research across all scientific disciplines that study natural and human systems. With improvements in our understanding of interactions between these systems and increased efforts for science that bridges across singular disciplines, tackling uncertainty is both methodologically and practically very difficult. Whereas several published methods and guides already exist in the literature, there is no published guidance on how multidisciplinary research teams working on common complex problems should characterize or quantify uncertainty. The primary aim of this ebook is to provide initial guidance to teams facing these challenges and serve as a continually updated resource for researchers across disciplines that are interested in uncertainty characterization.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+        <link>https://srikrishnan-lab.github.io/2022/03/uc-book-release/</link>
+        <guid isPermaLink="true">https://srikrishnan-lab.github.io/2022/03/uc-book-release/</guid>
+        
+        <category>news</category>
+        
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Postdoctoral Scholar Position Open</title>
