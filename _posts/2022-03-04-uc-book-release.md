@@ -7,7 +7,7 @@ category: papers
 layout: post
 ---
 
-We have just released a new e-book, "Addressing Uncertainty in MultiSector Dynamics Research," which can be accessed at <https://immm-sfa.github.io/msd_uncertainty_ebook/>. This book is open-access (we recommend the HTML version, but a PDF version is available as well) and [open source](https://github.com/IMMM-SFA/msd_uncertainty_ebook). 
+We have just released a new e-book, "Addressing Uncertainty in MultiSector Dynamics Research," which can be accessed at <https://immm-sfa.github.io/msd_uncertainty_ebook/>. This book is open-access (we recommend the HTML version, but a PDF version is available as well) and [open source](https://github.com/IMMM-SFA/msd_uncertainty_ebook), and we intend for it to be a living document, evolving as new problems, perspectives, and techniques emerge. 
 
 This book was written in collaboration with several members of the [Reed research group](https://reed.cee.cornell.edu/) at Cornell and the [Keller Lab](https://keller-lab.github.io/) (formerly at Penn State, now at Dartmouth) as well as team members from the [IM3 MultiSector Dynamics project](https://im3.pnnl.gov/) (which also funded and supported the book's development).
 
