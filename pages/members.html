@@ -28,8 +28,7 @@ permalink: /members/
     <a name="{{person.first_name}} {{ person.last_name }}"></a>
     {% endif %}
     <h3>
-      {% if person.title %}{{ person.title }}
-      {% endif %}{{ person.first_name }} {{ person.last_name }}{% if person.namedrop %} <a href="http://nmdrp.me/{{ person.namedrop }}" style="color: #359245"><i class="fas fa-volume-up"></i></a>{% endif %},
+      {{ person.first_name }} {{ person.last_name }}{% if person.namedrop %} <a href="http://nmdrp.me/{{ person.namedrop }}" style="color: #359245"><i class="fas fa-volume-up"></i></a>{% endif %},
       {{ person.position }}
     </h3>
     <div>

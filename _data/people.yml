@@ -14,7 +14,7 @@
   orcid: 0000-0003-0049-3805 # your orcid id
   researchgate: Vivek_Srikrishnan # your researchgate profile name
   pronouns: he/him/his # your preferred pronouns
-  bio: Vivek Srikrishnan is an Assistant Professor in the Department of Biological & Environmental Engineering at Cornell. He works on climate risk management, at the interface of systems engineering, climate dynamics, economics, data science, and decision science. Dr. Srikrishnan received an M.S. and Ph.D in Energy & Mineral Engineering from Penn State and a B.S. in Mathematics and a B.A. in Philosophy from the University of Illinois at Urbana-Champaign.
+  bio: Vivek Srikrishnan is an Assistant Professor in the Department of Biological & Environmental Engineering at Cornell. He works on climate risk management, at the interface of systems engineering, climate dynamics, economics, data science, and decision science. Dr. Srikrishnan received an M.S. and Ph.D in Energy & Mineral Engineering from Penn State and a B.S. in Mathematics and a B.A. in Philosophy from the University of Illinois at Urbana-Champaign. He also [lost on Jeopardy!](https://www.j-archive.com/showgame.php?game_id=5223).
 
 - first_name: Parin # your first name
   last_name: Bhaduri # your last name
@@ -44,7 +44,23 @@
   email: ced227@cornell.edu
   github: darnellchl # your github user name
   scholar:  # your google scholar id
-  orcid: 0000-0003-4390-2656 # your orcid id
+  orcid: # your orcid id
   researchgate:  # your researchgate profile name
   pronouns: she/her/hers # your preferred pronouns
   bio: Chloe Darnell is an M.S. student in the Department of Biological and Environmental Engineering at Cornell. She graduated in May 2021 with a B.S. in Civil Engineering from the University of Kentucky. Chloe's research interests involve the integration of renewable energy sources into our energy systems, aiming to create a path toward decarbonization using an interdisciplinary approach. Outside of research, Chloe enjoys traveling, being around animals, and taking care of her ever-increasing collection of plants.
+
+- first_name: Katerina # your first name
+  last_name: Tang # your last name
+  title: # Mr., Mrs., Ms., Dr., etc
+  anchor: ktang  # allows you to link to a specific person
+  position: Ph.D. Student # your role within the group
+  photo: ktang.png # your photo in /assets/img/members/
+  website:  # URL for your personal website
+  cv:  # URL for your CV -- optional, but recommended
+  email: kbt28@cornell.edu
+  github: kbtang28 # your github user name
+  scholar:  # your google scholar id
+  orcid:  # your orcid id
+  researchgate:  # your researchgate profile name
+  pronouns: she/her/hers # your preferred pronouns
+  bio: Katerina Tang is a Ph.D. student at the Center for Applied Mathematics at Cornell. She graduated with a B.A. in Mathematics from Kenyon College in May 2021. Katerina is interested in the development and application of network analysis methods to identify pathways leading to cascading failures in coupled human-Earth systems. Outside of math, Katerina enjoys knitting, climbing, and running.
