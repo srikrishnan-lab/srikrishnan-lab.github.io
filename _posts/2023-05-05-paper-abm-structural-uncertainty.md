@@ -3,7 +3,7 @@ title: "New Paper on Structural Uncertainty and Agent-Based Modeling"
 subtitle: "Structural model choices regularly overshadow parametric uncertainty in agent-based simulations of household flood risk outcomes"
 author: Vivek Srikrishnan
 tags: news
-category: people
+category: Papers
 layout: post
 ---
 

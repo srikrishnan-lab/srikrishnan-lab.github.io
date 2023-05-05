@@ -2,7 +2,7 @@
 title: "Parin Awarded NSF GRFP Honorable Mention"
 author: Vivek Srikrishnan
 tags: news
-category: people
+category: People
 layout: post
 ---
 

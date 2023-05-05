@@ -3,7 +3,7 @@ title: "Uncertainty Book Released"
 subtitle: "Provides Overview of Uncertainty Characterization Approaches"
 author: Vivek Srikrishnan
 tags: news
-category: papers
+category: Papers
 layout: post
 ---
 

@@ -2,7 +2,7 @@
 title: "Cannon Inducted Into McNair Scholars Program"
 author: Vivek Srikrishnan
 tags: news
-category: people
+category: People
 layout: post
 ---
 
