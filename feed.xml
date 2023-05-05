@@ -6,9 +6,43 @@
 </description>
     <link>https://srikrishnan-lab.github.io/</link>
     <atom:link href="https://srikrishnan-lab.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 May 2023 22:28:42 +0000</pubDate>
-    <lastBuildDate>Mon, 01 May 2023 22:28:42 +0000</lastBuildDate>
+    <pubDate>Fri, 05 May 2023 12:10:46 +0000</pubDate>
+    <lastBuildDate>Fri, 05 May 2023 12:10:46 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>New Paper on Structural Uncertainty and Agent-Based Modeling</title>
+        <description>&lt;p&gt;We have &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S019897152300042X&quot;&gt;a new paper&lt;/a&gt; in &lt;a href=&quot;https://www.sciencedirect.com/journal/computers-environment-and-urban-systems&quot;&gt;Computers, Environment, and Urban Systems&lt;/a&gt; on the role of structural uncertainty in agent-based models (ABMs), specifically in the context of modeling household flood risk aversion. This paper was authored with several collaborators at Pacific Northwest National Laboratory, namely Jim Yoon, Heng Wan, Brent Daniel, and David Judi, and was funded as part of the Department of Energy’s &lt;a href=&quot;https://icom.pnnl.gov/&quot;&gt;Integrated Coastal Modeling&lt;/a&gt; project.&lt;/p&gt;
+
+&lt;p&gt;The key question we sought to understand was the degree to which choices about the structure of agent decision rules pre-determined the range of possible outcomes that the model could produce. Structural uncertainty, which reflects the uncertainty in the mathematical and/or rule-based representation of processes, is &lt;a href=&quot;https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021EF002644&quot;&gt;one of the central categories of uncertainties relevant to simulation models&lt;/a&gt;. While meta-analyses can synthesize findings across these particular models, directly assessing the role of structural uncertainty can be difficult due to complex ABM dynamics and the lack of a common simulation setting.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we used a common model setup to look at three different model structural variations, related to changes in how agents respond to information about flood risk. We show:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Structural changes in how flood risk changes agents’ preferences about household location can greatly influence the variability in observed outcomes such as floodplain population and housing values;&lt;/li&gt;
+  &lt;li&gt;It is unlikely that careful calibration will fully avoid this problem, as different outputs of interest vary in different ways across model structures; calibration may align outputs for a particular metric used for calibration&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, but create overconfidence about other modeled outcomes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We conclude by suggesting that this strong influence of model structure on ABM outcomes emphasizes the need to view ABMs as tools to understand the implications of particular theories about decision-making and social evolution (in the tradition of ABMs as simulation tools for &lt;a href=&quot;https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5&amp;lt;41::AID-CPLX9&amp;gt;3.0.CO;2-F&quot;&gt;generative social science&lt;/a&gt;), rather than over-interpreting projections from any particular ABM.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;That is, assuming that a model structure is capable of reproducing the observations used to calibrate it! &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+        <link>https://srikrishnan-lab.github.io/2023/05/paper-abm-structural-uncertainty/</link>
+        <guid isPermaLink="true">https://srikrishnan-lab.github.io/2023/05/paper-abm-structural-uncertainty/</guid>
+        
+        <category>news</category>
+        
+        
+        <category>people</category>
+        
+      </item>
     
       <item>
         <title>Cannon Inducted Into McNair Scholars Program</title>
@@ -192,33 +226,6 @@
         
         
         <category>Papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Postdoctoral Position Available</title>
-        <description>&lt;p&gt;Cornell BEE is &lt;a href=&quot;https://academicjobsonline.org/ajo/jobs/17811&quot; target=&quot;_blank&quot;&gt;advertising&lt;/a&gt; for a postdoc! The position is part of a USDA-funded, interdisciplinary team looking at agricultural-to-energy transitions in New York State. The postdoc will be co-supervised by &lt;a href=&quot;https://blogs.cornell.edu/anderson1/&quot; target=&quot;_blank&quot;&gt;Lindsay Anderson&lt;/a&gt;, &lt;a href=&quot;https://blogs.cornell.edu/steinschneider/&quot; target=&quot;_blank&quot;&gt;Scott Steinschneider&lt;/a&gt;, and myself, and will have the opportunity to interact widely with other faculty.&lt;/p&gt;
-
-&lt;p&gt;We’re interested in developing an energy demand model which is sensitive to nonlinear climate dynamics, as well as applying a climate stress test to a model of the New York State power system, which the postdoc would also help to develop. There are many interesting questions at the nexus of energy, water, and climate that the hired candidate would be able to explore.&lt;/p&gt;
-
-&lt;p&gt;A successful candidate would have:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;A Ph.D in power and energy systems or operations research;&lt;/li&gt;
-  &lt;li&gt;Programming skills in at least one major programming language (&lt;em&gt;e.g.&lt;/em&gt; R, Python, Julia, etc.)&lt;/li&gt;
-  &lt;li&gt;Experience and proficiency with statistical modeling;&lt;/li&gt;
-  &lt;li&gt;Good communication skills and an interest and ability in developing working relationships with stakeholders.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The anticipated start date is April 1, 2021, though this is flexible. To apply, go to &lt;a href=&quot;https://academicjobsonline.org/ajo/jobs/17811&quot; target=&quot;_blank&quot;&gt;Academic Jobs Online&lt;/a&gt;. And feel free to &lt;a href=&quot;mailto: vs498@cornell.edu&quot;&gt;email me&lt;/a&gt; if you have any questions!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-        <link>https://srikrishnan-lab.github.io/2021/01/postdoc-available-usda/</link>
-        <guid isPermaLink="true">https://srikrishnan-lab.github.io/2021/01/postdoc-available-usda/</guid>
-        
-        <category>news</category>
-        
-        
-        <category>Openings</category>
         
       </item>
     
