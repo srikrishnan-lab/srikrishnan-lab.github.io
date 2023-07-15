@@ -67,6 +67,7 @@
   researchgate:  # your researchgate profile name
   pronouns: she/her/hers # your preferred pronouns
   bio: Katerina Tang is a Ph.D. student at the Center for Applied Mathematics at Cornell. She graduated with a B.A. in Mathematics from Kenyon College in May 2021. Katerina is interested in the development and application of network analysis methods to identify pathways leading to cascading failures in coupled human-Earth systems. Outside of math, Katerina enjoys knitting, climbing, and running.
+  status: current
 
 - first_name: Yifan # your first name
   last_name: Luo # your last name
@@ -83,5 +84,4 @@
   researchgate:  # your researchgate profile name
   pronouns: she/her/hers # your preferred pronouns
   bio: Yifan Luo is a Ph.D. student in Civil and Environmental Engineering at Cornell. She holds an M.S. in Environment and Sustainability from the University of Michigan, specializing in Ecosystem Science and Management and Geospatial Data Sciences, and she completed her B.S. degrees in Forest Sciences from the University of British Columbia and Biotechnology from Beijing Forestry University. Yifan's research focuses on understanding hydrological and climatic processes and their interactions on different spatial and temporal scales. Outside of academics, Yifan enjoys traveling, reading, watching films, and playing video games.
-
   status: current
