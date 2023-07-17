@@ -1,5 +1,5 @@
 ---
-title: "Cannon Inducted Into McNair Scholars Program"
+title: "Cannon Cline Inducted Into McNair Scholars Program"
 author: Vivek Srikrishnan
 tags: news
 category: People

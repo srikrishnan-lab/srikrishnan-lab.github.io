@@ -1,5 +1,5 @@
 ---
-title: "Parin Awarded NSF GRFP Honorable Mention"
+title: "Parin Bhaduri Awarded NSF GRFP Honorable Mention"
 author: Vivek Srikrishnan
 tags: news
 category: People
