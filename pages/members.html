@@ -10,8 +10,12 @@ permalink: /members/
 
 <!-- Loop through group members -->
 {% assign counter = 1 %}
-{% assign people = site.data.people | where: "status", "current" | sort_natural: "position" | reverse %}
-{% for person in people %}
+
+{% assign people = site.data.people | where: "status", "current" %}
+{% for pos in site.member-positions %}
+
+{% assign current-position = people | where: "position", pos | sort_natural: "last_name" %} 
+{% for person in current-position %}
 {% if counter > 1 %}
 <div style="grid-column: span 12">
 <hr>
@@ -106,6 +110,7 @@ permalink: /members/
 
 
 {% assign counter = counter | plus: 1 %}
+{% endfor %}
 {% endfor %}
 
 </div>

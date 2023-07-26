@@ -55,3 +55,11 @@ scholar:
   bibliography_list_tag: div
   bibliography_item_tag: div
   repository: _bibliography
+
+member-positions:
+  - "Principal Investigator"
+  - "Postdoctoral Scholar"
+  - "Ph.D. Student"
+  - "M.S. Student"
+  - "M.Eng. Student"
+  - "Undergraduate Researcher"
