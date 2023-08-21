@@ -90,7 +90,7 @@
   last_name: Schnabel # your last name
   title: # Mr., Mrs., Ms., Dr., etc
   anchor: # allows you to link to a specific person
-  position: Undergraduate Student # your role within the group
+  position: Undergraduate Researcher # your role within the group
   photo: cschnabel.jpg # your photo in /assets/img/members/
   website: # URL for your personal website
   cv: https://drive.google.com/file/d/1YP2l_4mHaO5T33sM8oVXBwb3LwIo9hkO/view?usp=sharing # URL for your CV -- optional, but recommended
