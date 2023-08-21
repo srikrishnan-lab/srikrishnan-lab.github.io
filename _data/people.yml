@@ -85,3 +85,20 @@
   pronouns: she/her/hers # your preferred pronouns
   bio: Yifan Luo is a Ph.D. student in Civil and Environmental Engineering at Cornell. She holds an M.S. in Environment and Sustainability from the University of Michigan, specializing in Ecosystem Science and Management and Geospatial Data Sciences, and she completed her B.S. degrees in Forest Sciences from the University of British Columbia and Biotechnology from Beijing Forestry University. Yifan's research focuses on understanding hydrological and climatic processes and their interactions on different spatial and temporal scales. Outside of academics, Yifan enjoys traveling, reading, watching films, and playing video games.
   status: current
+
+  first_name: Cella # your first name
+  last_name: Schnabel # your last name
+  title: # Mr., Mrs., Ms., Dr., etc
+  anchor: # allows you to link to a specific person
+  position: Undergraduate Student # your role within the group
+  photo: cschnabel.jpg # your photo in /assets/img/members/
+  website: # URL for your personal website
+  cv: https://drive.google.com/file/d/1YP2l_4mHaO5T33sM8oVXBwb3LwIo9hkO/view?usp=sharing # URL for your CV -- optional, but recommended
+  email: rms428@cornell.edu
+  github: rms428 # your github user name
+  scholar: # your google scholar id
+  orcid: # your orcid id
+  researchgate: # your researchgate profile name
+  pronouns: she/her/hers # your preferred pronouns
+  bio: Cella Schnabel is an undergraduate student in Civil and Environmental Engineering at Cornell. She is interested in understanding climate risks as they affect global access to food, water, and land. Cella loves running, cooking, and dancing.
+  status: current
