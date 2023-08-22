@@ -115,6 +115,10 @@ permalink: /members/
 
 </div>
 
+<br>
+<hr style="height:3px;">
+<br>
+
 {% assign people = site.data.people | where: "status", "former" | sort_natural: "name" %}
 {% if people != blank %}
 <h2>Former Members</h2>
