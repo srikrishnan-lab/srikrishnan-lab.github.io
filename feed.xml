@@ -6,9 +6,31 @@
 </description>
     <link>https://srikrishnan-lab.github.io/</link>
     <atom:link href="https://srikrishnan-lab.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Feb 2024 20:16:11 +0000</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 20:16:11 +0000</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2024 20:48:03 +0000</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 20:48:03 +0000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>New Paper on Impacts of Renewable Variability on Power Systems</title>
+        <description>&lt;p&gt;A new paper led by Elnaz Kabir, now an &lt;a href=&quot;https://elnaz-kabir.github.io/&quot;&gt;Assistant Professor in the Department of Engineering Technology &amp;amp; Industrial Distribution at Texas A&amp;amp;M&lt;/a&gt;, has &lt;a href=&quot;https://doi.org/10.1016/j.renene.2024.120013&quot;&gt;been published in &lt;em&gt;Renewable Energy&lt;/em&gt;&lt;/a&gt;. This paper was co-authored with several Cornell BEE collaborators, including Scott Steinschneider, M. Vivienne Liu, and C. Lindsay Anderson, and stemmed from Dr. Kabir’s postdoc with Professors Anderson, Steinschneider, and Srikrishnan at Cornell.&lt;/p&gt;
+
+&lt;p&gt;The study looked at the planned 2030 configuration of the New York State electric power system under the Community Leadership and Climate Protection Act (CLCPA), which provides one of the most ambitious plans to decarbonize a bulk power system in the world, as an exemplar for other power systems undergoing renewable-driven transitions to net-zero emissions. We looked at the co-variability of wind, solar, and hydropower to find the impacts on reliability and electricity prices. We found:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hybridization across wind, solar, and hydropower reduces the net variation in generating resources by around a half of the variability of the individual resources;&lt;/li&gt;
+  &lt;li&gt;Solar and wind variability result in price volatility on shorter time scales (daily and hourly), while hydropower availability is responsible for yearly annual price changes.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+        <link>https://srikrishnan-lab.github.io/2024/02/kabir-paper-published/</link>
+        <guid isPermaLink="true">https://srikrishnan-lab.github.io/2024/02/kabir-paper-published/</guid>
+        
+        <category>news</category>
+        
+        
+        <category>Papers</category>
+        
+      </item>
     
       <item>
         <title>Congrats to Chloe Darnell for Her Successful M-Exam!</title>
@@ -201,32 +223,6 @@
         <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
         <link>https://srikrishnan-lab.github.io/2021/05/climate-risk-published/</link>
         <guid isPermaLink="true">https://srikrishnan-lab.github.io/2021/05/climate-risk-published/</guid>
-        
-        <category>news</category>
-        
-        
-        <category>Papers</category>
-        
-      </item>
-    
-      <item>
-        <title>New Paper in Nature on Social Cost of Methane</title>
-        <description>&lt;p&gt;We have a paper (with &lt;a href=&quot;https://cpree.princeton.edu/people/frank-errickson&quot; target=&quot;_blank&quot;&gt;Frank Errickson&lt;/a&gt;, &lt;a href=&quot;https://personal.ems.psu.edu/~kzk10/&quot; target=&quot;_blank&quot;&gt;Klaus Keller&lt;/a&gt;, &lt;a href=&quot;https://eesa.lbl.gov/profiles/william-collins/&quot; target=&quot;_blank&quot;&gt;William Collins&lt;/a&gt;, and &lt;a href=&quot;https://www.david-anthoff.com/&quot; target=&quot;_blank&quot;&gt;David Anthoff&lt;/a&gt; published today in &lt;a href=&quot;https://dx.doi.org/10.1038/s41586-021-03386-6&quot; target=&quot;_blank&quot;&gt;Nature&lt;/a&gt; on the social cost of methane (SC-CH&lt;sub&gt;4&lt;/sub&gt;). The social cost of a greenhouse gas quantifies the net present value of emitting a unit amount of the gas (in this case, methane) into the atmosphere. This cost enables cost-benefit analyses of regulations proposing changes to limits on their emissions, which are a required part of the regulatory process.&lt;/p&gt;
-
-&lt;p&gt;We show how several factors influence estimates of the SC-CH&lt;sub&gt;4&lt;/sub&gt;, including how:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;accounting for climate-system uncertainty by calibrating a climate model to historical observations results in a decreased estimate compared to that used by the US government, partially due to nonlinear relationships between uncertainties related to temperature dynamics;&lt;/li&gt;
-  &lt;li&gt;the sensitivity of SC-CH&lt;sub&gt;4&lt;/sub&gt; to scenarios of future warming is of a comparable magnitude to that resulting from different discount rates;&lt;/li&gt;
-  &lt;li&gt;the SC-CH&lt;sub&gt;4&lt;/sub&gt; estimates vary little when different climate models are used, but show large sensitivities to the choice of damage function (which is usually the most contentious part of any monetized climate impacts analysis); and&lt;/li&gt;
-  &lt;li&gt;the use of equity-weighting instead of constant discount rates results in large increases in the SC-CH&lt;sub&gt;4&lt;/sub&gt; for wealthier regions such as the US compared to regions which consume less, justifying higher mitigation expenditures in high-income countries, and these increases dwarf the decreases from climate uncertainties.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The paper is not open access, but the News and Views perspective is available &lt;a href=&quot;https://www.nature.com/articles/d41586-021-00972-6&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
-        <link>https://srikrishnan-lab.github.io/2021/04/social-cost-methane-nature-published/</link>
-        <guid isPermaLink="true">https://srikrishnan-lab.github.io/2021/04/social-cost-methane-nature-published/</guid>
         
         <category>news</category>
         
