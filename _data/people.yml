@@ -102,3 +102,20 @@
   pronouns: she/her/hers # your preferred pronouns
   bio: Cella Schnabel is an undergraduate student in Civil and Environmental Engineering at Cornell. She is interested in understanding climate risks as they affect global access to food, water, and land. Cella loves running, cooking, and dancing.
   status: current
+
+- first_name: Luan # your first name
+  last_name: Brito # your last name
+  title: # Mr., Mrs., Ms., Dr., etc
+  anchor: lbrito # allows you to link to a specific person
+  position: Ph.D. Student # your role within the group
+  photo:  lbrito.JPEG # your photo in /assets/img/members/
+  website:  # URL for your personal website
+  cv:   # URL for your CV -- optional, but recommended
+  email: ls2236@cornell.edu
+  github: britols # your github user name
+  scholar:  # your google scholar id
+  orcid:  # your orcid id
+  researchgate:  # your researchgate profile name
+  pronouns: he/him/his # your preferred pronouns
+  bio: Luan Brito is a Ph.D. student in the Department of Earth and Atmospheric Sciences at Cornell. He holds an M.S. and B.S. degrees in Meteorology from the University of Sao Paulo, Brazil. Luan's research focus on atmospheric variability, ensemble weather forecasting and climate change impacts on human activities. He is passionated by the weather and also enjoys video games, road trips and taking care of his cats.
+  status: current
