@@ -17,6 +17,23 @@
   bio: Vivek Srikrishnan is an Assistant Professor in the Department of Biological & Environmental Engineering at Cornell. He works on climate risk management, and is particularly interested in how uncertainties and multi-sector feedbacks can influence the efficacy of risk management interventions. Dr. Srikrishnan received an M.S. and Ph.D in Energy & Mineral Engineering from Penn State and a B.S. in Mathematics and a B.A. in Philosophy from the University of Illinois at Urbana-Champaign. He also [lost on Jeopardy!](https://www.j-archive.com/showgame.php?game_id=5223).
   status: current
 
+- first_name: David # your first name
+  last_name: Lafferty # your last name
+  title: Dr. # Mr., Mrs., Ms., Dr., etc
+  anchor: dlafferty # allows you to link to a specific person
+  position: Postdoctoral Associate # your role within the group
+  photo: dlafferty.jpg # your photo in /assets/img/members/
+  website: https://david0811.github.io/ # URL for your personal website
+  cv: https://david0811.github.io/DL_CV.pdf # URL for your CV -- optional, but recommended
+  email: dcl257@cornell.edu
+  github: david0811 # your github user name
+  scholar: Kpwu3qEAAAAJ # your google scholar id
+  orcid: 0000-0003-2098-6885 # your orcid id
+  researchgate: # your researchgate profile name
+  pronouns: he/him/his # your preferred pronouns
+  bio: David Lafferty is a postdoctoral associate in the Department of Biological and Environmental Engineering at Cornell. David received his Ph.D. in Atmospheric Sciences from the University of Illinois Urbana-Champaign in 2024. He holds a M.Sc. in Physics from Ruprecht-Karls-Universität Heidelberg and a B.Sc. in Physics from the University of Glasgow. David's research focuses on climate risk management; he is interested in applying novel modeling techniques to better characterize the risks of a changing climate and develop robust adaptation strategies in the presence of deep and dynamic uncertainties. Outside of work, David enjoys running, cycling, reading, and playing and watching soccer.
+  status: current
+
 - first_name: Parin # your first name
   last_name: Bhaduri # your last name
   title: Mr. # Mr., Mrs., Ms., Dr., etc
@@ -118,21 +135,4 @@
   researchgate:  # your researchgate profile name
   pronouns: he/him/his # your preferred pronouns
   bio: Luan Brito is a Ph.D. student in the Department of Earth and Atmospheric Sciences at Cornell. He holds an M.S. and B.S. degrees in Meteorology from the University of Sao Paulo, Brazil. Luan's research focus on atmospheric variability, ensemble weather forecasting and climate change impacts on human activities. He is passionated by the weather and also enjoys video games, road trips and taking care of his cats.
-  status: current
-
-- first_name: David # your first name
-  last_name: Lafferty # your last name
-  title: Dr. # Mr., Mrs., Ms., Dr., etc
-  anchor: dlafferty # allows you to link to a specific person
-  position: Postdoctoral Associate # your role within the group
-  photo: dlafferty.jpg # your photo in /assets/img/members/
-  website: https://david0811.github.io/ # URL for your personal website
-  cv: https://david0811.github.io/DL_CV.pdf # URL for your CV -- optional, but recommended
-  email: dcl257@cornell.edu
-  github: david0811 # your github user name
-  scholar: Kpwu3qEAAAAJ # your google scholar id
-  orcid: 0000-0003-2098-6885 # your orcid id
-  researchgate: # your researchgate profile name
-  pronouns: he/him/his # your preferred pronouns
-  bio: David Lafferty is a postdoctoral associate in the Department of Biological and Environmental Engineering at Cornell. David received his Ph.D. in Atmospheric Sciences from the University of Illinois Urbana-Champaign in 2024. He holds a M.Sc. in Physics from Ruprecht-Karls-Universität Heidelberg and a B.Sc. in Physics from the University of Glasgow. David's research focuses on climate risk management; he is interested in applying novel modeling techniques to better characterize the risks of a changing climate and develop robust adaptation strategies in the presence of deep and dynamic uncertainties. Outside of work, David enjoys running, cycling, reading, and playing and watching soccer.
   status: current
