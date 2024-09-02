@@ -21,7 +21,7 @@
   last_name: Lafferty # your last name
   title: Dr. # Mr., Mrs., Ms., Dr., etc
   anchor: dlafferty # allows you to link to a specific person
-  position: Postdoctoral Associate # your role within the group
+  position: Postdoc # your role within the group
   photo: dlafferty.jpg # your photo in /assets/img/members/
   website: https://david0811.github.io # URL for your personal website
   cv: https://david0811.github.io/DL_CV.pdf # URL for your CV -- optional, but recommended
