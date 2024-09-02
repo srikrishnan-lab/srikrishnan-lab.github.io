@@ -47,7 +47,7 @@ jobs:
         rm -rf _site/*
         gem install bundler
         bundle install
-        bundle exec jekyll build
+        bundle exec jekyll build --incremental
     - name: Commit and push
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
