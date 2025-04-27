@@ -2,5 +2,21 @@
   program: MultiSector Dynamics
   logo: /assets/img/funding/DOE.png
   agency_url: https://energy.gov
-  program_url: https://climatemodeling.science.energy.gov/program/multisector-dynamics
+  program_url: https://eesm.science.energy.gov/program-area/multisector-dynamics
+  current: true
+- agency: Cornell Atkinson Center for Sustainability
+  logo: /assets/img/funding/Atkinson.pong
+  agency_url: https://atkinson.cornell.edu
+  current: true
+- agency: National Science Foundation
+  program: Environmental Sustainability
+  logo: /assets/img/funding/NSF.png
+  agency_url: https://nsf.gov
+  program_url: https://www.nsf.gov/funding/opportunities/environmental-sustainability
+  current: false
+- agency: Department of Energy
+  program: Water Power Technologies Office
+  logo: /assets/img/funding/DOE.png
+  agency_url: https://energy.gov
+  program_url: https://www.energy.gov/eere/water/water-power-technologies-office
   current: true
