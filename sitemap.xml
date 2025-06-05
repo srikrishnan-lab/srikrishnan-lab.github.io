@@ -1,113 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://srikrishnan-lab.github.io/2020/09/join-cornell/</loc>
-<lastmod>2020-09-20T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2021/01/postdoc-available-usda/</loc>
-<lastmod>2021-01-12T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2021/02/abm-paper-published/</loc>
-<lastmod>2021-02-14T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2021/04/simple-model-epistemic-value-uncertainty-published/</loc>
-<lastmod>2021-04-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2021/04/social-cost-methane-nature-published/</loc>
-<lastmod>2021-04-21T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2021/05/climate-risk-published/</loc>
-<lastmod>2021-05-30T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2022/02/msd-vision-report/</loc>
-<lastmod>2022-02-10T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2022/02/icom-postdoc-ad/</loc>
-<lastmod>2022-02-17T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2022/03/uc-book-release/</loc>
-<lastmod>2022-03-04T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2023/03/nsf-grfp-parin/</loc>
-<lastmod>2023-03-29T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2023/04/mcnair-scholar-cannon/</loc>
-<lastmod>2023-04-15T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2023/05/paper-abm-structural-uncertainty/</loc>
-<lastmod>2023-05-05T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2023/05/air-quality-climate-paper/</loc>
-<lastmod>2023-05-18T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2023/07/chloe-m-exam/</loc>
-<lastmod>2023-07-14T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2024/02/kabir-paper-published/</loc>
-<lastmod>2024-02-05T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/2024/12/srikrishnan-group-agu-2024/</loc>
-<lastmod>2024-12-06T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/archive/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/research/areas/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/pages/research/research-areas/climate-energy-impacts/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/contact/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/pages/research/research-areas/flood-risk/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/research/funding/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/categories/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/join/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/members/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/pages/research/research-areas/multisector-risk/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/research/publications/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/research/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/teaching/</loc>
-</url>
-<url>
-<loc>https://srikrishnan-lab.github.io/googlef5b9d6f55590410a.html</loc>
-<lastmod>2025-05-20T11:30:16+00:00</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://viveks.bee.cornell.edu/teaching/sp25-bee4850/index.html</loc>
+    <lastmod>2025-06-05T15:09:31.976Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/teaching/sp24-bee2000/index.html</loc>
+    <lastmod>2025-06-05T15:08:19.866Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/teaching/index.html</loc>
+    <lastmod>2025-06-05T13:15:08.722Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/teaching/fa24-bee4750/index.html</loc>
+    <lastmod>2025-06-05T14:25:24.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/teaching/fa23-arch7101/index.html</loc>
+    <lastmod>2025-06-05T15:08:40.863Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/teaching/fa21-bee4750/index.html</loc>
+    <lastmod>2025-06-05T13:32:42.643Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/research/flood-risk/index.html</loc>
+    <lastmod>2025-06-04T17:39:34.855Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/research/climate-risk/index.html</loc>
+    <lastmod>2025-06-04T17:39:42.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/publications/2015_001_Multipyranometer_Arrays/index.html</loc>
+    <lastmod>2025-06-05T23:05:22.895Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/people/srikrishnan-vivek/index.html</loc>
+    <lastmod>2025-06-04T16:35:57.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/people/luo-yifan/index.html</loc>
+    <lastmod>2025-06-04T16:53:15.747Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/people/kacharava-nino/index.html</loc>
+    <lastmod>2025-06-04T16:53:06.678Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/people/darnell-chloe/index.html</loc>
+    <lastmod>2025-06-04T17:13:15.518Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/people/bhaduri-parin/index.html</loc>
+    <lastmod>2025-06-04T17:01:11.963Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/index.html</loc>
+    <lastmod>2025-06-05T22:42:23.020Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/people/ackermannlogan-gabriela/index.html</loc>
+    <lastmod>2025-06-04T17:03:16.643Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/people/brito-luan/index.html</loc>
+    <lastmod>2025-06-04T16:58:21.514Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/people/index.html</loc>
+    <lastmod>2025-06-04T17:14:56.996Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/people/lafferty-david/index.html</loc>
+    <lastmod>2025-06-04T16:28:13.392Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/people/schnabel-cella/index.html</loc>
+    <lastmod>2025-06-04T16:53:19.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/people/tang-katerina/index.html</loc>
+    <lastmod>2025-06-04T16:53:27.514Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/publications/index.html</loc>
+    <lastmod>2025-06-05T22:53:25.742Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/research/energy-climate/index.html</loc>
+    <lastmod>2025-06-04T17:39:30.819Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/research/index.html</loc>
+    <lastmod>2025-06-04T17:49:07.470Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/teaching/fa22-bee4750/index.html</loc>
+    <lastmod>2025-06-05T14:25:09.709Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/teaching/fa23-bee4750/index.html</loc>
+    <lastmod>2025-06-05T14:25:16.680Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/teaching/fa25-bee4750/index.html</loc>
+    <lastmod>2025-06-05T14:25:31.455Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/teaching/sp23-bee6940/index.html</loc>
+    <lastmod>2025-06-05T13:40:25.763Z</lastmod>
+  </url>
+  <url>
+    <loc>https://viveks.bee.cornell.edu/teaching/sp24-bee4850/index.html</loc>
+    <lastmod>2025-06-05T14:25:43.028Z</lastmod>
+  </url>
 </urlset>

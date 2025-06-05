@@ -1,0 +1,46 @@
+[
+  {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/fa25-bee4750/index.html",
+      "/teaching/sp25-bee4850/index.html",
+      "/teaching/fa24-bee4750/index.html",
+      "/teaching/sp24-bee2000/index.html",
+      "/teaching/sp24-bee4850/index.html",
+      "/teaching/fa23-arch7101/index.html",
+      "/teaching/fa23-bee4750/index.html",
+      "/teaching/sp23-bee6940/index.html",
+      "/teaching/fa22-bee4750/index.html",
+      "/teaching/fa21-bee4750/index.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/srikrishnan-vivek/index.html",
+      "/people/lafferty-david/index.html",
+      "/people/ackermannlogan-gabriela/index.html",
+      "/people/tang-katerina/index.html",
+      "/people/brito-luan/index.html",
+      "/people/kacharava-nino/index.html",
+      "/people/bhaduri-parin/index.html",
+      "/people/luo-yifan/index.html",
+      "/people/schnabel-cella/index.html",
+      "/people/darnell-chloe/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2015_001_Multipyranometer_Arrays/index.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/energy-climate/index.html",
+      "/research/climate-risk/index.html",
+      "/research/flood-risk/index.html"
+    ]
+  }
+]

@@ -8,7 +8,7 @@
 
 <meta name="author" content="Vivek Srikrishnan">
 
-<title>Research Areas | Srikrishnan Group – Srikrishnan Group</title>
+<title>Meet the Group | Srikrishnan Group – Srikrishnan Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,20 +74,132 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research .list');
+    const listingTargetEl = window.document.querySelector('#listing-pi .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-affiliation","listing-image","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research'] = new List('listing-research', options);
+    window['quarto-listings']['listing-pi'] = new List('listing-pi', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-postdoc .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-affiliation","listing-image","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-postdoc'] = new List('listing-postdoc', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-gradstudent .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-affiliation","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-gradstudent'] = new List('listing-gradstudent', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-undergrad .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-affiliation","listing-image","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-undergrad'] = new List('listing-undergrad', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-affiliation","listing-image","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -133,9 +245,12 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles/custom.scss">
-<meta name="twitter:title" content="Research Areas | Srikrishnan Group">
+<meta name="twitter:title" content="Meet the Group | Srikrishnan Group">
 <meta name="twitter:description" content="The Srikrishnan Research Group studies how to manage climate and environmental risks faced by complex, coupled natural-human systems.">
-<meta name="twitter:image" content="https://viveks.bee.cornell.edu/research/energy-climate/transmission.jpg">
+<meta name="twitter:image" content="https://viveks.bee.cornell.edu/people/srikrishnan-vivek/vsrikrish.png">
+<meta name="twitter:image:alt" content="Vivek Srikrishnan">
+<meta name="twitter:image-height" content="500">
+<meta name="twitter:image-width" content="640">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -157,11 +272,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../people/index.html"> 
+    <a class="nav-link active" href="../people/index.html" aria-current="page"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
+    <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -204,11 +319,11 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#funding" id="toc-funding" class="nav-link active" data-scroll-target="#funding">Funding</a>
-  <ul class="collapse">
-  <li><a href="#current-sponsors" id="toc-current-sponsors" class="nav-link" data-scroll-target="#current-sponsors">Current Sponsors</a></li>
-  <li><a href="#previous-sponsors" id="toc-previous-sponsors" class="nav-link" data-scroll-target="#previous-sponsors">Previous Sponsors</a></li>
-  </ul></li>
+  <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link active" data-scroll-target="#principal-investigator">Principal Investigator</a></li>
+  <li><a href="#postdoctoral-fellows" id="toc-postdoctoral-fellows" class="nav-link" data-scroll-target="#postdoctoral-fellows">Postdoctoral Fellows</a></li>
+  <li><a href="#graduate-students" id="toc-graduate-students" class="nav-link" data-scroll-target="#graduate-students">Graduate Students</a></li>
+  <li><a href="#undergraduate-students" id="toc-undergraduate-students" class="nav-link" data-scroll-target="#undergraduate-students">Undergraduate Students</a></li>
+  <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a></li>
   </ul>
 </nav>
     </div>
@@ -217,7 +332,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research Areas</h1>
+<h1 class="title">Meet the Group</h1>
 </div>
 
 
@@ -234,100 +349,523 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-research" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1749058770819" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
-<a href="../research/energy-climate/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../research/energy-climate/transmission.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Climate Impacts on Power System Reliability
-</h5>
-<div class="card-text listing-description delink">
-The relationship between the electric power system and environmental change is becoming more complex as energy systems continue to decarbonize and the broader economy is…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
+<section id="principal-investigator" class="level2">
+<h2 class="anchored" data-anchor-id="principal-investigator">Principal Investigator</h2>
+<div id="listing-pi" class="quarto-listing quarto-listing-container-custom">
 
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1749058782403" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
-<a href="../research/climate-risk/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../research/climate-risk/keller_fig1.gif" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Climate Uncertainties &amp; Risks
-</h5>
-<div class="card-text listing-description delink">
-Future climate risks are challenging to quantify due to their dependence on uncertain greenhouse gas emissions and Earth-system dynamics. We work on characterizing how risks…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list grid quarto-listing-cols-3"> 
 
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1749058774855" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
-<a href="../research/flood-risk/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../research/flood-risk/FEMA-houseelevation.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Drivers of Flood Risk in Coupled Natural-Built-Human Systems
-</h5>
-<div class="card-text listing-description delink">
-One near-to-medium-term effect of climate change is an increase in flooding hazard due to sea-level rise and changes in storm and precipitation patterns. Managing flooding…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/srikrishnan-vivek/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Vivek Srikrishnan" src="../people/srikrishnan-vivek/vsrikrish.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Vivek Srikrishnan<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Assistant Professor, Biological &amp; Environmental Engineering<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  Ph.D. Energy &amp; Mineral Engineering | Pennsylvania State University | 2018 <br> M.S. Energy &amp; Mineral Engineering | Pennsylvania State University | 2014 <br> B.S. Mathematics | University of Illinois at Urbana-Champaign | 2004 <br> B.A. Philosophy | University of Illinois at Urbana-Champaign | 2004<br>
+                  
+                    
+              </div>  
+                  
 
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+  
 </div>
 </div>
-</div>
-</div></a>
-</div>
-</div>
+
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<section id="funding" class="level2">
-<h2 class="anchored" data-anchor-id="funding">Funding</h2>
-<p>We are grateful to our current and previous sponsors:</p>
-<section id="current-sponsors" class="level3">
-<h3 class="anchored" data-anchor-id="current-sponsors">Current Sponsors</h3>
-<ul>
-<li><a href="https://energy.gov/">U.S. Department of Energy</a>
-<ul>
-<li><a href="https://eesm.science.energy.gov/program-area/multisector-dynamics">BER, MultiSector Dynamics</a></li>
-<li><a href="https://www.energy.gov/eere/water/water-power-technologies-office">EERE, Water Power Technologies Office</a></li>
-</ul></li>
-<li><a href="https://atkinson.cornell.edu/">Cornell Atkinson Center for Sustainability</a></li>
-</ul>
 </section>
-<section id="previous-sponsors" class="level3">
-<h3 class="anchored" data-anchor-id="previous-sponsors">Previous Sponsors</h3>
-<ul>
-<li><a href="https://nsf.gov/">National Science Foundation</a>
-<ul>
-<li><a href="https://www.nsf.gov/funding/opportunities/environmental-sustainability">Environmental Sustainability</a></li>
-</ul></li>
-</ul>
+<section id="postdoctoral-fellows" class="level2">
+<h2 class="anchored" data-anchor-id="postdoctoral-fellows">Postdoctoral Fellows</h2>
+<div id="listing-postdoc" class="quarto-listing quarto-listing-container-custom">
 
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list grid quarto-listing-cols-3"> 
 
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/lafferty-david/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="David Lafferty" src="../people/lafferty-david/dlafferty.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              David Lafferty<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Postdoctoral Scholar<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  Ph.D. Atmospheric Science | University of Illinois at Urbana-Champaign | 2024 <br> M.Sc. Physics |  Ruprecht-Karls-Universität Heidelberg | 2018 <br> B.Sc. Physics | University of Glasgow | 2016<br>
+                  
+                    
+              </div>  
+                  
 
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+  
+</div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
+<section id="graduate-students" class="level2">
+<h2 class="anchored" data-anchor-id="graduate-students">Graduate Students</h2>
+<div id="listing-gradstudent" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list grid quarto-listing-cols-3"> 
+
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/ackermannlogan-gabriela/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Gabriela Ackermann Logan" src="" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Gabriela Ackermann Logan<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              M.S. Student, Biological &amp; Environmental Engineering<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  B.S. Civil Engineering | Tufts University | 2023<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/tang-katerina/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Katerina Tang" src="../people/tang-katerina/ktang.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Katerina Tang<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Ph.D. Student, Applied Mathematics<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  B.A. Mathematics | Kenyon College | 2021<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/brito-luan/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Luan Brito" src="../people/brito-luan/lbrito.jpeg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Luan Brito<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Ph.D. Student, Atmospheric Science<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  M.S. Atmospheric Science | University of Sao Paulo | 2018 <br> B.S. Atmospheric Science | University of Sao Paulo | 2012<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/kacharava-nino/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Nino Kacharava" src="" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Nino Kacharava<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Ph.D. Student, Civil &amp; Environmental Engineering<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  M.S. Civil &amp; Environmental Engineering | Cornell University | 2025 <br> B.S. Civil Engineering | Georgian Technical University | 2022<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/bhaduri-parin/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Parin Bhaduri" src="../people/bhaduri-parin/pbhaduri.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Parin Bhaduri<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Ph.D. Student, Biological &amp; Environmental Engineering<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  M.S. Biological &amp; Environmental Engineering | Cornell University | 2025 <br> B.S. Environmental Health and Engineering | Johns Hopkins University | 2021 <br> B.A. Public Health Studies | Johns Hopkins University | 2021<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/luo-yifan/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Yifan Luo" src="../people/luo-yifan/yifanluo.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Yifan Luo<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Ph.D. Student, Civil &amp; Environmental Engineering<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  M.S. Environment and Sustainability | University of Michigan | 2022 <br> B.S. Forest Sciences | University of British Columbia | 2020 <br> B.S. Biotechnology | Beijing Forestry University | 2020<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+  
+</div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p>:::</p>
+</section>
+<section id="undergraduate-students" class="level2">
+<h2 class="anchored" data-anchor-id="undergraduate-students">Undergraduate Students</h2>
+<div id="listing-undergrad" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list grid quarto-listing-cols-3"> 
+
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/schnabel-cella/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Cella Schnabel" src="../people/schnabel-cella/cschnabel.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Cella Schnabel<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Undergraduate Student, Environmental Engineering<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  B.S. Environmental Engineering | Cornell University | 2025<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+  
+</div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="alumni" class="level2">
+<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
+<div id="listing-alumni" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list grid quarto-listing-cols-4"> 
+
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/darnell-chloe/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Chloe Darnell" src="../people/darnell-chloe/cdarnell.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Chloe Darnell<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+
+              
+                  Water Engineer, Commonwealth Engineers<br>
+                  
+
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    M.S. Biological &amp; Environmental Engineering | Cornell University | 2023 <br> B.S. Civil Engineering | University of Kentucky | 2021<br>
+                    
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+  
+</div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
+
+
 </section>
 
 </main> <!-- /main -->
