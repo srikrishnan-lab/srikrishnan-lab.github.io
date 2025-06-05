@@ -63,3 +63,6 @@ format:
     mainfont: Inter
     smooth-scroll: true
     link-external-newwindow: true
+
+resources:
+  - CNAME

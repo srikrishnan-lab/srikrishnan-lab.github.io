@@ -24,3 +24,5 @@ tmp
 vendor
 Gemfile.lock
 node_modules
+
+/.quarto/
