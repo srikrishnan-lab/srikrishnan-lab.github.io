@@ -1,0 +1,43 @@
+---
+title: &TITLE Parin Bhaduri
+last: Bhaduri
+first: Parin
+people_group: "gradstudent"
+email: "pbb62@cornell.edu"
+education:
+  - M.S. Biological & Environmental Engineering | Cornell University | 2025 <br> B.S. Environmental Health and Engineering | Johns Hopkins University | 2021 <br> B.A. Public Health Studies | Johns Hopkins University | 2021
+subtitle: "Ph.D. Student, Biological & Environmental Engineering"
+affiliation: Cornell University
+image: pbhaduri.jpg
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: pbhaduri.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:pbb62@cornell.edu
+    - text: "{{< ai orcid >}} Orcid"
+      href: https://orcid.org/0000-0002-4618-1121
+    - icon: github
+      text: GitHub 
+      href: http://github.com/parinbhaduri
+---
+
+<hr>
+
+:::{#about}
+
+## About 
+
+Parin Bhaduri is a Ph.D. student in the Department of Biological and Environmental Engineering at Cornell.  Parin is interested in the utilization of systems-level modeling to inform decision makers on climate adaptation, particularly on issues surrounding climate justice and equity. In his free time, Parin enjoys baking, photography, and playing soccer.
+
+
+## Education
+
+
+{{< meta education >}}
+
+<br>

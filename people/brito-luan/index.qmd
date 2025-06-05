@@ -1,0 +1,40 @@
+---
+title: &TITLE Luan Brito
+last: Brito
+first: Luan
+people_group: "gradstudent"
+email: "ls2236@cornell.edu"
+education:
+  - M.S. Atmospheric Science | University of Sao Paulo | 2018 <br> B.S. Atmospheric Science | University of Sao Paulo | 2012
+subtitle: "Ph.D. Student, Atmospheric Science"
+affiliation: Cornell University
+image: lbrito.jpeg
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: lbrito.jpeg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ls2236@cornell.edu
+    - icon: github
+      text: GitHub 
+      href: http://github.com/britols
+---
+
+<hr>
+
+:::{#about}
+
+
+Luan Brito is a Ph.D. student in the Department of Earth and Atmospheric Sciences at Cornell. Luan’s research focus on atmospheric variability, ensemble weather forecasting and climate change impacts on human activities. He is passionated by the weather and also enjoys video games, road trips and taking care of his cats.
+
+
+## Education
+
+
+{{< meta education >}}
+
+<br>

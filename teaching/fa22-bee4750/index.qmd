@@ -1,0 +1,24 @@
+---
+title: Environmental Systems Analysis
+year: 2022
+semester: Fall
+coursenumber: BEE 4750/5750
+---
+
+- **Semester:** {{< meta semester >}} {{< meta year >}}
+- **Course Number:** {{< meta coursenumber >}}
+
+## Course Description
+
+Environmental systems involve multiple interacting processes, uncertainties, and potentially conflicting objectives. These dynamics can complicate analyses which focus on a single component of the system, such as an individual pollution source, or a single outcome of interest. In this course, we will adopt a systems approach to environmental quality modeling and management, including applications in air and water pollution control and solid waste management. In particular, we will:
+
+* define systems and their boundaries;
+* simulate system dynamics using computer models;
+* formulate and solve decision problems for systems management;
+* analyze and assess risk; and
+* make decisions under uncertainty.
+
+## More Information
+
+- This course uses the [Julia programming language](https://julialang.org).
+- See the [course website](https://bee4750.viveks.me/fall2022) and [Github repository](https://github.com/BEE4750/fall2022).

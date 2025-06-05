@@ -1,0 +1,49 @@
+---
+title: &TITLE David Lafferty
+last: Lafferty
+first: David
+people_group: "postdoc"
+email: "dcl257@cornell.edu"
+education:
+  - Ph.D. Atmospheric Science | University of Illinois at Urbana-Champaign | 2024 <br> M.Sc. Physics |  Ruprecht-Karls-Universität Heidelberg | 2018 <br> B.Sc. Physics | University of Glasgow | 2016
+subtitle: "Postdoctoral Scholar"
+affiliation: "Cornell University"
+image: dlafferty.jpg
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: dlafferty.jpg
+  image-alt: "Profile Picture"
+  links:
+    - text: "{{< ai cv >}} Curriculum Vitae"
+      href: https://david0811.github.io/DL_CV.pd
+    - icon: globe
+      text: Web
+      href: https://david0811.github.io
+    - icon: envelope
+      text: Email
+      href: mailto:dcl257@cornell.edu
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?hl=en&user=Kpwu3qEAAAAJ
+    - text: "{{< ai orcid >}} Orcid"
+      href: https://orcid.org/0000-0003-2098-6885
+    - icon: github
+      text: GitHub 
+      href: https://github.com/vsrikrish
+---
+
+<hr>
+
+:::{#about}
+
+David Lafferty is a postdoctoral associate in the Department of Biological and Environmental Engineering at Cornell. David’s research focuses on climate risk management; he is interested in applying novel modeling techniques to better characterize the risks of a changing climate and develop robust adaptation strategies in the presence of deep and dynamic uncertainties. Outside of work, David enjoys running, cycling, reading, and playing and watching soccer.
+
+
+## Education
+
+
+{{< meta education >}}
+
+<br>

@@ -1,0 +1,27 @@
+---
+title: Teaching
+
+listing:
+    id: teaching
+    type: table
+    sort:
+        - "year desc"
+        - "semester"
+    categories: false
+    fields: [semester, year, coursenumber, title]
+    field-display-names: 
+        date: Date
+        title: Title
+        semester: Semester
+        year: Year
+        coursenumber: Course Number
+---
+
+## Teaching Materials & Philosophy
+
+I believe in creating open-source teaching materials with an emphasis on reproducibility and strive for my course materials to be high-quality and accessible. As a result, all materials for my core courses are publically available online with an open source license (either an MIT license for code or a Creative Commons license for educational content). If you have any questions or suggestions on this content, please [email me](mailto:vs498@cornell.edu) or raise an issue on the associated GitHub repository.
+
+## Courses
+
+:::{#teaching}
+:::

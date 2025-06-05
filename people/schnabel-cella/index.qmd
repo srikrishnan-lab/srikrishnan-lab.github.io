@@ -1,0 +1,44 @@
+---
+title: &TITLE Cella Schnabel
+last: Schnabel
+first: Cella
+people_group: "undergrad"
+email: "rms428@cornell.edu"
+education:
+  - B.S. Environmental Engineering | Cornell University | 2025
+subtitle: "Undergraduate Student, Environmental Engineering"
+affiliation: Cornell University
+image: cschnabel.jpg
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: cschnabel.jpg
+  links:
+    - text: "{{< ai cv >}} Curriculum Vitae"
+      href: https://drive.google.com/file/d/1YP2l_4mHaO5T33sM8oVXBwb3LwIo9hkO/view?usp=sharing
+    - icon: envelope
+      text: Email
+      href: mailto:rms428@cornell.edu
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?hl=en&user=CY_JxugAAAAJ
+    - icon: github
+      text: GitHub 
+      href: http://github.com/rms428
+---
+
+<hr>
+
+:::{#about}
+
+
+Cella Schnabel is an undergraduate student in Civil and Environmental Engineering at Cornell. She is interested in understanding climate risks as they affect global access to food, water, and land. Cella loves running, cooking, and dancing.
+
+
+## Education
+
+
+{{< meta education >}}
+
+<br>

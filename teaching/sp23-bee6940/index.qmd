@@ -1,0 +1,18 @@
+---
+title: Climate Risk Analysis
+year: 2023
+semester: Spring
+coursenumber: BEE 6940
+---
+
+- **Semester:** {{< meta semester >}} {{< meta year >}}
+- **Course Number:** {{< meta coursenumber >}}
+
+## Course Description
+
+The impacts of climate variability and change are subject to a number of deep and dynamic uncertainties which complicate systems design and management. Using coastal flood risk management as motivation, this course will introduce concepts and methods for uncertainty characterization and quantification for systems experiencing dynamic environmental risk and will explore implications of uncertainty for decision-making. Students will develop and apply these uncertainty and decision analyses in the context of several example systems.
+
+## More Information
+
+- This course uses the [Julia programming language](https://julialang.org).
+- See [the course website](https://viveks.me/climate-risk-analysis) and [GitHub repository](https://github.com/vsrikrish/climate-risk-analysis).

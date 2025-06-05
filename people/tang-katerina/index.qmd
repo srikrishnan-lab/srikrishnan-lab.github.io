@@ -1,0 +1,39 @@
+---
+title: &TITLE Katerina Tang
+last: Tang
+first: Katerina
+people_group: "gradstudent"
+email: "kbt28@cornell.edu"
+education:
+  - B.A. Mathematics | Kenyon College | 2021
+subtitle: "Ph.D. Student, Applied Mathematics"
+affiliation: Cornell University
+image: ktang.png
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: ktang.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:kbt28@cornell.edu
+    - icon: github
+      text: GitHub 
+      href: http://github.com/kbtang28
+---
+
+<hr>
+
+:::{#about}
+
+Katerina Tang is a Ph.D. student at the Center for Applied Mathematics at Cornell. Katerina is interested in the development and application of network analysis methods to identify pathways leading to cascading failures in coupled human-Earth systems. Outside of math, Katerina enjoys knitting, climbing, and running.
+
+
+## Education
+
+
+{{< meta education >}}
+
+<br>

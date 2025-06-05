@@ -1,0 +1,26 @@
+---
+title: Research Areas
+listing:
+  id: research
+  type: grid
+page-layout: full
+---
+
+::: {#research}
+:::
+
+## Funding
+
+We are grateful to our current and previous sponsors:
+
+### Current Sponsors
+
+- [U.S. Department of Energy](https://energy.gov/)
+  - [BER, MultiSector Dynamics](https://eesm.science.energy.gov/program-area/multisector-dynamics)
+  - [EERE, Water Power Technologies Office](https://www.energy.gov/eere/water/water-power-technologies-office)
+- [Cornell Atkinson Center for Sustainability](https://atkinson.cornell.edu/)
+
+### Previous Sponsors
+
+- [National Science Foundation](https://nsf.gov/)
+  - [Environmental Sustainability](https://www.nsf.gov/funding/opportunities/environmental-sustainability)

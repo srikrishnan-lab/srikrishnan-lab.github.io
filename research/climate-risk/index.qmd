@@ -1,0 +1,9 @@
+---
+title: Climate Uncertainties & Risks
+alias: &ALIAS climate-risks
+image: keller_fig1.gif
+---
+
+![](keller_fig1.gif){width=50% fig-align="center"}
+
+Future climate risks are challenging to quantify due to their dependence on uncertain greenhouse gas emissions and Earth-system dynamics. We work on characterizing how risks such as sea-level rise and water shortages respond to socioeconomic changes (such as emissions pathways and economic growth) and their interactions with Earth-system uncertainties.

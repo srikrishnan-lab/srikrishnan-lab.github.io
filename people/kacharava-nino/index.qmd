@@ -1,0 +1,30 @@
+---
+title: &TITLE Nino Kacharava
+last: Kacharava
+first: Nino
+people_group: "gradstudent"
+email: "nk556@cornell.edu"
+education:
+  - M.S. Civil & Environmental Engineering | Cornell University | 2025 <br> B.S. Civil Engineering | Georgian Technical University | 2022
+subtitle: "Ph.D. Student, Civil & Environmental Engineering"
+affiliation: Cornell University
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:nk556@cornell.edu
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+
+
+{{< meta education >}}
+
+<br>

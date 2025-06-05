@@ -1,0 +1,44 @@
+---
+title: &TITLE Yifan Luo
+last: Luo
+first: Yifan
+people_group: "gradstudent"
+email: "yl3699@cornell.edu"
+education:
+  - M.S. Environment and Sustainability | University of Michigan | 2022 <br> B.S. Forest Sciences | University of British Columbia | 2020 <br> B.S. Biotechnology | Beijing Forestry University | 2020
+subtitle: "Ph.D. Student, Civil & Environmental Engineering"
+affiliation: Cornell University
+image: yifanluo.jpg
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: yifanluo.jpg
+  links:
+    - text: "{{< ai cv >}} Curriculum Vitae"
+      href: https://drive.google.com/file/d/1SP1-wRLUf2AV7CPN09ReJGI8h1FIApBW/view?usp=sharing
+    - icon: globe
+      text: Web
+      href: https://luo-yifan.github.io/
+    - icon: envelope
+      text: Email
+      href: mailto:yl3699@cornell.edu
+    - icon: github
+      text: GitHub 
+      href: http://github.com/luo-yifan
+---
+
+<hr>
+
+:::{#about}
+
+Yifan Luo is a Ph.D. student in Civil and Environmental Engineering at Cornell. She holds an M.S. in Environment and Sustainability from the University of Michigan, specializing in Ecosystem Science and Management and Geospatial Data Sciences, and she completed her B.S. degrees in Forest Sciences from the University of British Columbia and Biotechnology from Beijing Forestry University. Yifan’s research focuses on understanding hydrological and climatic processes and their interactions on different spatial and temporal scales. Outside of academics, Yifan enjoys traveling, reading, watching films, and playing video games.
+
+
+## Education
+
+
+{{< meta education >}}
+
+<br>

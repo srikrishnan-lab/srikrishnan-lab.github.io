@@ -1,0 +1,41 @@
+---
+title: &TITLE Chloe Darnell
+last: Darnell
+first: Chloe
+people_group: "alumni"
+email: "ced227@cornell.edu"
+education:
+  - M.S. Biological & Environmental Engineering | Cornell University | 2023 <br> B.S. Civil Engineering | University of Kentucky | 2021
+subtitle: "Water Engineer, Commonwealth Engineers"
+affiliation: Commonwealth Engineers
+image: cdarnell.jpg
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: cdarnell.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ced227@cornell.edu
+    - text: "{{< ai orcid >}} Orcid"
+      href: https://orcid.org/0000-0003-4390-2656
+    - icon: github
+      text: GitHub 
+      href: http://github.com/darnellchl
+---
+
+<hr>
+
+:::{#about}
+
+Chloe Darnell is a Water Engineer at Commonwealth Engineers in Indianapolis, Indiana. She finished her M.S. in Biological & Environmental Engineering from Cornell in 2023, working on the sensitivity of sea-level rise to CO<sub>2</sub> emissions pathways. She graduated in May 2021 with a B.S. in Civil Engineering from the University of Kentucky. Chloe's research interests involve exploring the complex interactions between Earth-system uncertainty and abatement efforts. Outside of research, Chloe enjoys traveling, playing soccer, and being around animals.
+
+
+## Education
+
+
+{{< meta education >}}
+
+<br>

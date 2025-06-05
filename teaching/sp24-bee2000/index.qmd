@@ -1,0 +1,17 @@
+---
+title: Perspectives on the Climate Change Challenge
+year: 2024
+semester: Spring
+coursenumber: BEE 2000
+---
+
+- **Semester:** {{< meta semester >}} {{< meta year >}}
+- **Course Number:** {{< meta coursenumber >}}
+
+## Course Description
+
+This university-wide seminar series provides critically important perspectives on the grand challenge of climate change. Speakers from Cornell University and other institutions will cover a range of topics including the science of climate change, implications for ecosystems, oceans, forests, agriculture and communities, the important ethical, philosophical and legal insights on the issue, and provide thoughts on societal responses through international mechanisms, economic drivers and communication tools. This seminar series counts towards the requirements of the climate change minor and the ESS minor and major.
+
+## More Information
+
+- This seminar was co-organized with Profs. [Christine Goodale](https://ecologyandevolution.cornell.edu/christine-l-goodale), [Angeline Pendergrass](https://precipclimate.eas.cornell.edu/), and [Jeremy Wallace](https://jeremywallace.org/).
