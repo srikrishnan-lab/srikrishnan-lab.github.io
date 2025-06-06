@@ -32,8 +32,13 @@
   {
     "listing": "/publications/index.html",
     "items": [
+      "/publications/articles/2022_CO2_Projections/index.html",
+      "/publications/articles/2022_MimiBRICK/index.html",
       "/publications/articles/2021_Agent_Model_Calibration/index.html",
+      "/publications/articles/2021_Climate_Risk_Management/index.html",
+      "/publications/articles/2021_Population_Downscaling/index.html",
       "/publications/articles/2021_Simplicity_Epistemic/index.html",
+      "/publications/articles/2021_Social_Cost_Methane/index.html",
       "/publications/articles/2020_House_Elevation/index.html",
       "/publications/articles/2020_Sea_Level_Uncertainty/index.html",
       "/publications/articles/2019_Investing_Science/index.html",
