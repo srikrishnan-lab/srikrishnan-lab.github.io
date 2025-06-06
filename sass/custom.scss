@@ -1,0 +1,675 @@
+/*-- scss:defaults --*/
+
+// Colors
+$darkgray: #222222; 
+$cornellred: #b31b1b;
+$lightred: #DF1E12;
+$lightgray: #f7f7f7;
+$seagray: #9fad9f;
+$blue: #006699;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+$font-family-sans-serif: "Fira Sans", sans-serif !default;
+$font-family-monospace: "Fira Code", monospace !default;
+$headings-font-family: "Playfair Display", serif !default;
+$headings-font-weight: 600 !default;
+
+$navbar-font-family: "ApfelGrotesk" !default;
+$toc-font-family: "ApfelGrotesk" !default;
+$footer-font-family: "Fira Sans" !default;
+
+// body
+$body-color: $darkgray !default;
+
+// links
+$link-color: $blue !default;
+$link-decoration: none !default;
+$link-hover-color: $lightred !default;
+$link-hover-decoration: underline !default;
+
+// Inline code
+$code-bg: $darkgray !default;
+$code-color: $lightgray !default;
+
+// Code copy
+$btn-code-copy-color-active: $lightred !default;
+
+// TOC
+$toc-color: $lightred;
+$toc-font-size: 1em;
+
+// Navbar
+$navbar-bg: $seagray !default;
+$navbar-fg: $darkgray !default;
+$navbar-hl: $cornellred !default;
+
+// Footer
+$footer-bg: $seagray !default;
+$footer-fg: $darkgray !default;
+
+/*-- scss:rules --*/
+/* -- fonts * --*/
+@font-face {
+    font-family: 'ApfelGrotesk';
+    src: url(./assets/fonts/ApfelGrotesk/ApfelGrotesk-Regular.woff2) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1, .h1 {
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+
+}
+
+h2, .h2 {
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+}
+
+// Body
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+// Shrink blocks of code
+pre.text, pre.sourceCode, .cell-output pre {
+    font-size: 0.775em;
+}
+
+.navbar {
+    font-family: $navbar-font-family;
+    
+}
+
+// Put all the icons in a single row in the hamburger menu
+.navbar-nav.navbar-nav-scroll.ms-auto {
+    flex-direction: row;
+}
+
+#TOC {
+    font-family: $toc-font-family;
+    padding-bottom: 0.1em;
+    font-weight: 300;
+
+    .active {
+        font-weight: 400;
+    }
+
+    #toc-title {
+        font-weight: 600;
+    }
+}
+
+.sidebar nav[role="doc-toc"]>ul li a {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+// Blog categories
+#quarto-margin-sidebar {
+    .quarto-listing-category-title {
+        margin-left: 0.5em;
+    }
+
+    .quarto-listing-category {
+        font-family: $toc-font-family;
+        font-weight: 300;
+        font-size: 1em;
+        line-height: 1.1;
+        padding-left: 0.6rem;
+        margin-left: 0.5em;
+        border-left: 1px solid $gray-200;
+
+        .category {
+            padding-bottom: 0.5rem;
+        }
+
+        .active {
+            font-weight: 400;
+            color: $orange;
+        }
+
+        .quarto-category-count {
+            font-weight: 200;
+            font-size: 0.8em;
+            color: $gray-600;
+        }
+    }
+}
+
+.nav-footer {
+    align-items: flex-start;  // Align all flex items to the top
+    flex-wrap: wrap;
+    border: 0 !important;
+    min-height: 3em;
+    font-family: $footer-font-family;
+
+    a {
+        color: $light-orange;
+    }
+
+    .faux-block {
+        display: block;
+        padding-bottom: 0.4em;
+    }
+
+    .fingerprint {
+        font-family: $font-family-monospace;
+        font-size: 0.8em;
+    }
+
+    // In the default Quarto template, .nav-footer-center has position: absolute 
+    // turned on, which makes the div not be a flex item
+    // This changes that so that it *is* a flex item
+    .nav-footer-center {
+        text-align: center;
+        position: inherit;
+        margin-top: 0;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            margin-top: 0.0em;
+            margin-bottom: 1.5em;
+        }
+    }
+
+    // When the screen is medium or smaller, make each footer chunk be 100% width 
+    // and centered; otherwise make them be 33% width and left/right/centerd
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center {
+        text-align: center;
+        width: 100%;
+        min-height: 2em;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        .nav-footer-left {
+            text-align: left;
+        }
+
+        .nav-footer-right {
+            text-align: right;
+        }
+
+        .nav-footer-left,
+        .nav-footer-right,
+        .nav-footer-center {
+            flex: 1 1 33%;
+        }
+    }
+}
+
+#title-block-header {
+    .quarto-title-banner {
+        font-family: $headings-font-family;
+        text-align: left;
+    }
+
+    .title {
+        font-size: 2.0em;
+    }
+
+    .subtitle {
+        font-size: 1.3  em;
+    }
+}
+
+// Blog
+.blog {
+    .blog-entry {
+        display: flex;
+        flex-direction: row;
+        font-family: $headings-font-family;
+        line-height: 1.3;
+        margin-bottom: 1.5em;
+        column-gap: 1em;
+
+        .metadata {
+            flex: 0 0 8%;
+        }
+
+        .body {
+            flex: 1 1 auto;
+        }
+
+        .thumbnail {
+            flex: 0 0 25%;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+                max-height: 120px;
+            }
+        }
+
+        .title {
+            font-weight: 500;
+            font-size: 3.1rem;
+            margin-bottom: 0.2em;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            font-weight: 400;
+            font-size: 1.5em;
+            margin-bottom: 0.2em;
+            line-height: 1.2;
+        }
+
+        .description {
+            font-weight: 300;
+            font-size: 1em;
+            margin-bottom: 0.3em;
+        }
+
+        .date {
+            font-weight: 300;
+            font-size: 0.85em;
+            margin-top: 0.3em;
+            text-align: right;
+        }
+
+        .post-categories {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 0.4em;
+            column-gap: 0.4em;
+            margin: 0.5em 0;
+
+            .post-category {
+                color: $gray-600;
+                border: 1px solid $gray-500;
+                border-radius: 0.25rem;
+                text-transform: uppercase;
+                font-size: 0.65em;
+                padding: 0.15em 0.5em;
+                cursor: pointer;
+            }
+        }
+               
+        .post-doi {
+            font-weight: 300;
+            font-size: 0.85em;
+            margin: 0.5em 0;
+            text-align: right;
+            
+            .doi-icon {
+                width: 1.1em;
+                padding-bottom: 1px;
+            }
+            
+            a {
+                color: $gray-600;
+            }
+        }
+    }
+}
+
+.blog-post {
+    .quarto-title .quarto-categories {
+        margin-top: 1.5em;
+
+        .quarto-category {
+            background-color: shift-color($purple, -25%);
+            border-color: shift-color($purple, -45%);
+            color: $white;
+            font-size: 0.65em;
+            opacity: 1;
+        }
+    }
+    
+    .quarto-title-author-orcid img {
+        margin-bottom: -3px;
+    }
+    
+    .quarto-title-meta-contents .doi::before {
+        content: "";
+        background-image: url(/files/doi.svg);
+        background-size: 1.1em;
+        display: inline-block;
+        width: 1.1em;
+        height: 1.1em;
+        margin-bottom: -3px;
+    }
+}
+
+
+// Research
+.quarto-title-block {
+
+    .quarto-title .quarto-categories {
+        padding-bottom: 0;
+        flex-wrap: wrap;
+        row-gap: 0.4em;
+    }
+
+    .project-details {
+        background-color: rgba($red, 0.1);
+        padding: 0.75em;
+        margin: 1em 0;
+    }
+
+    .quarto-title-meta-heading.manual {
+        margin-top: 2em !important;
+    }
+
+    .project-links {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .project-link {
+        display: inline-block;
+        white-space: nowrap;
+        padding: 0 1em 0 0;
+        font-weight: bold;
+    }
+
+}
+
+.back-nav {
+    margin-bottom: 1.5em;
+}
+
+.research {
+    .back-nav a {
+        color: shift-color($red, -50%);
+    }
+    
+    .quarto-title .quarto-categories .quarto-category {
+        background-color: shift-color($red, -75%);
+        color: $red;
+        font-size: 0.65em;
+        opacity: 1;
+    }
+
+    .project-categories {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0.35em 0 0.35em;
+        padding-top: 0.35em;
+        padding-left: 0.5em;
+        padding-bottom: 0;
+        row-gap: 0.4em;
+        column-gap: 0.4em;
+        font-family: $headings-font-family;
+
+        .project-category {
+            padding: 0.25em 0.75em 0.25em 0em;
+            font-size: 0.7em;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.project-list {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 2em;
+
+        li.project {
+            margin-bottom: 2.5em;
+            border-left: 6px solid shift-color($red, -90%);
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .project-content {
+        padding-left: 0.5em;
+
+        .status {
+            font-size: 1rem;
+            font-weight: 250;
+            padding: 0.2em;
+            margin-right: 0.5em;
+        }
+    }
+
+    ul.project-links {
+        margin-bottom: 0;
+    }
+
+    .project-details-listing {
+        margin-top: 0.8em;
+        background-color: shift-color($red, -90%);
+        font-size: 0.9rem;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            font-size: 0.95rem;
+        }
+
+        .project-link {
+            display: inline-block;
+            white-space: nowrap;
+            padding: 0.5em 0.5em 0.5em 1em;
+        }
+
+        .details {
+            background-color: $red;
+            padding-right: 1.5em;
+
+            a {
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.teaching {
+    .course-entry {
+        display: flex;
+        flex-direction: row;
+        font-family: $headings-font-family;
+        line-height: 1.3;
+        margin-bottom: 3em;
+        column-gap: 0.7em;
+
+        .body {
+            flex: 1 1 auto;
+        }
+
+        .logo {
+            flex: 0 0 140px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .course-title {
+            font-weight: 500;
+            font-size: 1.25em;
+            margin-bottom: 0.2em;
+        }
+        
+        .course-details {
+            font-weight: 300;
+            font-size: 0.9em;
+            margin-bottom: 0.5em;
+            color: $gray-800;
+        }
+
+        .course-description {
+            font-weight: 300;
+            font-size: 1.1em;
+            margin-bottom: 0.5em;
+        }
+
+        .course-role {
+            font-weight: 500;
+        }
+
+        ul.course-semesters {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 0;
+
+            li {
+                display: inline-block;
+                white-space: nowrap;
+                background-color: $orange;
+                margin: 0 0.2em 0.4em 0;
+                padding: 0.2em 0.4em;
+                font-size: 0.85em;
+                border-radius: 0.25rem;
+
+                &.no-link {
+                    background-color: $white;
+                    border: 1px solid $black;
+                }
+
+                a {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+.cv-download {
+    font-family: $headings-font-family;
+    background-color: #771C6D;
+    border-color: #771C6D;
+    color: $white;
+
+    &:hover {
+        background-color: $red;
+        border-color: $red;
+        color: $white;
+    }
+}
+
+.code-tools-button {
+    position: relative;
+    left: 5em;
+
+    @media (max-width: map-get($grid-breakpoints, md)) {
+        left: 0;
+    }
+}
+
+/* -- people --*/
+
+.listing-box:hover {
+    border-color: $primary;
+    background-color: transparent;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+              0px 2px 4px rgba(0,0,0,0.1), 
+              0px 4px 8px rgba(0,0,0,0.1), 
+              0px 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  .listing-box-title {
+    max-width: 80%;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: #222222;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  
+  .listing-box-subtitle {
+    /*    margin-top: auto;*/
+    //font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #b31b1b;
+    line-height: 1.5;
+  }
+  
+  .listing-box-education {
+    margin-bottom: 0;
+    color: #222222;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  
+  .listing-box-button a[role="button"] {
+    width: 140px;
+    min-height: 150px;
+    color: rgb(55, 58, 60);
+    text-align: center;
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
+  .listing-box-section {
+    margin-bottom: 30px;
+    box-sizing: border-box;
+  }
+  
+  
+  .listing-box-image {
+    object-fit: contain;
+    width: 100%;
+    height: 190px;
+  }
+  
+  .quarto-listing-cols-3 {
+      padding-left: 10px;
+      padding-right: 10px;
+  
+  }
+  
+  .quarto-listing-cols-4 {
+      padding-left: 10px;
+      padding-right: 10px;
+  
+  }
+  
+  .anchored {
+    padding-top: 8px;
+    padding-left: 10px;
+  }
+  
+  /* -- publications --*/
+
+.listing-pub-title {
+    /*font-family: 'Bebas Neue', sans-serif;
+    max-width: 80%;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: #222;
+    line-height: 1.2;*/
+    font-size: 18px;
+    font-weight: 700; 
+  }
+  
+  .listing-pub-author {
+    color: #757883;
+    font-size: 15px;
+    margin-bottom: 6px;
+    /*line-height: 1.5;*/
+  }
+  
+  .listing-pub-number {
+    font-weight: 700; 
+    font-size: 15px;
+  
+  }
+  
+  .listing-pub-journal {
+    color: #757883;
+    font-size: 17px;
+    margin-bottom: 8px;
+  }
+  
+  .listing-pub-url {
+    font-size: 13px;
+  
+  }
