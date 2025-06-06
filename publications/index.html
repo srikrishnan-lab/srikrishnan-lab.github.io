@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-f824cc95b57c8abc8f319b42feb2ae50.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5407eb2a9ac161d25ebda805c1f1a467.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c8507c5293985b5fb71deeb3f6ac40c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -81,13 +81,41 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-pub_number','listing-title','listing-publication','listing-author','listing-url_source',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-publication','listing-author','listing-url_source',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-resources","listing-_quarto-vars","listing-language","listing-title","listing-date","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-url_repo","listing-journ","listing-issue","listing-page","listing-year","listing-pub_number","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-resources","listing-_quarto-vars","listing-language","listing-title","listing-date","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-url_repo","listing-journ","listing-issue","listing-page","listing-year","listing-doi","listing-image","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-conferences .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-publication','listing-author','listing-url_source',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-resources","listing-_quarto-vars","listing-language","listing-title","listing-date","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-url_repo","listing-journ","listing-page","listing-year","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-conferences'] = new List('listing-conferences', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -133,7 +161,9 @@ window.Quarto = {
 </script>
 
 <meta name="twitter:title" content="Publications | Srikrishnan Group">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://viveks.bee.cornell.edu/publications/articles/2021_Agent_Model_Calibration/featured.jpg">
+<meta name="twitter:image:alt" content="Small increases in agent-based model complexity can result in large increases in required calibration data">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -196,11 +226,11 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="YWdlbnQtYmFzZWQlMjBtb2RlbGluZw==">agent-based modeling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXRtb3NwaGVyaWMlMjBzY2llbmNl">atmospheric science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29hc3RhbCUyMGZsb29kJTIwcmlzaw==">coastal flood risk <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZGVjaXNpb24tbWFraW5nJTIwdW5kZXIlMjB1bmNlcnRhaW50eQ==">decision-making under uncertainty <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGVlcCUyMHVuY2VydGFpbnR5">deep uncertainty <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZWxlY3RyaWMlMjBwb3dlciUyMHN5c3RlbXM=">electric power systems <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Zmxvb2QlMjByaXNrJTIwYWRhcHRhdGlvbg==">flood risk adaptation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9kZWwlMjBjYWxpYnJhdGlvbg==">model calibration <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bXVsdGktb2JqZWN0aXZlJTIwZGVjaXNpb24tbWFraW5n">multi-objective decision-making <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGhpbG9zb3BoeSUyMG9mJTIwc2NpZW5jZQ==">philosophy of science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2VhJTIwbGV2ZWwlMjByaXNl">sea level rise <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c29sYXIlMjByZXNvdXJjZSUyMGFzc2Vzc21lbnQ=">solar resource assessment <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3Rvcm0lMjBzdXJnZQ==">storm surge <span class="quarto-category-count">(4)</span></div><div class="category" data-category="dW5jZXJ0YWludHklMjBxdWFudGlmaWNhdGlvbg==">uncertainty quantification <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -209,7 +239,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -222,6 +252,10 @@ window.Quarto = {
 
 
 <hr>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Articles</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Conferences</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-actions-group">
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -232,9 +266,91 @@ window.Quarto = {
 <div class="list quarto-listing-default">
     
     
-    <div class="quarto-post image-right" data-index="0" data-categories="c29sYXJfcmVzb3VyY2VfYXNzZXNzbWVudA==" data-listing-date-sort="1420088400000" data-listing-file-modified-sort="1749164722895" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="quarto-post image-right" data-index="0" data-categories="bW9kZWwlMjBjYWxpYnJhdGlvbiUyQ3VuY2VydGFpbnR5JTIwcXVhbnRpZmljYXRpb24lMkNhZ2VudC1iYXNlZCUyMG1vZGVsaW5n" data-listing-date-sort="1609477200000" data-listing-file-modified-sort="1749209966345" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="234">
         <div class="thumbnail">
-            <!-- <a href="/publications/2015_001_Multipyranometer_Arrays/index.qmd"> -->
+            <!-- <a href="/publications/articles/2021_Agent_Model_Calibration/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Small increases in agent-based model complexity can result in large increases in required calibration data" src="../publications/articles/2021_Agent_Model_Calibration/featured.jpg" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2021_Agent_Model_Calibration/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/articles/2021_Agent_Model_Calibration/index.html">Small increases in agent-based model complexity can result in large increases in required calibration data</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Vivek Srikrishnan, Klaus Keller<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Environmental Modeling &amp; Software</i>, <b>138</b>, 104978 (2021)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('model calibration'); return false;">model calibration</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('uncertainty quantification'); return false;">uncertainty quantification</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('agent-based modeling'); return false;">agent-based modeling</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1016/j.envsoft.2021.104978">
+                    <p style="color:#b31b1b;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://arxiv.org/abs/1811.08524">
+                    <p style="color:#b31b1b;">preprint URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+            <div class="listing-pub-url">
+    
+                    <a href="https://github.com/vsrikrish/ABM/tree/calibration">
+                    <p style="color:#b31b1b;">repository <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+            </div>
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="1" data-categories="bW9kZWwlMjBjYWxpYnJhdGlvbiUyQ3VuY2VydGFpbnR5JTIwcXVhbnRpZmljYXRpb24lMkNwaGlsb3NvcGh5JTIwb2YlMjBzY2llbmNl" data-listing-date-sort="1609477200000" data-listing-file-modified-sort="1749207014716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2021_Simplicity_Epistemic/index.qmd"> -->
 
                 <p>
                     
@@ -245,10 +361,648 @@ window.Quarto = {
             <!-- </a> -->
         </div>
         <div class="body">
-            <!-- <a href="/publications/2015_001_Multipyranometer_Arrays/index.qmd"> -->
-            <div class="no-anchor listing-pub-title listing-title">Using multi-pyranometer arrays and neural networks to estimate direct normal irradiance.</div>
+            <!-- <a href="/publications/articles/2021_Simplicity_Epistemic/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/articles/2021_Simplicity_Epistemic/index.html">Why simpler computer simulation models Can Be epistemically better for informing decisions</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Casey Helgeson, Vivek Srikrishnan, Klaus Keller, Nancy Tuana<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Philosophy of Science</i>, <b>88 (2)</b>, 213-233 (2021)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
             <!-- </a> -->
-            <!-- <a href="/publications/2015_001_Multipyranometer_Arrays/index.qmd"> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('model calibration'); return false;">model calibration</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('uncertainty quantification'); return false;">uncertainty quantification</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('philosophy of science'); return false;">philosophy of science</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1086/711501">
+                    <p style="color:#b31b1b;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://philpapers.org/rec/HELWSC-3">
+                    <p style="color:#b31b1b;">preprint URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="2" data-categories="Zmxvb2QlMjByaXNrJTIwYWRhcHRhdGlvbg==" data-listing-date-sort="1577854800000" data-listing-file-modified-sort="1749178865852" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2020_House_Elevation/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Neglecting uncertainties biases house-elevation decisions to manage riverine flood risks" src="../publications/articles/2020_House_Elevation/featured.webp" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2020_House_Elevation/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/articles/2020_House_Elevation/index.html">Neglecting uncertainties biases house-elevation decisions to manage riverine flood risks</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Mahkameh Zarekarizi, Vivek Srikrishnan, Klaus Keller<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Nature Communications</i>, <b>11</b>, 5361 (2020)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('flood risk adaptation'); return false;">flood risk adaptation</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1038/s41467-020-19188-9">
+                    <p style="color:#b31b1b;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+            
+            <div class="listing-pub-url">
+    
+                    <a href="https://github.com/scrim-network/Zarekarizi-flood-home-elavate">
+                    <p style="color:#b31b1b;">repository <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+            </div>
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="3" data-categories="Y29hc3RhbCUyMGZsb29kJTIwcmlzayUyQ3VuY2VydGFpbnR5JTIwcXVhbnRpZmljYXRpb24lMkNzZWElMjBsZXZlbCUyMHJpc2UlMkNzdG9ybSUyMHN1cmdl" data-listing-date-sort="1577854800000" data-listing-file-modified-sort="1749211261348" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="324">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2020_Sea_Level_Uncertainty/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Deep uncertainties in sea-level rise and storm surge projections: Implications for coastal flood risk management." src="../publications/articles/2020_Sea_Level_Uncertainty/featured.jpg" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2020_Sea_Level_Uncertainty/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/articles/2020_Sea_Level_Uncertainty/index.html">Deep uncertainties in sea-level rise and storm surge projections: Implications for coastal flood risk management.</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Perry C. Oddo, Ben Seiyon Lee, Gregory G. Garner, Vivek Srikrishnan, Patrick M. Reed, Chris E. Forest, Klaus Keller<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Risk Analysis</i>, <b>40 (1)</b>, 153-168 (2020)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('coastal flood risk'); return false;">coastal flood risk</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('uncertainty quantification'); return false;">uncertainty quantification</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('sea level rise'); return false;">sea level rise</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('storm surge'); return false;">storm surge</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1111/risa.12888">
+                    <p style="color:#b31b1b;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+            
+            <div class="listing-pub-url">
+    
+                    <a href="https://github.com/pcoddo/VanDantzig">
+                    <p style="color:#b31b1b;">repository <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+            </div>
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="4" data-categories="ZGVlcCUyMHVuY2VydGFpbnR5JTJDY29hc3RhbCUyMGZsb29kJTIwcmlzayUyQ3NlYSUyMGxldmVsJTIwcmlzZSUyQ3N0b3JtJTIwc3VyZ2U=" data-listing-date-sort="1546318800000" data-listing-file-modified-sort="1749210729783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2019_Investing_Science/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Investing in science to improve climate risk management" src="../publications/articles/2019_Investing_Science/featured.webp" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2019_Investing_Science/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/articles/2019_Investing_Science/index.html">Investing in science to improve climate risk management</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Vivek Srikrishnan, Richard Alley, Klaus Keller<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Eos</i>, <b>100</b> (2019)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('deep uncertainty'); return false;">deep uncertainty</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('coastal flood risk'); return false;">coastal flood risk</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('sea level rise'); return false;">sea level rise</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('storm surge'); return false;">storm surge</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1029/2019eo131077">
+                    <p style="color:#b31b1b;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+            
+            <div class="listing-pub-url">
+    
+                    <a href="https://github.com/vsrikrish/SPSLAM">
+                    <p style="color:#b31b1b;">repository <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+            </div>
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="5" data-categories="ZGVlcCUyMHVuY2VydGFpbnR5JTJDY29hc3RhbCUyMGZsb29kJTIwcmlzayUyQ3NlYSUyMGxldmVsJTIwcmlzZSUyQ3N0b3JtJTIwc3VyZ2U=" data-listing-date-sort="1546318800000" data-listing-file-modified-sort="1749178272855" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="283">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2019_Norfolk_Deep_Uncertainties/index.qmd"> -->
+
+                <p>
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2019_Norfolk_Deep_Uncertainties/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/articles/2019_Norfolk_Deep_Uncertainties/index.html">Characterizing the deep uncertainties surrounding coastal flood hazard projections: A case study for Norfolk, VA.</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Kelsey L. Ruckert, Vivek Srikrishnan, Klaus Keller<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Scientific Reports</i>, <b>9 (1)</b>, 11373 (2019)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('deep uncertainty'); return false;">deep uncertainty</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('coastal flood risk'); return false;">coastal flood risk</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('sea level rise'); return false;">sea level rise</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('storm surge'); return false;">storm surge</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1038/s41598-019-47587-6">
+                    <p style="color:#b31b1b;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+            
+            <div class="listing-pub-url">
+    
+                    <a href="https://github.com/scrim-network/local-coastal-flood-risk">
+                    <p style="color:#b31b1b;">repository <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+            </div>
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="6" data-categories="ZGVjaXNpb24tbWFraW5nJTIwdW5kZXIlMjB1bmNlcnRhaW50eSUyQ2VsZWN0cmljJTIwcG93ZXIlMjBzeXN0ZW1z" data-listing-date-sort="1514782800000" data-listing-file-modified-sort="1749210515304" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2018_Hedging_Strategies/index.qmd"> -->
+
+                <p>
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2018_Hedging_Strategies/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/articles/2018_Hedging_Strategies/index.html">Hedging strategies: Electricity investment decisions under policy uncertainty</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Jennifer F. Morris, Vivek Srikrishnan, Mort D. Webster, John M. Reilly<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>The Energy Journal</i>, <b>39 (1)</b>, 101-122 (2018)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('decision-making under uncertainty'); return false;">decision-making under uncertainty</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('electric power systems'); return false;">electric power systems</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.5547/01956574.39.1.jmor">
+                    <p style="color:#b31b1b;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="7" data-categories="dW5jZXJ0YWludHklMjBxdWFudGlmaWNhdGlvbiUyQ3N0b3JtJTIwc3VyZ2U=" data-listing-date-sort="1514782800000" data-listing-file-modified-sort="1749210652036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="405">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2018_Surge_Uncertainty/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Neglecting model structural uncertainty underestimates upper tails of flood hazard" src="../publications/articles/2018_Surge_Uncertainty/featured.jpg" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2018_Surge_Uncertainty/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/articles/2018_Surge_Uncertainty/index.html">Neglecting model structural uncertainty underestimates upper tails of flood hazard</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Tony E. Wong, Alexandra Klufas, Vivek Srikrishnan, Klaus Keller<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Environmental Research Letters</i>, <b>13 (7)</b>, 74019 (2018)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('uncertainty quantification'); return false;">uncertainty quantification</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('storm surge'); return false;">storm surge</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1088/1748-9326/aacb3d">
+                    <p style="color:#b31b1b;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+            
+            <div class="listing-pub-url">
+    
+                    <a href="https://github.com/tonyewong/MESS">
+                    <p style="color:#b31b1b;">repository <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+            </div>
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="8" data-categories="ZGVlcCUyMHVuY2VydGFpbnR5JTJDbXVsdGktb2JqZWN0aXZlJTIwZGVjaXNpb24tbWFraW5n" data-listing-date-sort="1483246800000" data-listing-file-modified-sort="1749210312763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="372">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2017_Journal_Submission/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="A multi-objective decision-making approach to the journal submission problem" src="../publications/articles/2017_Journal_Submission/featured.png" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2017_Journal_Submission/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/articles/2017_Journal_Submission/index.html">A multi-objective decision-making approach to the journal submission problem</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Tony E. Wong, Vivek Srikrishnan, David Hadka, Klaus Keller<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>PLoS One</i>, <b>12 (6)</b>, e0178874 (2017)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('deep uncertainty'); return false;">deep uncertainty</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('multi-objective decision-making'); return false;">multi-objective decision-making</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1371/journal.pone.0178874">
+                    <p style="color:#b31b1b;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="9" data-categories="YXRtb3NwaGVyaWMlMjBzY2llbmNl" data-listing-date-sort="1483246800000" data-listing-file-modified-sort="1749210358504" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="308">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2017_Taylor_Hypothesis/index.qmd"> -->
+
+                <p>
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2017_Taylor_Hypothesis/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/articles/2017_Taylor_Hypothesis/index.html">Skill and skill prediction of cloud-track advection-only forecasting under a cumulus-dominated regime</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Vivek Srikrishnan, George S. Young, Jeffrey R. S. Brownson<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Journal of Applied Meteorology and Climatology</i>, <b>56 (3)</b>, JAMC–D–16–0224 (2017)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('atmospheric science'); return false;">atmospheric science</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1175/JAMC-D-16-0224.1">
+                    <p style="color:#b31b1b;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="10" data-categories="c29sYXIlMjByZXNvdXJjZSUyMGFzc2Vzc21lbnQlMkNtYWNoaW5lJTIwbGVhcm5pbmc=" data-listing-date-sort="1420088400000" data-listing-file-modified-sort="1749210340866" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2015_Multipyranometer_Arrays/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Using multi-pyranometer arrays and neural networks to estimate direct normal irradiance" src="../publications/articles/2015_Multipyranometer_Arrays/featured.png" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2015_Multipyranometer_Arrays/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/articles/2015_Multipyranometer_Arrays/index.html">Using multi-pyranometer arrays and neural networks to estimate direct normal irradiance</a></div>
                 
                 <div class="listing-pub-author listing-author">
                     Vivek Srikrishnan, George S. Young, Lucas T. Witmer, Jeffrey R. S. Brownson<br> 
@@ -270,16 +1024,14 @@ window.Quarto = {
             <!-- </a> -->
  <!--               <div class="listing-categories">
                 
-                <div class="listing-category" onclick="window.quartoListingCategory('solar_resource_assessment'); return false;">solar_resource_assessment</div>
+                <div class="listing-category" onclick="window.quartoListingCategory('solar resource assessment'); return false;">solar resource assessment</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">machine learning</div>
                 
                 </div>
                 -->
         </div>
         <div class="metadata">
-            <!-- <a href="/publications/2015_001_Multipyranometer_Arrays/index.qmd"> -->
-                <div class="listing-pub-number">
-                    1<br> 
-                </div>
 
             <!-- </a> -->
             
@@ -302,6 +1054,79 @@ window.Quarto = {
     </div>
 
 <div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div id="listing-conferences" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+    
+    
+    <div class="quarto-post image-right" data-index="0" data-categories="c29sYXIlMjByZXNvdXJjZSUyMGFzc2Vzc21lbnQ=" data-listing-date-sort="1388552400000" data-listing-file-modified-sort="1749175795593" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
+        <div class="thumbnail">
+            <!-- <a href="/publications/conference/2014_All_Seeing_Eye/index.qmd"> -->
+
+                <p>
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/conference/2014_All_Seeing_Eye/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/conference/2014_All_Seeing_Eye/index.html">The All-Seeing Eye: Using Multi-Pyranometer Arrays and Neural Networks to Estimate Direct Normal Irradiance</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Vivek Srikrishnan, Jeffrey R. S. Brownson, George S. Young<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>43rd ASES National Solar Conference 2014, SOLAR 2014</i>, 511-518 (2014)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('solar resource assessment'); return false;">solar resource assessment</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+
+            
+
+            
+
+        </div>
+    </div>
+    
+    
+    </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+</div>
 </div>
 
 
