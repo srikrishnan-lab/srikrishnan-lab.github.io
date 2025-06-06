@@ -1,0 +1,64 @@
+---
+title: "Equity is more important for the social cost of methane than climate uncertainty"
+date: 2021-01-01
+author: 
+  - name: Frank C. Errickson
+    orcid: 0000-0003-2195-9424
+    url: https://frankerrickson.github.io/
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+  - name: William D. Collins
+    orcid: 0000-0002-4463-9848
+    url: https://profiles.lbl.gov/11626-william-collins
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: David Anthoff
+    orcid: 0000-0001-9319-2109
+    url: https://www.david-anthoff.com/
+categories:
+    - uncertainty quantification
+    - climate change mitigation
+    - climate impacts
+    - social cost
+    - structural uncertainty
+url_source: https://doi.org/10.1016/j.envsoft.2021.104978
+url_preprint:
+url_repo: https://github.com/anthofflab/paper-2021-scch4
+journ: "Nature"
+issue: "592 (7885)"
+page: 564-570
+year: 2021
+doi: 10.1038/s41586-021-03386-6
+image: featured.webp
+---
+
+## Links
+
+- [Code Repository](https://github.com/anthofflab/paper-2021-scch4)
+
+## Abstract
+
+The social cost of methane (SC-CH<sub>4</sub>) measures the economic loss of welfare caused by emitting one tonne of methane into the atmosphere. This valuation may in turn be used in cost–benefit analyses or to inform climate policies. However, current SC-CH<sub>4</sub> estimates have not included key scientific findings and observational constraints. Here we estimate the SC-CH<sub>4</sub> by incorporating the recent upward revision of 25 per cent to calculations of the radiative forcing of methane, combined with calibrated reduced-form global climate models and an ensemble of integrated assessment models (IAMs). Our multi-model mean estimate for the SC-CH<sub>4</sub> is US$933 per tonne of CH<sub>4</sub> (5–95 per cent range, US$471–1,570 per tonne of CH<sub>4</sub>) under a high-emissions scenario (Representative Concentration Pathway (RCP) 8.5), a 22 per cent decrease compared to estimates based on the climate uncertainty framework used by the US federal government. Our ninety-fifth percentile estimate is 51 per cent lower than the corresponding figure from the US framework. Under a low-emissions scenario (RCP 2.6), our multi-model mean decreases to US$710 per tonne of CH<sub>4</sub>. Tightened equilibrium climate sensitivity estimates paired with the effect of previously neglected relationships between uncertain parameters of the climate model lower these estimates. We also show that our SC-CH<sub>4</sub> estimates are sensitive to model combinations; for example, within one IAM, different methane cycle sub-models can induce variations of approximately 20 per cent in the estimated SC-CH<sub>4</sub>. But switching IAMs can more than double the estimated SC-CH<sub>4</sub>. Extending our results to account for societal concerns about equity produces SC-CH<sub>4</sub> estimates that differ by more than an order of magnitude between low- and high-income regions. Our central equity-weighted estimate for the USA increases to US$8,290 per tonne of CH<sub>4</sub> whereas our estimate for sub-Saharan Africa decreases to US$134 per tonne of CH<sub>4</sub>.
+
+## Meme
+
+![](meme.png){width=40%}
+
+## Citation
+
+```bibtex
+@ARTICLE{ErricksonEtAl2021,
+  title     = "Equity is more important for the social cost of methane than
+               climate uncertainty",
+  author    = "Errickson, Frank C and Keller, Klaus and Collins, William D and
+               Srikrishnan, Vivek and Anthoff, David",
+  journal   = "Nature",
+  volume    =  592,
+  number    =  7855,
+  pages     = "564--570",
+  year      =  2021,
+  doi       = "10.1038/s41586-021-03386-6",
+}
+```

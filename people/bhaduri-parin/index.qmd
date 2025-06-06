@@ -24,13 +24,26 @@ about:
     - icon: github
       text: GitHub 
       href: http://github.com/parinbhaduri
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
 ---
 
 <hr>
 
+## About 
+
 :::{#about}
 
-## About 
 
 Parin Bhaduri is a Ph.D. student in the Department of Biological and Environmental Engineering at Cornell.  Parin is interested in the utilization of systems-level modeling to inform decision makers on climate adaptation, particularly on issues surrounding climate justice and equity. In his free time, Parin enjoys baking, photography, and playing soccer.
 
@@ -40,4 +53,11 @@ Parin Bhaduri is a Ph.D. student in the Department of Biological and Environment
 
 {{< meta education >}}
 
-<br>
+:::
+
+<p>
+
+## Group Publications
+
+:::{#pubs}
+:::

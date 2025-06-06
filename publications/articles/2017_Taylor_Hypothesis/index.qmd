@@ -1,0 +1,41 @@
+---
+title: "Skill and skill prediction of cloud-track advection-only forecasting under a cumulus-dominated regime"
+date: 2017-01-01
+author: 
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: George S. Young
+    url: https://www.met.psu.edu/directory/george-s-young
+  - name: Jeffrey R. S. Brownson
+    orcid: 0000-0001-7161-8199
+categories:
+    - atmospheric science
+url_source: https://doi.org/10.1175/JAMC-D-16-0224.1
+url_preprint: 
+url_repo: 
+journ: "Journal of Applied Meteorology and Climatology"
+issue: "56 (3)"
+page: JAMC–D–16–0224
+year: 2017
+---
+
+## Abstract
+
+The intermittency of solar power production is dependent on the evolution and advection of the nearby cloud field. A key problem related to solar energy integration is the improvement of 1-h-ahead forecasts to reduce the impact of intermittency on power systems operations. Many solar forecasts explicitly or implicitly assume Taylor’s hypothesis. While such advection-only forecasts can be presumed to be valid across sufficiently short time scales, it is not clear how rapidly the skill of such a forecast decays with increased lead time. As the goal is to improve the quality of 1-h-ahead forecasts, this work focuses on quantifying the skill of cloud-track wind-based cumulus-dominated cloud field forecasts with respect to lead time. No explicit connection is drawn to the quality of solar forecasts because of the importance of separating two potential sources of error: cloud field forecasting and radiative transfer estimation. It is found that the cumulus field forecast skill begins to asymptotically approach a minimum at lead times of beyond 30 min, suggesting that advection-only forecasts in a cumulus-dominated environment should not be relied upon for 1-h-ahead point forecasts used by radiative transfer methods to estimate solar power production. A first attempt at forming a probabilistic forecast that can quantify this increasing uncertainty when using advection-only methods is presented.
+
+## Citation
+
+```bibtex
+@ARTICLE{SrikrishnanYoungBrownson2017,
+  title    = "Skill and skill prediction of cloud-track advection-only
+              forecasting under a cumulus-dominated regime",
+  author   = "Srikrishnan, Vivek and Young, George S and Brownson, Jeffrey R S",
+  journal  = {Journal of Applied Meteorology and Climatology},
+  volume   =  56,
+  number   =  3,
+  pages    = "JAMC--D--16--0224.1",
+  year     =  2017,
+  doi      = "10.1175/JAMC-D-16-0224.1"
+}
+```

@@ -26,9 +26,23 @@ about:
     - icon: github
       text: GitHub 
       href: http://github.com/rms428
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
 ---
 
 <hr>
+
+## About
 
 :::{#about}
 
@@ -41,4 +55,9 @@ Cella Schnabel is an undergraduate student in Civil and Environmental Engineerin
 
 {{< meta education >}}
 
-<br>
+<p>
+
+## Group Publications
+
+:::{#pubs}
+:::

@@ -1,0 +1,46 @@
+---
+title: "Climate risk management"
+date: 2021-01-01
+author: 
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+  - name: Casey Helgeson
+    orcid: 0000-0001-5333-9954
+    url: https://caseyhelgeson.github.io/
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+categories:
+    - climate risk management
+    - review
+url_source: https://doi.org/10.1146/annurev-earth-080320-055847
+url_preprint: 
+url_repo: 
+journ: "Annual Review of Earth and Planetary Sciences"
+issue: "49 (1)"
+page: 95-116
+year: 2021
+doi: 10.1146/annurev-earth-080320-055847
+image: featured.gif
+---
+
+## Abstract
+
+Accelerating global climate change drives new climate risks. People around the world are researching, designing, and implementing strategies to manage these risks. Identifying and implementing sound climate risk management strategies poses nontrivial challenges including (a) linking the required disciplines, (b) identifying relevant values and objectives, (c) identifying and quantifying important uncertainties, (d) resolving interactions between decision levers and the system dynamics, (e) quantifying the trade-offs between diverse values under deep and dynamic uncertainties, (f) communicating to inform decisions, and (g) learning from the decision-making needs to inform research design. Here we review these challenges and avenues to overcome them.
+
+
+## Citation
+
+```bibtex
+@ARTICLE{KellerHelgesonSrikrishnan2021,
+  title     = "Climate risk management",
+  author    = "Keller, Klaus and Helgeson, Casey and Srikrishnan, Vivek",
+  journal   = {Annu. Rev. Earth Planet. Sci.},
+  volume    =  49,
+  number    =  1,
+  pages     = "95--116",
+  year      =  2021,
+  doi       = "10.1146/annurev-earth-080320-055847",
+}
+```

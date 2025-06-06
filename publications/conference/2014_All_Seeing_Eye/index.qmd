@@ -1,0 +1,33 @@
+---
+title: "The All-Seeing Eye: Using Multi-Pyranometer Arrays and Neural Networks to Estimate Direct Normal Irradiance"
+date: 2014-01-01
+author: 
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: George S. Young
+    url: https://www.met.psu.edu/directory/george-s-young
+  - name: Jeffrey R. S. Brownson
+    orcid: 0000-0001-7161-8199
+categories:
+    - solar resource assessment
+url_source: 
+url_preprint: 
+url_repo: 
+journ: "43rd ASES National Solar Conference 2014, SOLAR 2014"
+page: 511-518
+year: 2014
+---
+
+## Citation
+
+```bibtex
+@inproceedings{SrikrishnanBrownsonYoung2014,
+  title = "The All-Seeing Eye: {U}sing Multi-Pyranometer Arrays and Neural Networks to Estimate Direct Normal Irradiance",
+  author = "Srikrishnan, Vivek and Brownson, Jeffrey R. S. and Young, George S.",
+  booktitle = {43rd ASES National Solar Conference 2014, SOLAR 2014, Including the 39th National Passive Solar Conference and the 2nd Meeting of Young and Emerging Professionals in Renewable Energy},
+  publisher = {American Solar Energy Society},
+  pages = "511--518",
+  year = 2014
+}
+```

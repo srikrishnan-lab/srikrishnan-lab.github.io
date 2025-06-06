@@ -1,0 +1,52 @@
+---
+title: "Neglecting uncertainties biases house-elevation decisions to manage riverine flood risks"
+date: 2020-01-01
+author:
+  - name: Mahkameh Zarekarizi
+    orcid: 0000-0001-9408-7925
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - flood risk
+    - climate adaptation
+    - climate risk management
+    - decision-making under uncertainty
+    - sensitivity analysis
+url_source: https://doi.org/10.1038/s41467-020-19188-9
+url_preprint: 
+url_repo: https://github.com/scrim-network/Zarekarizi-flood-home-elavate
+journ: "Nature Communications"
+issue: 11
+page: 5361
+year: 2020
+doi: 10.1038/s41467-020-19188-9
+image: featured.webp
+---
+
+## Links
+
+- [Code Repository](https://github.com/scrim-network/Zarekarizi-flood-home-elavate)
+
+## Abstract
+
+Homeowners around the world elevate houses to manage flood risks. Deciding how high to elevate a house poses a nontrivial decision problem. The U.S. Federal Emergency Management Agency (FEMA) recommends elevating existing houses to the Base Flood Elevation (the elevation of the 100-year flood) plus a freeboard. This recommendation neglects many uncertainties. Here we analyze a case-study of riverine flood risk management using a multi-objective robust decision-making framework in the face of deep uncertainties. While the quantitative results are location-specific, the approach and overall insights are generalizable. We find strong interactions between the economic, engineering, and Earth science uncertainties, illustrating the need for expanding on previous integrated analyses to further understand the nature and strength of these connections. Considering deep uncertainties surrounding flood hazards, the discount rate, the house lifetime, and the fragility can increase the economically optimal house elevation to values well above FEMA’s recommendation.
+
+## Citation
+
+```bibtex
+@ARTICLE{ZarekariziSrikrishnanKeller2020,
+  title   = "Neglecting uncertainties biases house-elevation decisions to
+             manage riverine flood risks",
+  author  = "Zarekarizi, Mahkameh and Srikrishnan, Vivek
+             and Keller, Klaus",
+  journal = {Nature Communications},
+  volume  = 11,
+  page    = 5361,
+  year    = 2020,
+  doi     = "10.1038/s41467-020-19188-9"
+}
+```

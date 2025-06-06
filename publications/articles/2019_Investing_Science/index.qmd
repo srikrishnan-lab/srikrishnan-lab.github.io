@@ -1,0 +1,44 @@
+---
+title: "Investing in science to improve climate risk management"
+date: 2019-01-01
+author: 
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Richard Alley
+    orcid: 0000-0003-1833-0115
+    url: https://www.geosc.psu.edu/directory/richard-alley
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - deep uncertainty
+    - climate impacts
+    - climate risk management
+    - flood risk
+url_source: https://doi.org/10.1029/2019eo131077
+url_preprint: 
+url_repo: https://github.com/vsrikrish/SPSLAM
+journ: "Eos"
+issue: "100"
+year: 2019
+doi: 10.1029/2019eo131077
+image: featured.webp
+---
+
+## Links
+
+- [Code Repository](https://github.com/vsrikrish/SPSLAM)
+
+## Citation
+
+```bibtex
+@ARTICLE{SrikrishnanAlleyKeller2019,
+  title     = "Investing in science to improve climate risk management",
+  author    = "Srikrishnan, Vivek and Alley, Richard and Keller, Klaus",
+  journal   = "Eos",
+  volume    =  100,
+  year      =  2019,
+  doi       = "10.1029/2019eo131077",
+}
+```

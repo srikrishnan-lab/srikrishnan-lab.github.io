@@ -1,0 +1,55 @@
+---
+title: "Probabilistic projections of baseline 21<sup>st</sup> century CO<sub>2</sub> emissions using a simple calibrated integrated assessment model"
+date: 2022-01-01
+author: 
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Yawen Guan
+    orcid: 0000-0003-4563-1263
+    url: https://yawenguan.github.io/
+  - name: Richard S. J. Tol
+    orcid: 0000-0002-8012-3988
+    url: https://profiles.sussex.ac.uk/p289812-richard-tol
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - model calibration
+    - uncertainty quantification
+    - sensitivity analysis
+    - climate change mitigation
+url_source: https://doi.org/10.1007/s10584-021-03279-7
+url_preprint: https://arxiv.org/abs/1908.01923
+url_repo: https://github.com/vsrikrish/IAMUQ
+journ: "Climatic Change"
+issue: 170
+page: 37
+year: 2022
+doi: 10.1007/s10584-021-03279-7
+image: featured.webp
+---
+
+## Links
+
+- [Preprint](https://arxiv.org/abs/1908.01923)
+- [Code Repository](https://github.com/vsrikrish/IAMUQ)
+
+## Abstract
+
+Probabilistic projections of baseline (with no additional mitigation policies) future carbon emissions are important for sound climate risk assessments. Deep uncertainty surrounds many drivers of projected emissions. Here, we use a simple integrated assessment model, calibrated to century-scale data and expert assessments of baseline emissions, global economic growth, and population growth, to make probabilistic projections of carbon emissions through 2100. Under a variety of assumptions about fossil fuel resource levels and decarbonization rates, our projections largely agree with several emissions projections under current policy conditions. Our global sensitivity analysis identifies several key economic drivers of uncertainty in future emissions and shows important higher-level interactions between economic and technological parameters, while population uncertainties are less important. Our analysis also projects relatively low global economic growth rates over the remainder of the century. This illustrates the importance of additional research into economic growth dynamics for climate risk assessment, especially if pledged and future climate mitigation policies are weakened or have delayed implementations. These results showcase the power of using a simple, transparent, and calibrated model. While the simple model structure has several advantages, it also creates caveats for our results which are related to important areas for further research.
+
+
+## Citation
+
+```bibtex
+@article{SrikrishnanGuanTolKeller2022,
+  title  = "Probabilistic projections of baseline 21st century CO$_2$ emissions using a simple calibrated integrated assessment model",
+  author = "Srikrishnan, Vivek and Guan, Yawen and Tol, Richard S J and Keller, Klaus",
+  journal = {Climatic Change},
+  volume = 170,
+  pages = "37",
+  doi = "10.1007/s10584-021-03279-7",
+  year = 2022,
+}
+```

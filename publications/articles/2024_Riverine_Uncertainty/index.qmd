@@ -1,0 +1,58 @@
+---
+title: "What drives uncertainty surrounding riverine flood risks?"
+date: 2024-01-01
+author: 
+  - name: Iman Hosseini-Shakib
+  - name: Atieh Alipour
+    orcid: 0000-0001-5058-9173
+  - name: Ben Seiyon Lee
+    orcid: 0000-0003-0658-7458
+    url: https://statistics.gmu.edu/profiles/slee287
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Robert E. Nicholas
+    orcid: 0000-0003-2615-2574
+    url: https://personal.ems.psu.edu/~ren10/
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+  - name: Sanjib Sharma
+    orcid: 0000-0003-2735-1241
+categories:
+    - flood risk
+    - sensitivity analysis
+url_source: https://doi.org/10.1016/j.jhydrol.2024.131055
+url_preprint:
+url_repo: https://github.com/imshakib/Hosseini-Shakib_etal_2022_preprint
+journ: "Journal of Hydrology"
+issue: "634"
+page: 131055
+year: 2024
+doi: 10.1016/j.jhydrol.2024.131055
+image: featured.jpg
+---
+
+## Links
+
+* [Code Repository](https://github.com/imshakib/Hosseini-Shakib_etal_2022_preprint)
+
+## Abstract
+
+Designing strategies to manage flood risks is complicated by the often large uncertainties surrounding flood risk projections. Uncertainty surrounding riverine flood risks can stem from choices regarding boundary and initial conditions, model structures, and parameters as well as interactions among hazards, exposures, and vulnerabilities. Here we analyze a case study to rank the drivers of uncertainties surrounding riverine flood hazards and risks. Using Sobol' sensitivity analysis with a large number of simulations, we thoroughly explore the interactions among different sources of uncertainty. We find that the projected flood risk is most sensitive to factors associated with flood hazards, rather than exposure and vulnerability: upstream discharge, river bed elevation, channel roughness, and the digital elevation model resolution. Our results highlight the importance of uncertainty quantification in enhancing the reliability of flood models and risk assessments.
+
+## Citation
+
+```bibtex
+@ARTICLE{Hosseini-ShakibEtAl2024,
+  title = "What drives uncertainty surrounding riverine flood risks?",
+  author = {Hosseini-Shakib, Iman and Alipour, Atieh and Seiyon Lee, Benjamin
+  and Srikrishnan, Vivek and Nicholas, Robert E and Keller, Klaus and Sharma,
+  Sanjib},
+  journal = {Journal of Hydrology},
+  volume = {634},
+  pages = {131055},
+  date = {2024-03-01},
+  doi = {10.1016/j.jhydrol.2024.131055}
+}
+```

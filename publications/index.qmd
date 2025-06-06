@@ -3,15 +3,75 @@ title: "Publications"
 listing:
   - id: pubs
     template: ../_ejs/publications.ejs
-    contents: ../publications/**/*.qmd
-    sort: "pub_number desc"
+    contents: articles/*/index.qmd
+    sort: "year desc"
     page-size: 30
     filter-ui: true
-    fields: [image, pub_number, title, publication, author,url_source]
+    fields: [image, title, publication, author, url_source]
+    categories: true
+  - id: conferences
+    template: ../_ejs/publications.ejs
+    contents: conference/*/index.qmd
+    sort: "year desc"
+    page-size: 30
+    filter-ui: true
+    fields: [image, title, publication, author, url_source]
+    categories: true  
+  - id: reports
+    template: ../_ejs/publications.ejs
+    contents: reports/*/index.qmd
+    sort: "year desc"
+    page-size: 30
+    filter-ui: true
+    fields: [image, title, publication, author, url_source]
+    categories: true  
+  - id: books
+    template: ../_ejs/publications.ejs
+    contents: books/*/index.qmd
+    sort: "year desc"
+    page-size: 30
+    filter-ui: true
+    fields: [image, title, publication, author, url_source]
+    categories: true  
+  - id: unpublished
+    template: ../_ejs/publications.ejs
+    contents: unpublished/*/index.qmd
+    sort: "year desc"
+    page-size: 30
+    filter-ui: true
+    fields: [image, title, publication, author, url_source]
+    categories: true  
 page-layout: full
 ---
 
+
 <hr>
 
+:::: {.panel-tabset}
+
+## Articles
 :::{#pubs}
 :::
+
+## Conferences
+
+:::{#conferences}
+:::
+
+## Reports
+
+:::{#reports}
+:::
+
+## Books
+
+:::{#books}
+:::
+
+## Unpublished
+
+:::{#unpublished}
+:::
+
+::::
+

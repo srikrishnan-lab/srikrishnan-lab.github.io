@@ -1,0 +1,57 @@
+---
+title: "Effects of global climate mitigation on regional air quality and health"
+date: 2023-01-01
+author: 
+  - name: Xinyuan Huang
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Jonathan R. Lamontagne
+    orcid: 0000-0003-3976-1678
+    url: https://sites.tufts.edu/systems/
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+  - name: Wei Peng
+    orcid: 0000-0002-1980-0759
+    url: https://www.weipengenergy.com/
+categories:
+    - climate change mitigation
+    - climate risk management
+    - health impacts
+url_source: https://doi.org/10.1038/s41893-023-01133-5
+url_preprint: https://dx.doi.org/10.1002/essoar.10512176.1
+url_repo: 
+journ: "Nature Sustainability"
+issue: 6
+page: 1054–1066
+year: 2022
+doi: 10.1038/s41893-023-01133-5
+image: featured.webp
+---
+
+## Links
+
+- [Preprint](https://dx.doi.org/10.1002/essoar.10512176.1)
+
+## Abstract
+
+Climate mitigation can bring air quality and health co-benefits. How these health impacts might be distributed across countries remains unclear. Here we use a coupled climate–energy–health model to assess the country-varying health effects of a global carbon price across nearly 30,000 future states of the world (SOWs). As a carbon price lowers fossil fuel use, our analysis suggests consistent reductions in ambient fine particulate matter (PM2.5) levels and associated mortality risks in countries that currently suffer most from air pollution. For a few less-polluted countries, however, a carbon price can increase the mortality risks under some of the considered SOWs due to emissions increases from bioenergy use and land-use changes. These potential health co-harms are largely driven in our model by the scale and method of deforestation. A robust and quantitative understanding of these distributional outcomes requires improved representations of relevant deep uncertainties, country-specific characteristics and cross-sector interactions.
+
+## Meme
+
+![](meme.png)
+
+## Citation
+
+```bibtex
+@article{HuangetAl2023,
+  author = {Huang, Xinyuan and Srikrishnan, Vivek and Lamontagne, Jonathan and Keller, Klaus and Peng, Wei},
+  title = {Effects of global climate mitigation on regional air quality and health},
+  journal = {Nature Sustainability},
+  year = {2023},
+  doi = {10.1038/s41893-023-01133-5},
+  volume = 6,
+  pages = 1054–1066
+}
+```

@@ -22,9 +22,23 @@ about:
     - icon: github
       text: GitHub 
       href: http://github.com/britols
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
 ---
 
 <hr>
+
+## About
 
 :::{#about}
 
@@ -37,4 +51,11 @@ Luan Brito is a Ph.D. student in the Department of Earth and Atmospheric Science
 
 {{< meta education >}}
 
-<br>
+:::
+
+<p>
+
+## Group Publications
+
+:::{#pubs}
+:::

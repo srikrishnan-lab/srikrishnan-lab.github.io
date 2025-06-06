@@ -1,0 +1,48 @@
+---
+title: " Small increases in agent-based model complexity can result in large increases in required calibration data"
+date: 2021-01-01
+author: 
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - model calibration
+    - uncertainty quantification
+    - agent-based modeling
+url_source: https://doi.org/10.1016/j.envsoft.2021.104978
+url_preprint: https://arxiv.org/abs/1811.08524
+url_repo: https://github.com/vsrikrish/ABM/tree/calibration
+journ: "Environmental Modeling & Software"
+issue: 138
+page: 104978
+year: 2021
+doi: 10.1016/j.envsoft.2021.104978
+image: featured.jpg
+---
+
+## Links
+
+- [Preprint](https://arxiv.org/abs/1811.08524)
+- [Code Repository](https://github.com/vsrikrish/ABM/tree/calibration)
+
+## Abstract
+
+Agent-based models (ABMs) are widely used to analyze coupled natural and human systems. Descriptive models require careful calibration with observed data. However, ABMs are often not calibrated in a formal sense. Here we examine the impact of data record size and aggregation on the calibration of an ABM for housing abandonment in the presence of flood risk. Using a perfect model experiment, we examine (i) model calibration and (ii) the ability to distinguish a model with inter-agent interactions from one without. We show how limited data sets may not adequately constrain a model with just four parameters and relatively minimal interactions. We also illustrate how limited data can be insufficient to identify the correct model structure. As a result, many ABM-based inferences and projections rely strongly on prior distributions. This emphasizes the need for utilizing independent lines of evidence to select sound and informative priors.
+
+## Citation
+
+```bibtex
+@ARTICLE{SrikrishnanKeller2021,
+  title    = "Small increases in agent-based model complexity can result in
+              large increases in required calibration data",
+  author   = "Srikrishnan, Vivek and Keller, Klaus",
+  journal  = {Environmental Modelling \& Software},
+  volume   =  138,
+  pages    = "104978",
+  year     =  2021,
+  doi      = "10.1016/j.envsoft.2021.104978",
+}
+```

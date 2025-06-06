@@ -1,0 +1,61 @@
+---
+title: "Integrating values to improve the relevance of climate‐risk research"
+date: 2024-01-01
+author: 
+  - name: Casey Helgeson
+    orcid: 0000-0001-5333-9954
+    url: https://caseyhelgeson.github.io/
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+  - name: Robert E. Nicholas
+    orcid: 0000-0003-2615-2574
+    url: https://personal.ems.psu.edu/~ren10/
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Courtney Cooper
+    orcid: 0000-0002-4270-2778
+    url: https://berry.edu/academics/fs/ccooper
+  - name: Erica A. H. Smithwick
+    orcid: 0000-0003-3497-2011
+    url: https://www.geog.psu.edu/directory/erica-h-smithwick
+  - name: Nancy Tuana
+    url: https://philosophy.la.psu.edu/people/nat3/
+categories:
+    - ethical-epistemic values
+    - climate risk management
+url_source: https://doi.org/10.1029/2022ef003025
+url_preprint: https://osf.io/preprints/socarxiv/c4k7d/
+url_repo: 
+journ: "Earth's Future"
+issue: "12 (10)"
+page: e2022EF003025
+year: 2024
+doi: 10.1029/2022ef003025
+image: featured.jpg
+---
+
+
+## Abstract
+
+Climate risks are growing. Research is increasingly important to inform the design of risk-management strategies. Assessing such strategies necessarily brings values into research. But the values assumed within research (often only implicitly) may not align with those of stakeholders and decision makers. These misalignments are often invisible to researchers and can severely limit research relevance or lead to inappropriate policy advice. Aligning strategy assessments with stakeholders' values requires a holistic approach to research design that is oriented around those values from the start. Integrating values into research in this way requires collaboration with stakeholders, integration across disciplines, and attention to all aspects of research design. Here we describe and demonstrate a qualitative conceptual tool called a values-informed mental model (ViMM) to support such values-centered research design. ViMMs map stakeholders' values onto a conceptual model of a study system to visualize the intersection of those values with coupled natural-human system dynamics. Through this mapping, ViMMs integrate inputs from diverse collaborators to support the design of research that assesses risk-management strategies in light of stakeholders' values. We define a visual language for ViMMs, describe accompanying practices and workflows, and present an illustrative application to the case of flood-risk management in a small community along the Susquehanna river in the Northeast United States.
+
+
+## Citation
+
+```bibtex
+@ARTICLE{HelgesonEtAl2024,
+  title = "Integrating values to improve the relevance of climate‐risk
+  research",
+  author = {Helgeson, Casey and Keller, Klaus and Nicholas, Robert E and
+  Srikrishnan, Vivek and Cooper, Courtney and Smithwick, Erica A H and Tuana,
+  Nancy},
+  journal = {Earth's Future},
+  volume = {12},
+  issue = {10},
+  pages = {e2022EF003025},
+  date = {2024},
+  doi = {10.1029/2022ef003025}
+}
+```

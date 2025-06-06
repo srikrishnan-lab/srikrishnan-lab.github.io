@@ -1,0 +1,29 @@
+---
+title: Join Us
+---
+
+::: {.callout-important}
+## Consult The Lab Manual
+
+Read our [lab manual](../lab-manual/){target=_blank} to learn more about our expectations and culture. Your inquiries may not receive a response if you do not follow the procedures in the lab manual: this is a sign of intent!
+:::
+
+:::: {.grid}
+::: {.g-col-4}
+### Undergraduates
+
+There is support for motivated undergraduates to work for pay or credit on a variety of projects related to climate, energy, and/or flooding.
+See the lab guide's [instructions for prospective undergraduates](https://viveks.bee.cornell.edu/lab-manual/applying/undergrad/){target=_blank}.
+:::
+::: {.g-col-4}
+### Graduate Students
+
+In light of the evolving federal science funding landscape, we are not actively recruiting graduate students at this time.
+Students with external funding are [welcome to apply](https://viveks.bee.cornell.edu/lab-manual/applying/graduate/){target=_blank}.
+:::
+::: {.g-col-4}
+### Postdocs
+
+We are not actively recruiting a postdoc at this time. If you have external funding or would like to work with Vivek on applying for external funding, please [feel free to reach out](https://viveks.bee.cornell.edu/lab-manual/applying/postdoc/){target=_blank}.
+:::
+::::

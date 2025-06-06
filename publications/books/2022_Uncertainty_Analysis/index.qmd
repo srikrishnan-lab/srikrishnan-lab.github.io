@@ -1,0 +1,71 @@
+---
+title: "Addressing Uncertainty in Multisector Dynamics Research"
+date: 2022-01-01
+author: 
+  - name: Patrick M. Reed
+    orcid: 0000-0002-7963-6102
+    url: https://reed.cee.cornell.edu/
+  - name: Antonia Hadjimichael
+    orcid: 0000-0001-7330-6834
+    url: https://www.hadjimichaelgroup.info/
+  - name: Keyvan Malek
+    orcid: 0000-0002-9818-0083
+    url: https://abe.illinois.edu/directory/k1malek
+  - name: Tina Karimi
+    orcid: 0000-0003-2801-8854
+  - name: Chris R. Vernon
+    orcid: 0000-0002-6045-7729
+    url: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=1834
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Rohini S. Gupta
+    orcid: 0000-0003-3538-0675
+    url: https://rg727.github.io/
+  - name: David F. Gold
+    orcid: 0000-0002-0854-1819
+    url: https://www.uu.nl/staff/DFGold
+  - name: Ben Seiyon Lee
+    orcid: 0000-0003-0658-7458
+    url: https://statistics.gmu.edu/profiles/slee287
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+  - name: Travis Thurber
+    orcid: 0000-0002-4370-9971
+  - name: Jennie S. Rice
+    orcid: 0000-0002-7833-9456
+    url: https://www.pnnl.gov/people/jennie-rice
+categories:
+    - uncertainty quantification
+    - sensitivity analysis
+url_source: https://uc-ebook.org/
+url_preprint: 
+url_repo: https://github.com/IMMM-SFA/msd_uncertainty_ebook
+year: 2022
+doi: 10.1029/2021EF002621
+image: featured.png
+---
+
+## Links
+
+- [E-Book](https://uc-ebook.org)
+- [Code Repository](https://github.com/IMMM-SFA/msd_uncertainty_ebook)
+- [Zenodo Repository](https://doi.org/10.5281/zenodo.15391962)
+
+## Description
+
+A practical guide to sensitivity analysis and diagnostic model evaluation techniques for confronting the computational and conceptual challenges of multi-model, transdisciplinary workflows.
+
+## Citation
+
+```bibtex
+@book{Reed_Addressing_Uncertainty_2022,
+    author = {Reed, Patrick M. and Hadjimichael, Antonia and Malek, Keyvan and Karimi, Tina and Vernon, Chris R. and Srikrishnan, Vivek and Gupta, Rohini S. and Gold, David F. and Lee, Ben and Keller, Klaus and Thurber, Travis B. and Rice, Jennie S.},
+    doi = {10.5281/zenodo.6110623},
+    publisher = {Zenodo},
+    title = {{Addressing Uncertainty in Multisector Dynamics Research}},
+    url = {https://uc-ebook.org},
+    year = {2022}
+}
+```

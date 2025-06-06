@@ -1,0 +1,88 @@
+---
+title: "MultiSector Dynamics: Scientific Challenges and a Research Vision for 2030, A Community of Practice Supported by the United States Department of Energy's Office of Science"
+date: 2022-01-01
+author: 
+  - name: Patrick M. Reed
+    orcid: 0000-0002-7963-6102
+    url: https://reed.cee.cornell.edu/
+  - name: Antonia Hadjimichael
+    orcid: 0000-0001-7330-6834
+    url: https://www.hadjimichaelgroup.info/
+  - name: Richard H. Moss
+    orcid: 0000-0001-5005-0063
+  - name: Erwan Monier
+    orcid: 0000-0001-5533-6570
+    url: https://monier.faculty.ucdavis.edu/
+  - name: Sequoia Alba
+  - name: Christa Brelsford
+    orcid: 0000-0002-3490-8020
+    url: https://www.christabrelsford.com/
+  - name: Casey D. Burleyson
+    orcid: 0000-0001-6218-9361
+    url: http://caseyburleyson.com/
+  - name: Stuart Cohen
+    orcid: 0000-0001-8389-6516
+    url: https://research-hub.nrel.gov/en/persons/stuart-cohen
+  - name: Ana Dyreson
+    orcid: 0000-0003-1269-6634
+    url: https://sites.google.com/mtu.edu/dyresonresearchgroup/
+  - name: David F. Gold
+    orcid: 0000-0002-0854-1819
+    url: https://www.uu.nl/staff/DFGold
+  - name: Rohini S. Gupta
+    orcid: 0000-0003-3538-0675
+    url: https://rg727.github.io/
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+  - name: Megan Konar
+    orcid: 0000-0003-0540-8438
+    url: https://mkonar.cee.illinois.edu/
+  - name: Jordan Macknick
+    orcid: 0000-0001-5565-8879
+  - name: Jennifer F. Morris
+    orcid: 0000-0001-7675-558X
+    url: https://globalchange.mit.edu/about-us/personnel/morris-jennifer
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Nathalie Voisin
+    orcid: 0000-0002-6848-449X
+    url: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=2203
+  - name: Jim Yoon
+    orcid: 0000-0002-8025-2587
+    url: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3295
+categories:
+    - multisector dynamics
+url_source: https://zenodo.org/records/5825890
+url_preprint:
+url_repo: 
+journ: "A Community of Practice Supported by the United States Department of Energy’s Office of Science"
+year: 2022
+doi: 10.5281/zenodo.6144309
+---
+
+## Abstract
+
+This report outlines a vision for MultiSector Dynamics (MSD) as an emerging transdisciplinary field that seeks to advance our understanding of how human-Earth systems interactions shape the resources, goods, and services on which society depends. The core objective of this MSD Vision Report is to clarify core definitions, share research questions, highlight scientific opportunities, and provide steps for improving the MSD community’s capacity to support needed scientific progress.
+
+The report has several technical audiences in mind. These include current MSD researchers, scientists working in complementary fields who wish to learn more about opportunities for engagement, and research program managers at the US Department of Energy (DOE). Additionally, the research-to-operations (R2O2R) and community building elements of the report hold value for a broad array of US federal agencies as well as other governments and international organizations. As a transdisciplinary endeavor, the vision presented here should have elements that directly interest sectoral analysts engaged in energy, water, agriculture, transportation, health, etc. We hope these audiences will find the report a helpful reference and a source of opportunities for shaping the future of MSD science. 
+
+The report incorporates ideas and insights from the members of the recently established MSD Community of Practice (CoP). MSD finds its roots in a number of research fields and communities, including integrated assessment; impacts, adaptation, and vulnerability; Earth system science; and complex adaptive systems. However, the MSD CoP draws its conceptual basis from a 2016 workshop sponsored and led by the DOE, "Understanding Dynamics and Resilience in Complex Interdependent Systems: Prospects for a Multi-Model Framework and Community of Practice," organized with other federal agencies and hosted by the US Global Change Research Program. The rationale for the CoP is that research on understanding risks and opportunities arising from tightly connected human and natural systems is fragmented across several fields, requiring improved collaboration and synthesis to accelerate needed scientific advances. A CoP Facilitation Team and a Scientific Steering Group (SSG) were launched in 2019 to advance the needed collaborations and scientific synthesis. Since that time, an initial core group of projects supported by DOE’s MSD research program has provided input to the development of the CoP through activities including a community questionnaire to identify current tools and research interests, regular meetings of technical working groups (WGs), MSD community briefings, research workshops, and the MSD CoP website.
+
+## Acknowledgements
+
+The members of the MSD SSG and Facilitation Team are responsible for drafting this report, based on the above community inputs as well as a formal review of recent research within related fields such as Earth system science, integrated assessment modeling, economics, decision science, socio-ecological systems, socio-environmental systems, complexity science, systems engineering, energy transitions, urban systems, and coastal dynamics. Members of the major projects in the DOE MSD research program provided extensive comments on a first draft of the report (see Chapter 2.2 for descriptions and links to projects' websites for additional information). Robert Vallario, program manager for the DOE Earth and Environmental Systems Modeling MSD research program area, has provided insights, perspectives, and comments that have been critically important throughout the process. The SSG and the Facilitation Team thank these individuals for their many contributions and ongoing support. In addition, the Facilitation Team thanks the DOE Office of Science, Earth and Environmental System Modeling program for financial support of its activities through the Integrated Multisector Multiscale Modeling (IM3) project.
+
+## Citation
+
+```bibtex
+@report{ReedEtAlMSDVision2022,
+  title = "{M}ultiSector {D}ynamics: {S}cientific {C}hallenges and a {R}esearch {V}ision for 2030",
+  shorttitle = "{M}ultiSector {D}ynamics",
+  author = "Reed, Patrick M. and Hadjimichael, Antonia and Moss, Richard H. and Monier, Erwan and Alba, Sequoia and Brelsford, Christa and Burleyson, Casey and Cohen, Stuart and Dyreson, Ana and Gold, David and Gupta, Rohini and Keller, Klaus and Konar, Megan and Macknick, Jordan and Morris, Jennifer and Srikrishnan, Vivek and Voisin, Nathalie and Yoon, Jim",
+  year = 2022,
+  institution = {A Community of Practice Supported by the United States Department of Energy's Office of Science},
+  doi = "10.5281/zenodo.5825890"
+}
+```

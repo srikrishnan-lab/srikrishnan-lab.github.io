@@ -1,0 +1,12 @@
+---
+title: About This Website
+---
+
+## Acknowledgements
+
+This website was built using [Quarto](https://quarto.org). It was inspired and borrowed code and styling from several personal and lab sites:
+
+- [Andrew Heiss](https://www.andrewheiss.com/)
+- [James Doss-Gollin](https://dossgollin-lab.github.io/joinus.html)
+- [David Masiello](https://faculty.washington.edu/masiello/)
+

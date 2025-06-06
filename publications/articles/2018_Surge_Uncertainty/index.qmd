@@ -1,0 +1,53 @@
+---
+title: "Neglecting model structural uncertainty underestimates upper tails of flood hazard"
+date: 2018-01-01
+author: 
+  - name: Tony E. Wong
+    orcid: 0000-0002-7304-3883
+    url: https://tonyewong.github.io
+  - name: Alexandra Klufas
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - uncertainty quantification
+    - climate impacts
+    - storm surge
+url_source: https://doi.org/10.1088/1748-9326/aacb3d
+url_preprint: 
+url_repo: https://github.com/tonyewong/MESS
+journ: "Environmental Research Letters"
+issue: "13 (7)"
+page: 074019
+year: 2018
+doi: 10.1088/1748-9326/aacb3d
+image: featured.jpg
+---
+
+## Links
+
+- [Code Repository](https://github.com/tonyewong/MESS)
+
+## Abstract
+
+Coastal flooding drives considerable risks to many communities, but projections of future flood risks are deeply uncertain. The paucity of observations of extreme events often motivates the use of statistical approaches to model the distribution of extreme storm surge events. One key deep uncertainty that is often overlooked is model structural uncertainty. There is currently no strong consensus among experts regarding which class of statistical model to use as a 'best practice'. Robust management of coastal flooding risks requires coastal managers to consider the distinct possibility of non-stationarity in storm surges. This increases the complexity of the potential models to use, which tends to increase the data required to constrain the model. Here, we use a Bayesian model averaging approach to analyze the balance between (i) model complexity sufficient to capture decision-relevant risks and (ii) data availability to constrain complex model structures. We characterize deep model structural uncertainty through a set of calibration experiments. Specifically, we calibrate a set of models ranging in complexity using long-term tide gauge observations from the Netherlands and the United States. We find that in both considered cases, roughly half of the model weight is associated with the non-stationary models. Our approach provides a formal framework to integrate information across model structures, in light of the potentially sizable modeling uncertainties. By combining information from multiple models, our inference sharpens for the projected storm surge 100 year return levels, and estimated return levels increase by several centimeters. We assess the impacts of data availability through a set of experiments with temporal subsets and model comparison metrics. Our analysis suggests that about 70 years of data are required to stabilize estimates of the 100 year return level, for the locations and methods considered here.
+
+## Citation
+
+```bibtex
+@ARTICLE{WongEtAl2018,
+  title     = "Neglecting model structural uncertainty underestimates upper
+               tails of flood hazard",
+  author    = "Wong, Tony E and Klufas, Alexandra and Srikrishnan, Vivek and
+               Keller, Klaus",
+  journal   = {Environmental Research Letters},
+  volume    =  13,
+  number    =  7,
+  pages     = "074019",
+  year      =  2018,
+  doi       = "10.1088/1748-9326/aacb3d",
+}
+```

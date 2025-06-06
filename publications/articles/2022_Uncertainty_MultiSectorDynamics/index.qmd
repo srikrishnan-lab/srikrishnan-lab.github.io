@@ -1,0 +1,77 @@
+---
+title: "Uncertainty analysis in Multi-Sector systems: Considerations for risk analysis, projection, and planning for complex systems"
+date: 2022-01-01
+author: 
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: David C. Lafferty
+    orcid: 0000-0003-2098-6885
+    url: https://david0811.github.io/
+  - name: Tony E. Wong
+    orcid: 0000-0002-7304-3883
+    url: https://tonyewong.github.io
+  - name: Jonathan R. Lamontagne
+    orcid: 0000-0003-3976-1678
+    url: https://sites.tufts.edu/systems/
+  - name: Julianne D. Quinn
+    orcid: 0000-0001-7806-4416
+    url: https://quinnresearchgroup.com/
+  - name: Sanjib Sharma
+    orcid: 0000-0003-2735-1241
+  - name: Nusrat J. Molla
+    url: https://nusratmolla.com/
+  - name: Jonathan D. Herman
+    orcid: 0000-0002-4081-3175
+    url: https://herman.ucdavis.edu/
+  - name: Ryan L. Sriver
+    orcid: 0000-0001-9587-3741
+    url: https://rsriver.web.illinois.edu/
+  - name: Jennifer F. Morris
+    orcid: 0000-0001-7675-558X
+    url: https://globalchange.mit.edu/about-us/personnel/morris-jennifer
+  - name: Ben Seiyon Lee
+    orcid: 0000-0003-0658-7458
+    url: https://statistics.gmu.edu/profiles/slee287
+categories:
+    - multisector dynamics
+    - uncertainty quantification
+    - sensitivity analysis
+    - review
+url_source: https://doi.org/10.1029/2021EF002644
+url_preprint: https://dx.doi.org/10.1002/essoar.10510113.2
+url_repo: 
+journ: "Earth's Future"
+issue: "10 (8)"
+page: e2021EF002644
+year: 2022
+doi: 10.1029/2021EF002644
+image: featured.jpg
+---
+
+## Links
+
+- [Preprint](https://dx.doi.org/10.1002/essoar.10510113.2)
+
+## Abstract
+
+Simulation models of multi-sector systems are increasingly used to understand societal resilience to climate and economic shocks and change. However, multi-sector systems are also subject to numerous uncertainties that prevent the direct application of simulation models for prediction and planning, particularly when extrapolating past behavior to a nonstationary future. Recent studies have developed a combination of methods to characterize, attribute, and quantify these uncertainties for both single- and multi-sector systems. Here, we review challenges and complications to the idealized goal of fully quantifying all uncertainties in a multi-sector model and their interactions with policy design as they emerge at different stages of analysis: (a) inference and model calibration; (b) projecting future outcomes; and (c) scenario discovery and identification of risk regimes. We also identify potential methods and research opportunities to help navigate the tradeoffs inherent in uncertainty analyses for complex systems. During this discussion, we provide a classification of uncertainty types and discuss model coupling frameworks to support interdisciplinary collaboration on multi-sector dynamics (MSD) research. Finally, we conclude with recommendations for best practices to ensure that MSD research can be properly contextualized with respect to the underlying uncertainties.
+
+## Meme
+
+![Courtesy of @dmdu_memes](meme.webp)
+
+## Citation
+
+```bibtex
+@article{SrikrishnanEtAl2022,
+  title = "Uncertainty Analysis in Multi-Sector Systems: {C}onsiderations for Risk Analysis, Projection, and Planning for Complex Systems",
+  author = {Srikrishnan, Vivek and Lafferty, David C and Wong, Tony E and Lamontagne, Jonathan R. and Quinn, Julianne D and Sharma, Sanjib and Molla, Nusrat J and Herman, Jonathan D and Sriver, Ryan L. and Morris, Jennifer and Lee, Ben Seiyon},
+  doi = {10.1029/2021EF002644},
+  journal = {Earth's Future},
+  volume = {10},
+  issue = {8},
+  pages = {e2021EF002644},
+  year = {2022},
+}
+```

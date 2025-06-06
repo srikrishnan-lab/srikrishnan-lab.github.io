@@ -1,0 +1,57 @@
+---
+title: "MimiBRICK.jl: A Julia package for the BRICK model for sea-level change in the Mimi integrated modeling framework"
+date: 2022-01-01
+author: 
+  - name: Tony E. Wong
+    orcid: 0000-0002-7304-3883
+    url: https://tonyewong.github.io
+  - name: Lisa Rennels
+    orcid: 0000-0002-5307-9336
+    url: https://www.lisarennels.com/
+  - name: Frank C. Errickson
+    orcid: 0000-0003-2195-9424
+    url: https://frankerrickson.github.io/
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Alexander Bakker
+    orcid: 0000-0002-1017-7665
+    url: https://www.tudelft.nl/en/staff/a.m.r.bakker/
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+  - name: David Anthoff
+    orcid: 0000-0001-9319-2109
+    url: https://www.david-anthoff.com/
+categories:
+    - climate impacts
+    - software
+    - sea-level rise
+url_source: https://doi.org/10.21105/joss.04556
+url_preprint:
+url_repo: https://github.com/raddleverse/MimiBRICK.jl
+journ: "Journal of Open Source Software"
+issue: "7 (76)"
+page: 2556
+year: 2022
+doi: 10.21105/joss.04556
+---
+
+## Links
+
+- [Code Repository](https://github.com/raddleverse/MimiBRICK.jl)
+
+## Citation
+
+```bibtex
+@article{WongEtAl2022,
+  author = {Wong, Tony E. and Rennels, Lisa and Errickson, Frank and Srikrishnan, Vivek and Bakker, Alexander and Keller, Klaus and Anthoff, David},
+  title = {{MimiBRICK.jl}: A {Julia} package for the {BRICK} model for sea-level change in the {Mimi} integrated modeling framework},
+  journal = {Journal of Open Source Software},
+  year = {2022},
+  volume = 7,
+  number = 76,
+  pages = 2556,
+  doi = "10.21105/joss.04556",
+}
+```

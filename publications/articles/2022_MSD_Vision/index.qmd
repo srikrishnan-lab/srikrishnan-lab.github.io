@@ -1,0 +1,85 @@
+---
+title: "Multisector dynamics: Advancing the science of complex adaptive human-Earth systems"
+date: 2022-01-01
+author: 
+  - name: Patrick M. Reed
+    orcid: 0000-0002-7963-6102
+    url: https://reed.cee.cornell.edu/
+  - name: Antonia Hadjimichael
+    orcid: 0000-0001-7330-6834
+    url: https://www.hadjimichaelgroup.info/
+  - name: Richard H. Moss
+    orcid: 0000-0001-5005-0063
+  - name: Christa Brelsford
+    orcid: 0000-0002-3490-8020
+    url: https://www.christabrelsford.com/
+  - name: Casey D. Burleyson
+    orcid: 0000-0001-6218-9361
+    url: http://caseyburleyson.com/
+  - name: Stuart Cohen
+    orcid: 0000-0001-8389-6516
+    url: https://research-hub.nrel.gov/en/persons/stuart-cohen
+  - name: Ana Dyreson
+    orcid: 0000-0003-1269-6634
+    url: https://sites.google.com/mtu.edu/dyresonresearchgroup/
+  - name: David F. Gold
+    orcid: 0000-0002-0854-1819
+    url: https://www.uu.nl/staff/DFGold
+  - name: Rohini S. Gupta
+    orcid: 0000-0003-3538-0675
+    url: https://rg727.github.io/
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+  - name: Megan Konar
+    orcid: 0000-0003-0540-8438
+    url: https://mkonar.cee.illinois.edu/
+  - name: Erwan Monier
+    orcid: 0000-0001-5533-6570
+    url: https://monier.faculty.ucdavis.edu/
+  - name: Jennifer F. Morris
+    orcid: 0000-0001-7675-558X
+    url: https://globalchange.mit.edu/about-us/personnel/morris-jennifer
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Nathalie Voisin
+    orcid: 0000-0002-6848-449X
+    url: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=2203
+  - name: Jim Yoon
+    url: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3295
+categories:
+    - multisector dynamics
+url_source: https://doi.org/10.1029/2021EF002621
+url_preprint: https://dx.doi.org/10.1002/essoar.10509790.1
+url_repo: 
+journ: "Earth's Future"
+issue: "10 (3)"
+page: e2021EF002621
+year: 2022
+doi: 10.1029/2021EF002621
+image: featured.jpg
+---
+
+## Links
+
+- [Preprint](https://dx.doi.org/10.1002/essoar.10509790.1)
+
+## Abstract
+
+The field of MultiSector Dynamics (MSD) explores the dynamics and co-evolutionary pathways of human and Earth systems with a focus on critical goods, services, and amenities delivered to people through interdependent sectors. This commentary lays out core definitions and concepts, identifies MSD science questions in the context of the current state of knowledge, and describes ongoing activities to expand capacities for open science, leverage revolutions in data and computing, and grow and diversify the MSD workforce. Central to our vision is the ambition of advancing the next generation of complex adaptive human-Earth systems science to better address interconnected risks, increase resilience, and improve sustainability. This will require convergent research and the integration of ideas and methods from multiple disciplines. Understanding the tradeoffs, synergies, and complexities that exist in coupled human-Earth systems is particularly important in the context of energy transitions and increased future shocks.
+
+## Citation
+
+```bibtex
+@article{ReedEtAlMSD2022,
+  title = {Multisector {{Dynamics}}: {{Advancing}} the {{Science}} of {{Complex Adaptive Human-Earth Systems}}},
+  author = {Reed, Patrick M. and Hadjimichael, Antonia and Moss, Richard H. and Brelsford, Christa and Burleyson, Casey D. and Cohen, Stuart and Dyreson, Ana and Gold, David F. and Gupta, Rohini S. and Keller, Klaus and Konar, Megan and Monier, Erwan and Morris, Jennifer and Srikrishnan, Vivek and Voisin, Nathalie and Yoon, Jim},
+  year = {2022},
+  journal = {Earth's Future},
+  volume = {10},
+  number = {3},
+  pages = {e2021EF002621},
+  doi = {10.1029/2021EF002621},
+}
+```

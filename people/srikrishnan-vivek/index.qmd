@@ -32,9 +32,23 @@ about:
     - icon: github
       text: GitHub 
       href: https://github.com/vsrikrish
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
 ---
 
 <hr>
+
+## About
 
 :::{#about}
 
@@ -46,4 +60,12 @@ Vivek Srikrishnan is an Assistant Professor in the Department of Biological & En
 
 {{< meta education >}}
 
-<br>
+
+:::
+
+<p>
+
+## Group Publications
+
+:::{#pubs}
+:::

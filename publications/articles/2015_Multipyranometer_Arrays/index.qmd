@@ -1,0 +1,44 @@
+---
+title: "Using multi-pyranometer arrays and neural networks to estimate direct normal irradiance"
+date: 2015-01-01
+author: 
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: George S. Young
+    url: https://www.met.psu.edu/directory/george-s-young
+  - name: Lucas T. Witmer
+  - name: Jeffrey R. S. Brownson
+    orcid: 0000-0001-7161-8199
+categories:
+    - solar resource assessment
+    - machine learning
+url_source: https://doi.org/10.1016/j.solener.2015.06.004
+url_preprint: 
+url_repo: 
+journ: "Solar Energy"
+issue: 119
+page: 531-542
+year: 2015
+doi: 10.1016/j.solener.2015.06.004
+image: featured.png
+---
+
+
+## Abstract
+
+Direct Normal Irradiance (DNI) is a critical component of solar irradiation for estimating Plane of Array (POA) irradiance on flat plate systems and for estimating photovoltaic and concentrating system power output. Current approaches to measuring or estimating DNI suffer from either high equipment costs or low precision and may require detailed environmental data. An alternative approach, using artificial neural networks to estimate DNI from the irradiance measurements of multiple pyranometers, is studied. We consider various neural network topologies and study the resulting errors. The neural network-based estimators are found to have higher accuracy than those obtained from empirical correlations of GHI measurements alone. Additionally, the use of a different GHI sensor than the one used to obtain the neural network training data does not induce significant errors. The ability of this method to be used as a quality-control instrument for pyrheliometer measurements is also discussed. We find that the proposed methodology is capable of detecting many instances of unreliable DNI measurements by considering the deviation between the predicted DNI and measured DNI. A more detailed analysis can be conducted by taking advantage of the data streams from the individual pyranometers.
+
+## Citation
+
+```bibtex
+@ARTICLE{SrikrishnanYoungWitmerBrownson2015,
+  title     = "Using multi-pyranometer arrays and neural networks to estimate direct normal irradiance",
+  author    = "Srikrishnan, Vivek and Young, George S and Witmer, Lucas T and Brownson, Jeffrey R S",
+  journal   = {Solar Energy},
+  volume    =  119,
+  pages     = "531--542",
+  year      =  2015,
+  doi       = "10.1016/j.solener.2015.06.004"
+}
+```

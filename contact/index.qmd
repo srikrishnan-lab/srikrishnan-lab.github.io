@@ -1,0 +1,36 @@
+---
+title: "Contact"
+---
+
+:::: {.columns}
+::: {.column width="40%"}
+
+### Vivek Srikrishnan
+
+|  |  |
+|-------|-------|
+| <i class="fa-solid fa-envelope"></i> | [vs498@cornell.edu](mailto:vs498@cornell.edu) |
+| <i class="fa-solid fa-phone"></i> | (607) 654-3225 |
+| <i class="fa-solid fa-map-pin"></i> | 318 Riley-Robb Hall |
+
+### Mailing Address
+
+Department of Biological & Environmental Engineering <br>
+Cornell University <br>
+318 Riley-Robb Hall <br>
+111 Wing Drive <br>
+Ithaca, NY 14853-5701 
+
+### Useful Links
+
+- [Cornell Visitor's Guide](https://www.cornell.edu/visit/)
+- [Parking Information](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus)
+- [Campus Map](https://www.cornell.edu/about/maps/?mapService=Google)
+
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="55%"}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.1366530682258!2d-76.47428312485589!3d42.446108471185035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0832aa353076b%3A0x4408115c9cbe3a5!2sRiley-Robb%20Hall!5e0!3m2!1sen!2sus!4v1749247425879!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" aria-hidden="false"></iframe>
+:::
+::::

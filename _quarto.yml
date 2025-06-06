@@ -3,7 +3,7 @@ project:
   render:
     - "*.qmd"
     - "!publicaitons/_template"
-    - "!people/_temple/"
+    - "!people/_template/"
 
 pagetitle: "{{< meta title >}} | Srikrishnan Group"
 author-meta: "Vivek Srikrishnan"
@@ -13,6 +13,7 @@ website:
   description: "The Srikrishnan Research Group studies how to manage climate and environmental risks faced by complex, coupled natural-human systems."
   site-url: "https://viveks.bee.cornell.edu"
   repo-url: "https://github.com/srikrishnan-lab/srikrishnan-lab.github.io"
+  favicon: assets/logos/favicon.png
   twitter-card: true
   page-navigation: false
   search: true
@@ -22,7 +23,8 @@ website:
       <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Vivek Srikrishnan</span>
       <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span> 
     center: Made with
-      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) 
+      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)<br>
+      See the [About Page](/about.qmd) for credit information.
     right:
       - icon: github
         href: https://github.com/srikrishnan-lab/srikrishnan-lab.github.io
@@ -34,24 +36,23 @@ website:
         href: people/index.qmd
       - text: "Research"
         href: research/index.qmd
-      - text: "Publications"
-        href: "publications/index.qmd"
+      - text: Publications
+        href: publications/index.qmd
       - text: "Teaching"
-        href: "teaching/index.qmd"
+        href: teaching/index.qmd
       - text: "Lab Manual"
-        href: "lab-manual/index.html"
+        href: lab-manual/index.html
       - text: "Join Us"
-        href: "join/index.qmd"
+        href: join/index.qmd
       - text: "Contact"
-        href: "contact/index.qmd"
+        href: contact/index.qmd
       - text: "Github"
-        href: "https://github.com/srikrishnan-lab"
+        href: https://github.com/srikrishnan-lab
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: 
+      [default, styles/custom.scss]
     toc: true
     code-link: true
     anchor-sections: true
@@ -59,10 +60,11 @@ format:
     reference-location: margin
     footnotes-hover: true
     highlight-style: monokai
-    css: styles/custom.scss
     mainfont: Inter
     smooth-scroll: true
     link-external-newwindow: true
+    date-format: YYYY
 
 resources:
   - CNAME
+  - assets/fonts/ApfelGrotezk/ApfelGrotezk-Regular.woff2

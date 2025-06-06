@@ -1,0 +1,43 @@
+---
+title: "Graph Neural Ordinary Differential Equations for Coarse-Grained Socioeconomic Dynamics"
+date: 2024-01-01
+author:
+  - name: James Koch
+    orcid: 0000-0003-2787-9054
+    url: https://jvkoch.com/
+  - name: Heng Wan
+    orcid: 0000-0002-3747-6964
+  - name: Parin Bhaduri
+    orcid: 0000-0002-4618-1121
+  - name: Jim Yoon
+    url: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3295
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Brent Daniel
+    orcid: 0000-0001-7398-6796
+categories:
+    - machine learning
+    - agent-based modeling
+url_source: 
+url_preprint: https://arxiv.org/abs/2407.18108
+url_repo: 
+journ: "Proceedings of the 2024 International Conference of The Computational Social Science Society of the Americas"
+year: 2024
+---
+
+## Abstract
+
+We present a data-driven machine-learning approach for modeling space-time socioeconomic dynamics. Through coarse-graining fine-scale observations, our modeling framework simplifies these complex systems to a set of tractable mechanistic relationships -- in the form of ordinary differential equations -- while preserving critical system behaviors. This approach allows for expedited 'what if' studies and sensitivity analyses, essential for informed policy-making. Our findings, from a case study of Baltimore, MD, indicate that this machine learning-augmented coarse-grained model serves as a powerful instrument for deciphering the complex interactions between social factors, geography, and exogenous stressors, offering a valuable asset for system forecasting and resilience planning.
+
+## Citation
+
+```bibtex
+@inproceedings{KochEtAl2024,
+  title = "Graph Neural Ordinary Differential Equations for Coarse-Grained Socioeconomic Dynamics",
+  author = "Koch, James and Roy Chowdhury, Pranab and Wan, Heng and Bhaduri, Parin and Yoon, Jim and Srikrishnan, Vivek and Daniel, Brent",
+  booktitle = {Proceedings of the 2024 International Conference of The Computational Social Science Society of the Americas},
+  publisher = {Springer Cham},
+  year = 2024
+}
+```

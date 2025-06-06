@@ -1,0 +1,35 @@
+---
+title: "Emulation methods and adaptive sampling increase the efficiency of sensitivity analysis for computationally expensive models"
+date: 2024-01-01
+author: 
+  - name: Samantha Roth
+    orcid: 0000-0002-8867-4426
+    url: https://samantha-roth.github.io
+  - name: Haochen Ye
+  - name: Robert E. Nicholas
+    orcid: 0000-0003-2615-2574
+    url: https://personal.ems.psu.edu/~ren10/
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - sensitivity analysis
+    - adaptive sampling
+url_source: 
+url_preprint: https://dx.doi.org/10.2139/ssrn.4375665
+url_repo: 
+journ: "In Review"
+doi: 10.2139/ssrn.4375665
+year: 2024
+---
+
+## Links
+
+* [Preprint](https://dx.doi.org/10.2139/ssrn.4375665)
+
+## Abstract
+
+Models with high-dimensional parameter spaces are common in many applications. Global sensitivity analyses can provide insights on how uncertain inputs and interactions influence the outputs. Many sensitivity analysis methods face nontrivial challenges for computationally demanding models. Common approaches to tackle these challenges are to (i) use a computationally efficient emulator and (ii) to sample adaptively. However, these approaches still involve potentially large computational costs and approximation errors. Here we compare the results and computational costs of four existing global sensitivity analysis methods applied to a test problem. We sample different model evaluation time and numbers of model parameters. We find that the emulation and adaptive sampling approaches are faster than Sobol’ method for slow models. The Bayesian adaptive spline surface method is the fastest for most slow and high-dimensional models. Our results can guide the choice of a sensitivity analysis method under computational resources constraints.

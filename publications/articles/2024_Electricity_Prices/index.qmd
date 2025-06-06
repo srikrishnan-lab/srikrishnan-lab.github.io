@@ -1,0 +1,53 @@
+---
+title: "Quantifying the impact of multi-scale climate variability on electricity prices in a renewable-dominated power grid"
+date: 2024-01-01
+author: 
+  - name: Elnaz Kabir
+    orcid: 0000-0002-5211-7433
+    url: https://elnaz-kabir.github.io/
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: M. Vivienne Liu
+    orcid: 0000-0002-5676-8591
+  - name: Scott Steinschneider
+    orcid: 0000-0002-8882-1908
+    url: https://blogs.cornell.edu/steinschneider/
+  - name: C. Lindsay Anderson
+    orcid: 0000-0002-5148-0118
+    url: https://andersonenergylab-cornell.github.io/
+categories:
+    - electric power systems
+    - power grid reliability
+    - climate variability
+url_source: https://doi.org/10.1016/j.renene.2024.120013
+url_preprint: 
+url_repo: 
+journ: "Renewable Energy"
+issue: 223
+page: 120013
+year: 2024
+doi: 10.1016/j.renene.2024.120013
+image: featured.jpg
+---
+
+
+## Abstract
+
+The variability and intermittency of renewable energy sources pose several challenges for power systems operations, including energy curtailment and price volatility. In power systems with considerable renewable sources, co-variability in renewable energy supply and electricity load can intensify these outcomes. In this study, we examine the impacts of interplay between renewable resource and load co-variability and power system constraints across multiple spatial and temporal scales. We use the New York State power system as our case study, which is undergoing a major transition toward increased renewable generation. We characterize the spatiotemporal co-variability of renewable energy-generating resources and electricity load and investigate the impact of climatic variability on electricity price volatility. We use an accurate, reduced-form representation of the New York power system, which integrates additional wind and solar power resources to meet the state’s energy targets through 2030. Our study shows while diversifying renewables mitigates power variability, short-term fluctuations can still lead to inefficient energy use and substantial curtailment. Annual electricity prices varied by 9%, with price spikes fluctuating by up to 56%, while reflecting a state-wide heterogeneity. Hydropower primarily influences yearly prices, whereas solar and wind mainly affect short-term volatility. Our results underscore the importance of considering both spatiotemporal dynamics and system constraints when planning investments in renewable energy infrastructure.
+
+## Citation
+
+```bibtex
+@ARTICLE{KabirEtAl2024,
+  title = "Quantifying the impact of multi-scale climate variability on
+  electricity prices in a renewable-dominated power grid",
+  author = "Kabir, Elnaz and Srikrishnan, Vivek and Liu, M Vivienne and
+  Steinschneider, Scott and Anderson, C Lindsay",
+  journal = {Renewable Energy},
+  volume = {223},
+  pages = {120013},
+  date = 2024,
+  doi = {10.1016/j.renene.2024.120013}
+}
+```

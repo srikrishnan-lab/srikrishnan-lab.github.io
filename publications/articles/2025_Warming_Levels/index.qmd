@@ -1,0 +1,53 @@
+---
+title: "Coastal adaptation and damage costs at different global warming thresholds"
+date: 2025-01-01
+author: 
+  - name: Tony E. Wong
+    orcid: 0000-0002-7304-3883
+    url: https://tonyewong.github.io
+  - name: Selorm Dake
+  - name: Kelly Feke
+  - name: Chloe Darnell
+    orcid: 0000-0003-4390-2656
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+categories:
+    - climate impacts
+    - sea-level rise
+    - flood risk
+url_source: https://doi.org/10.1038/s44304-025-00089-0
+url_preprint: https://doi.org/10.31219/osf.io/m97rq
+url_repo: https://github.com/raddleverse/tempthresholds
+journ: "npj Natural Hazards"
+issue: "2"
+page: 35
+year: 2025
+doi: 10.1038/s44304-025-00089-0
+image: featured.webp
+---
+
+## Links
+
+* [Preprint](https://doi.org/10.31219/osf.io/m97rq)
+* [Code Repository](https://github.com/raddleverse/tempthresholds)
+
+## Abstract
+
+Climate change is worsening coastal hazards, elevating the need to mitigate and adapt to future warming and sea-level change. A key question is how future warming relates to coastal impacts in terms of adaptation costs and economic damages, and the potentially unequal distribution of these impacts globally. We use an integrated modeling framework to generate estimates of future coastal adaptation costs and damages, discounted through the year 2150, at multiple global warming thresholds. As warming crosses the 1.5 °C threshold, we find that high-end (95th percentile) coastal damages nearly double, from 1.3 T to 2.3 T US$. Beyond 2.5 °C warming, low-end (5th percentile) damages increase from 1.2 T to 1.6 T US$ and the Global South faces disproportionately high damages as a percentage of regional GDP. Given the plausibility of 2.5 °C warming in even SSP2-4.5, these results highlight the importance of emissions reductions to avoid sizable and inequitable increases in coastal impacts.
+
+## Citation
+
+```bibtex
+@ARTICLE{WongEtAl2025,
+  title = "Coastal Adaptation and Damage Costs at Different Global Warming
+  Thresholds",
+  author = {Wong, Tony and Dake, Selorm and Feke, Kelly and Darnell, Chloe and
+  Srikrishnan, Vivek},
+  journal = {npj Natural Hazards},
+  volume = {2},
+  pages = {35},
+  date = {2025},
+  doi = {10.1038/s44304-025-00089-0}
+}
+```

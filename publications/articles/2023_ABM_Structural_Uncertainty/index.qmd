@@ -1,0 +1,56 @@
+---
+title: "Structural model choices regularly overshadow parametric uncertainty in agent-based simulations of household flood risk outcomes"
+date: 2023-01-01
+author: 
+  - name: Jim Yoon
+    url: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3295
+  - name: Heng Wan
+    orcid: 0000-0002-3747-6964
+  - name: Brent Daniel
+    orcid: 0000-0001-7398-6796
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: David Judi
+    orcid: 0000-0003-0989-4525
+    url: https://www.pnnl.gov/people/david-judi
+categories:
+    - agent-based modeling
+    - population modeling
+    - structural uncertainty
+    - flood risk
+url_source: https://doi.org/10.1016/j.compenvurbsys.2023.101979
+url_preprint:
+url_repo: https://github.com/jimyoon/icom_abm
+journ: "Computers, Environment and Urban Systems"
+issue: 103
+page: 101979
+year: 2023
+doi: 10.1016/j.compenvurbsys.2023.101979
+image: featured.jpg
+---
+
+## Links
+
+* [Repository](https://github.com/jimyoon/icom_abm)
+
+## Abstract
+
+Agent-based models (ABMs) have been increasingly used for flood risk analysis, driven by the recognition that commonly used analyses typically neglect adaptive human behavior in relation to flood hazards. However, ABM simulation results can be highly sensitive to a number of modeling choices. Here, we introduce an agent-based modeling framework to explore the impact of structural versus parametric choices of household flood aversion on modeled outcomes of flood risk in a hypothetical urban environment. We deploy three structural variants of the model that fundamentally differ in the manner in which households are assumed to interface with flood hazards (disamenity, avoidance, and protection), evaluating multiple model parameterizations within each structural variant. The structural variants lead to fundamentally different conclusions regarding the evolution of flood risk, indicating that the structural choices made regarding human representation in flood risk ABMs have substantial bearing on modeling insights and ought to be elevated from an overlooked to a critical aspect of future modeling efforts.
+
+## Citation
+
+```bibtex
+@ARTICLE{YoonEtAl2023,
+  title    = "Structural model choices regularly overshadow parametric
+              uncertainty in agent-based simulations of household flood risk
+              outcomes",
+  author   = "Yoon, Jim and Wan, Heng and Daniel, Brent and Srikrishnan, Vivek
+              and Judi, David",
+  journal  = {Computers, Environment and Urban Systems},
+  volume   =  103,
+  pages    = "101979",
+  year     =  2023,
+  doi      = "10.1016/j.compenvurbsys.2023.101979"
+}
+```

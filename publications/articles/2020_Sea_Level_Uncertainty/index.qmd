@@ -1,0 +1,65 @@
+---
+title: "Deep uncertainties in sea-level rise and storm surge projections: Implications for coastal flood risk management"
+date: 2020-01-01
+author:
+  - name: Perry C. Oddo
+    orcid: 0000-0003-3061-0304
+  - name: Ben Seiyon Lee
+    orcid: 0000-0003-0658-7458
+    url: https://statistics.gmu.edu/profiles/slee287
+  - name: Gregory G. Garner
+    orcid: 0000-0001-7864-1535
+    url: https://sites.google.com/site/gggarner121
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Patrick M. Reed
+    orcid: 0000-0002-7963-6102
+    url: https://reed.cee.cornell.edu/
+  - name: Chris E. Forest
+    orcid: 0000-0002-2643-0186
+    url: https://www.met.psu.edu/directory/chris-e-forest
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - flood risk
+    - climate risk management
+    - uncertainty quantification
+    - sensitivity analysis
+    - decision-making under uncertainty
+    - sea level rise
+    - storm surge
+url_source: https://doi.org/10.1111/risa.12888
+url_preprint: 
+url_repo: https://github.com/pcoddo/VanDantzig
+journ: "Risk Analysis"
+issue: "40 (1)"
+page: 153-168
+year: 2020
+doi: 10.1371/journal.pone.0178874
+image: featured.jpg
+---
+
+## Links
+
+- [Code Repository](https://github.com/pcoddo/VanDantzig)
+
+## Abstract
+
+Sea levels are rising in many areas around the world, posing risks to coastal communities and infrastructures. Strategies for managing these flood risks present decision challenges that require a combination of geophysical, economic, and infrastructure models. Previous studies have broken important new ground on the considerable tensions between the costs of upgrading infrastructure and the damages that could result from extreme flood events. However, many risk-based adaptation strategies remain silent on certain potentially important uncertainties, as well as the tradeoffs between competing objectives. Here, we implement and improve on a classic decision-analytical model (Van Dantzig 1956) to: (i) capture tradeoffs across conflicting stakeholder objectives, (ii) demonstrate the consequences of structural uncertainties in the sea-level rise and storm surge models, and (iii) identify the parametric uncertainties that most strongly influence each objective using global sensitivity analysis. We find that the flood adaptation model produces potentially myopic solutions when formulated using traditional mean-centric decision theory. Moving from a single-objective problem formulation to one with multiobjective tradeoffs dramatically expands the decision space, and highlights the need for compromise solutions to address stakeholder preferences. We find deep structural uncertainties that have large effects on the model outcome, with the storm surge parameters accounting for the greatest impacts. Global sensitivity analysis effectively identifies important parameter interactions that local methods overlook, and that could have critical implications for flood adaptation strategies.
+
+## Citation
+
+```bibtex
+@ARTICLE{OddoEtAl2017,
+  title    = {Deep uncertainties in sea-level rise and storm surge projections: Implications for coastal flood risk management},
+  author   = "Oddo, Perry C and Lee, Ben S and Garner, Gregory G and Srikrishnan, Vivek and Reed, Patrick M and Forest, Chris E and Keller, Klaus"
+  journal  = {"Risk Analysis"},
+  year     =  2020,
+  volume   = 40,
+  issue    = 1,
+  pages    = 153--168
+  doi      = "10.1111/risa.12888"
+}
+```

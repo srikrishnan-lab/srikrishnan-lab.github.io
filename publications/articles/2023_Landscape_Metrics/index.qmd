@@ -1,0 +1,48 @@
+---
+title: "Landscape metrics regularly outperform other traditionally-used ancillary datasets in dasymetric mapping of population"
+date: 2023-01-01
+author: 
+  - name: Heng Wan
+    orcid: 0000-0002-3747-6964
+  - name: Jim Yoon
+    url: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3295
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Brent Daniel
+    orcid: 0000-0001-7398-6796
+  - name: David Judi
+    orcid: 0000-0003-0989-4525
+    url: https://www.pnnl.gov/people/david-judi
+categories:
+    - population modeling
+    - downscaling
+url_source: https://doi.org/10.1016/j.compenvurbsys.2022.101899
+url_preprint:
+url_repo: 
+journ: "Computers, Environment and Urban Systems"
+issue: 99
+page: 101899
+year: 2023
+doi: 10.1016/j.compenvurbsys.2022.101899
+image: featured.jpg
+---
+
+
+## Abstract
+
+Population downscaling and interpolation methods are required to produce data which correspond to spatial units used in urban planning, demography, and environmental modeling. Population data are typically aggregated at census enumeration units, which can have arbitrary, temporally-evolving boundaries. Previous approaches to imperviousness-based dasymetric mapping ignore cell-level patterning of imperviousness within a spatial unit of prediction, which potentially serve as a strong indicator of population. Landscape metrics derived from imperviousness data offer a promising approach to capture these patterns. In this study, we incorporate landscape metrics derived from impervious cover percentage maps into intelligent dasymetric mapping to downscale population from census tracts to block groups in four states with varying population densities: Connecticut, South Carolina, West Virginia, and New Mexico. We compare the performance of the landscape metrics-based models against two baseline models in all four states across three different time periods. The results show that intelligent dasymetric mapping using landscape metrics generally outperforms the two baseline models. We further compare the performance of landscape metrics as an ancillary source of information for dasymetric mapping against other traditionally-used datasets (e.g., land use, roads, nighttime lights data) in three states (Connecticut, South Carolina, and New Mexico) in 2000. We find that class area, landscape shape index, and number of patches consistently achieve lower error rates than other ancillary datasets in all the three states.
+
+## Citation
+
+```bibtex
+@article{WanEtAl2023,
+  title = "Landscape Metrics Regularly Outperform Other Traditionally-Used Ancillary Datasets in Dasymetric Mapping of Population",
+  author = {Wan, Heng and Yoon, Jim and Srikrishnan, Vivek and Daniel, Brent and Judi, David},
+  year = {2023},
+  journal = {Computers, Environment and Urban Systems},
+  volume = {99},
+  pages = {101899},
+  doi = {10.1016/j.compenvurbsys.2022.101899},
+}
+```

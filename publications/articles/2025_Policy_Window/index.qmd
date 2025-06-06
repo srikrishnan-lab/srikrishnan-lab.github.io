@@ -1,0 +1,117 @@
+---
+title: "Seizing the policy opportunities for health- and equity-improving energy decisions"
+date: 2025-01-01
+author: 
+  - name: Wei Peng
+    orcid: 0000-0002-1980-0759
+    url: https://www.weipengenergy.com/
+  - name: Susan Annenberg
+    url: https://blogs.gwu.edu/sanenberg/
+  - name: John Bistline
+    orcid: 0000-0003-4816-5739
+  - name: Mark Budolfson
+    orcid: 0000-0003-0414-0433
+    url: https://www.budolfson.com
+  - name: Sara M. Constantino
+    orcid: 0000-0001-5533-5885
+    url: https://www.saraconstantino.org/
+  - name: Kelly Crawford
+  - name: Kenneth J. Davis
+    orcid: 0000-0002-1992-8381
+    url: https://www.met.psu.edu/directory/kenneth-j-davis
+  - name: Peter DeCarlo
+    orcid: 0000-0001-6385-7149
+    url: https://decarlolab.com
+  - name: Allen Fawcett
+    orcid: 0000-0002-2980-0402
+    url: https://www.pnnl.gov/people/allen-fawcett
+  - name: Hayden Hashimoto
+    url: https://www.catf.us/experts/hayden-hashimoto/
+  - name: Casey Helgeson
+    orcid: 0000-0001-5333-9954
+    url: https://caseyhelgeson.github.io/
+  - name: Xinyuan Huang
+  - name: Gokul Iyer
+    orcid: 0000-0002-5162-795X
+    url: https://www.pnnl.gov/people/gokul-iyer
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+  - name: Harry Kennard
+    url: https://harrykennard.com/about/
+    orcid: 0000-0002-4542-0768
+  - name: Kathleen M. Kennedy
+    orcid: 0000-0002-7125-4871
+  - name: Robert Laumbach
+    orcid: 0000-0002-4350-3674
+  - name: Vijay S. Limaye
+    orcid: 0000-0003-3118-6912
+    url: https://www.vijaylimaye.com
+  - name: Erin Mayfield
+    orcid: 0000-0001-9843-8905
+    url: https://www.sustainabletransitions.earth
+  - name: James MacFarland
+  - name: Michelle Meyer
+    url: https://theicct.org/team-member/michelle-meyer/
+  - name: Paul Miller
+  - name: Andrew Place
+  - name: Nicholas Roy
+    orcid: 0000-0001-9307-4196
+    url: https://www.rff.org/people/nicholas-roy/
+  - name: Christine Schell
+  - name: Noah Scovronick
+    orcid: 0000-0003-1410-3337
+    url: https://sph.emory.edu/faculty/profile/index.php?FID=noah-scovronick-10015
+  - name: Steven J. Smith
+    url: https://www.pnnl.gov/people/steven-j-smith
+    orcid: 0000-0003-3248-5607
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Donna Voorhees
+    url: https://www.healtheffects.org/about/staff/donna-j-vorhees
+  - name: Yuanyu Xie
+    url: https://yuanyux.scholar.princeton.edu
+    orcid: 0000-0001-5966-0482
+categories:
+    - climate change mitigation
+    - climate risk management
+    - health impacts
+    - climate policy
+url_source: https://doi.org/10.1016/j.oneear.2024.12.007
+url_preprint:
+url_repo: 
+journ: "One Earth"
+issue: "8 (2)"
+page: 101171
+year: 2025
+doi: 10.1016/j.oneear.2024.12.007
+---
+
+
+## Abstract
+
+The Inflation Reduction Act (IRA), together with other US federal policies, offers a unique window of opportunity to promote health and equity goals through clean energy investments. Seizing these near-term opportunities to realize sizable synergies requires strategic actions from federal, state, and local actors.
+
+## Citation
+
+```bibtex
+@ARTICLE{Peng2025-lj,
+  title = {{Seizing the policy window for health- and equity-improving energy
+  decisions}},
+  author = {Peng, Wei and Anenberg, Susan and Bistline, John and Budolfson, Mark
+  and Constantino, Sara and Crawford, Kelly and Davis, Kenneth and DeCarlo,
+  Peter and Fawcett, Allen and Hashimoto, Hayden and Helgeson, Casey and Huang,
+  Xinyuan and Iyer, Gokul and Keller, Klaus and Kennard, Harry and Kennedy,
+  Kathleen and Laumbach, Robert and Limaye, Vijay and Mayfield, Erin and
+  McFarland, James and Meyer, Michelle and Miller, Paul and Place, Andrew and
+  Roy, Nicholas and Schell, Christine and Scovronick, Noah and Smith, Steven and
+  Srikrishnan, Vivek and Vorhees, Donna and Xie, Yuanyu},
+  journaltitle = {One Earth},
+  volume = 8,
+  issue = 2,
+  pages = 101171,
+  date = {2025},
+  doi = {10.1016/j.oneear.2024.12.007}
+}
+```

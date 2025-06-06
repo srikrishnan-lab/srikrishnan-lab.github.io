@@ -27,9 +27,23 @@ about:
     - icon: github
       text: GitHub 
       href: http://github.com/luo-yifan
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
 ---
 
 <hr>
+
+## About
 
 :::{#about}
 
@@ -41,4 +55,9 @@ Yifan Luo is a Ph.D. student in Civil and Environmental Engineering at Cornell. 
 
 {{< meta education >}}
 
-<br>
+<p>
+
+## Group Publications
+
+:::{#pubs}
+:::

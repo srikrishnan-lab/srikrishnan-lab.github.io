@@ -18,9 +18,7 @@
         </div>
         <div class="body">
             <!-- <a href="<%- item.path %>"> -->
-            <div class="no-anchor listing-pub-title listing-title"><%= item.title %></div>
-            <!-- </a> -->
-            <!-- <a href="<%- item.path %>"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="<%- item.path %>"><%= item.title %></a></div>
                 
                 <div class="listing-pub-author listing-author">
                     <%= item.author %><br> 
@@ -48,17 +46,13 @@
                 -->
         </div>
         <div class="metadata">
-            <!-- <a href="<%- item.path %>"> -->
-                <div class="listing-pub-number">
-                    <%= item.pub_number %><br> 
-                </div>
 
             <!-- </a> -->
             <% if (item.url_source) { %>
             <div class="listing-pub-url">
 
                     <a href="<%- item.url_source %>">
-                    <p style="color:#b31b1b;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    <p style="color:#b31b1b;"><i class="fa-solid fa-file"></i>&nbsp;published <i class="bi bi-box-arrow-up-right"></i></p>
                     </a>
                 </div>
                     <% } %>
@@ -67,7 +61,7 @@
             <div class="listing-pub-url">
 
                     <a href="<%- item.url_preprint %>">
-                    <p style="color:#b31b1b;">preprint URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    <p style="color:#b31b1b;"><i class="fa-regular fa-file"></i>&nbsp;preprint <i class="bi bi-box-arrow-up-right"></i></p>
                     </a>
                 </div>
                     <% } %>
@@ -76,7 +70,7 @@
             <div class="listing-pub-url">
     
                     <a href="<%- item.url_repo %>">
-                    <p style="color:#b31b1b;">repository <i class="bi bi-box-arrow-up-right"></i></p>
+                    <p style="color:#b31b1b;"><i class="fa-solid fa-laptop-code"></i>&nbsp;repository <i class="bi bi-box-arrow-up-right"></i></p>
                     </a>
             </div>
             <% } %>

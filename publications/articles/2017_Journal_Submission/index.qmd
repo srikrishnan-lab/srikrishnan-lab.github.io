@@ -1,0 +1,53 @@
+---
+title: "A multi-objective decision-making approach to the journal submission problem"
+date: 2017-01-01
+author: 
+  - name: Tony E. Wong
+    orcid: 0000-0002-7304-3883
+    url: https://tonyewong.github.io
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: David Hadka
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - deep uncertainty
+    - multi-objective decision-making
+url_source: https://doi.org/10.1371/journal.pone.0178874
+url_preprint: 
+url_repo: 
+journ: "PLoS One"
+issue: "12 (6)"
+page: e0178874
+year: 2017
+doi: 10.1371/journal.pone.0178874
+image: featured.png
+---
+
+## Abstract
+
+When researchers complete a manuscript, they need to choose a journal to which they will submit the study. This decision requires navigating trade-offs between multiple objectives. One objective is to share the new knowledge as widely as possible. Citation counts can serve as a proxy to quantify this objective. A second objective is to minimize the time commitment put into sharing the research, which may be estimated by the total time from initial submission to final decision. A third objective is
+to minimize the number of rejections and resubmissions. Thus, researchers often consider the trade-offs between the objectives of (i) maximizing citations, (ii) minimizing time-to-decision, and (iii) minimizing the number of resubmissions. To complicate matters further, this is a decision with multiple, potentially conflicting, decision-maker rationalities. Co-authors might have different preferences, for example about publishing fast versus maximizing citations. These diverging preferences can lead to
+conflicting trade-offs between objectives. Here, we apply a multi-objective decision analytical framework to identify the Pareto-front between these objectives and determine the set of journal submission pathways that balance these objectives for three stages of a researcher's career. We find multiple strategies that researchers might pursue, depending on how they
+value minimizing risk and effort relative to maximizing citations. The sequences that maximize expected citations within each strategy are generally similar, regardless of time horizon. We find that the ``conditional impact factor''-impact factor times acceptance rate-is a suitable heuristic method for ranking journals, to strike a balance between minimizing effort objectives and maximizing citation count. Finally, we examine potential co-author tension resulting from differing rationalities by mapping out each researcher's preferred Pareto front and identifying compromise submission strategies. The explicit representation of trade-offs, especially when multiple decision-makers (co-authors) have different preferences, facilitates negotiations and can support the decision process.
+
+## Meme
+
+![Courtesy of @dmdu_memes](meme.webp){width=40%}
+
+## Citation
+
+```bibtex
+@ARTICLE{Wong2017-oa,
+  title    = "A multi-objective decision-making approach to the journal submission problem",
+  author   = "Wong, Tony E and Srikrishnan, Vivek and Hadka, David and Keller, Klaus",
+  journal  = {PLoS One},
+  volume   =  12,
+  number   =  6,
+  pages    = "e0178874",
+  year     =  2017,
+  doi      = "10.1371/journal.pone.0178874",
+}
+```

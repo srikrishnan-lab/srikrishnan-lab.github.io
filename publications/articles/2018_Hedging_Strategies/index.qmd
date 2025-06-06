@@ -1,0 +1,46 @@
+---
+title: "Hedging strategies: Electricity investment decisions under policy uncertainty"
+date: 2018-01-01
+author:
+  - name: Jennifer F. Morris
+    orcid: 0000-0001-7675-558X
+    url: https://globalchange.mit.edu/about-us/personnel/morris-jennifer
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Mort D. Webster
+    url: https://www.eme.psu.edu/directory/mort-d-webster
+    orcid: 0000-0003-3583-1122
+  - name: John M. Reilly
+    orcid: 0000-0001-5595-0968
+    url: https://mitsloan.mit.edu/faculty/directory/john-m-reilly
+categories:
+    - decision-making under uncertainty
+    - electric power systems
+url_source: https://doi.org/10.5547/01956574.39.1.jmor
+url_preprint: 
+url_repo: 
+journ: "The Energy Journal"
+issue: "39 (1)"
+page: 101-122
+year: 2018
+doi: 10.5547/01956574.39.1.jmor
+---
+
+
+## Abstract
+
+Given uncertainty in long-term carbon reduction goals, how much non-carbon generation should be developed in the near-term? This research investigates the optimal balance between the risk of overinvesting in non-carbon sources that are ultimately not needed and the risk of underinvesting in non-carbon sources and subsequently needing to reduce carbon emissions dramatically. We employ a novel framework that incorporates a computable general equilibrium (CGE) model of the U.S. into a two-stage stochastic approximate dynamic program (ADP) focused on decisions in the electric power sector. We solve the model using an ADP algorithm that is computationally tractable while exploring the decisions and sampling the uncertain carbon limits from continuous distributions. The results of the model demonstrate that an optimal hedge is in the direction of more non-carbon investment in the near-term, in the range of 20-30% of new generation. We also demonstrate that the optimal share of non-carbon generation is increasing in the variance of the uncertainty about the long-term carbon targets, and that with greater uncertainty in the future policy regime, a balanced portfolio of non-carbon, natural gas, and coal generation is desirable.
+
+## Citation
+
+```bibtex
+@ARTICLE{MorrisEtAl2018,
+  title     = {Hedging strategies: Electricity investment decisions under policy uncertainty},
+  author    = "Morris, Jennifer F and Srikrishnan, Vivek and Webster, Mort Dand Reilly, John M",
+  journal   = {The Energy Journal},
+  volume    =  39,
+  number    =  1,
+  year      =  2018,
+  doi       = "10.5547/01956574.39.1.jmor"
+}```

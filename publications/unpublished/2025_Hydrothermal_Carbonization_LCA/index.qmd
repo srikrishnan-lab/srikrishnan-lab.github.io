@@ -1,0 +1,25 @@
+---
+title: "Environmental trade-offs in hydrothermal carbonization process selection determined via attributional life cycle assessment and multi-criteria decision making"
+date: 2025-01-01
+author: 
+  - name: Demola Ogunnaike
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Jillian L. Goldfarb
+    orcid: 0000-0001-8682-9714
+    url: https://blogs.cornell.edu/goldfarb/
+categories:
+    - life-cycle assessment
+    - climate mitigation
+    - multi-objective decision-making
+url_source: 
+url_preprint:
+url_repo: https://github.com/EME2-Lab/HTC-lab-exploratory
+journ: "In Revision"
+year: 2025
+---
+
+## Links
+
+* [Code Repository](https://github.com/EME2-Lab/HTC-lab-exploratory)
