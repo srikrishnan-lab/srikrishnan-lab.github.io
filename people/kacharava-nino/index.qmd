@@ -22,7 +22,7 @@ listing:
   contents: 
     - "../../../publications/**/*.qmd"
     - "!../../../publications/_template/"
-  sort: "pub_number desc"
+  sort: "year desc"
   # sort-ui: true
   filter-ui: true
   include:

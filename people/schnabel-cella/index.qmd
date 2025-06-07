@@ -32,7 +32,7 @@ listing:
   contents: 
     - "../../../publications/**/*.qmd"
     - "!../../../publications/_template/"
-  sort: "pub_number desc"
+  sort: "year desc"
   # sort-ui: true
   filter-ui: true
   include:
@@ -54,6 +54,8 @@ Cella Schnabel is an undergraduate student in Civil and Environmental Engineerin
 
 
 {{< meta education >}}
+
+:::
 
 <p>
 
