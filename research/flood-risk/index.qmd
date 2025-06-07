@@ -2,8 +2,22 @@
 title: Drivers of Flood Risk in Coupled Natural-Built-Human Systems
 alias: &ALIAS flood-risk
 image: FEMA-houseelevation.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs 
+  contents: 
+    - "../../../publications/articles/**/*.qmd"
+    - "../../../publications/unpublished/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "year desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    categories: "*flood*"
+  fields: [publication, title, categories, image, date, author]
 ---
 
 ![](FEMA-houseelevation.jpg){width=50% fig-align="center"}
 
 One near-to-medium-term effect of climate change is an increase in flooding hazard due to sea-level rise and changes in storm and precipitation patterns. Managing flooding hazards is complex due to feedbacks resulting from built infrastructure and human-system adaptations which can ameliorate or exacerbate the corresponding risks. We work on understanding how these feedbacks, and their associated uncertainties, influence both flooding risks and the efficacy of planned risk management interventions, including both "hard" infrastructure such as levees and "soft" adaptations such as zoning changes or relocation.
+

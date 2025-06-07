@@ -2,8 +2,26 @@
 title: Climate Uncertainties & Risks
 alias: &ALIAS climate-risks
 image: keller_fig1.gif
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs 
+  contents: 
+    - "../../../publications/articles/**/*.qmd"
+    - "../../../publications/unpublished/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "year desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    categories: "climate*"
+  fields: [publication, title, categories, image, date, author]
 ---
 
 ![](keller_fig1.gif){width=50% fig-align="center"}
 
 Future climate risks are challenging to quantify due to their dependence on uncertain greenhouse gas emissions and Earth-system dynamics. We work on characterizing how risks such as sea-level rise and water shortages respond to socioeconomic changes (such as emissions pathways and economic growth) and their interactions with Earth-system uncertainties.
+
+## Selected Publications
+
+:::{#pubs}
+:::
