@@ -11,6 +11,10 @@ name: Render and Publish
 
 jobs: 
   build-deploy:
+    permissions: 
+      contents: read
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
     steps:       
       - name: Check out repository
@@ -25,5 +29,5 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
