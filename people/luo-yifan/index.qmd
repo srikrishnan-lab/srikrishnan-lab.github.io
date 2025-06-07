@@ -55,6 +55,8 @@ Yifan Luo is a Ph.D. student in Civil and Environmental Engineering at Cornell. 
 
 {{< meta education >}}
 
+:::
+
 <p>
 
 ## Group Publications

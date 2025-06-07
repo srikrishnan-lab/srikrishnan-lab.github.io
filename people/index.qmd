@@ -62,7 +62,6 @@ page-layout: full
 ::: {#gradstudent}
 :::
 
-:::
 
 ## Undergraduate Students
 
