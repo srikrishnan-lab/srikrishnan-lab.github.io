@@ -2,7 +2,7 @@ project:
   type: website
   render:
     - "*.qmd"
-    - "!publicaitons/_template"
+    - "!publications/_template/"
     - "!people/_template/"
 
 pagetitle: "{{< meta title >}} | Srikrishnan Group"

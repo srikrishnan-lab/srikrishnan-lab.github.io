@@ -1,0 +1,52 @@
+---
+# Use this template to create a folder with the name YYYY_Short_Name in the appropriate folder (articles/, conferences/, etc).
+# The folder should have an index.qmd file (this one), a selected
+# figure, and maybe a meme.
+# Also, delete these comments when you make a "real" entry.
+title: ""
+date: YYYY-01-01 # we only care about the year
+author: # repeat for each other; make sure to respect indentation!
+    - name: First Author
+      orcid: 0000-0000-0000-0000 # if available for this author
+      url: https://website.web # if available for this author
+# categories for sorting/filtering; try to use but do not feel limited to 
+# ones already on the site
+categories: 
+    - category 1
+    - category 2
+url_source: # published article URL
+url_preprint: # preprint URL; add this ASAP
+url_repo: # repository URL; add this ASAP
+journ: # if not published yet, reflect status e.g. "Submitted" or "Under Review".
+issue: "5 (1)" # only if published; use issue # or "issue (volume)"
+page: # only if published
+doi: # if you have a DOI for the preprint (e.g. from OSF) or the pub
+year: YYYY
+image: featured.png # pick a key figure for the preview
+---
+
+## Links
+
+<!---
+Delete link entries as inappropriate, e.g. if you don't have a data repository, or add more as useful.
+-->
+- [Preprint](link/to/preprint)
+- [Code Repository](link/to/repository)
+- [Data Repository](link/to/repository)
+
+## Meme
+
+<!---
+If you have a meme for your publication...have fun!
+-->
+![](meme.png)
+
+## Citation
+
+<!---
+Include the bibtex data for your pub; this will make it easy for others to cite your paper.
+-->
+
+```bibtex
+
+```

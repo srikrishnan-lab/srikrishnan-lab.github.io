@@ -1,4 +1,5 @@
 ---
+## Put this template in a folder lastname-firstname and edit fields. You can remove anything as not needed.
 title: &TITLE Vivek Srikrishnan
 last: Srikrishnan
 first: Vivek
@@ -31,9 +32,23 @@ about:
     - icon: github
       text: GitHub 
       href: https://github.com/vsrikrish
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
 ---
 
 <hr>
+
+## About
 
 :::{#about}
 
@@ -42,7 +57,18 @@ Vivek Srikrishnan is an Assistant Professor in the Department of Biological & En
 
 ## Education
 
+<!--- No need to add anything new here, it will be auto-populated from the education meta-data --->
 
 {{< meta education >}}
 
-<br>
+:::
+
+<p>
+
+<!--- No need to add anything new here, it will be auto-populated from the publication list --->
+
+## Group Publications
+
+:::{#pubs}
+:::
+
