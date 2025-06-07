@@ -8,7 +8,7 @@
 
 <meta name="author" content="Vivek Srikrishnan">
 
-<title>Climate Impacts on Power System Reliability | Srikrishnan Group – Srikrishnan Group</title>
+<title>Climate and Power Systems | Srikrishnan Group – Srikrishnan Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../assets/logos/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -70,10 +72,68 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-resources","listing-_quarto-vars","listing-language","listing-title","listing-date","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-url_repo","listing-journ","listing-issue","listing-page","listing-year","listing-doi","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta name="twitter:title" content="Climate Impacts on Power System Reliability | Srikrishnan Group">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta name="twitter:title" content="Climate and Power Systems | Srikrishnan Group">
 <meta name="twitter:description" content="The Srikrishnan Research Group studies how to manage climate and environmental risks faced by complex, coupled natural-human systems.">
 <meta name="twitter:image" content="https://viveks.bee.cornell.edu/research/energy-climate/transmission.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -139,15 +199,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#selected-publications" id="toc-selected-publications" class="nav-link active" data-scroll-target="#selected-publications">Selected Publications</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Climate Impacts on Power System Reliability</h1>
+<h1 class="title">Climate and Power Systems</h1>
 </div>
 
 
@@ -170,8 +236,230 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>The relationship between the electric power system and environmental change is becoming more complex as energy systems continue to decarbonize and the broader economy is electrified. Future changes to environmental risks such as heat waves and flooding can reduce grid reliability while increasing demand. In addition to the natural variability of solar and wind resources, hydroclimatic variability may result in a weakening of hydropower as a zero-emissions generation source over decadal time scales. And California has seen blackouts resulting from attempts to manage wildfire risks by power utilities. We investigate the impact of these mechanisms under deep climate uncertainty for today’s decisions about energy system infrastructure investments. We quantify how climate variability and future climate changes impact power system reliability to understand how the power grid can be hardened to reduce outages.</p>
+<section id="selected-publications" class="level2">
+<h2 class="anchored" data-anchor-id="selected-publications">Selected Publications</h2>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+    
+    
+    <div class="quarto-post image-right" data-index="0" data-categories="ZWxlY3RyaWMlMjBwb3dlciUyMHN5c3RlbXMlMkNwb3dlciUyMGdyaWQlMjByZWxpYWJpbGl0eSUyQ2NsaW1hdGUlMjB2YXJpYWJpbGl0eQ==" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1749330020250" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
+        <div class="thumbnail">
+            <!-- <a href="/publications/unpublished/2025_Zero_Carbon_Grid/index.qmd"> -->
+
+                <p>
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/unpublished/2025_Zero_Carbon_Grid/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../../publications/unpublished/2025_Zero_Carbon_Grid/index.html">Heterogeneous vulnerability of zero-carbon power grids under climate-technological changes</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    M. Vivienne Liu, Vivek Srikrishnan, Elnaz Kabir, Scott Steinschneider, C. Lindsay Anderson<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Under Review</i> (2025)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('electric power systems'); return false;">electric power systems</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('power grid reliability'); return false;">power grid reliability</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('climate variability'); return false;">climate variability</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://arxiv.org/abs/2307.15079">
+                    <p style="color:#b31b1b;"><i class="fa-regular fa-file"></i>&nbsp;preprint <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+            <div class="listing-pub-url">
+    
+                    <a href="https://github.com/AndersonEnergyLab-Cornell/ny-clcpa2050">
+                    <p style="color:#b31b1b;"><i class="fa-solid fa-laptop-code"></i>&nbsp;repository <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+            </div>
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="1" data-categories="ZWxlY3RyaWMlMjBwb3dlciUyMHN5c3RlbXMlMkNwb3dlciUyMGdyaWQlMjByZWxpYWJpbGl0eSUyQ2NsaW1hdGUlMjB2YXJpYWJpbGl0eQ==" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1749330020244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2024_Electricity_Prices/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Quantifying the impact of multi-scale climate variability on electricity prices in a renewable-dominated power grid" src="../../publications/articles/2024_Electricity_Prices/featured.jpg" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2024_Electricity_Prices/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../../publications/articles/2024_Electricity_Prices/index.html">Quantifying the impact of multi-scale climate variability on electricity prices in a renewable-dominated power grid</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Elnaz Kabir, Vivek Srikrishnan, M. Vivienne Liu, Scott Steinschneider, C. Lindsay Anderson<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Renewable Energy</i>, <b>223</b>, 120013 (2024)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('electric power systems'); return false;">electric power systems</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('power grid reliability'); return false;">power grid reliability</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('climate variability'); return false;">climate variability</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1016/j.renene.2024.120013">
+                    <p style="color:#b31b1b;"><i class="fa-solid fa-file"></i>&nbsp;published <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="2" data-categories="ZGVjaXNpb24tbWFraW5nJTIwdW5kZXIlMjB1bmNlcnRhaW50eSUyQ2VsZWN0cmljJTIwcG93ZXIlMjBzeXN0ZW1z" data-listing-date-sort="1514764800000" data-listing-file-modified-sort="1749330020221" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2018_Hedging_Strategies/index.qmd"> -->
+
+                <p>
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2018_Hedging_Strategies/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../../publications/articles/2018_Hedging_Strategies/index.html">Hedging strategies: Electricity investment decisions under policy uncertainty</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Jennifer F. Morris, Vivek Srikrishnan, Mort D. Webster, John M. Reilly<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>The Energy Journal</i>, <b>39 (1)</b>, 101-122 (2018)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('decision-making under uncertainty'); return false;">decision-making under uncertainty</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('electric power systems'); return false;">electric power systems</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.5547/01956574.39.1.jmor">
+                    <p style="color:#b31b1b;"><i class="fa-solid fa-file"></i>&nbsp;published <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+            
+
+        </div>
+    </div>
+    
+    
+    </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
