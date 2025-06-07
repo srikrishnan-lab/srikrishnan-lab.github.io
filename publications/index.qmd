@@ -7,6 +7,7 @@ listing:
     sort: "year desc"
     page-size: 30
     filter-ui: true
+    sort-ui: true
     fields: [image, title, publication, author, url_source]
     categories: true
   - id: conferences
@@ -15,6 +16,7 @@ listing:
     sort: "year desc"
     page-size: 30
     filter-ui: true
+    sort-ui: true
     fields: [image, title, publication, author, url_source]
     categories: true  
   - id: reports
@@ -23,6 +25,7 @@ listing:
     sort: "year desc"
     page-size: 30
     filter-ui: true
+    sort-ui: true
     fields: [image, title, publication, author, url_source]
     categories: true  
   - id: books
@@ -31,6 +34,7 @@ listing:
     sort: "year desc"
     page-size: 30
     filter-ui: true
+    sort-ui: true
     fields: [image, title, publication, author, url_source]
     categories: true  
   - id: unpublished
@@ -39,6 +43,7 @@ listing:
     sort: "year desc"
     page-size: 30
     filter-ui: true
+    sort-ui: true
     fields: [image, title, publication, author, url_source]
     categories: true  
 page-layout: full
