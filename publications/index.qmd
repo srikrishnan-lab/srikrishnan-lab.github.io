@@ -46,6 +46,15 @@ listing:
     sort-ui: true
     fields: [image, title, publication, author, url_source]
     categories: true  
+  - id: theses
+    template: ../_ejs/publications.ejs
+    contents: theses/*/index.qmd
+    sort: "year desc"
+    page-size: 30
+    filter-ui: true
+    sort-ui: true
+    fields: [image, title, publication, author, url_source]
+    categories: true  
 page-layout: full
 ---
 
@@ -80,3 +89,9 @@ page-layout: full
 
 ::::
 
+## Theses
+
+:::{#theses}
+:::
+
+::::

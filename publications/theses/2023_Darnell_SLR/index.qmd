@@ -1,0 +1,39 @@
+---
+title: "Uncertainty in Emissions Pathways and Earth System Dynamics: Implications for Global Mean Sea Level Rise"
+date: 2023-08-01
+author: 
+  - name: Chloe Darnell
+    orcid: 0000-0003-4390-2656
+categories:
+    - sea-level rise
+    - uncertainty decomposition
+    - climate impacts
+    - climate risk management
+url_source: https://doi.org/10.7298/3dm5-j170
+url_preprint:
+url_repo: 
+journ: "M.S. Thesis, Cornell University"
+year: 2025
+doi: 10.7298/3dm5-j170
+---
+
+
+## Abstract
+
+Global mean sea level rise (GMSLR) poses many climate risks, such as coastal flooding and erosion. Managing the risks associated with GMSLR can involve a balance between mitigation and adaptation, but the near-term effectiveness of CO2 emissions reductions is limited since GMSLR responds to emissions on centennial to millennial timescales. An improved understanding of relevant human-Earth interactions can provide insight into the risks associated with GMSLR and how they evolve over time. Previous studies on the interactions between uncertain emissions pathways and uncertainties in the Earth system response that result in GMSLR have been restricted to a small number of pre-defined scenarios. Here, we use a large ensemble of CO2 emissions trajectories to force a calibrated Earth system model, which simulates warming and sea level rise. Using this framework, we generate projections for radiative forcing, temperature, and GMSLR under different emissions pathways, as well as relative contributions from each component of GMSLR. We then conduct a global sensitivity analysis over uncertain emissions pathways, the carbon cycle, and climate and ice sheet dynamics. To analyze how different decarbonization strategies alter GMSLR outcomes and uncertainties, we categorize the results into different groups by emissions peaking time, which serve as a proxy for the level of mitigation ambition. From the sensitivity analysis, we find that uncertainties in emissions drive the most variance in GMSLR in the medium-to-long-term. Prior to 2070, Earth system dynamics, particularly those related to the Antarctic Ice Sheet, have the most influence on GMSLR, but between 2070 and 2100, a transition occurs as variability in emissions begins to heavily control GMSLR outcomes. We also find that GMSLR outcomes are likely to be sufficiently high to necessitate adaption regardless of when CO2 emissions peak, and even rapid mitigation cannot fully manage the risks posed by sea level rise. For the relative contributions from each component of GMSLR, there are differences depending on peaking group and timescale. Under lower-emissions pathways in the near-term, thermal expansion plays a larger role in GMSLR, but in the longer-term, the Antarctic Ice Sheet and Greenland Ice Sheet contributions dominate. Under higher-emissions pathways, the ice sheets dominate in all time periods. Both the Antarctic and Greenland Ice Sheets are also subject to the most uncertainty in future projections. Due to the large potential of the ice sheets to contribute substantially to GMSLR outcomes, characterizing the uncertainties associated with their melting is crucial to better understand future climate risks. The representation of ice sheet melting dynamics plays an important role in projecting GMSLR, and this analysis highlights the need for future studies to consider whether the simplistic melting dynamics modeled for the Greenland Ice Sheet are a suitable approximation of real-world outcomes.
+
+
+## Citation
+
+```bibtex
+@mastersthesis{Darnell2025,
+  title = {Uncertainty in Emissions Pathways and Earth System Dynamics: Implications for Global Mean Sea Level Rise},
+  author = {Darnell, Chloe},
+  school = {Cornell University},
+  address = {Ithaca, NY, USA},
+  date = {2025},
+  mon = {Aug},
+  doi = {10.7298/3dm5-j170},
+  type = {M.S. Thesis}
+}
+```

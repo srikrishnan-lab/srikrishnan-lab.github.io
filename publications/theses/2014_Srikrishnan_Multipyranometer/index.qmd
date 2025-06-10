@@ -1,0 +1,34 @@
+---
+title: "Estimation of direct normal irradiance with multi-pyranometer arrays and artificial neural networks"
+date: 2014-01-01
+author: 
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-4390-2656
+categories:
+    - solar resource assessment
+    - machine learning
+url_source: https://etda.libraries.psu.edu/catalog/26267
+url_preprint:
+url_repo: 
+journ: "M.S. Thesis, Pennsylvania State University"
+year: 2014
+---
+
+
+## Abstract
+
+Accurate Direct Normal Irradiance measurements are important for systems that track the sun and for calculating global radiation incident on a tilted surface. One technique for measuring Direct Normal Irradiance is to use a Multi-Pyranometer Array, which uses multiple low-cost sensors rather than a single higher-cost system. However, the methods used to estimate Direct Normal Irradiance from a Multi-Pyranometer Array can be computationally intensive and rely on models developed for clear-sky conditions, rendering them less useful for real sky conditions. This thesis studies the utility of using Artificial Neural Networks as the method for estimating Direct Normal Irradiance from multiple pyranometer measurements. This has the additional benefit of being a versatile technique that could also be used with the same instrumentation to estimate other quantities of interest, such as albedo or aerosol optical depth, while also being relatively computationally efficient, or as a diagnostic tool for other systems which measure or rely on these quantities. Multiple sensor configurations are studied along with multiple network topologies. It is observed that a relatively simple network suffices for the single-site data used in this study, and the resulting estimator is found to be competitive overall with other methods of estimating Direct Normal Irradiance from pyranometer measurements.
+
+## Citation
+
+```bibtex
+@mastersthesis{Srikrishnan2014,
+  title = {Uncertainty in Emissions Pathways and Earth System Dynamics: Implications for Global Mean Sea Level Rise},
+  author = {Srikrishnan, Vivek},
+  school = {Pennsylvania State University},
+  address = {State College, PA, USA},
+  date = {2014},
+  mon = {Aug},
+  type = {M.S. Thesis}
+}
+```

@@ -1,0 +1,33 @@
+---
+title: "Markov-Switching Models for Probabilistic Solar Resource Assessment and Forecasting"
+date: 2018-01-01
+author: 
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-4390-2656
+categories:
+    - solar resource assessment
+url_source: https://etda.libraries.psu.edu/catalog/14991vxs914
+url_preprint:
+url_repo: 
+journ: "Ph.D. Thesis, Pennsylvania State University"
+year: 2018
+---
+
+
+## Abstract
+
+This work proposes and analyzes a Markov-switching autoregression model structure for joint probabilistic modeling of the beam and global components of solar irradiance, which are important to simulate the performance of a variety of solar energy conversion devices, including solar photovoltaics. The ability of this model to assess the hourly solar resource is tested, using both a version of the model that is calibrated using all-year data and a version of the model that combines individual seasonally-calibrated models. While this simple model does not fully capture the behavior of the solar resource, an analysis of the posterior predictive distribution reveals strategies for improvement. A version of this model is also used to forecast both irradiance components for a 15-minute lead time while assimilating geostationary satellite data into an inhomogeneous transition probability specification. The inhomogeneous specifications produce sharper predictive distributions than an analogous homogeneous model, but all have similar skill relative to a smart persistence forecast.
+
+## Citation
+
+```bibtex
+@phdthesis{Srikrishnan2018,
+  title = {Markov-Switching Models for Probabilistic Solar Resource Assessment and Forecasting},
+  author = {Srikrishnan, Vivek},
+  school = {Pennsylvania State University},
+  address = {State College, PA, USA},
+  date = {2018},
+  mon = {Jan},
+  type = {Ph.D. Thesis}
+}
+```

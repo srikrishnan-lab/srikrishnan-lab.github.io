@@ -20,6 +20,7 @@ categories:
     - sea-level rise
     - uncertainty decomposition
     - climate impacts
+    - climate risk management
 url_source: 
 url_preprint: https://osf.io/j47ts/
 url_repo: https://github.com/srikrishnan-lab/Darnell_et_al_2024
