@@ -87,7 +87,6 @@ page-layout: full
 :::{#unpublished}
 :::
 
-::::
 
 ## Theses
 
