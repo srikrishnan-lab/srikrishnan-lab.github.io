@@ -1,129 +1,24 @@
 [
   {
-    "objectID": "teaching/sp25-bee4850/index.html",
-    "href": "teaching/sp25-bee4850/index.html",
-    "title": "Environmental Data Analysis & Simulation",
-    "section": "",
-    "text": "Semester: Spring 2025\nCourse Number: BEE 4850/5850"
-  },
-  {
-    "objectID": "teaching/sp25-bee4850/index.html#course-description",
-    "href": "teaching/sp25-bee4850/index.html#course-description",
-    "title": "Environmental Data Analysis & Simulation",
-    "section": "Course Description",
-    "text": "Course Description\nSimulations from numerical and statistical models are a key tool used to quantify and represent our understanding of many different environmental systems, including but not limited to the climate, sea levels, air pollution, and the electric power system. Data analysis of environmental observations and model simulations is an integral part of developing and evaluating models used to 1) test our assumptions about environmental system dynamics; 2) develop new insights into environmental processes; and 3) project future environmental conditions and outcomes. This course will provide an overview of the use of generative probability models to understand data and examine hypotheses about data-generating processes. The goal is to provide students with a framework and an initial toolkit of methods for data analysis and simulation. Students will actively analyze and use real data from a variety of environmental systems. In particular, over the course of the semester, we will:\n\nconduct exploratory analyses of environmental datasets;\ndiscuss best practices for and complexities of data visualization;\ncalibrate statistical and process-based numerical models using environmental data;\nuse simulations from calibrated models to identify key sources of uncertainty and model error;\nassess model fit and adequacy through predictive ability."
-  },
-  {
-    "objectID": "teaching/sp25-bee4850/index.html#more-information",
-    "href": "teaching/sp25-bee4850/index.html#more-information",
-    "title": "Environmental Data Analysis & Simulation",
-    "section": "More Information",
-    "text": "More Information\n\nThis course uses the Julia programming language.\nSee the course website and GitHub repository."
-  },
-  {
-    "objectID": "teaching/sp24-bee2000/index.html",
-    "href": "teaching/sp24-bee2000/index.html",
-    "title": "Perspectives on the Climate Change Challenge",
-    "section": "",
-    "text": "Semester: Spring 2024\nCourse Number: BEE 2000"
-  },
-  {
-    "objectID": "teaching/sp24-bee2000/index.html#course-description",
-    "href": "teaching/sp24-bee2000/index.html#course-description",
-    "title": "Perspectives on the Climate Change Challenge",
-    "section": "Course Description",
-    "text": "Course Description\nThis university-wide seminar series provides critically important perspectives on the grand challenge of climate change. Speakers from Cornell University and other institutions will cover a range of topics including the science of climate change, implications for ecosystems, oceans, forests, agriculture and communities, the important ethical, philosophical and legal insights on the issue, and provide thoughts on societal responses through international mechanisms, economic drivers and communication tools. This seminar series counts towards the requirements of the climate change minor and the ESS minor and major."
-  },
-  {
-    "objectID": "teaching/sp24-bee2000/index.html#more-information",
-    "href": "teaching/sp24-bee2000/index.html#more-information",
-    "title": "Perspectives on the Climate Change Challenge",
-    "section": "More Information",
-    "text": "More Information\n\nThis seminar was co-organized with Profs. Christine Goodale, Angeline Pendergrass, and Jeremy Wallace."
-  },
-  {
     "objectID": "teaching/index.html",
     "href": "teaching/index.html",
     "title": "Teaching",
     "section": "",
-    "text": "I believe in creating open-source teaching materials with an emphasis on reproducibility and strive for my course materials to be high-quality and accessible. As a result, all materials for my core courses are publically available online with an open source license (either an MIT license for code or a Creative Commons license for educational content). If you have any questions or suggestions on this content, please email me or raise an issue on the associated GitHub repository."
+    "text": "I believe in creating open-source teaching materials with an emphasis on reproducibility and strive for my course materials to be high-quality and accessible. As a result, all materials for my core courses are publically available online with an open source license (typically a Creative Commons BY-NC-SA 4.0 license). If you have any questions or suggestions on this content, please email me or raise an issue on the associated GitHub repository."
   },
   {
     "objectID": "teaching/index.html#teaching-materials-philosophy",
     "href": "teaching/index.html#teaching-materials-philosophy",
     "title": "Teaching",
     "section": "",
-    "text": "I believe in creating open-source teaching materials with an emphasis on reproducibility and strive for my course materials to be high-quality and accessible. As a result, all materials for my core courses are publically available online with an open source license (either an MIT license for code or a Creative Commons license for educational content). If you have any questions or suggestions on this content, please email me or raise an issue on the associated GitHub repository."
+    "text": "I believe in creating open-source teaching materials with an emphasis on reproducibility and strive for my course materials to be high-quality and accessible. As a result, all materials for my core courses are publically available online with an open source license (typically a Creative Commons BY-NC-SA 4.0 license). If you have any questions or suggestions on this content, please email me or raise an issue on the associated GitHub repository."
   },
   {
     "objectID": "teaching/index.html#courses",
     "href": "teaching/index.html#courses",
     "title": "Teaching",
     "section": "Courses",
-    "text": "Courses\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nSemester\n\n\n\nYear\n\n\n\nCourse Number\n\n\n\nTitle\n\n\n\n\n\n\n\n\nFall\n\n\n2025\n\n\nBEE 4750/5750\n\n\nEnvironmental Systems Analysis\n\n\n\n\n\n\nSpring\n\n\n2025\n\n\nBEE 4850/5850\n\n\nEnvironmental Data Analysis & Simulation\n\n\n\n\n\n\nFall\n\n\n2024\n\n\nBEE 4750/5750\n\n\nEnvironmental Systems Analysis\n\n\n\n\n\n\nSpring\n\n\n2024\n\n\nBEE 2000\n\n\nPerspectives on the Climate Change Challenge\n\n\n\n\n\n\nSpring\n\n\n2024\n\n\nBEE 4850/5850\n\n\nEnvironmental Data Analysis & Simulation\n\n\n\n\n\n\nFall\n\n\n2023\n\n\nARCH 4101/7112\n\n\nClimate Uncertainties\n\n\n\n\n\n\nFall\n\n\n2023\n\n\nBEE 4750/5750\n\n\nEnvironmental Systems Analysis\n\n\n\n\n\n\nSpring\n\n\n2023\n\n\nBEE 6940\n\n\nClimate Risk Analysis\n\n\n\n\n\n\nFall\n\n\n2022\n\n\nBEE 4750/5750\n\n\nEnvironmental Systems Analysis\n\n\n\n\n\n\nFall\n\n\n2021\n\n\nBEE 4750/5750\n\n\nEnvironmental Systems Analysis\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/fa24-bee4750/index.html",
-    "href": "teaching/fa24-bee4750/index.html",
-    "title": "Environmental Systems Analysis",
-    "section": "",
-    "text": "Semester: Fall 2024\nCourse Number: BEE 4750/5750"
-  },
-  {
-    "objectID": "teaching/fa24-bee4750/index.html#course-description",
-    "href": "teaching/fa24-bee4750/index.html#course-description",
-    "title": "Environmental Systems Analysis",
-    "section": "Course Description",
-    "text": "Course Description\nEnvironmental systems involve multiple interacting processes, uncertainties, and potentially conflicting objectives. These dynamics can complicate analyses which focus on a single component of the system, such as an individual pollution source, or a single outcome of interest. In this course, we will adopt a systems approach to environmental quality modeling and management, including applications in air and water pollution control and solid waste management. In particular, we will:\n\ndefine systems and their boundaries;\nsimulate system dynamics using computer models;\nformulate and solve decision problems for systems management;\nanalyze and assess risk; and\nmake decisions under uncertainty."
-  },
-  {
-    "objectID": "teaching/fa24-bee4750/index.html#more-information",
-    "href": "teaching/fa24-bee4750/index.html#more-information",
-    "title": "Environmental Systems Analysis",
-    "section": "More Information",
-    "text": "More Information\n\nThis course uses the Julia programming language.\nSee the course website and Github repository."
-  },
-  {
-    "objectID": "teaching/fa23-arch7101/index.html",
-    "href": "teaching/fa23-arch7101/index.html",
-    "title": "Climate Uncertainties",
-    "section": "",
-    "text": "Semester: Fall 2023\nCourse Number: ARCH 4101/7112"
-  },
-  {
-    "objectID": "teaching/fa23-arch7101/index.html#course-description",
-    "href": "teaching/fa23-arch7101/index.html#course-description",
-    "title": "Climate Uncertainties",
-    "section": "Course Description",
-    "text": "Course Description\nOur journey will take us through a spectrum of climate-related themes, from scrutinizing historical hazard events in modern socio-economic contexts, to critically examining climate modeling and its unequal impacts. We’ll delve deep into various climate risks—flooding, drought, electric power system failures—all while focusing on the vulnerable and marginalized communities that these events disproportionately impact. The course’s pedagogical approach emphasizes the power of collaboration. Students from diverse backgrounds will find a platform where they can learn from and enrich each other’s understanding. CALS students will have the opportunity to apply engineering and ecological methods, while AAP students bring their spatial and design expertise to the table. In parallel, we will also navigate the politics of modeling, simulating, and visualizing climate realities, exploring how these tools can be deployed to not just predict, but challenge and disrupt the status quo.\nCentral to the course is the reinterpretation of ‘uncertainty.’ Rather than viewing it as a hindrance, we consider it as a catalyst to challenge conventional risk management paradigms, leading to innovative interventions and the envisioning of diverse futures, identities, and ways of being. The course leverages state-of-the-art tools, such as uncertainty, hydrodynamic and agent-based modeling, digital twins, and generative AI programming, offering students a multifaceted approach to confronting real-world climate challenges. Beyond the classroom, the course is enriched by a dedicated speaker series and site visits, facilitated through generous funding. As part of the larger The 2030 Project initiative, students will also have the opportunity to showcase their work to a broader audience through publications, exhibitions, and events, effectively bridging the gap between academia and society, theory and practice. Our objective goes beyond developing climate-aware professionals; we aim to cultivate proactive climate designers and engineers, ready to make a significant impact on our collective futures.\nKey Learning Objectives:\n\nAnalyze climate engineering challenges and design innovative hydrologic solutions using spatial and engineering skills.\nFoster interdisciplinary collaboration, integrating diverse design and engineering principles to develop problem-solving strategies.\nEnhance interoperability across modeling and simulation tools.\nEmbrace uncertainty to envision just climate futures."
-  },
-  {
-    "objectID": "teaching/fa23-arch7101/index.html#more-information",
-    "href": "teaching/fa23-arch7101/index.html#more-information",
-    "title": "Climate Uncertainties",
-    "section": "More Information",
-    "text": "More Information\n\nThis design studio was co-taught with Prof. Farzin Lofti-Jam."
-  },
-  {
-    "objectID": "teaching/fa21-bee4750/index.html",
-    "href": "teaching/fa21-bee4750/index.html",
-    "title": "Environmental Systems Analysis",
-    "section": "",
-    "text": "Semester: Fall 2021\nCourse Number: BEE 4750/5750"
-  },
-  {
-    "objectID": "teaching/fa21-bee4750/index.html#course-description",
-    "href": "teaching/fa21-bee4750/index.html#course-description",
-    "title": "Environmental Systems Analysis",
-    "section": "Course Description",
-    "text": "Course Description\nEnvironmental systems involve multiple interacting processes, uncertainties, and potentially conflicting objectives. These dynamics can complicate analyses which focus on a single component of the system, such as an individual pollution source, or a single outcome of interest. In this course, we will adopt a systems approach to environmental quality modeling and management, including applications in air and water pollution control and solid waste management. In particular, we will:\n\ndefine systems and their boundaries;\nsimulate system dynamics using computer models;\nformulate and solve decision problems for systems management;\nanalyze and assess risk;\nmake decisions under uncertainty; and\nexplore trade-offs across multiple objectives."
-  },
-  {
-    "objectID": "teaching/fa21-bee4750/index.html#more-information",
-    "href": "teaching/fa21-bee4750/index.html#more-information",
-    "title": "Environmental Systems Analysis",
-    "section": "More Information",
-    "text": "More Information\n\nThis course uses the Julia programming language.\nThis semester of BEE 4750/5750 is co-taught with Prof. C. Lindsay Anderson."
+    "text": "Courses\n\nBEE 4750/5750: Environmental Systems Analysis\n\n\n\nSemesters Taught:\n\nFall 2024\nFall 2023\nFall 2022\nFall 2021 (withC. Lindsay Anderson)\n\n\n\nEnvironmental systems involve multiple interacting processes, uncertainties, and potentially conflicting objectives. These dynamics can complicate analyses which focus on a single component of the system, such as an individual pollution source, or a single outcome of interest. In this course, students will adopt a systems approach to environmental quality modeling and management, including applications in air and water pollution control and solid waste management. Students will learn to formulate mathematical systems models, translate them into computational models, and use these models for simulation of system dynamics and optimization of investment and management strategies. Students will be assessed using a combination of homework assignments, in-class computing labs, and in-class midterm exams. In addition, students will work on a group research project of their own design on an environmental systems topic of their choosing. At the end of the semester, students will submit a final report of their project along with a 10-minute video presentation. Students taking the graduate version of this course (BEE 5750) will complete additional homework problems to demonstrate additional mastery of the material.\nThis course is required for Environmental Engineering majors.\n\n\n\n\nBEE 4850/5850: Environmental Data Analysis & Simulation\n\n\n\nSemesters Taught:\n\nSpring 2025\nSpring 2024\n\n\n\nSimulations from numerical and statistical models are a key tool used to quantify and represent our understanding of many different environmental systems, including but not limited to the climate, sea levels, air pollution, and the electric power system. Data analysis of environmental observations and model simulations is an integral part of developing and evaluating models used to 1) test our assumptions about environmental system dynamics; 2) develop new insights into environmental processes; and 3) project future environmental conditions and outcomes. This course will provide an overview of the use of generative probability models to understand data and examine hypotheses about data-generating processes. The goal is to provide students with a framework and an initial toolkit of methods for data analysis and simulation, including the specification of probability models, model fitting and simulation, and model evaluation and selection. Students will actively analyze and use real data from a variety of environmental systems. Students will be assessed using a combination of homework assignments, evaluations of topical readings, and in-class computing labs. In addition, students will work on a research project of their own design on an environmental data set of their choosing. At the end of the semester, students will submit a final report of their project along with a 10-minute in-class presentation.\n\n\n\n\nBEE 2000: Perspectives on the Climate Change Challenge\n\n\nSemesters Taught:\n\nSpring 2024 (with Profs. Christine Goodale, Angeline Pendergrass, and Jeremy Wallace)\n\n\n\nThis university-wide seminar series provides critically important perspectives on the grand challenge of climate change. Speakers from Cornell University and other institutions will cover a range of topics including the science of climate change, implications for ecosystems, oceans, forests, agriculture and communities, the important ethical, philosophical and legal insights on the issue, and provide thoughts on societal responses through international mechanisms, economic drivers and communication tools. Each week, students will be asked to write a brief essay summarizing and reflecting on the seminar.\nThis seminar series counts towards the requirements of the climate change minor and the ESS minor and major.\n\n\n\n\nARCH 7101: Climate Uncertainties\n\n\nSemesters Taught:\n\nFall 2023 (with Farzin Lofti-Jam)\n\n\n\nThis architecture design studio will explore a spectrum of climate-related themes, from scrutinizing historical hazard events in modern socio-economic contexts, to critically examining climate modeling and its unequal impacts. We’ll delve deep into various climate risks—-flooding, drought, electric power system failures—-all while focusing on the vulnerable and marginalized communities that these events disproportionately impact. The course’s pedagogical approach emphasizes the power of collaboration. In parallel, we will also navigate the politics of modeling, simulating, and visualizing climate realities, exploring how these tools can be deployed to not just predict, but challenge and disrupt the status quo.\nCentral to the course is the reinterpretation of ‘uncertainty.’ Rather than viewing it as a hindrance, we consider it as a catalyst to challenge conventional risk management paradigms, leading to innovative interventions and the envisioning of diverse futures, identities, and ways of being. The course leverages state-of-the-art tools, such as uncertainty, hydrodynamic and agent-based modeling, digital twins, and generative AI programming, offering students a multifaceted approach to confronting real-world climate challenges. Beyond the classroom, the course is enriched by a dedicated speaker series and site visits, facilitated through generous funding. As part of the larger The 2030 Project initiative, students will also have the opportunity to showcase their work to a broader audience through publications, exhibitions, and events, effectively bridging the gap between academia and society, theory and practice. Our objective goes beyond developing climate-aware professionals; we aim to cultivate proactive climate designers and engineers, ready to make a significant impact on our collective futures.\n\n\n\n\nBEE 6940: Climate Risk Analysis\n\n\nSemesters Taught:\n\nSpring 2023\n\n\n\nThe impacts of climate variability and change are subject to a number of deep and dynamic uncertainties which complicate systems design and management. Using coastal flood risk management as motivation, this course will introduce concepts and methods for uncertainty characterization and quantification for systems experiencing dynamic environmental risk and will explore implications of uncertainty for decision-making. Students will develop and apply these uncertainty and decision analyses in the context of several example systems."
   },
   {
     "objectID": "research/flood-risk/index.html",
@@ -1468,110 +1363,5 @@
     "title": "Research Areas",
     "section": "Funding",
     "text": "Funding\nWe are grateful to our current and previous sponsors:\n\nCurrent Sponsors\n\nU.S. Department of Energy\n\nBER, MultiSector Dynamics\nEERE, Water Power Technologies Office\n\nCornell Atkinson Center for Sustainability\n\n\n\nPrevious Sponsors\n\nNational Science Foundation\n\nEnvironmental Sustainability"
-  },
-  {
-    "objectID": "teaching/fa22-bee4750/index.html",
-    "href": "teaching/fa22-bee4750/index.html",
-    "title": "Environmental Systems Analysis",
-    "section": "",
-    "text": "Semester: Fall 2022\nCourse Number: BEE 4750/5750"
-  },
-  {
-    "objectID": "teaching/fa22-bee4750/index.html#course-description",
-    "href": "teaching/fa22-bee4750/index.html#course-description",
-    "title": "Environmental Systems Analysis",
-    "section": "Course Description",
-    "text": "Course Description\nEnvironmental systems involve multiple interacting processes, uncertainties, and potentially conflicting objectives. These dynamics can complicate analyses which focus on a single component of the system, such as an individual pollution source, or a single outcome of interest. In this course, we will adopt a systems approach to environmental quality modeling and management, including applications in air and water pollution control and solid waste management. In particular, we will:\n\ndefine systems and their boundaries;\nsimulate system dynamics using computer models;\nformulate and solve decision problems for systems management;\nanalyze and assess risk; and\nmake decisions under uncertainty."
-  },
-  {
-    "objectID": "teaching/fa22-bee4750/index.html#more-information",
-    "href": "teaching/fa22-bee4750/index.html#more-information",
-    "title": "Environmental Systems Analysis",
-    "section": "More Information",
-    "text": "More Information\n\nThis course uses the Julia programming language.\nSee the course website and Github repository."
-  },
-  {
-    "objectID": "teaching/fa23-bee4750/index.html",
-    "href": "teaching/fa23-bee4750/index.html",
-    "title": "Environmental Systems Analysis",
-    "section": "",
-    "text": "Semester: Fall 2023\nCourse Number: BEE 4750/5750"
-  },
-  {
-    "objectID": "teaching/fa23-bee4750/index.html#course-description",
-    "href": "teaching/fa23-bee4750/index.html#course-description",
-    "title": "Environmental Systems Analysis",
-    "section": "Course Description",
-    "text": "Course Description\nEnvironmental systems involve multiple interacting processes, uncertainties, and potentially conflicting objectives. These dynamics can complicate analyses which focus on a single component of the system, such as an individual pollution source, or a single outcome of interest. In this course, we will adopt a systems approach to environmental quality modeling and management, including applications in air and water pollution control and solid waste management. In particular, we will:\n\ndefine systems and their boundaries;\nsimulate system dynamics using computer models;\nformulate and solve decision problems for systems management;\nanalyze and assess risk; and\nmake decisions under uncertainty."
-  },
-  {
-    "objectID": "teaching/fa23-bee4750/index.html#more-information",
-    "href": "teaching/fa23-bee4750/index.html#more-information",
-    "title": "Environmental Systems Analysis",
-    "section": "More Information",
-    "text": "More Information\n\nThis course uses the Julia programming language.\nSee the course website and Github repository."
-  },
-  {
-    "objectID": "teaching/fa25-bee4750/index.html",
-    "href": "teaching/fa25-bee4750/index.html",
-    "title": "Environmental Systems Analysis",
-    "section": "",
-    "text": "Semester: Fall 2025\nCourse Number: BEE 4750/5750"
-  },
-  {
-    "objectID": "teaching/fa25-bee4750/index.html#course-description",
-    "href": "teaching/fa25-bee4750/index.html#course-description",
-    "title": "Environmental Systems Analysis",
-    "section": "Course Description",
-    "text": "Course Description\nEnvironmental systems involve multiple interacting processes, uncertainties, and potentially conflicting objectives. These dynamics can complicate analyses which focus on a single component of the system, such as an individual pollution source, or a single outcome of interest. In this course, we will adopt a systems approach to environmental quality modeling and management, including applications in air and water pollution control and solid waste management. In particular, we will:\n\ndefine systems and their boundaries;\nsimulate system dynamics using computer models;\nformulate and solve decision problems for systems management;\nanalyze and assess risk; and\nmake decisions under uncertainty."
-  },
-  {
-    "objectID": "teaching/fa25-bee4750/index.html#more-information",
-    "href": "teaching/fa25-bee4750/index.html#more-information",
-    "title": "Environmental Systems Analysis",
-    "section": "More Information",
-    "text": "More Information\n\nThis course uses the Julia programming language.\nSee the course website and Github repository."
-  },
-  {
-    "objectID": "teaching/sp23-bee6940/index.html",
-    "href": "teaching/sp23-bee6940/index.html",
-    "title": "Climate Risk Analysis",
-    "section": "",
-    "text": "Semester: Spring 2023\nCourse Number: BEE 6940"
-  },
-  {
-    "objectID": "teaching/sp23-bee6940/index.html#course-description",
-    "href": "teaching/sp23-bee6940/index.html#course-description",
-    "title": "Climate Risk Analysis",
-    "section": "Course Description",
-    "text": "Course Description\nThe impacts of climate variability and change are subject to a number of deep and dynamic uncertainties which complicate systems design and management. Using coastal flood risk management as motivation, this course will introduce concepts and methods for uncertainty characterization and quantification for systems experiencing dynamic environmental risk and will explore implications of uncertainty for decision-making. Students will develop and apply these uncertainty and decision analyses in the context of several example systems."
-  },
-  {
-    "objectID": "teaching/sp23-bee6940/index.html#more-information",
-    "href": "teaching/sp23-bee6940/index.html#more-information",
-    "title": "Climate Risk Analysis",
-    "section": "More Information",
-    "text": "More Information\n\nThis course uses the Julia programming language.\nSee the course website and GitHub repository."
-  },
-  {
-    "objectID": "teaching/sp24-bee4850/index.html",
-    "href": "teaching/sp24-bee4850/index.html",
-    "title": "Environmental Data Analysis & Simulation",
-    "section": "",
-    "text": "Semester: Spring 2024\nCourse Number: BEE 4850/5850"
-  },
-  {
-    "objectID": "teaching/sp24-bee4850/index.html#course-description",
-    "href": "teaching/sp24-bee4850/index.html#course-description",
-    "title": "Environmental Data Analysis & Simulation",
-    "section": "Course Description",
-    "text": "Course Description\nSimulations from numerical and statistical models are a key tool used to quantify and represent our understanding of many different environmental systems, including but not limited to the climate, sea levels, air pollution, and the electric power system. Data analysis of environmental observations and model simulations is an integral part of developing and evaluating models used to 1) test our assumptions about environmental system dynamics; 2) develop new insights into environmental processes; and 3) project future environmental conditions and outcomes. This course will provide an overview of the use of generative probability models to understand data and examine hypotheses about data-generating processes. The goal is to provide students with a framework and an initial toolkit of methods for data analysis and simulation. Students will actively analyze and use real data from a variety of environmental systems. In particular, over the course of the semester, we will:\n\nconduct exploratory analyses of environmental datasets;\ndiscuss best practices for and complexities of data visualization;\ncalibrate statistical and process-based numerical models using environmental data;\nuse simulations from calibrated models to identify key sources of uncertainty and model error;\nassess model fit and adequacy through predictive ability."
-  },
-  {
-    "objectID": "teaching/sp24-bee4850/index.html#more-information",
-    "href": "teaching/sp24-bee4850/index.html#more-information",
-    "title": "Environmental Data Analysis & Simulation",
-    "section": "More Information",
-    "text": "More Information\n\nThis course uses the Julia programming language.\nSee the course website and GitHub repository."
   }
 ]
