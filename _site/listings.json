@@ -1,17 +1,16 @@
 [
   {
-    "listing": "/teaching/index.html",
+    "listing": "/research/flood-risk/index.html",
     "items": [
-      "/teaching/fa25-bee4750/index.html",
-      "/teaching/sp25-bee4850/index.html",
-      "/teaching/fa24-bee4750/index.html",
-      "/teaching/sp24-bee2000/index.html",
-      "/teaching/sp24-bee4850/index.html",
-      "/teaching/fa23-arch7101/index.html",
-      "/teaching/fa23-bee4750/index.html",
-      "/teaching/sp23-bee6940/index.html",
-      "/teaching/fa22-bee4750/index.html",
-      "/teaching/fa21-bee4750/index.html"
+      "/publications/unpublished/2025_Levee_Effect/index.html",
+      "/publications/articles/2025_Warming_Levels/index.html",
+      "/publications/articles/2024_Riverine_Uncertainty/index.html",
+      "/publications/unpublished/2024_UNSAFE/index.html",
+      "/publications/articles/2023_ABM_Structural_Uncertainty/index.html",
+      "/publications/articles/2020_House_Elevation/index.html",
+      "/publications/articles/2020_Sea_Level_Uncertainty/index.html",
+      "/publications/articles/2019_Investing_Science/index.html",
+      "/publications/articles/2019_Norfolk_Deep_Uncertainties/index.html"
     ]
   },
   {
@@ -34,6 +33,113 @@
       "/publications/articles/2020_Sea_Level_Uncertainty/index.html",
       "/publications/articles/2019_Investing_Science/index.html",
       "/publications/articles/2018_Surge_Uncertainty/index.html"
+    ]
+  },
+  {
+    "listing": "/people/tang-katerina/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/schnabel-cella/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/lafferty-david/index.html",
+    "items": [
+      "/publications/articles/2022_Uncertainty_MultiSectorDynamics/index.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/srikrishnan-vivek/index.html",
+      "/people/lafferty-david/index.html",
+      "/people/ackermannlogan-gabriela/index.html",
+      "/people/tang-katerina/index.html",
+      "/people/brito-luan/index.html",
+      "/people/kacharava-nino/index.html",
+      "/people/bhaduri-parin/index.html",
+      "/people/luo-yifan/index.html",
+      "/people/schnabel-cella/index.html",
+      "/people/darnell-chloe/index.html"
+    ]
+  },
+  {
+    "listing": "/people/brito-luan/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/ackermannlogan-gabriela/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/bhaduri-parin/index.html",
+    "items": [
+      "/publications/unpublished/2025_Interpretable_ML_Hedonic/index.html",
+      "/publications/unpublished/2025_Levee_Effect/index.html",
+      "/publications/conference/2024_Neural_ODE/index.html"
+    ]
+  },
+  {
+    "listing": "/people/darnell-chloe/index.html",
+    "items": [
+      "/publications/articles/2025_Warming_Levels/index.html",
+      "/publications/theses/2023_Darnell_SLR/index.html",
+      "/publications/unpublished/2025_Emissions_Sea_Level_Rise/index.html"
+    ]
+  },
+  {
+    "listing": "/people/kacharava-nino/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/luo-yifan/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/srikrishnan-vivek/index.html",
+    "items": [
+      "/publications/unpublished/2025_FAIR_Usability/index.html",
+      "/publications/unpublished/2025_Interpretable_ML_Hedonic/index.html",
+      "/publications/unpublished/2025_Levee_Effect/index.html",
+      "/publications/articles/2025_Policy_Window/index.html",
+      "/publications/articles/2025_Warming_Levels/index.html",
+      "/publications/unpublished/2025_Emissions_Sea_Level_Rise/index.html",
+      "/publications/unpublished/2025_Hydrothermal_Carbonization_LCA/index.html",
+      "/publications/unpublished/2025_Zero_Carbon_Grid/index.html",
+      "/publications/articles/2024_Electricity_Prices/index.html",
+      "/publications/articles/2024_Integrating_Values/index.html",
+      "/publications/articles/2024_Riverine_Uncertainty/index.html",
+      "/publications/conference/2024_Neural_ODE/index.html",
+      "/publications/unpublished/2024_Adaptive_Sampling/index.html",
+      "/publications/unpublished/2024_UNSAFE/index.html",
+      "/publications/articles/2023_ABM_Structural_Uncertainty/index.html",
+      "/publications/articles/2023_Climate_Forestry/index.html",
+      "/publications/articles/2023_Landscape_Metrics/index.html",
+      "/publications/articles/2022_CO2_Projections/index.html",
+      "/publications/articles/2022_MSD_Vision/index.html",
+      "/publications/articles/2022_MimiBRICK/index.html",
+      "/publications/articles/2022_Uncertainty_MultiSectorDynamics/index.html",
+      "/publications/articles/2023_Mitigation_Air_Quality/index.html",
+      "/publications/books/2022_Uncertainty_Analysis/index.html",
+      "/publications/reports/2022_MSD_Vision/index.html",
+      "/publications/articles/2021_Agent_Model_Calibration/index.html",
+      "/publications/articles/2021_Climate_Risk_Management/index.html",
+      "/publications/articles/2021_Population_Downscaling/index.html",
+      "/publications/articles/2021_Simplicity_Epistemic/index.html",
+      "/publications/articles/2021_Social_Cost_Methane/index.html",
+      "/publications/articles/2020_House_Elevation/index.html",
+      "/publications/articles/2020_Sea_Level_Uncertainty/index.html",
+      "/publications/articles/2019_Investing_Science/index.html",
+      "/publications/articles/2019_Norfolk_Deep_Uncertainties/index.html",
+      "/publications/articles/2018_Hedging_Strategies/index.html",
+      "/publications/articles/2018_Surge_Uncertainty/index.html",
+      "/publications/theses/2018_Srikrishnan_Solar_Genome/index.html",
+      "/publications/articles/2017_Journal_Submission/index.html",
+      "/publications/articles/2017_Taylor_Hypothesis/index.html",
+      "/publications/articles/2015_Multipyranometer_Arrays/index.html",
+      "/publications/conference/2014_All_Seeing_Eye/index.html",
+      "/publications/theses/2014_Srikrishnan_Multipyranometer/index.html"
     ]
   },
   {
@@ -77,119 +183,10 @@
       "/publications/unpublished/2025_Hydrothermal_Carbonization_LCA/index.html",
       "/publications/unpublished/2025_Zero_Carbon_Grid/index.html",
       "/publications/unpublished/2024_Adaptive_Sampling/index.html",
-      "/publications/unpublished/2024_UNSAFE/index.html"
-    ]
-  },
-  {
-    "listing": "/people/srikrishnan-vivek/index.html",
-    "items": [
-      "/publications/articles/2015_Multipyranometer_Arrays/index.html",
-      "/publications/articles/2017_Journal_Submission/index.html",
-      "/publications/articles/2017_Taylor_Hypothesis/index.html",
-      "/publications/articles/2018_Hedging_Strategies/index.html",
-      "/publications/articles/2018_Surge_Uncertainty/index.html",
-      "/publications/articles/2019_Investing_Science/index.html",
-      "/publications/articles/2019_Norfolk_Deep_Uncertainties/index.html",
-      "/publications/articles/2020_House_Elevation/index.html",
-      "/publications/articles/2020_Sea_Level_Uncertainty/index.html",
-      "/publications/articles/2021_Agent_Model_Calibration/index.html",
-      "/publications/articles/2021_Climate_Risk_Management/index.html",
-      "/publications/articles/2021_Population_Downscaling/index.html",
-      "/publications/articles/2021_Simplicity_Epistemic/index.html",
-      "/publications/articles/2021_Social_Cost_Methane/index.html",
-      "/publications/articles/2022_CO2_Projections/index.html",
-      "/publications/articles/2022_MSD_Vision/index.html",
-      "/publications/articles/2022_MimiBRICK/index.html",
-      "/publications/articles/2022_Uncertainty_MultiSectorDynamics/index.html",
-      "/publications/articles/2023_ABM_Structural_Uncertainty/index.html",
-      "/publications/articles/2023_Climate_Forestry/index.html",
-      "/publications/articles/2023_Landscape_Metrics/index.html",
-      "/publications/articles/2023_Mitigation_Air_Quality/index.html",
-      "/publications/articles/2024_Electricity_Prices/index.html",
-      "/publications/articles/2024_Integrating_Values/index.html",
-      "/publications/articles/2024_Riverine_Uncertainty/index.html",
-      "/publications/articles/2025_Policy_Window/index.html",
-      "/publications/articles/2025_Warming_Levels/index.html",
-      "/publications/books/2022_Uncertainty_Analysis/index.html",
-      "/publications/conference/2014_All_Seeing_Eye/index.html",
-      "/publications/conference/2024_Neural_ODE/index.html",
-      "/publications/reports/2022_MSD_Vision/index.html",
-      "/publications/unpublished/2024_Adaptive_Sampling/index.html",
       "/publications/unpublished/2024_UNSAFE/index.html",
-      "/publications/unpublished/2025_Emissions_Sea_Level_Rise/index.html",
-      "/publications/unpublished/2025_FAIR_Usability/index.html",
-      "/publications/unpublished/2025_Hydrothermal_Carbonization_LCA/index.html",
-      "/publications/unpublished/2025_Interpretable_ML_Hedonic/index.html",
-      "/publications/unpublished/2025_Levee_Effect/index.html",
-      "/publications/unpublished/2025_Zero_Carbon_Grid/index.html"
-    ]
-  },
-  {
-    "listing": "/people/luo-yifan/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/kacharava-nino/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/darnell-chloe/index.html",
-    "items": [
-      "/publications/articles/2025_Warming_Levels/index.html",
-      "/publications/unpublished/2025_Emissions_Sea_Level_Rise/index.html"
-    ]
-  },
-  {
-    "listing": "/people/bhaduri-parin/index.html",
-    "items": [
-      "/publications/conference/2024_Neural_ODE/index.html",
-      "/publications/unpublished/2025_Interpretable_ML_Hedonic/index.html",
-      "/publications/unpublished/2025_Levee_Effect/index.html"
-    ]
-  },
-  {
-    "listing": "/people/ackermannlogan-gabriela/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/brito-luan/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/srikrishnan-vivek/index.html",
-      "/people/lafferty-david/index.html",
-      "/people/ackermannlogan-gabriela/index.html",
-      "/people/tang-katerina/index.html",
-      "/people/brito-luan/index.html",
-      "/people/kacharava-nino/index.html",
-      "/people/bhaduri-parin/index.html",
-      "/people/luo-yifan/index.html",
-      "/people/schnabel-cella/index.html",
-      "/people/darnell-chloe/index.html"
-    ]
-  },
-  {
-    "listing": "/people/lafferty-david/index.html",
-    "items": [
-      "/publications/articles/2022_Uncertainty_MultiSectorDynamics/index.html"
-    ]
-  },
-  {
-    "listing": "/people/schnabel-cella/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/tang-katerina/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/energy-climate/index.html",
-      "/research/climate-risk/index.html",
-      "/research/flood-risk/index.html"
+      "/publications/theses/2023_Darnell_SLR/index.html",
+      "/publications/theses/2018_Srikrishnan_Solar_Genome/index.html",
+      "/publications/theses/2014_Srikrishnan_Multipyranometer/index.html"
     ]
   },
   {
@@ -201,17 +198,11 @@
     ]
   },
   {
-    "listing": "/research/flood-risk/index.html",
+    "listing": "/research/index.html",
     "items": [
-      "/publications/unpublished/2025_Levee_Effect/index.html",
-      "/publications/articles/2025_Warming_Levels/index.html",
-      "/publications/articles/2024_Riverine_Uncertainty/index.html",
-      "/publications/unpublished/2024_UNSAFE/index.html",
-      "/publications/articles/2023_ABM_Structural_Uncertainty/index.html",
-      "/publications/articles/2020_House_Elevation/index.html",
-      "/publications/articles/2020_Sea_Level_Uncertainty/index.html",
-      "/publications/articles/2019_Investing_Science/index.html",
-      "/publications/articles/2019_Norfolk_Deep_Uncertainties/index.html"
+      "/research/climate-risk/index.html",
+      "/research/energy-climate/index.html",
+      "/research/flood-risk/index.html"
     ]
   }
 ]

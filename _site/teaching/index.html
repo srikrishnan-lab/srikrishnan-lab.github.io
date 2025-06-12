@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../assets/logos/favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -72,70 +70,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-teaching .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-semester','listing-year','listing-coursenumber','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-teaching'] = new List('listing-teaching', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <meta name="twitter:title" content="Teaching | Srikrishnan Group">
 <meta name="twitter:description" content="The Srikrishnan Research Group studies how to manage climate and environmental risks faced by complex, coupled natural-human systems.">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://viveks.bee.cornell.edu/assets/logos/envsys_logo.png">
+<meta name="twitter:image-height" content="500">
+<meta name="twitter:image-width" content="500">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -204,7 +147,14 @@ window.Quarto = {
    
   <ul>
   <li><a href="#teaching-materials-philosophy" id="toc-teaching-materials-philosophy" class="nav-link active" data-scroll-target="#teaching-materials-philosophy">Teaching Materials &amp; Philosophy</a></li>
-  <li><a href="#courses" id="toc-courses" class="nav-link" data-scroll-target="#courses">Courses</a></li>
+  <li><a href="#courses" id="toc-courses" class="nav-link" data-scroll-target="#courses">Courses</a>
+  <ul class="collapse">
+  <li><a href="#bee-47505750-environmental-systems-analysis" id="toc-bee-47505750-environmental-systems-analysis" class="nav-link" data-scroll-target="#bee-47505750-environmental-systems-analysis">BEE 4750/5750: Environmental Systems Analysis</a></li>
+  <li><a href="#bee-48505850-environmental-data-analysis-simulation" id="toc-bee-48505850-environmental-data-analysis-simulation" class="nav-link" data-scroll-target="#bee-48505850-environmental-data-analysis-simulation">BEE 4850/5850: Environmental Data Analysis &amp; Simulation</a></li>
+  <li><a href="#bee-2000-perspectives-on-the-climate-change-challenge" id="toc-bee-2000-perspectives-on-the-climate-change-challenge" class="nav-link" data-scroll-target="#bee-2000-perspectives-on-the-climate-change-challenge">BEE 2000: Perspectives on the Climate Change Challenge</a></li>
+  <li><a href="#arch-7101-climate-uncertainties" id="toc-arch-7101-climate-uncertainties" class="nav-link" data-scroll-target="#arch-7101-climate-uncertainties">ARCH 7101: Climate Uncertainties</a></li>
+  <li><a href="#bee-6940-climate-risk-analysis" id="toc-bee-6940-climate-risk-analysis" class="nav-link" data-scroll-target="#bee-6940-climate-risk-analysis">BEE 6940: Climate Risk Analysis</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -232,218 +182,91 @@ window.Quarto = {
 
 <section id="teaching-materials-philosophy" class="level2">
 <h2 class="anchored" data-anchor-id="teaching-materials-philosophy">Teaching Materials &amp; Philosophy</h2>
-<p>I believe in creating open-source teaching materials with an emphasis on reproducibility and strive for my course materials to be high-quality and accessible. As a result, all materials for my core courses are publically available online with an open source license (either an MIT license for code or a Creative Commons license for educational content). If you have any questions or suggestions on this content, please <a href="mailto:vs498@cornell.edu">email me</a> or raise an issue on the associated GitHub repository.</p>
+<p>I believe in creating open-source teaching materials with an emphasis on reproducibility and strive for my course materials to be high-quality and accessible. As a result, all materials for my core courses are publically available online with an open source license (typically a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 license</a>). If you have any questions or suggestions on this content, please <a href="mailto:vs498@cornell.edu">email me</a> or raise an issue on the associated GitHub repository.</p>
 </section>
 <section id="courses" class="level2">
 <h2 class="anchored" data-anchor-id="courses">Courses</h2>
-<div id="listing-teaching" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-teaching-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-teaching'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<section id="bee-47505750-environmental-systems-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="bee-47505750-environmental-systems-analysis"><a href="https://envsys.viveks.me/">BEE 4750/5750: Environmental Systems Analysis</a></h3>
+<div class="grid">
+<div class="g-col-3">
+<p><br><img src="../assets/logos/envsys_logo.png" width="100%"></p>
+<p><strong>Semesters Taught</strong>:</p>
+<ul>
+<li><a href="https://envsys.viveks.me/fall2024/">Fall 2024</a></li>
+<li><a href="https://envsys.viveks.me/fall2023/">Fall 2023</a></li>
+<li><a href="https://envsys.viveks.me/fall2022/">Fall 2022</a></li>
+<li>Fall 2021 (with<a href="https://andersonenergylab-cornell.github.io/">C. Lindsay Anderson</a>)</li>
+</ul>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Semester
-</th>
-
-<th>
-Year
-</th>
-
-<th>
-Course Number
-</th>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-file-modified-sort="1749249096127" data-listing-reading-time-sort="1" data-listing-word-count-sort="127" data-listing-title-sort="Environmental Systems Analysis" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-semester">Fall</span>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-coursenumber">BEE 4750/5750</span>
-</td>
-<td>
-<a href="../teaching/fa25-bee4750/index.html" class="title listing-title">Environmental Systems Analysis</a>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-file-modified-sort="1749249096131" data-listing-reading-time-sort="2" data-listing-word-count-sort="223" data-listing-title-sort="Environmental Data Analysis &amp; Simulation" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-semester">Spring</span>
-</td>
-<td>
-<span class="listing-year">2025</span>
-</td>
-<td>
-<span class="listing-coursenumber">BEE 4850/5850</span>
-</td>
-<td>
-<a href="../teaching/sp25-bee4850/index.html" class="title listing-title">Environmental Data Analysis &amp; Simulation</a>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-file-modified-sort="1749249096127" data-listing-reading-time-sort="1" data-listing-word-count-sort="127" data-listing-title-sort="Environmental Systems Analysis" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-semester">Fall</span>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-coursenumber">BEE 4750/5750</span>
-</td>
-<td>
-<a href="../teaching/fa24-bee4750/index.html" class="title listing-title">Environmental Systems Analysis</a>
-</td>
-
-</tr>
-
-<tr data-index="3" data-listing-file-modified-sort="1749249096128" data-listing-reading-time-sort="1" data-listing-word-count-sort="114" data-listing-title-sort="Perspectives on the Climate Change Challenge" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-semester">Spring</span>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-coursenumber">BEE 2000</span>
-</td>
-<td>
-<a href="../teaching/sp24-bee2000/index.html" class="title listing-title">Perspectives on the Climate Change Challenge</a>
-</td>
-
-</tr>
-
-<tr data-index="4" data-listing-file-modified-sort="1749249096128" data-listing-reading-time-sort="2" data-listing-word-count-sort="223" data-listing-title-sort="Environmental Data Analysis &amp; Simulation" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-semester">Spring</span>
-</td>
-<td>
-<span class="listing-year">2024</span>
-</td>
-<td>
-<span class="listing-coursenumber">BEE 4850/5850</span>
-</td>
-<td>
-<a href="../teaching/sp24-bee4850/index.html" class="title listing-title">Environmental Data Analysis &amp; Simulation</a>
-</td>
-
-</tr>
-
-<tr data-index="5" data-listing-file-modified-sort="1749249096127" data-listing-reading-time-sort="2" data-listing-word-count-sort="329" data-listing-title-sort="Climate Uncertainties" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-semester">Fall</span>
-</td>
-<td>
-<span class="listing-year">2023</span>
-</td>
-<td>
-<span class="listing-coursenumber">ARCH 4101/7112</span>
-</td>
-<td>
-<a href="../teaching/fa23-arch7101/index.html" class="title listing-title">Climate Uncertainties</a>
-</td>
-
-</tr>
-
-<tr data-index="6" data-listing-file-modified-sort="1749249096127" data-listing-reading-time-sort="1" data-listing-word-count-sort="127" data-listing-title-sort="Environmental Systems Analysis" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-semester">Fall</span>
-</td>
-<td>
-<span class="listing-year">2023</span>
-</td>
-<td>
-<span class="listing-coursenumber">BEE 4750/5750</span>
-</td>
-<td>
-<a href="../teaching/fa23-bee4750/index.html" class="title listing-title">Environmental Systems Analysis</a>
-</td>
-
-</tr>
-
-<tr data-index="7" data-listing-file-modified-sort="1749249096128" data-listing-reading-time-sort="1" data-listing-word-count-sort="104" data-listing-title-sort="Climate Risk Analysis" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-semester">Spring</span>
-</td>
-<td>
-<span class="listing-year">2023</span>
-</td>
-<td>
-<span class="listing-coursenumber">BEE 6940</span>
-</td>
-<td>
-<a href="../teaching/sp23-bee6940/index.html" class="title listing-title">Climate Risk Analysis</a>
-</td>
-
-</tr>
-
-<tr data-index="8" data-listing-file-modified-sort="1749249096127" data-listing-reading-time-sort="1" data-listing-word-count-sort="127" data-listing-title-sort="Environmental Systems Analysis" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-semester">Fall</span>
-</td>
-<td>
-<span class="listing-year">2022</span>
-</td>
-<td>
-<span class="listing-coursenumber">BEE 4750/5750</span>
-</td>
-<td>
-<a href="../teaching/fa22-bee4750/index.html" class="title listing-title">Environmental Systems Analysis</a>
-</td>
-
-</tr>
-
-<tr data-index="9" data-listing-file-modified-sort="1749249096126" data-listing-reading-time-sort="1" data-listing-word-count-sort="137" data-listing-title-sort="Environmental Systems Analysis" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-semester">Fall</span>
-</td>
-<td>
-<span class="listing-year">2021</span>
-</td>
-<td>
-<span class="listing-coursenumber">BEE 4750/5750</span>
-</td>
-<td>
-<a href="../teaching/fa21-bee4750/index.html" class="title listing-title">Environmental Systems Analysis</a>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
+<div class="g-col-9">
+<p>Environmental systems involve multiple interacting processes, uncertainties, and potentially conflicting objectives. These dynamics can complicate analyses which focus on a single component of the system, such as an individual pollution source, or a single outcome of interest. In this course, students will adopt a systems approach to environmental quality modeling and management, including applications in air and water pollution control and solid waste management. Students will learn to formulate mathematical systems models, translate them into computational models, and use these models for simulation of system dynamics and optimization of investment and management strategies. Students will be assessed using a combination of homework assignments, in-class computing labs, and in-class midterm exams. In addition, students will work on a group research project of their own design on an environmental systems topic of their choosing. At the end of the semester, students will submit a final report of their project along with a 10-minute video presentation. Students taking the graduate version of this course (BEE 5750) will complete additional homework problems to demonstrate additional mastery of the material.</p>
+<p>This course is required for Environmental Engineering majors.</p>
+</div>
+</div>
+</section>
+<section id="bee-48505850-environmental-data-analysis-simulation" class="level3">
+<h3 class="anchored" data-anchor-id="bee-48505850-environmental-data-analysis-simulation"><a href="https://envdata.viveks.me/">BEE 4850/5850: Environmental Data Analysis &amp; Simulation</a></h3>
+<div class="grid">
+<div class="g-col-3">
+<p><br><img src="../assets/logos/envdata_logo.png" width="100%"></p>
+<p><strong>Semesters Taught</strong>:</p>
+<ul>
+<li><a href="https://envdata.viveks.me/spring2025/">Spring 2025</a></li>
+<li><a href="https://envdata.viveks.me/spring2024/">Spring 2024</a></li>
+</ul>
+</div>
+<div class="g-col-9">
+<p>Simulations from numerical and statistical models are a key tool used to quantify and represent our understanding of many different environmental systems, including but not limited to the climate, sea levels, air pollution, and the electric power system. Data analysis of environmental observations and model simulations is an integral part of developing and evaluating models used to 1) test our assumptions about environmental system dynamics; 2) develop new insights into environmental processes; and 3) project future environmental conditions and outcomes. This course will provide an overview of the use of generative probability models to understand data and examine hypotheses about data-generating processes. The goal is to provide students with a framework and an initial toolkit of methods for data analysis and simulation, including the specification of probability models, model fitting and simulation, and model evaluation and selection. Students will actively analyze and use real data from a variety of environmental systems. Students will be assessed using a combination of homework assignments, evaluations of topical readings, and in-class computing labs. In addition, students will work on a research project of their own design on an environmental data set of their choosing. At the end of the semester, students will submit a final report of their project along with a 10-minute in-class presentation.</p>
+</div>
+</div>
+</section>
+<section id="bee-2000-perspectives-on-the-climate-change-challenge" class="level3">
+<h3 class="anchored" data-anchor-id="bee-2000-perspectives-on-the-climate-change-challenge">BEE 2000: Perspectives on the Climate Change Challenge</h3>
+<div class="grid">
+<div class="g-col-3">
+<p><strong>Semesters Taught</strong>:</p>
+<ul>
+<li>Spring 2024 (with Profs. <a href="https://ecologyandevolution.cornell.edu/christine-l-goodale">Christine Goodale</a>, <a href="https://precipclimate.eas.cornell.edu/">Angeline Pendergrass</a>, and <a href="https://jeremywallace.org/">Jeremy Wallace</a>)</li>
+</ul>
+</div>
+<div class="g-col-9">
+<p>This university-wide seminar series provides critically important perspectives on the grand challenge of climate change. Speakers from Cornell University and other institutions will cover a range of topics including the science of climate change, implications for ecosystems, oceans, forests, agriculture and communities, the important ethical, philosophical and legal insights on the issue, and provide thoughts on societal responses through international mechanisms, economic drivers and communication tools. Each week, students will be asked to write a brief essay summarizing and reflecting on the seminar.</p>
+<p>This seminar series counts towards the requirements of the climate change minor and the ESS minor and major.</p>
+</div>
+</div>
+</section>
+<section id="arch-7101-climate-uncertainties" class="level3">
+<h3 class="anchored" data-anchor-id="arch-7101-climate-uncertainties">ARCH 7101: Climate Uncertainties</h3>
+<div class="grid">
+<div class="g-col-3">
+<p><strong>Semesters Taught</strong>:</p>
+<ul>
+<li>Fall 2023 (with <a href="https://aap.cornell.edu/people/farzin-lotfi-jam">Farzin Lofti-Jam</a>)</li>
+</ul>
+</div>
+<div class="g-col-9">
+<p>This architecture design studio will explore a spectrum of climate-related themes, from scrutinizing historical hazard events in modern socio-economic contexts, to critically examining climate modeling and its unequal impacts. We’ll delve deep into various climate risks—-flooding, drought, electric power system failures—-all while focusing on the vulnerable and marginalized communities that these events disproportionately impact. The course’s pedagogical approach emphasizes the power of collaboration. In parallel, we will also navigate the politics of modeling, simulating, and visualizing climate realities, exploring how these tools can be deployed to not just predict, but challenge and disrupt the status quo.</p>
+<p>Central to the course is the reinterpretation of ‘uncertainty.’ Rather than viewing it as a hindrance, we consider it as a catalyst to challenge conventional risk management paradigms, leading to innovative interventions and the envisioning of diverse futures, identities, and ways of being. The course leverages state-of-the-art tools, such as uncertainty, hydrodynamic and agent-based modeling, digital twins, and generative AI programming, offering students a multifaceted approach to confronting real-world climate challenges. Beyond the classroom, the course is enriched by a dedicated speaker series and site visits, facilitated through generous funding. As part of the larger The 2030 Project initiative, students will also have the opportunity to showcase their work to a broader audience through publications, exhibitions, and events, effectively bridging the gap between academia and society, theory and practice. Our objective goes beyond developing climate-aware professionals; we aim to cultivate proactive climate designers and engineers, ready to make a significant impact on our collective futures.</p>
+</div>
+</div>
+</section>
+<section id="bee-6940-climate-risk-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="bee-6940-climate-risk-analysis"><a href="https://viveks.me/climate-risk-analysis">BEE 6940: Climate Risk Analysis</a></h3>
+<div class="grid">
+<div class="g-col-3">
+<p><strong>Semesters Taught</strong>:</p>
+<ul>
+<li>Spring 2023</li>
+</ul>
+</div>
+<div class="g-col-9">
+<p>The impacts of climate variability and change are subject to a number of deep and dynamic uncertainties which complicate systems design and management. Using coastal flood risk management as motivation, this course will introduce concepts and methods for uncertainty characterization and quantification for systems experiencing dynamic environmental risk and will explore implications of uncertainty for decision-making. Students will develop and apply these uncertainty and decision analyses in the context of several example systems.</p>
+</div>
 </div>
 
 
-
+</section>
 </section>
 
 </main> <!-- /main -->
