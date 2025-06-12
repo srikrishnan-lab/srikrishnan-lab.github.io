@@ -30,7 +30,7 @@ I believe in creating open-source teaching materials with an emphasis on reprodu
 
 Environmental systems involve multiple interacting processes, uncertainties, and potentially conflicting objectives. These dynamics can complicate analyses which focus on a single component of the system, such as an individual pollution source, or a single outcome of interest. In this course, students will adopt a systems approach to environmental quality modeling and management, including applications in air and water pollution control and solid waste management. Students will learn to formulate mathematical systems models, translate them into computational models, and use these models for simulation of system dynamics and optimization of investment and management strategies. Students will be assessed using a combination of homework assignments, in-class computing labs, and in-class midterm exams. In addition, students will work on a group research project of their own design on an environmental systems topic of their choosing. At the end of the semester, students will submit a final report of their project along with a 10-minute video presentation. Students taking the graduate version of this course (BEE 5750) will complete additional homework problems to demonstrate additional mastery of the material.
 
-This course is required for Environmental Engineering majors.
+This course is required for Environmental Engineering majors. While we will use the [Julia programming language](https://julialang.org/) for computing, no prior experience with Julia is required.
 
 :::
 
