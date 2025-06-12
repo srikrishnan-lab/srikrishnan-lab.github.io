@@ -22,7 +22,7 @@ I believe in creating open-source teaching materials with an emphasis on reprodu
 - [Fall 2024](https://envsys.viveks.me/fall2024/)
 - [Fall 2023](https://envsys.viveks.me/fall2023/)
 - [Fall 2022](https://envsys.viveks.me/fall2022/)
-- Fall 2021 (with[C. Lindsay Anderson](https://andersonenergylab-cornell.github.io/))
+- Fall 2021 (with [C. Lindsay Anderson](https://andersonenergylab-cornell.github.io/))
 
 :::
 
@@ -67,7 +67,7 @@ Simulations from numerical and statistical models are a key tool used to quantif
 
 **Semesters Taught**:
 
-- Spring 2024 (with Profs. [Christine Goodale](https://ecologyandevolution.cornell.edu/christine-l-goodale), [Angeline Pendergrass](https://precipclimate.eas.cornell.edu/), and [Jeremy Wallace](https://jeremywallace.org/))
+- Spring 2024 (with [Christine Goodale](https://ecologyandevolution.cornell.edu/christine-l-goodale), [Angeline Pendergrass](https://precipclimate.eas.cornell.edu/), and [Jeremy Wallace](https://jeremywallace.org/))
 
 :::
 
