@@ -24,7 +24,7 @@ url_source:
 url_preprint: 
 url_repo: 
 journ: "Submitted"
-image: featured.png
+image: featured.jpg
 year: 2025
 ---
 
