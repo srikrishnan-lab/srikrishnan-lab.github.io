@@ -1,0 +1,38 @@
+---
+title: "Technology indicators enable early detection of decarbonization failures"
+date: 2025-01-01
+author: 
+  - name: Jingyu Shiwang
+  - name: Wei Peng
+    orcid: 0000-0002-1980-0759
+    url: https://www.weipengenergy.com/
+  - name: Xinyuan Huang
+  - name: Gokul Iyer
+    orcid: 0000-0002-5162-795X
+    url: https://www.pnnl.gov/people/gokul-iyer
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - climate risk management
+    - climate policy
+    - climate change mitigation
+url_source: 
+url_preprint: 
+url_repo: 
+journ: "Submitted"
+image: featured.png
+year: 2025
+---
+
+## Abstract
+
+Assessing decarbonization progress traditionally relies solely on tracking carbon emissions. Focusing on carbon emissions alone struggles to capture the complex uncertainties that may result in failing to identify early warning signals of decarbonization failures. Here we design and test an expanded indicator system that combines energy technology deployment with emissions to improve the early detection of long-term decarbonization failures. Using a large scenario ensemble simulated by a state-of-the-art multi-sectoral model for the US (GCAM-USA, N=2,304), we demonstrate that relying solely on the emissions indicator through 2035 is not adequate to skillfully predict decarbonization failures in 2050. In contrast, combining emissions with a range of technology indicators can substantially improve the predictive skill. This improvement is driven by the additional information provided by technological progress indicators, especially about the potential acceleration of long-term mitigation. For instance, indicators of technology deployment in early time periods can offer insights for the future potential of rapid deployment of carbon dioxide removal technologies, quick scale-up of renewable technologies, or accelerated phase-out of fossil fuels. Our study demonstrates the value of tracking technology indicators to better monitor decarbonization progress and offers insights for developing adaptive strategies to enhance the chances of decarbonization success.
+
+## Meme
+
+![](meme.png)
+
