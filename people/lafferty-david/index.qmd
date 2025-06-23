@@ -2,12 +2,12 @@
 title: &TITLE David C. Lafferty
 last: Lafferty
 first: David
-people_group: "postdoc"
-email: "dcl257@cornell.edu"
+people_group: "alumni"
+email: "DLafferty@verisk.com"
 education:
   - Ph.D. Atmospheric Science | University of Illinois at Urbana-Champaign | 2024 <br> M.Sc. Physics |  Ruprecht-Karls-Universität Heidelberg | 2018 <br> B.Sc. Physics | University of Glasgow | 2016
-subtitle: "Postdoctoral Scholar"
-affiliation: "Cornell University"
+subtitle: "Scientist II, Verisk Extreme Event Solutions"
+affiliation: "Verisk Extreme Event Solutions"
 image: dlafferty.jpg
 page-layout: full
 about: 
@@ -24,7 +24,7 @@ about:
       href: https://david0811.github.io
     - icon: envelope
       text: Email
-      href: mailto:dcl257@cornell.edu
+      href: mailto:DLafferty@verisk.com
     - text: "{{< ai google-scholar >}} Google Scholar"
       href: https://scholar.google.com/citations?hl=en&user=Kpwu3qEAAAAJ
     - text: "{{< ai orcid >}} Orcid"
@@ -52,7 +52,7 @@ listing:
 
 :::{#about}
 
-David Lafferty is a postdoctoral associate in the Department of Biological and Environmental Engineering at Cornell. David’s research focuses on climate risk management; he is interested in applying novel modeling techniques to better characterize the risks of a changing climate and develop robust adaptation strategies in the presence of deep and dynamic uncertainties. Outside of work, David enjoys running, cycling, reading, and playing and watching soccer.
+David Lafferty is a Scientist II at Verisk Extreme Event Solutions. He was previously a postdoctoral associate in the Department of Biological and Environmental Engineering at Cornell. David’s research focuses on climate risk management; he is interested in applying novel modeling techniques to better characterize the risks of a changing climate and develop robust adaptation strategies in the presence of deep and dynamic uncertainties. Outside of work, David enjoys running, cycling, reading, and playing and watching soccer.
 
 
 ## Education

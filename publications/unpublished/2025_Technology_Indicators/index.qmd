@@ -34,5 +34,4 @@ Assessing decarbonization progress traditionally relies solely on tracking carbo
 
 ## Meme
 
-![](meme.png)
-
+![](meme.png){width=60%}

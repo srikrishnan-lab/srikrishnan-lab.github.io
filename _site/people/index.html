@@ -110,9 +110,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-resources","listing-_quarto-vars","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-affiliation","listing-image","listing-page-layout","listing-about","listing-listing","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -319,7 +319,6 @@ window.Quarto = {
    
   <ul>
   <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link active" data-scroll-target="#principal-investigator">Principal Investigator</a></li>
-  <li><a href="#postdoctoral-fellows" id="toc-postdoctoral-fellows" class="nav-link" data-scroll-target="#postdoctoral-fellows">Postdoctoral Fellows</a></li>
   <li><a href="#graduate-students" id="toc-graduate-students" class="nav-link" data-scroll-target="#graduate-students">Graduate Students</a></li>
   <li><a href="#undergraduate-students" id="toc-undergraduate-students" class="nav-link" data-scroll-target="#undergraduate-students">Undergraduate Students</a></li>
   <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a></li>
@@ -406,65 +405,12 @@ window.Quarto = {
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-</section>
-<section id="postdoctoral-fellows" class="level2">
-<h2 class="anchored" data-anchor-id="postdoctoral-fellows">Postdoctoral Fellows</h2>
-<div id="listing-postdoc" class="quarto-listing quarto-listing-container-custom">
+<!----
+## Postdoctoral Fellows
 
-<div class="quarto-listing quarto-listing-container-grid">
-  
-  <div class="list grid quarto-listing-cols-3"> 
-
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/lafferty-david/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="David C. Lafferty" src="../people/lafferty-david/dlafferty.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              David C. Lafferty<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-              Postdoctoral Scholar<br>
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                  Ph.D. Atmospheric Science | University of Illinois at Urbana-Champaign | 2024 <br> M.Sc. Physics |  Ruprecht-Karls-Universität Heidelberg | 2018 <br> B.Sc. Physics | University of Glasgow | 2016<br>
-                  
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-    
-  
-</div>
-</div>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+::: {#postdoc}
+:::
+--->
 </section>
 <section id="graduate-students" class="level2">
 <h2 class="anchored" data-anchor-id="graduate-students">Graduate Students</h2>
@@ -854,6 +800,53 @@ window.Quarto = {
       
     </div>
   
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/lafferty-david/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="David C. Lafferty" src="../people/lafferty-david/dlafferty.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              David C. Lafferty<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+
+              
+                  Scientist II, Verisk Extreme Event Solutions<br>
+                  
+
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Atmospheric Science | University of Illinois at Urbana-Champaign | 2024 <br> M.Sc. Physics |  Ruprecht-Karls-Universität Heidelberg | 2018 <br> B.Sc. Physics | University of Glasgow | 2016<br>
+                    
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
     
   
 </div>
@@ -866,7 +859,19 @@ window.Quarto = {
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-custom" id="listing-postdoc">
+
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list grid quarto-listing-cols-3"> 
+
+    
+  
+</div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
