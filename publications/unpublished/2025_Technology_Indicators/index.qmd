@@ -21,12 +21,17 @@ categories:
     - climate policy
     - climate change mitigation
 url_source: 
-url_preprint: 
+url_preprint: https://doi.org/10.31219/osf.io/bfrzp_v1
 url_repo: 
+doi: https://doi.org/10.31219/osf.io/bfrzp_v1
 journ: "Submitted"
 image: featured.jpg
 year: 2025
 ---
+
+## Links
+
+* [Preprint](https://doi.org/10.31219/osf.io/bfrzp_v1)
 
 ## Abstract
 
