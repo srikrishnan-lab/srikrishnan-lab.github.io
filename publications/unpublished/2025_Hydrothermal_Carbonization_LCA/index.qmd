@@ -16,7 +16,7 @@ categories:
 url_source: 
 url_preprint:
 url_repo: https://github.com/EME2-Lab/HTC-lab-exploratory
-journ: "In Revision"
+journ: "ACS Sustainable Chemistry & Engineering (accepted)"
 year: 2025
 ---
 
