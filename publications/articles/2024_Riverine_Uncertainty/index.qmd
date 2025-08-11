@@ -52,7 +52,7 @@ Designing strategies to manage flood risks is complicated by the often large unc
   journal = {Journal of Hydrology},
   volume = {634},
   pages = {131055},
-  date = {2024-03-01},
+  date = {2024},
   doi = {10.1016/j.jhydrol.2024.131055}
 }
 ```

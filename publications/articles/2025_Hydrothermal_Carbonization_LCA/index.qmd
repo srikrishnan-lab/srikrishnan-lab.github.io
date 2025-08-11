@@ -1,0 +1,44 @@
+---
+title: "Environmental trade-offs in hydrothermal carbonization process selection determined via attributional life cycle assessment and multi-criteria decision making"
+date: 2025-01-01
+author: 
+  - name: Demola Ogunnaike
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Jillian L. Goldfarb
+    orcid: 0000-0001-8682-9714
+    url: https://blogs.cornell.edu/goldfarb/
+categories:
+    - life-cycle assessment
+    - climate mitigation
+    - multi-objective decision-making
+url_source: https://doi.org/10.1021/acssuschemeng.5c03969
+url_preprint:
+url_repo: https://github.com/EME2-Lab/HTC-lab-exploratory
+journ: "ACS Sustainable Chemistry & Engineering"
+year: 2025
+doi: 10.1021/acssuschemeng.5c03969
+image: featured.jpeg
+---
+
+## Links
+
+* [Code Repository](https://github.com/EME2-Lab/HTC-lab-exploratory)
+
+## Abstract
+
+Hydrothermal carbonization (HTC) is a thermochemical process that upgrades wet agro-industrial and food waste feedstocks into a solid hydrochar with coal-like properties. Despite its ability to mitigate environmental impacts from food waste and produce bioenergy resources, HTC-based integrated biorefineries have not progressed beyond the pilot scale. Identifying favorable reaction conditions that simultaneously reduce environmental externalities and improve economic performance could enhance the commercial viability of HTC. We conduct a prospective lab-scale gate-to-gate attributional life cycle assessment of an HTC-based biorefinery based on the three largest food waste sources subject to the 2022 New York State Food Donation and Food Scraps Recycling Law. We demonstrate how HTC process variables, including feedstock and reaction conditions, affect environmental impacts. Using multiobjective systems optimization and multicriteria decision making to consider trade-offs in HTC’s functionality along with an uncertainty analysis, we find that mixing different food waste feedstocks reduces environmental impacts over any one individual food waste feedstock.
+
+## Citation
+
+@ARTICLE{Ogunnaike2025-yd,
+  title = {{Environmental trade-offs in hydrothermal carbonization process
+  selection determined via attributional life cycle assessment and multicriteria
+  decision making}},
+  author = {Ogunnaike, Demola and Srikrishnan, Vivek and Goldfarb, Jillian L},
+  journal = {ACS Sustain. Chem. Eng.},
+  date = {2025},
+  doi = {10.1021/acssuschemeng.5c03969},
+  url = {http://dx.doi.org/10.1021/acssuschemeng.5c03969}
+}
