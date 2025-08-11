@@ -1187,7 +1187,7 @@
     "href": "publications/articles/2025_Hydrothermal_Carbonization_LCA/index.html#citation",
     "title": "Environmental trade-offs in hydrothermal carbonization process selection determined via attributional life cycle assessment and multi-criteria decision making",
     "section": "Citation",
-    "text": "Citation\n@ARTICLE{Ogunnaike2025-yd, title = {{Environmental trade-offs in hydrothermal carbonization process selection determined via attributional life cycle assessment and multicriteria decision making}}, author = {Ogunnaike, Demola and Srikrishnan, Vivek and Goldfarb, Jillian L}, journal = {ACS Sustain. Chem. Eng.}, date = {2025}, doi = {10.1021/acssuschemeng.5c03969}, url = {http://dx.doi.org/10.1021/acssuschemeng.5c03969} }"
+    "text": "Citation\n@ARTICLE{Ogunnaike2025-yd,\n  title = {{Environmental trade-offs in hydrothermal carbonization process\n  selection determined via attributional life cycle assessment and multicriteria\n  decision making}},\n  author = {Ogunnaike, Demola and Srikrishnan, Vivek and Goldfarb, Jillian L},\n  journal = {ACS Sustain. Chem. Eng.},\n  date = {2025},\n  doi = {10.1021/acssuschemeng.5c03969},\n  url = {http://dx.doi.org/10.1021/acssuschemeng.5c03969}\n}"
   },
   {
     "objectID": "publications/articles/2025_Policy_Window/index.html",
