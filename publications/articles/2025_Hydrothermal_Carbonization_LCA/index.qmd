@@ -32,6 +32,7 @@ Hydrothermal carbonization (HTC) is a thermochemical process that upgrades wet a
 
 ## Citation
 
+```bibtex
 @ARTICLE{Ogunnaike2025-yd,
   title = {{Environmental trade-offs in hydrothermal carbonization process
   selection determined via attributional life cycle assessment and multicriteria
@@ -42,3 +43,4 @@ Hydrothermal carbonization (HTC) is a thermochemical process that upgrades wet a
   doi = {10.1021/acssuschemeng.5c03969},
   url = {http://dx.doi.org/10.1021/acssuschemeng.5c03969}
 }
+```
