@@ -27,7 +27,9 @@ url_source: https://doi.org/10.1016/j.energy.2025.137937
 url_preprint: https://arxiv.org/abs/2307.15079
 url_repo: https://github.com/AndersonEnergyLab-Cornell/ny-clcpa2050
 journ: "Energy"
+year: 2025
 doi: 10.1016/j.energy.2025.137937
+image: featured.jpg
 ---
 
 ## Links
