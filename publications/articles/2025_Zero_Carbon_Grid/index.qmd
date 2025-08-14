@@ -1,0 +1,57 @@
+---
+title: "Energy system vulnerabilities in a zero-emission grid: The role of climate variability and technology uncertainty"
+date: 2025-01-01
+author: 
+  - name: M. Vivienne Liu
+    orcid: 0000-0002-5676-8591
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Kenji Doering
+    orcid: 0000-0002-1819-9949
+    url: https://cals.cornell.edu/kenji-doering
+  - name: Elnaz Kabir
+    orcid: 0000-0002-1819-9949
+    url: https://elnaz-kabir.github.io
+  - name: Scott Steinschneider
+    orcid: 0000-0002-8882-1908
+    url: https://blogs.cornell.edu/steinschneider/
+  - name: C. Lindsay Anderson
+    orcid: 0000-0002-5148-0118
+    url: https://andersonenergylab-cornell.github.io/
+categories:
+    - electric power systems
+    - power grid reliability
+    - climate variability
+url_source: https://doi.org/10.1016/j.energy.2025.137937
+url_preprint: https://arxiv.org/abs/2307.15079
+url_repo: https://github.com/AndersonEnergyLab-Cornell/ny-clcpa2050
+journ: "Energy"
+doi: 10.1016/j.energy.2025.137937
+---
+
+## Links
+
+* [Preprint](https://arxiv.org/abs/2307.15079)
+* [Code Repository](https://github.com/AndersonEnergyLab-Cornell/ny-clcpa2050)
+
+## Abstract
+
+A growing need to reduce carbon emissions has led to bold strategies like New York’s Climate Leadership and Community Protection Act, which targets a zero-emission electricity grid by 2040. However, the implications and potential vulnerabilities introduced by a zero-emission power grid in the face of changing climates and technologies have received limited scrutiny. This study addresses this gap with an energy system model that couples high spatial and temporal resolution with realistic operational constraints under diverse future climate and technology scenarios. The New York State energy system and climate-energy policy are used to examine distinct spatial and temporal vulnerabilities stemming from interactions among renewable resource availability, evolving load patterns, and major transmission congestion. Analysis indicates a need for 60%–105% additional clean-firm capacity to maintain reliability. Increasing renewable capacity alone is insufficient due to transmission constraints and variations in spatial and temporal vulnerabilities. The study offers a replicable methodology for evaluating decarbonization policies worldwide, emphasizing the importance of aligning operational realities with ambitious climate goals.
+
+## Citation
+
+```bibtex
+@ARTICLE{Liu2025-wa,
+  title = {{Energy system vulnerabilities in a zero-emission grid: The role of
+  climate variability and technology uncertainty}},
+  author = {Liu, M Vivienne and Srikrishnan, Vivek and Doering, Kenji and Kabir,
+  Elnaz and Steinschneider, Scott and Anderson, C Lindsay},
+  journaltitle = {Energy},
+  pages = {137937},
+  date = {2025-08-13},
+  doi = {10.1016/j.energy.2025.137937},
+  url = {http://dx.doi.org/10.1016/j.energy.2025.137937},
+  urldate = {2025},
+}
+```
