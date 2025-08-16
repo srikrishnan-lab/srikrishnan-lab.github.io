@@ -28,6 +28,8 @@ url_preprint: https://arxiv.org/abs/2307.15079
 url_repo: https://github.com/AndersonEnergyLab-Cornell/ny-clcpa2050
 journ: "Energy"
 year: 2025
+issue: 335
+page: 137937
 doi: 10.1016/j.energy.2025.137937
 image: featured.jpg
 ---
@@ -55,5 +57,6 @@ A growing need to reduce carbon emissions has led to bold strategies like New Yo
   doi = {10.1016/j.energy.2025.137937},
   url = {http://dx.doi.org/10.1016/j.energy.2025.137937},
   urldate = {2025},
+  volume = {137937}
 }
 ```
