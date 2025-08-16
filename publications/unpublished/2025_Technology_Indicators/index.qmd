@@ -24,7 +24,7 @@ url_source:
 url_preprint: https://doi.org/10.31219/osf.io/bfrzp_v1
 url_repo: 
 doi: https://doi.org/10.31219/osf.io/bfrzp_v1
-journ: "Submitted"
+journ: "In Review"
 image: featured.jpg
 year: 2025
 ---
