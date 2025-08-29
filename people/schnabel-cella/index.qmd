@@ -2,11 +2,11 @@
 title: &TITLE Cella Schnabel
 last: Schnabel
 first: Cella
-people_group: "undergrad"
-email: "rms428@cornell.edu"
+people_group: "alumni"
+email: "cellaschnabel@ucsb.edu"
 education:
   - B.S. Environmental Engineering | Cornell University | 2025
-subtitle: "Undergraduate Student, Environmental Engineering"
+subtitle: "Ph.D. Student, UC Santa Barbara"
 affiliation: Cornell University
 image: cschnabel.jpg
 page-layout: full

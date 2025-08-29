@@ -2,11 +2,11 @@
 title: &TITLE Gabriela Ackermann Logan
 last: Ackermann Logan
 first: Gabriela
-people_group: "gradstudent"
+people_group: "alumni"
 email: "ga345@cornell.edu"
 education:
-  - B.S. Civil Engineering | Tufts University | 2023
-subtitle: "M.S. Student, Biological & Environmental Engineering"
+  - M.S. Biological & Environmentla Engineering | Cornell University | 2025 <br> B.S. Civil Engineering | Tufts University | 2023
+subtitle: ""
 affiliation: Cornell University
 page-layout: full
 about: 
