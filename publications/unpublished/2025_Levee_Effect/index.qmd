@@ -29,7 +29,7 @@ url_source:
 url_preprint: https://osf.io/preprints/osf/9ejn8
 url_repo: https://github.com/parinbhaduri/bhaduri-etal-2024
 doi: https://doi.org/10.31219/osf.io/9ejn8
-journ: "In Review"
+journ: "Accepted"
 ---
 
 ## Links
