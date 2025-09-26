@@ -1,0 +1,64 @@
+---
+title: "Uncertainty in household behavior drives large variation in the size of the levee effect"
+date: 2025-01-01
+author: 
+  - name: Parin Bhaduri
+    orcid: 0000-0002-4618-1121
+  - name: Adam Pollack
+    orcid: 0000-0001-6642-0591
+    url: https://abpoll.github.io/
+  - name: Jim Yoon
+    url: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3295
+  - name: Pranab Roy Chowdhury
+    orcid: 0000-0002-7572-050X
+  - name: Heng Wan
+    orcid: 0000-0002-3747-6964
+  - name: David Judi
+    orcid: 0000-0003-0989-4525
+    url: https://www.pnnl.gov/people/david-judi
+  - name: Brent Daniel
+    orcid: 0000-0001-7398-6796
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+categories:
+    - flood risk
+    - sensitivity analysis
+    - agent-based modeling
+url_source: https://onlinelibrary.wiley.com/doi/10.1111/jfr3.70131
+url_preprint: https://osf.io/preprints/osf/9ejn8
+url_repo: https://github.com/parinbhaduri/bhaduri-etal-2024
+doi: https://doi.org/10.1111/jfr3.70131
+journ: "Journal of Flood Risk Management"
+issue: "18 (4)"
+page: e70131
+year: 2025
+image: featured.jpg
+---
+
+## Links
+
+* [Preprint](https://osf.io/preprints/osf/9ejn8)
+* [Code Repository](https://github.com/parinbhaduri/bhaduri-etal-2024)
+
+## Abstract
+
+Coastal cities face increasing flood hazards due to climate change. Physical infrastructure, such as levees, are commonly used to reduce flood hazards. To effectively manage flood risks, it is important to understand the degree to which physical infrastructure changes both hazard and exposure. For example, many studies suggest that levee construction causes an overall increase in risk because levees promote exposure growth to a greater degree than they reduce flood hazards. Although this so-called “levee effect” is widely studied, there are knowledge gaps surrounding how uncertainties related to levee construction and flood risk translate into the occurrence and strength of the levee effect in coastal communities. Here, we use agent-based modeling to simulate the influence of flood risk information pathways on the dynamics around the levee effect, first under idealized conditions and then within a real-world coastal case study. We finally conduct a global sensitivity analysis to identify which model factors contribute to the strength of the levee effect. We find that, under idealized conditions, the strength of the levee effect is highly sensitive to economic (e.g., population growth) and engineering (e.g., levee failure) factors. However, under more complex coastal conditions, factors related to household behavior (e.g., risk aversion) are more influential on the strength of the levee effect. Overall, our findings emphasize the importance of capturing the interactions and uncertainties among multiple behavioral, economic, and engineering factors when measuring flood risk in coastal communities.
+
+## Citation
+
+```bibtex
+@ARTICLE{Bhaduri2025-ol,
+  title = {{Uncertainty in household behavior drives large variation in the size
+  of the levee effect}},
+  author = {Bhaduri, Parin and Pollack, Adam B and Yoon, James and Roy
+  Chowdhury, Pranab K and Wan, Heng and Judi, David and Daniel, Brent and
+  Srikrishnan, Vivek},
+  journaltitle = {J. Flood Risk Manag.},
+  volume = {18},
+  issue = {4},
+  pages = {e70131},
+  date = {2025},
+  doi = {10.1111/jfr3.70131}
+}
+```
