@@ -16,11 +16,9 @@ about:
   image-shape: round
   image: cschnabel.jpg
   links:
-    - text: "{{< ai cv >}} Curriculum Vitae"
-      href: https://drive.google.com/file/d/1YP2l_4mHaO5T33sM8oVXBwb3LwIo9hkO/view?usp=sharing
     - icon: envelope
       text: Email
-      href: mailto:rms428@cornell.edu
+      href: mailto:cellaschnabel@ucsb.edu
     - text: "{{< ai google-scholar >}} Google Scholar"
       href: https://scholar.google.com/citations?hl=en&user=CY_JxugAAAAJ
     - icon: github
