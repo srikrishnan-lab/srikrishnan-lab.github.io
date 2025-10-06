@@ -34,8 +34,8 @@ author:
     url: https://keller-lab.github.io/people.html
 categories:
     - climate risk management
-    - flood risk management
-    - climate change mitigation
+    - flood risk
+    - building structures
 url_source: 
 url_preprint: 
 url_repo: https://github.com/abpoll/nsi_fit
