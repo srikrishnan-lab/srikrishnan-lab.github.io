@@ -1,0 +1,74 @@
+---
+title: "Unrefined national building inventories can mislead risk assessments and decision"
+date: 2025-01-01
+author: 
+  - name: Adam B. Pollack
+    orcid: 0000-0001-6642-0591
+    url: https://abpoll.github.io/
+  - name: James J. Benedict
+    orcid: 0000-0001-5115-5131
+  - name: Mithun Deb
+    orcid: 0000-0001-8898-3096
+    url: https://mithundeb.github.io/
+  - name: James Doss-Gollin
+    orcid: 0000-0002-3428-2224
+    url: https://dossgollin-lab.github.io/
+  - name: David Judi
+    orcid: 0000-0003-0989-4525
+    url: https://www.pnnl.gov/people/david-judi
+  - name: William Lehman
+    orcid: 0000-0002-5816-8442
+  - name: Nicholas Lutz
+  - name: Cade Reesman
+  - name: Elaine Sarazen
+  - name: Youngjun Son
+    orcid: 0000-0001-5128-2499
+  - name: Ning Sun
+    orcid: 0000-0002-4094-4482
+    url: https://www.pnnl.gov/people/ning-sun
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - climate risk management
+    - flood risk management
+    - climate change mitigation
+url_source: 
+url_preprint: 
+url_repo: https://github.com/abpoll/nsi_fit
+journ: "Submitted"
+year: 2025
+---
+
+## Links
+
+* [Code Repository](https://github.com/abpoll/nsi_fit)
+
+## Abstract
+
+Flood-risk assessments inform consequential public decisions. These assessments
+increasingly use large-scale building inventories that offer granular details but come with
+little quality assurance. The U.S. Army Corps’ National Structure Inventory (NSI) is a
+prominent example. The Corps explicitly recommends that users evaluate data quality
+and adjust attributes as necessary. However, many studies skip this step. This raises
+the questions: How accurate is the NSI and how do any errors influence risk
+assessments and decisions? Here we use a case study for the city of Philadelphia,
+Pennsylvania comparing NSI-based damage estimates against estimates with high-
+quality, feature-rich local building data under an ensemble of flood scenarios. The
+nearly ubiquitous practice of adopting the NSI without refinements can systematically
+distort flood damage estimates with potentially drastic implications for resource
+allocation decisions. Using the NSI to rank census tracts by damage – a common metric
+for prioritizing federal disaster funding – generally misclassifies one-fifth of tracts
+regarding their priority status. Simple refinements, such as correcting building locations,
+can drastically reduce classification errors, leading to correct identification of all tracts
+with respect to priority status in all but one flood scenario. Our findings demonstrate
+how the use of unrefined nationwide building inventories can compromise risk
+assessments and mislead resource allocation. We provide actionable guidance for
+enhancing inventory reliability to improve risk estimation and decision analyses.
+
+## Meme
+
+![](meme.png){width=60%}
