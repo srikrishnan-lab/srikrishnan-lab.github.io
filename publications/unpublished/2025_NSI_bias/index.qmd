@@ -37,7 +37,7 @@ categories:
     - flood risk
     - building structures
 url_source: 
-url_preprint: 
+url_preprint: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5575271
 url_repo: https://github.com/abpoll/nsi_fit
 journ: "Submitted"
 year: 2025
@@ -46,6 +46,7 @@ year: 2025
 ## Links
 
 * [Code Repository](https://github.com/abpoll/nsi_fit)
+* [Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5575271)
 
 ## Abstract
 
