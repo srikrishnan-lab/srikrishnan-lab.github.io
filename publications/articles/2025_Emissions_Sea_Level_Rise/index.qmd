@@ -40,6 +40,12 @@ image: featured.png
 
 Uncertainty in future carbon dioxide (CO2) emissions and the geophysical response to emissions drives variability in future sea-level rise (SLR). However, the relative contributions of emissions and geophysical dynamics (e.g. Antarctic Ice Sheet (AIS) tipping points) to future sea-level projections are not well understood. Here, we disentangle their relative importance by propagating an ensemble of CO2 emissions trajectories through a calibrated carbon cycle-climate-sea-level model chain. When neglecting negative emissions technologies (NETs), the CO2 emissions trajectory, particularly the timing of when emissions are reduced, becomes the primary driver of sea-level variability only after 2075. Accelerated AIS melting can greatly influence the transient sensitivity of GMSLR to cumulative emissions and warming. As a result of these path dependencies, delaying decarbonization reduces the “safe operating space” associated with the geophysical uncertainties. Our results highlight the importance of both adaptation and rapid decarbonization (including negative emissions) to manage the risks posed by SLR.
 
+## Meme
+
+![](meme.png)
+
+## Citation
+
 ```bibtex
 @ARTICLE{Darnell2025-zg,
   title = {{The interplay of future emissions and geophysical uncertainties for
