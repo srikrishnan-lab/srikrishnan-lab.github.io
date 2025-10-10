@@ -42,7 +42,7 @@ Uncertainty in future carbon dioxide (CO2) emissions and the geophysical respons
 
 ## Meme
 
-![](meme.png)
+![](meme.png){width=50%}
 
 ## Citation
 
