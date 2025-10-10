@@ -1257,7 +1257,21 @@
     "href": "publications/articles/2025_Emissions_Sea_Level_Rise/index.html#abstract",
     "title": "The interplay of future emissions and geophysical uncertainties for future sea level rise",
     "section": "Abstract",
-    "text": "Abstract\nUncertainty in future carbon dioxide (CO2) emissions and the geophysical response to emissions drives variability in future sea-level rise (SLR). However, the relative contributions of emissions and geophysical dynamics (e.g. Antarctic Ice Sheet (AIS) tipping points) to future sea-level projections are not well understood. Here, we disentangle their relative importance by propagating an ensemble of CO2 emissions trajectories through a calibrated carbon cycle-climate-sea-level model chain. When neglecting negative emissions technologies (NETs), the CO2 emissions trajectory, particularly the timing of when emissions are reduced, becomes the primary driver of sea-level variability only after 2075. Accelerated AIS melting can greatly influence the transient sensitivity of GMSLR to cumulative emissions and warming. As a result of these path dependencies, delaying decarbonization reduces the “safe operating space” associated with the geophysical uncertainties. Our results highlight the importance of both adaptation and rapid decarbonization (including negative emissions) to manage the risks posed by SLR.\n@ARTICLE{Darnell2025-zg,\n  title = {{The interplay of future emissions and geophysical uncertainties for\n  projections of sea-level rise}},\n  author = {Darnell, Chloe and Rennels, Lisa and Errickson, Frank and Wong, Tony\n  and Srikrishnan, Vivek},\n  journaltitle = {Nat. Clim. Chang.},\n  pages = {1--7},\n  date = {2025},\n  doi = {10.1038/s41558-025-02457-0}\n}"
+    "text": "Abstract\nUncertainty in future carbon dioxide (CO2) emissions and the geophysical response to emissions drives variability in future sea-level rise (SLR). However, the relative contributions of emissions and geophysical dynamics (e.g. Antarctic Ice Sheet (AIS) tipping points) to future sea-level projections are not well understood. Here, we disentangle their relative importance by propagating an ensemble of CO2 emissions trajectories through a calibrated carbon cycle-climate-sea-level model chain. When neglecting negative emissions technologies (NETs), the CO2 emissions trajectory, particularly the timing of when emissions are reduced, becomes the primary driver of sea-level variability only after 2075. Accelerated AIS melting can greatly influence the transient sensitivity of GMSLR to cumulative emissions and warming. As a result of these path dependencies, delaying decarbonization reduces the “safe operating space” associated with the geophysical uncertainties. Our results highlight the importance of both adaptation and rapid decarbonization (including negative emissions) to manage the risks posed by SLR."
+  },
+  {
+    "objectID": "publications/articles/2025_Emissions_Sea_Level_Rise/index.html#meme",
+    "href": "publications/articles/2025_Emissions_Sea_Level_Rise/index.html#meme",
+    "title": "The interplay of future emissions and geophysical uncertainties for future sea level rise",
+    "section": "Meme",
+    "text": "Meme"
+  },
+  {
+    "objectID": "publications/articles/2025_Emissions_Sea_Level_Rise/index.html#citation",
+    "href": "publications/articles/2025_Emissions_Sea_Level_Rise/index.html#citation",
+    "title": "The interplay of future emissions and geophysical uncertainties for future sea level rise",
+    "section": "Citation",
+    "text": "Citation\n@ARTICLE{Darnell2025-zg,\n  title = {{The interplay of future emissions and geophysical uncertainties for\n  projections of sea-level rise}},\n  author = {Darnell, Chloe and Rennels, Lisa and Errickson, Frank and Wong, Tony\n  and Srikrishnan, Vivek},\n  journaltitle = {Nat. Clim. Chang.},\n  pages = {1--7},\n  date = {2025},\n  doi = {10.1038/s41558-025-02457-0}\n}"
   },
   {
     "objectID": "publications/articles/2025_Interpretable_ML_Hedonic/index.html",
