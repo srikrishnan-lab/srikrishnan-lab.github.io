@@ -1,6 +1,6 @@
 ---
 title: "Graph Neural Ordinary Differential Equations for Coarse-Grained Socioeconomic Dynamics"
-date: 2024-01-01
+date: 2025-01-01
 author:
   - name: James Koch
     orcid: 0000-0003-2787-9054
@@ -19,11 +19,13 @@ author:
 categories:
     - machine learning
     - agent-based modeling
-url_source: 
+url_source: https://doi.org/10.1007/978-3-031-89692-7_15
 url_preprint: https://arxiv.org/abs/2407.18108
 url_repo: 
+doi: https://doi.org/10.1007/978-3-031-89692-7_15
 journ: "Proceedings of the 2024 International Conference of The Computational Social Science Society of the Americas"
-year: 2024
+year: 2025
+image: featured.png
 ---
 
 ## Abstract
@@ -33,11 +35,21 @@ We present a data-driven machine-learning approach for modeling space-time socio
 ## Citation
 
 ```bibtex
-@inproceedings{KochEtAl2024,
-  title = "Graph Neural Ordinary Differential Equations for Coarse-Grained Socioeconomic Dynamics",
-  author = "Koch, James and Roy Chowdhury, Pranab and Wan, Heng and Bhaduri, Parin and Yoon, Jim and Srikrishnan, Vivek and Daniel, Brent",
-  booktitle = {Proceedings of the 2024 International Conference of The Computational Social Science Society of the Americas},
-  publisher = {Springer Cham},
-  year = 2024
+@INPROCEEDINGS{Koch2025-lk,
+  title = {{Graph neural differential equations for coarse-grained socioeconomic
+  dynamics}},
+  author = {Koch, James and Chowdhury, Pranab K Roy and Wan, Heng and Bhaduri,
+  Parin and Yoon, Jim and Srikrishnan, Vivek and Daniel, W Brent},
+  editor = {Yang, Zining and von Briesen, Elizabeth},
+  booktitle = {{Proceedings of the 2024 International Conference of The
+  Computational Social Science Society of the Americas}},
+  publisher = {Springer Nature Switzerland},
+  location = {Cham},
+  eventtitle = {CSSSA 2024},
+  venue = {Santa Fe, New Mexico, USA},
+  pages = {237--256},
+  date = {2025},
+  doi = {10.1007/978-3-031-89692-7_15},
+  series = {Springer Proceedings in Complexity}
 }
 ```
