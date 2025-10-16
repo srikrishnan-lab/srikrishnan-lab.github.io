@@ -13,7 +13,7 @@ url_source: https://doi.org/10.7298/3dm5-j170
 url_preprint:
 url_repo: 
 journ: "M.S. Thesis, Cornell University"
-year: 2025
+year: 2023
 doi: 10.7298/3dm5-j170
 ---
 
@@ -26,12 +26,12 @@ Global mean sea level rise (GMSLR) poses many climate risks, such as coastal flo
 ## Citation
 
 ```bibtex
-@mastersthesis{Darnell2025,
+@mastersthesis{Darnell2023,
   title = {Uncertainty in Emissions Pathways and Earth System Dynamics: Implications for Global Mean Sea Level Rise},
   author = {Darnell, Chloe},
   school = {Cornell University},
   address = {Ithaca, NY, USA},
-  date = {2025},
+  date = {2023},
   mon = {Aug},
   doi = {10.7298/3dm5-j170},
   type = {M.S. Thesis}

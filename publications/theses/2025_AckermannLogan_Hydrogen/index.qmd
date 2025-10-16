@@ -1,0 +1,41 @@
+---
+title: "The Emissions and Cost Tradeoffs of Grid-Connected Hydrogen with Co-Located Renewables"
+date: 2025-08-01
+author: 
+  - name: Gabriela Ackermann Logan
+categories:
+    - electric power systems
+    - hydrogen
+url_source: 
+url_preprint:
+url_repo: 
+journ: "M.S. Thesis, Cornell University"
+year: 2025
+---
+
+
+## Abstract
+
+Hydrogen is increasingly viewed as a key enabler of deep decarbonization, with the potential to provide long-duration storage and clean industrial fuel. However, grid-connected hydrogen production inherits the carbon intensity of the electricity system, raising concerns about its climate performance under inflexible operation. Co-locating electrolyzers with renewables offers one strategy to lower emissions, but introduces trade-offs related to curtailment, capital intensity, and system integration that remain poorly understood.
+
+This study evaluates the economic and emissions performance of hydrogen production under varying degrees of renewable co-location, grid dependence, and system flexibility. Using a high-resolution zonal DCOPF model of New York State’s proposed 2030 grid, we simulate power system dispatch across grid-connected, wind-co-located, and solar-co-located hydrogen configurations. For each scenario, we quantify both the levelized cost of hydrogen (LCOH) and its associated carbon intensity in kilograms of CO~2~ per kilogram of H~2~.
+
+Results show that grid-connected hydrogen is the least expensive pathway, with LCOH ranging from $1 to $2 per kg H~2~, but also the highest-emitting, with carbon intensities of 11.1 kg CO~2~ per kg H~2~. Wind co-location achieves lower emissions, down to 2.2–2.6 kg CO~2~ per kg H~2~ in high-buildout scenarios, though costs rise to $2–3 per kg H~2~. Solar co-location produces moderate emissions (6.9–8.9 kg CO~2~ per kg H~2~) at the highest costs ($3–4 per kg H~2~). No configuration meets the U.S. federal Section 45V clean hydrogen tax credit threshold of 2 kg CO~2~ per kg H~2~, despite several coming close. Interestingly, emissions do not always decline with greater renewable capacity. In wind-rich zones, transmission congestion and battery dispatch interactions limit the emissions benefit of added capacity, sometimes resulting in counterintuitive increases in carbon intensity.
+
+Across all cases, inflexible electrolyzer operation and a lack of temporal coordination limit the climate benefits of hydrogen production. However, co-location can help reduce overall grid emissions by absorbing surplus renewables and avoiding fossil ramping, even when project-level carbon intensity remains above threshold. These findings underscore the need for emissions-based incentives that reflect real-time grid conditions and system behavior. Unlocking the full climate potential of hydrogen will require not just clean power, but flexible demand, transmission access, and integrated system design.
+
+
+
+## Citation
+
+```bibtex
+@mastersthesis{AckermannLogan2025,
+  title = {The Emissions and Cost Tradeoffs of Grid-Connected Hydrogen with Co-Located Renewables},
+  author = {Ackermann Logan, Gabriela},
+  school = {Cornell University},
+  address = {Ithaca, NY, USA},
+  date = {2025},
+  mon = {Aug},
+  type = {M.S. Thesis}
+}
+```

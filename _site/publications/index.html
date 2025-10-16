@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-publication','listing-author','listing-url_source',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-resources","listing-_quarto-vars","listing-language","listing-title","listing-date","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-url_repo","listing-journ","listing-page","listing-year","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-resources","listing-_quarto-vars","listing-language","listing-title","listing-date","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-url_repo","listing-journ","listing-page","listing-year","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-doi","listing-image"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -344,7 +344,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(47)</span></div><div class="category" data-category="YWRhcHRpdmUlMjBzYW1wbGluZw==">adaptive sampling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YWdlbnQtYmFzZWQlMjBtb2RlbGluZw==">agent-based modeling <span class="quarto-category-count">(4)</span></div><div class="category" data-category="YXRtb3NwaGVyaWMlMjBzY2llbmNl">atmospheric science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YnVpbGRpbmclMjBzdHJ1Y3R1cmVz">building structures <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMGFkYXB0YXRpb24=">climate adaptation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMGNoYW5nZSUyMG1pdGlnYXRpb24=">climate change mitigation <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMGltcGFjdHM=">climate impacts <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMG1pdGlnYXRpb24=">climate mitigation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMHBvbGljeQ==">climate policy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMHJpc2slMjBtYW5hZ2VtZW50">climate risk management <span class="quarto-category-count">(13)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMHZhcmlhYmlsaXR5">climate variability <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y29hc3RhbCUyMGZsb29kJTIwcmlzaw==">coastal flood risk <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGVjaXNpb24tbWFraW5nJTIwdW5kZXIlMjB1bmNlcnRhaW50eQ==">decision-making under uncertainty <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZGVlcCUyMHVuY2VydGFpbnR5">deep uncertainty <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZG93bnNjYWxpbmc=">downscaling <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZWxlY3RyaWMlMjBwb3dlciUyMHN5c3RlbXM=">electric power systems <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ZXRoaWNhbC1lcGlzdGVtaWMlMjB2YWx1ZXM=">ethical-epistemic values <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Zmxvb2QlMjByaXNr">flood risk <span class="quarto-category-count">(9)</span></div><div class="category" data-category="aGVhbHRoJTIwaW1wYWN0cw==">health impacts <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aG91c2luZyUyMG1hcmtldHM=">housing markets <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aHlkcm9wb3dlcg==">hydropower <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW50ZXJwcmV0YWJsZSUyMG1hY2hpbmUlMjBsZWFybmluZw==">interpretable machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGlmZS1jeWNsZSUyMGFzc2Vzc21lbnQ=">life-cycle assessment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bW9kZWwlMjBjYWxpYnJhdGlvbg==">model calibration <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bXVsdGktb2JqZWN0aXZlJTIwZGVjaXNpb24tbWFraW5n">multi-objective decision-making <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bXVsdGlzZWN0b3IlMjBkeW5hbWljcw==">multisector dynamics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="b3BlbiUyMHNjaWVuY2U=">open science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9wdWxhdGlvbiUyMG1vZGVsaW5n">population modeling <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cG93ZXIlMjBncmlkJTIwcmVsaWFiaWxpdHk=">power grid reliability <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cmV2aWV3">review <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c2VhJTIwbGV2ZWwlMjByaXNl">sea level rise <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c2VhLWxldmVsJTIwcmlzZQ==">sea-level rise <span class="quarto-category-count">(4)</span></div><div class="category" data-category="c2Vuc2l0aXZpdHklMjBhbmFseXNpcw==">sensitivity analysis <span class="quarto-category-count">(8)</span></div><div class="category" data-category="c29jaWFsJTIwY29zdA==">social cost <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29mdHdhcmU=">software <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c29sYXIlMjByZXNvdXJjZSUyMGFzc2Vzc21lbnQ=">solar resource assessment <span class="quarto-category-count">(4)</span></div><div class="category" data-category="c3Rvcm0lMjBzdXJnZQ==">storm surge <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c3RydWN0dXJhbCUyMHVuY2VydGFpbnR5">structural uncertainty <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dW5jZXJ0YWludHklMjBkZWNvbXBvc2l0aW9u">uncertainty decomposition <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dW5jZXJ0YWludHklMjBxdWFudGlmaWNhdGlvbg==">uncertainty quantification <span class="quarto-category-count">(8)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(48)</span></div><div class="category" data-category="YWRhcHRpdmUlMjBzYW1wbGluZw==">adaptive sampling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YWdlbnQtYmFzZWQlMjBtb2RlbGluZw==">agent-based modeling <span class="quarto-category-count">(4)</span></div><div class="category" data-category="YXRtb3NwaGVyaWMlMjBzY2llbmNl">atmospheric science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YnVpbGRpbmclMjBzdHJ1Y3R1cmVz">building structures <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMGFkYXB0YXRpb24=">climate adaptation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMGNoYW5nZSUyMG1pdGlnYXRpb24=">climate change mitigation <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMGltcGFjdHM=">climate impacts <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMG1pdGlnYXRpb24=">climate mitigation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMHBvbGljeQ==">climate policy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMHJpc2slMjBtYW5hZ2VtZW50">climate risk management <span class="quarto-category-count">(13)</span></div><div class="category" data-category="Y2xpbWF0ZSUyMHZhcmlhYmlsaXR5">climate variability <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y29hc3RhbCUyMGZsb29kJTIwcmlzaw==">coastal flood risk <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGVjaXNpb24tbWFraW5nJTIwdW5kZXIlMjB1bmNlcnRhaW50eQ==">decision-making under uncertainty <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZGVlcCUyMHVuY2VydGFpbnR5">deep uncertainty <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZG93bnNjYWxpbmc=">downscaling <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZWxlY3RyaWMlMjBwb3dlciUyMHN5c3RlbXM=">electric power systems <span class="quarto-category-count">(6)</span></div><div class="category" data-category="ZXRoaWNhbC1lcGlzdGVtaWMlMjB2YWx1ZXM=">ethical-epistemic values <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Zmxvb2QlMjByaXNr">flood risk <span class="quarto-category-count">(9)</span></div><div class="category" data-category="aGVhbHRoJTIwaW1wYWN0cw==">health impacts <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aG91c2luZyUyMG1hcmtldHM=">housing markets <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aHlkcm9nZW4=">hydrogen <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aHlkcm9wb3dlcg==">hydropower <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW50ZXJwcmV0YWJsZSUyMG1hY2hpbmUlMjBsZWFybmluZw==">interpretable machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGlmZS1jeWNsZSUyMGFzc2Vzc21lbnQ=">life-cycle assessment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bW9kZWwlMjBjYWxpYnJhdGlvbg==">model calibration <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bXVsdGktb2JqZWN0aXZlJTIwZGVjaXNpb24tbWFraW5n">multi-objective decision-making <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bXVsdGlzZWN0b3IlMjBkeW5hbWljcw==">multisector dynamics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="b3BlbiUyMHNjaWVuY2U=">open science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9wdWxhdGlvbiUyMG1vZGVsaW5n">population modeling <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cG93ZXIlMjBncmlkJTIwcmVsaWFiaWxpdHk=">power grid reliability <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cmV2aWV3">review <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c2VhJTIwbGV2ZWwlMjByaXNl">sea level rise <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c2VhLWxldmVsJTIwcmlzZQ==">sea-level rise <span class="quarto-category-count">(4)</span></div><div class="category" data-category="c2Vuc2l0aXZpdHklMjBhbmFseXNpcw==">sensitivity analysis <span class="quarto-category-count">(8)</span></div><div class="category" data-category="c29jaWFsJTIwY29zdA==">social cost <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29mdHdhcmU=">software <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c29sYXIlMjByZXNvdXJjZSUyMGFzc2Vzc21lbnQ=">solar resource assessment <span class="quarto-category-count">(4)</span></div><div class="category" data-category="c3Rvcm0lMjBzdXJnZQ==">storm surge <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c3RydWN0dXJhbCUyMHVuY2VydGFpbnR5">structural uncertainty <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dW5jZXJ0YWludHklMjBkZWNvbXBvc2l0aW9u">uncertainty decomposition <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dW5jZXJ0YWludHklMjBxdWFudGlmaWNhdGlvbg==">uncertainty quantification <span class="quarto-category-count">(8)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -2785,6 +2785,8 @@ window.Quarto = {
       <option value="listing-url_source" data-direction="asc">
         url_source
       </option>
+      <option value="listing-image" data-direction="asc">
+      </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -2795,11 +2797,13 @@ window.Quarto = {
 <div class="list quarto-listing-default">
     
     
-    <div class="quarto-post image-right" data-index="0" data-categories="bWFjaGluZSUyMGxlYXJuaW5nJTJDYWdlbnQtYmFzZWQlMjBtb2RlbGluZw==" data-listing-date-sort="1704085200000" data-listing-file-modified-sort="1749249096111" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+    <div class="quarto-post image-right" data-index="0" data-categories="bWFjaGluZSUyMGxlYXJuaW5nJTJDYWdlbnQtYmFzZWQlMjBtb2RlbGluZw==" data-listing-date-sort="1735707600000" data-listing-file-modified-sort="1760292645292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
         <div class="thumbnail">
             <!-- <a href="/publications/conference/2024_Neural_ODE/index.qmd"> -->
 
                 <p>
+                    
+                    <img alt="Graph Neural Ordinary Differential Equations for Coarse-Grained Socioeconomic Dynamics" src="../publications/conference/2024_Neural_ODE/featured.png" class="thumbnail-image">
                     
 
                 </p>
@@ -2817,7 +2821,7 @@ window.Quarto = {
                 
                 <div class="metadata-value listing-pub-journal listing-publication">
                     
-                        <i>Proceedings of the 2024 International Conference of The Computational Social Science Society of the Americas</i> (2024)<br>
+                        <i>Proceedings of the 2024 International Conference of The Computational Social Science Society of the Americas</i> (2025)<br>
                         
                         
                         
@@ -2842,6 +2846,13 @@ window.Quarto = {
 
             <!-- </a> -->
             
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1007/978-3-031-89692-7_15">
+                    <p style="color:#b31b1b;"><i class="fa-solid fa-file"></i>&nbsp;published <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
 
             
             <div class="listing-pub-url">
@@ -3710,7 +3721,64 @@ window.Quarto = {
 <div class="list quarto-listing-default">
     
     
-    <div class="quarto-post image-right" data-index="0" data-categories="c2VhLWxldmVsJTIwcmlzZSUyQ3VuY2VydGFpbnR5JTIwZGVjb21wb3NpdGlvbiUyQ2NsaW1hdGUlMjBpbXBhY3RzJTJDY2xpbWF0ZSUyMHJpc2slMjBtYW5hZ2VtZW50" data-listing-date-sort="1690862400000" data-listing-file-modified-sort="1749497256894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="496">
+    <div class="quarto-post image-right" data-index="0" data-categories="ZWxlY3RyaWMlMjBwb3dlciUyMHN5c3RlbXMlMkNoeWRyb2dlbg==" data-listing-date-sort="1754020800000" data-listing-file-modified-sort="1760652079329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="398">
+        <div class="thumbnail">
+            <!-- <a href="/publications/theses/2025_AckermannLogan_Hydrogen/index.qmd"> -->
+
+                <p>
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/theses/2025_AckermannLogan_Hydrogen/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../publications/theses/2025_AckermannLogan_Hydrogen/index.html">The Emissions and Cost Tradeoffs of Grid-Connected Hydrogen with Co-Located Renewables</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Gabriela Ackermann Logan<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>M.S. Thesis, Cornell University</i> (2025)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('electric power systems'); return false;">electric power systems</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('hydrogen'); return false;">hydrogen</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+
+            
+
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="1" data-categories="c2VhLWxldmVsJTIwcmlzZSUyQ3VuY2VydGFpbnR5JTIwZGVjb21wb3NpdGlvbiUyQ2NsaW1hdGUlMjBpbXBhY3RzJTJDY2xpbWF0ZSUyMHJpc2slMjBtYW5hZ2VtZW50" data-listing-date-sort="1690862400000" data-listing-file-modified-sort="1760652043747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="496">
         <div class="thumbnail">
             <!-- <a href="/publications/theses/2023_Darnell_SLR/index.qmd"> -->
 
@@ -3732,7 +3800,7 @@ window.Quarto = {
                 
                 <div class="metadata-value listing-pub-journal listing-publication">
                     
-                        <i>M.S. Thesis, Cornell University</i> (2025)<br>
+                        <i>M.S. Thesis, Cornell University</i> (2023)<br>
                         
                         
                         
@@ -3778,7 +3846,7 @@ window.Quarto = {
     
     
     
-    <div class="quarto-post image-right" data-index="1" data-categories="c29sYXIlMjByZXNvdXJjZSUyMGFzc2Vzc21lbnQ=" data-listing-date-sort="1514782800000" data-listing-file-modified-sort="1749514727267" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
+    <div class="quarto-post image-right" data-index="2" data-categories="c29sYXIlMjByZXNvdXJjZSUyMGFzc2Vzc21lbnQ=" data-listing-date-sort="1514782800000" data-listing-file-modified-sort="1749514727267" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
         <div class="thumbnail">
             <!-- <a href="/publications/theses/2018_Srikrishnan_Solar_Genome/index.qmd"> -->
 
@@ -3840,7 +3908,7 @@ window.Quarto = {
     
     
     
-    <div class="quarto-post image-right" data-index="2" data-categories="c29sYXIlMjByZXNvdXJjZSUyMGFzc2Vzc21lbnQlMkNtYWNoaW5lJTIwbGVhcm5pbmc=" data-listing-date-sort="1388552400000" data-listing-file-modified-sort="1749514631605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+    <div class="quarto-post image-right" data-index="3" data-categories="c29sYXIlMjByZXNvdXJjZSUyMGFzc2Vzc21lbnQlMkNtYWNoaW5lJTIwbGVhcm5pbmc=" data-listing-date-sort="1388552400000" data-listing-file-modified-sort="1749514631605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
         <div class="thumbnail">
             <!-- <a href="/publications/theses/2014_Srikrishnan_Multipyranometer/index.qmd"> -->
 

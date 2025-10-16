@@ -6,8 +6,8 @@ people_group: "alumni"
 email: "ga345@cornell.edu"
 education:
   - M.S. Biological & Environmentla Engineering | Cornell University | 2025 <br> B.S. Civil Engineering | Tufts University | 2023
-subtitle: ""
-affiliation: Cornell University
+subtitle: "Research Associate, Wood Mackenzie"
+affiliation: Wood Mackenzie
 page-layout: full
 about: 
   id: about
