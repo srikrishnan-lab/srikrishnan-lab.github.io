@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Vivek Srikrishnan">
+<meta name="dcterms.date" content="2025-01-01">
 
-<title>David C. Lafferty | Srikrishnan Group – Srikrishnan Group</title>
+<title>The Emissions and Cost Tradeoffs of Grid-Connected Hydrogen with Co-Located Renewables | Srikrishnan Group – Srikrishnan Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,32 +22,64 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../assets/logos/favicon.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-efea7e37ff83f69688d72368fe7a46db.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-b1cdb8f2bd6efff148612e6dae051a16.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/logos/favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-efea7e37ff83f69688d72368fe7a46db.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-b1cdb8f2bd6efff148612e6dae051a16.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,71 +107,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-resources","listing-_quarto-vars","listing-language","listing-title","listing-date","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-url_repo","listing-journ","listing-issue","listing-page","listing-year","listing-doi","listing-image","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta name="twitter:title" content="David C. Lafferty | Srikrishnan Group">
-<meta name="twitter:description" content="Scientist II, Verisk Extreme Event Solutions">
-<meta name="twitter:image" content="https://viveks.bee.cornell.edu/people/lafferty-david/dlafferty.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Emissions and Cost Tradeoffs of Grid-Connected Hydrogen with Co-Located Renewables | Srikrishnan Group">
+<meta name="twitter:description" content="The Srikrishnan Research Group studies how to manage climate and environmental risks faced by complex, coupled natural-human systems.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -148,9 +122,9 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Srikrishnan Group</span>
     </a>
   </div>
@@ -161,31 +135,31 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../people/index.html"> 
+    <a class="nav-link" href="../../../people/index.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research/index.html"> 
+    <a class="nav-link" href="../../../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications/index.html"> 
+    <a class="nav-link" href="../../../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching/index.html"> 
+    <a class="nav-link" href="../../../teaching/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../lab-manual/index.html"> 
+    <a class="nav-link" href="../../../lab-manual/index.html"> 
 <span class="menu-text">Lab Manual</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../join/index.html"> 
+    <a class="nav-link" href="../../../join/index.html"> 
 <span class="menu-text">Join Us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../contact/index.html"> 
+    <a class="nav-link" href="../../../contact/index.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item">
@@ -200,7 +174,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -208,161 +182,67 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
-  <li><a href="#group-publications" id="toc-group-publications" class="nav-link" data-scroll-target="#group-publications">Group Publications</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-<hr>
-<div class="quarto-about-trestles column-page-left">
-  <div class="about-entity">
-    <img src="dlafferty.jpg" alt="Profile Picture" class="about-image
-  round " style="height: 20em; width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">David C. Lafferty</h1>
-<p class="subtitle lead">Scientist II, Verisk Extreme Event Solutions</p>
-</div>
-<div class="quarto-title-meta column-page-left">
+<h1 class="title">The Emissions and Cost Tradeoffs of Grid-Connected Hydrogen with Co-Located Renewables</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">electric power systems</div>
+    <div class="quarto-category">hydrogen</div>
   </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Gabriela Ackermann Logan </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://david0811.github.io/DL_CV.pd" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-cv" aria-label="cv"></i> Curriculum Vitae</span>
-  </a>
-  <a href="https://david0811.github.io" class="about-link" rel="" target="">
-    <i class="bi bi-globe"></i>
-     <span class="about-link-text">Web</span>
-  </a>
-  <a href="mailto:DLafferty@verisk.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://scholar.google.com/citations?hl=en&amp;user=Kpwu3qEAAAAJ" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-google-scholar" aria-label="google-scholar"></i> Google Scholar</span>
-  </a>
-  <a href="https://orcid.org/0000-0003-2098-6885" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-orcid" aria-label="orcid"></i> Orcid</span>
-  </a>
-  <a href="https://github.com/vsrikrish" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><section id="about" class="level2">
-<h2 data-anchor-id="about">About</h2>
-<div id="about">
-<p>David Lafferty is a Scientist II at Verisk Extreme Event Solutions. He was previously a postdoctoral associate in the Department of Biological and Environmental Engineering at Cornell. David’s research focuses on climate risk management; he is interested in applying novel modeling techniques to better characterize the risks of a changing climate and develop robust adaptation strategies in the presence of deep and dynamic uncertainties. Outside of work, David enjoys running, cycling, reading, and playing and watching soccer.</p>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p>Ph.D.&nbsp;Atmospheric Science | University of Illinois at Urbana-Champaign | 2024 <br> M.Sc. Physics | Ruprecht-Karls-Universität Heidelberg | 2018 <br> B.Sc. Physics | University of Glasgow | 2016</p>
+
+
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Hydrogen is increasingly viewed as a key enabler of deep decarbonization, with the potential to provide long-duration storage and clean industrial fuel. However, grid-connected hydrogen production inherits the carbon intensity of the electricity system, raising concerns about its climate performance under inflexible operation. Co-locating electrolyzers with renewables offers one strategy to lower emissions, but introduces trade-offs related to curtailment, capital intensity, and system integration that remain poorly understood.</p>
+<p>This study evaluates the economic and emissions performance of hydrogen production under varying degrees of renewable co-location, grid dependence, and system flexibility. Using a high-resolution zonal DCOPF model of New York State’s proposed 2030 grid, we simulate power system dispatch across grid-connected, wind-co-located, and solar-co-located hydrogen configurations. For each scenario, we quantify both the levelized cost of hydrogen (LCOH) and its associated carbon intensity in kilograms of CO<sub>2</sub> per kilogram of H<sub>2</sub>.</p>
+<p>Results show that grid-connected hydrogen is the least expensive pathway, with LCOH ranging from $1 to $2 per kg H<sub>2</sub>, but also the highest-emitting, with carbon intensities of 11.1 kg CO<sub>2</sub> per kg H<sub>2</sub>. Wind co-location achieves lower emissions, down to 2.2–2.6 kg CO<sub>2</sub> per kg H<sub>2</sub> in high-buildout scenarios, though costs rise to $2–3 per kg H<sub>2</sub>. Solar co-location produces moderate emissions (6.9–8.9 kg CO<sub>2</sub> per kg H<sub>2</sub>) at the highest costs ($3–4 per kg H<sub>2</sub>). No configuration meets the U.S. federal Section 45V clean hydrogen tax credit threshold of 2 kg CO<sub>2</sub> per kg H<sub>2</sub>, despite several coming close. Interestingly, emissions do not always decline with greater renewable capacity. In wind-rich zones, transmission congestion and battery dispatch interactions limit the emissions benefit of added capacity, sometimes resulting in counterintuitive increases in carbon intensity.</p>
+<p>Across all cases, inflexible electrolyzer operation and a lack of temporal coordination limit the climate benefits of hydrogen production. However, co-location can help reduce overall grid emissions by absorbing surplus renewables and avoiding fossil ramping, even when project-level carbon intensity remains above threshold. These findings underscore the need for emissions-based incentives that reflect real-time grid conditions and system behavior. Unlocking the full climate potential of hydrogen will require not just clean power, but flexible demand, transmission access, and integrated system design.</p>
 </section>
-</div>
-<p>
-</p></section></div>
-</div>
-
-<section id="group-publications" class="level2">
-<h2 data-anchor-id="group-publications">Group Publications</h2>
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-    
-    
-    <div class="quarto-post image-right" data-index="0" data-categories="bXVsdGlzZWN0b3IlMjBkeW5hbWljcyUyQ3VuY2VydGFpbnR5JTIwcXVhbnRpZmljYXRpb24lMkNzZW5zaXRpdml0eSUyMGFuYWx5c2lzJTJDcmV2aWV3" data-listing-date-sort="1640995200000" data-listing-file-modified-sort="1760652158044" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="280">
-        <div class="thumbnail">
-            <!-- <a href="/publications/articles/2022_Uncertainty_MultiSectorDynamics/index.qmd"> -->
-
-                <p>
-                    
-                    <img alt="Uncertainty analysis in Multi-Sector systems: Considerations for risk analysis, projection, and planning for complex systems" src="../../publications/articles/2022_Uncertainty_MultiSectorDynamics/featured.jpg" class="thumbnail-image">
-                    
-
-                </p>
-      
-
-            <!-- </a> -->
-        </div>
-        <div class="body">
-            <!-- <a href="/publications/articles/2022_Uncertainty_MultiSectorDynamics/index.qmd"> -->
-            <div class="no-anchor listing-pub-title listing-title"><a href="../../publications/articles/2022_Uncertainty_MultiSectorDynamics/index.html">Uncertainty analysis in Multi-Sector systems: Considerations for risk analysis, projection, and planning for complex systems</a></div>
-                
-                <div class="listing-pub-author listing-author">
-                    Vivek Srikrishnan, David C. Lafferty, Tony E. Wong, Jonathan R. Lamontagne, Julianne D. Quinn, Sanjib Sharma, Nusrat J. Molla, Jonathan D. Herman, Ryan L. Sriver, Jennifer F. Morris, Ben Seiyon Lee<br> 
-                </div>
-                
-                <div class="metadata-value listing-pub-journal listing-publication">
-                    
-                        <i>Earth's Future</i>, <b>10 (8)</b>, e2021EF002644 (2022)<br>
-                        
-                        
-                        
-                        
-                        
-                        
-                </div>
-                    
-                    
-                    
-            <!-- </a> -->
- <!--               <div class="listing-categories">
-                
-                <div class="listing-category" onclick="window.quartoListingCategory('multisector dynamics'); return false;">multisector dynamics</div>
-                
-                <div class="listing-category" onclick="window.quartoListingCategory('uncertainty quantification'); return false;">uncertainty quantification</div>
-                
-                <div class="listing-category" onclick="window.quartoListingCategory('sensitivity analysis'); return false;">sensitivity analysis</div>
-                
-                <div class="listing-category" onclick="window.quartoListingCategory('review'); return false;">review</div>
-                
-                </div>
-                -->
-        </div>
-        <div class="metadata">
-
-            <!-- </a> -->
-            
-            <div class="listing-pub-url">
-
-                    <a href="https://doi.org/10.1029/2021EF002644">
-                    <p style="color:#b31b1b;"><i class="fa-solid fa-file"></i>&nbsp;published <i class="bi bi-box-arrow-up-right"></i></p>
-                    </a>
-                </div>
-                    
-
-            
-            <div class="listing-pub-url">
-
-                    <a href="https://dx.doi.org/10.1002/essoar.10510113.2">
-                    <p style="color:#b31b1b;"><i class="fa-regular fa-file"></i>&nbsp;preprint <i class="bi bi-box-arrow-up-right"></i></p>
-                    </a>
-                </div>
-                    
-
-            
-
-        </div>
-    </div>
-    
-    
-    </div>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
-
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@mastersthesis</span>{<span class="ot">AckermannLogan2025</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span> = {The Emissions and Cost Tradeoffs of Grid-Connected Hydrogen with Co-Located Renewables},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span> = {Ackermann Logan, Gabriela},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">school</span> = {Cornell University},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">address</span> = {Ithaca, NY, USA},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">date</span> = {2025},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">mon</span> = {Aug},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">type</span> = {M.S. Thesis}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
@@ -370,6 +250,13 @@ window.Quarto = {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -773,7 +660,7 @@ window.Quarto = {
 <p><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2021-2025 Vivek Srikrishnan</span> <span class="faux-block">All content licensed under<br><a href="https://creativecommons.org/licenses/by/4.0/"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> Creative Commons CC BY 4.0</a></span></p>
 </div>   
     <div class="nav-footer-center">
-<p>Made with <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a><br> See the <a href="../../about.html">About Page</a> for credit information.</p>
+<p>Made with <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a><br> See the <a href="../../../about.html">About Page</a> for credit information.</p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
@@ -791,5 +678,5 @@ window.Quarto = {
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
