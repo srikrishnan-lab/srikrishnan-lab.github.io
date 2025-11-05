@@ -27,6 +27,8 @@ url_repo: https://github.com/srikrishnan-lab/Darnell_et_al_2024
 journ: "Nature Climate Change"
 doi: https://doi.org/10.1038/s41558-025-02457-0
 year: 2025
+issue: 15
+page: 1205–1211
 image: featured.png
 ---
 
@@ -53,7 +55,8 @@ Uncertainty in future carbon dioxide (CO2) emissions and the geophysical respons
   author = {Darnell, Chloe and Rennels, Lisa and Errickson, Frank and Wong, Tony
   and Srikrishnan, Vivek},
   journaltitle = {Nat. Clim. Chang.},
-  pages = {1--7},
+  issue = {15},
+  pages = {1205–-1211},
   date = {2025},
   doi = {10.1038/s41558-025-02457-0}
 }
