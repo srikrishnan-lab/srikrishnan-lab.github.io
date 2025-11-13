@@ -18,7 +18,7 @@ url_source:
 url_preprint: https://doi.org/10.31219/osf.io/bfrzp_v1
 url_repo: https://github.com/kbtang28/tang-etal_inprep
 doi: https://doi.org/10.31219/osf.io/bfrzp_v1
-journ: "Submitted"
+journ: "In revision"
 image: featured.png
 year: 2025
 ---

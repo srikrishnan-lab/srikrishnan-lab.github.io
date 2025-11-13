@@ -1,0 +1,55 @@
+---
+title: "UNSAFE: An UNcertain Structure And Fragility Ensemble framework for property-level flood risk estimation"
+date: 2025-01-01
+author: 
+  - name: Adam Pollack
+    orcid: 0000-0001-6642-0591
+    url: https://abpoll.github.io/
+  - name: James Doss-Gollin
+    orcid: 0000-0002-3428-2224
+    url: https://dossgollin-lab.github.io/
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - flood risk
+    - software
+    - building structures
+url_source: https://doi.org/10.21105/joss.07527
+url_preprint: https://osf.io/jb9ta_v1
+url_repo: https://github.com/abpoll/unsafe
+journ: Journal of Open Source Software
+doi: 110.21105/joss.07527
+image: featured.png
+year: 2025
+---
+
+## Links
+
+* [Preprint](https://osf.io/jb9ta_v1)
+* [Code Repository](https://github.com/abpoll/unsafe)
+
+## Abstract
+
+A software package for adding parametric uncertainty to the National Structure Inventory (or other local building inventories) and estimating flood losses with uncertain depth-damage relationships.
+
+## Citation
+
+```bibtex
+@ARTICLE{Pollack2025-qe,
+  title = {{UNSAFE: An UNcertain Structure And Fragility Ensemble framework for
+  property-level flood risk estimation}},
+  author = {Pollack, Adam and Doss-Gollin, James and Srikrishnan, Vivek and
+  Keller, Klaus},
+  journaltitle = {J. Open Source Softw.},
+  volume = {10},
+  issue = {115},
+  pages = {7527},
+  date = {2025},
+  doi = {10.21105/joss.07527}
+  url = {http://dx.doi.org/10.21105/joss.07527}
+}
+```
