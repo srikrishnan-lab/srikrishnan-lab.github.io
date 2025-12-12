@@ -1341,7 +1341,7 @@
     "href": "publications/articles/2025_UNSAFE/index.html#citation",
     "title": "UNSAFE: An UNcertain Structure And Fragility Ensemble framework for property-level flood risk estimation",
     "section": "Citation",
-    "text": "Citation\n@ARTICLE{Pollack2025-qe,\n  title = {{UNSAFE: An UNcertain Structure And Fragility Ensemble framework for\n  property-level flood risk estimation}},\n  author = {Pollack, Adam and Doss-Gollin, James and Srikrishnan, Vivek and\n  Keller, Klaus},\n  journaltitle = {J. Open Source Softw.},\n  volume = {10},\n  issue = {115},\n  pages = {7527},\n  date = {2025},\n  doi = {10.21105/joss.07527}\n  url = {http://dx.doi.org/10.21105/joss.07527}\n}"
+    "text": "Citation\n@ARTICLE{Pollack2025-qe,\n  title = {{UNSAFE: An UNcertain Structure And Fragility Ensemble framework for\n  property-level flood risk estimation}},\n  author = {Pollack, Adam and Doss-Gollin, James and Srikrishnan, Vivek and\n  Keller, Klaus},\n  journaltitle = {J. Open Source Softw.},\n  volume = {10},\n  issue = {115},\n  pages = {7527},\n  date = {2025},\n  doi = {10.21105/joss.07527}\n  url = {https://dx.doi.org/10.21105/joss.07527}\n}"
   },
   {
     "objectID": "publications/articles/2025_Zero_Carbon_Grid/index.html",
