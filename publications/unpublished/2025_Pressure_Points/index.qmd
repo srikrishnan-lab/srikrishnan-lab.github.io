@@ -15,9 +15,8 @@ categories:
     - electric power systems
     - climate impacts
 url_source: 
-url_preprint: https://doi.org/10.31219/osf.io/bfrzp_v1
+url_preprint: https://arxiv.org/abs/2508.08513
 url_repo: https://github.com/kbtang28/tang-etal_inprep
-doi: https://doi.org/10.31219/osf.io/bfrzp_v1
 journ: "In revision"
 image: featured.png
 year: 2025
@@ -25,7 +24,7 @@ year: 2025
 
 ## Links
 
-* [Preprint](https://doi.org/10.31219/osf.io/bfrzp_v1)
+* [Preprint](https://arxiv.org/abs/2508.08513)
 * [Code Repository](https://github.com/kbtang28/tang-etal_inprep)
 
 ## Abstract

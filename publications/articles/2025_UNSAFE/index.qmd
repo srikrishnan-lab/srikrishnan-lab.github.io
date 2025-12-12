@@ -22,7 +22,7 @@ url_source: https://doi.org/10.21105/joss.07527
 url_preprint: https://osf.io/jb9ta_v1
 url_repo: https://github.com/abpoll/unsafe
 journ: Journal of Open Source Software
-doi: 110.21105/joss.07527
+doi: 10.21105/joss.07527
 image: featured.png
 year: 2025
 ---
@@ -50,6 +50,6 @@ A software package for adding parametric uncertainty to the National Structure I
   pages = {7527},
   date = {2025},
   doi = {10.21105/joss.07527}
-  url = {http://dx.doi.org/10.21105/joss.07527}
+  url = {https://dx.doi.org/10.21105/joss.07527}
 }
 ```
