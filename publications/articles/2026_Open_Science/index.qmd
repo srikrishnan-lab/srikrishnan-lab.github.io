@@ -1,0 +1,119 @@
+---
+title: "Unlocking the benefits of transparent and reusable science for climate risk management"
+date: 2026-01-01
+author: 
+  - name: Adam Pollack
+    orcid: 0000-0001-6642-0591
+    url: https://abpoll.github.io/
+  - name: Lisa Auermiller
+    orcid: 0009-0002-3696-6491
+    url: https://marine.rutgers.edu/team/lisa-auermuller/
+  - name: Casey D. Burleyson
+    orcid: 0000-0001-6218-9361
+    url: http://caseyburleyson.com/
+  - name: Jentry Campbell
+    orcid: 0000-0001-8615-5094
+    url: https://www.library.dartmouth.edu/directory/f0069hv
+  - name: Madison Condon
+    orcid: 0000-0001-8764-2249
+    url: https://www.bu.edu/law/profile/madison-condon/
+  - name: Courtney Cooper
+    orcid: 0000-0002-4270-2778
+    url: https://berry.edu/academics/fs/ccooper
+  - name: Matteo Coronese
+    orcid: 0000-0003-4134-1971
+    url: https://matteocoronese.eu/
+  - name: Sönke Dangendorf
+    orcid: 0000-0002-3679-5234
+    url: https://sse.tulane.edu/sonke-dangendorf
+  - name: James Doss-Gollin
+    orcid: 0000-0002-3428-2224
+    url: https://dossgollin-lab.github.io/
+  - name: Prabhat Hegde
+  - name: Casey Helgeson
+    orcid: 0000-0001-5333-9954
+    url: https://caseyhelgeson.github.io/
+  - name: Robert E. Kopp
+    orcid: 0000-0003-4016-9428
+    url: https://www.bobkopp.net
+  - name: Jan Kwakkel
+    orcid: 0000-0001-9447-2954
+    url: https://www.tudelft.nl/en/staff/j.h.kwakkel/?cHash=292a774dd4cf8a0f554aef81e9f23bbb
+  - name: Corey Lesk
+    orcid: 0000-0003-0868-4040
+    url: https://faculty-directory.dartmouth.edu/corey-s-lesk
+  - name: Justin S. Mankin
+    orcid: 0000-0003-2520-4555
+    url: https://jsmankin.github.io
+  - name: Robert E. Nicholas
+    orcid: 0000-0003-2615-2574
+    url: https://personal.ems.psu.edu/~ren10/
+  - name: Jennie S. Rice
+    orcid: 0000-0002-7833-9456
+    url: https://www.pnnl.gov/people/jennie-rice
+  - name: Samantha Roth
+    orcid: 0000-0002-8867-4426
+    url: https://samantha-roth.github.io
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Moira Scheeler
+    orcid: 0009-0001-9675-7694
+  - name: Nancy Tuana
+    url: https://philosophy.la.psu.edu/people/nat3/
+  - name: Chris R. Vernon
+    orcid: 0000-0002-6045-7729
+    url: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=1834
+  - name: Mengqi Zhao
+    orcid: 0000-0001-5385-2758
+    url: https://www.pnnl.gov/people/mengqi-zhao
+  - name: Klaus Keller
+    orcid: 0000-0002-5451-8687
+    url: https://keller-lab.github.io/people.html
+categories:
+    - open science
+url_source: https://doi.org/10.1038/s41558-025-02457-0
+url_preprint:
+url_repo: https://github.com/abpoll/open/tree/submission
+journ: "Proceedings of the National Academy of Sciences"
+doi: https://doi.org/10.1073/pnas.2422157123
+image: featured.jpg
+issue: "123 (3)"
+page: e2422157123
+---
+
+## Links
+
+* [Code Repository](https://github.com/abpoll/open/tree/submission)
+
+## Abstract
+
+People around the world seek climate risk information to guide their decisions. For instance, projections about future flood risk inform where households choose to live, how lenders manage credit risks, and which communities receive federal funding. Yet data limitations and fundamental validation challenges raise important concerns about the reliability of such projections. The principles of transparency and reusability help address these concerns by enabling scrutiny of assumptions and methods, development of foundational data and tools, and consistent application of evaluation standards. While there is ongoing debate about how much transparency commercial climate risk services should provide, many expect noncommercial actors to lead the way on operationalizing transparency and reusability to fulfill their knowledge-building role in the climate risk ecosystem. However, despite prominent success stories, we find a substantial gap between principles and practice: Only four percent of the most-cited peer-reviewed climate risk studies in recent years fully share their data and code although this is a widely accepted minimum standard for transparency. We highlight low-cost measures that noncommercial researchers can take now to improve transparency and reusability. We also emphasize that transformative progress requires substantial investment, cross-sector collaboration, and careful consideration of tradeoffs, data rights, and multiple perspectives on equity. We hope this perspective accelerates both immediate actions and longer-term conversations to improve the ability of science to effectively support timely, evidence-based, and sound climate risk management.
+
+## Meme
+
+![](meme.png){width=50%}
+
+## Citation
+
+```bibtex
+@ARTICLE{Pollack2026-gk,
+  title = {{Unlocking the benefits of transparent and reusable science for
+  climate risk management}},
+  author = {Pollack, Adam B and Auermuller, Lisa and Burleyson, Casey D and
+  Campbell, Jentry and Condon, Madison and Cooper, Courtney and Coronese, Matteo
+  and Dangendorf, Sönke and Doss-Gollin, James and Hegde, Prabhat and Helgeson,
+  Casey and Kopp, Robert E and Kwakkel, Jan and Lesk, Corey and Mankin, Justin
+  and Nicholas, Robert E and Rice, Jennie and Roth, Samantha and Srikrishnan,
+  Vivek and Scheeler, Moira and Tuana, Nancy and Vernon, Chris and Zhao, Mengqi
+  and Keller, Klaus},
+  journaltitle = {Proceedings of the National Academy of Sciences},
+  volume = {123},
+  issue = {3},
+  pages = {e2422157123},
+  date = {2026},
+  doi = {10.1073/pnas.2422157123},
+  url = {http://dx.doi.org/10.1073/pnas.2422157123},
+}
+```
+

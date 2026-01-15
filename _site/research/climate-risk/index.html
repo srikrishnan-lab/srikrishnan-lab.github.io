@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-f824cc95b57c8abc8f319b42feb2ae50.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-5cea97205fbb79a00b24588020a9fb8d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-8113ecbbd849f849df9c4d67a1c1f932.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-58cf6dfd43dcca8eb3f4fb41e5a1bc05.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -117,7 +118,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -248,7 +249,7 @@ window.Quarto = {
 <div class="list quarto-listing-default">
     
     
-    <div class="quarto-post image-right" data-index="0" data-categories="c2VhLWxldmVsJTIwcmlzZSUyQ3VuY2VydGFpbnR5JTIwZGVjb21wb3NpdGlvbiUyQ2NsaW1hdGUlMjBpbXBhY3RzJTJDY2xpbWF0ZSUyMHJpc2slMjBtYW5hZ2VtZW50" data-listing-date-sort="1735707600000" data-listing-file-modified-sort="1760102902024" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
+    <div class="quarto-post image-right" data-index="0" data-categories="c2VhLWxldmVsJTIwcmlzZSUyQ3VuY2VydGFpbnR5JTIwZGVjb21wb3NpdGlvbiUyQ2NsaW1hdGUlMjBpbXBhY3RzJTJDY2xpbWF0ZSUyMHJpc2slMjBtYW5hZ2VtZW50" data-listing-date-sort="1735707600000" data-listing-file-modified-sort="1762366218178" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
         <div class="thumbnail">
             <!-- <a href="/publications/articles/2025_Emissions_Sea_Level_Rise/index.qmd"> -->
 
@@ -272,7 +273,7 @@ window.Quarto = {
                 
                 <div class="metadata-value listing-pub-journal listing-publication">
                     
-                        <i>Nature Climate Change</i> (2025)<br>
+                        <i>Nature Climate Change</i>, <b>15</b>, 1205–1211 (2025)<br>
                         
                         
                         
@@ -773,7 +774,7 @@ window.Quarto = {
     
     
     
-    <div class="quarto-post image-right" data-index="7" data-categories="ZWxlY3RyaWMlMjBwb3dlciUyMHN5c3RlbXMlMkNjbGltYXRlJTIwaW1wYWN0cw==" data-listing-date-sort="1735707600000" data-listing-file-modified-sort="1755347301661" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="157">
+    <div class="quarto-post image-right" data-index="7" data-categories="ZWxlY3RyaWMlMjBwb3dlciUyMHN5c3RlbXMlMkNjbGltYXRlJTIwaW1wYWN0cw==" data-listing-date-sort="1735707600000" data-listing-file-modified-sort="1765497878094" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="157">
         <div class="thumbnail">
             <!-- <a href="/publications/unpublished/2025_Pressure_Points/index.qmd"> -->
 
@@ -797,7 +798,7 @@ window.Quarto = {
                 
                 <div class="metadata-value listing-pub-journal listing-publication">
                     
-                        <i>Submitted</i> (2025)<br>
+                        <i>In revision</i> (2025)<br>
                         
                         
                         
@@ -826,7 +827,7 @@ window.Quarto = {
             
             <div class="listing-pub-url">
 
-                    <a href="https://doi.org/10.31219/osf.io/bfrzp_v1">
+                    <a href="https://arxiv.org/abs/2508.08513">
                     <p style="color:#b31b1b;"><i class="fa-regular fa-file"></i>&nbsp;preprint <i class="bi bi-box-arrow-up-right"></i></p>
                     </a>
                 </div>
@@ -1876,13 +1877,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

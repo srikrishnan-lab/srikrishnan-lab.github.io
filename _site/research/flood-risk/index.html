@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-f824cc95b57c8abc8f319b42feb2ae50.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-5cea97205fbb79a00b24588020a9fb8d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-8113ecbbd849f849df9c4d67a1c1f932.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-58cf6dfd43dcca8eb3f4fb41e5a1bc05.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -117,7 +118,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -330,7 +331,89 @@ window.Quarto = {
     
     
     
-    <div class="quarto-post image-right" data-index="1" data-categories="Y2xpbWF0ZSUyMGltcGFjdHMlMkNzZWEtbGV2ZWwlMjByaXNlJTJDZmxvb2QlMjByaXNr" data-listing-date-sort="1735707600000" data-listing-file-modified-sort="1749249096104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
+    <div class="quarto-post image-right" data-index="1" data-categories="Zmxvb2QlMjByaXNrJTJDc29mdHdhcmUlMkNidWlsZGluZyUyMHN0cnVjdHVyZXM=" data-listing-date-sort="1735707600000" data-listing-file-modified-sort="1765497802161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
+        <div class="thumbnail">
+            <!-- <a href="/publications/articles/2025_UNSAFE/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="UNSAFE: An UNcertain Structure And Fragility Ensemble framework for property-level flood risk estimation" src="../../publications/articles/2025_UNSAFE/featured.png" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/articles/2025_UNSAFE/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title"><a href="../../publications/articles/2025_UNSAFE/index.html">UNSAFE: An UNcertain Structure And Fragility Ensemble framework for property-level flood risk estimation</a></div>
+                
+                <div class="listing-pub-author listing-author">
+                    Adam Pollack, James Doss-Gollin, Vivek Srikrishnan, Klaus Keller<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Journal of Open Source Software</i> (2025)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('flood risk'); return false;">flood risk</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('software'); return false;">software</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('building structures'); return false;">building structures</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            <!-- </a> -->
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.21105/joss.07527">
+                    <p style="color:#b31b1b;"><i class="fa-solid fa-file"></i>&nbsp;published <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://osf.io/jb9ta_v1">
+                    <p style="color:#b31b1b;"><i class="fa-regular fa-file"></i>&nbsp;preprint <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+            <div class="listing-pub-url">
+    
+                    <a href="https://github.com/abpoll/unsafe">
+                    <p style="color:#b31b1b;"><i class="fa-solid fa-laptop-code"></i>&nbsp;repository <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+            </div>
+            
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="2" data-categories="Y2xpbWF0ZSUyMGltcGFjdHMlMkNzZWEtbGV2ZWwlMjByaXNlJTJDZmxvb2QlMjByaXNr" data-listing-date-sort="1735707600000" data-listing-file-modified-sort="1749249096104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
         <div class="thumbnail">
             <!-- <a href="/publications/articles/2025_Warming_Levels/index.qmd"> -->
 
@@ -412,7 +495,7 @@ window.Quarto = {
     
     
     
-    <div class="quarto-post image-right" data-index="2" data-categories="Y2xpbWF0ZSUyMHJpc2slMjBtYW5hZ2VtZW50JTJDZmxvb2QlMjByaXNrJTJDYnVpbGRpbmclMjBzdHJ1Y3R1cmVz" data-listing-date-sort="1735707600000" data-listing-file-modified-sort="1760101401314" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="208">
+    <div class="quarto-post image-right" data-index="3" data-categories="Y2xpbWF0ZSUyMHJpc2slMjBtYW5hZ2VtZW50JTJDZmxvb2QlMjByaXNrJTJDYnVpbGRpbmclMjBzdHJ1Y3R1cmVz" data-listing-date-sort="1735707600000" data-listing-file-modified-sort="1760101401314" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="208">
         <div class="thumbnail">
             <!-- <a href="/publications/unpublished/2025_NSI_bias/index.qmd"> -->
 
@@ -485,7 +568,7 @@ window.Quarto = {
     
     
     
-    <div class="quarto-post image-right" data-index="3" data-categories="Zmxvb2QlMjByaXNrJTJDc2Vuc2l0aXZpdHklMjBhbmFseXNpcw==" data-listing-date-sort="1704085200000" data-listing-file-modified-sort="1754919560606" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
+    <div class="quarto-post image-right" data-index="4" data-categories="Zmxvb2QlMjByaXNrJTJDc2Vuc2l0aXZpdHklMjBhbmFseXNpcw==" data-listing-date-sort="1704085200000" data-listing-file-modified-sort="1754919560606" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
         <div class="thumbnail">
             <!-- <a href="/publications/articles/2024_Riverine_Uncertainty/index.qmd"> -->
 
@@ -548,79 +631,6 @@ window.Quarto = {
             <div class="listing-pub-url">
     
                     <a href="https://github.com/imshakib/Hosseini-Shakib_etal_2022_preprint">
-                    <p style="color:#b31b1b;"><i class="fa-solid fa-laptop-code"></i>&nbsp;repository <i class="bi bi-box-arrow-up-right"></i></p>
-                    </a>
-            </div>
-            
-
-        </div>
-    </div>
-    
-    
-    
-    <div class="quarto-post image-right" data-index="4" data-categories="Zmxvb2QlMjByaXNrJTJDc29mdHdhcmUlMkNidWlsZGluZyUyMHN0cnVjdHVyZXM=" data-listing-date-sort="1704085200000" data-listing-file-modified-sort="1749249096112" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-        <div class="thumbnail">
-            <!-- <a href="/publications/unpublished/2024_UNSAFE/index.qmd"> -->
-
-                <p>
-                    
-
-                </p>
-      
-
-            <!-- </a> -->
-        </div>
-        <div class="body">
-            <!-- <a href="/publications/unpublished/2024_UNSAFE/index.qmd"> -->
-            <div class="no-anchor listing-pub-title listing-title"><a href="../../publications/unpublished/2024_UNSAFE/index.html">UNSAFE: An UNcertain Structure And Fragility Ensemble framework for property-level flood risk estimation</a></div>
-                
-                <div class="listing-pub-author listing-author">
-                    Adam Pollack, James Doss-Gollin, Vivek Srikrishnan, Klaus Keller<br> 
-                </div>
-                
-                <div class="metadata-value listing-pub-journal listing-publication">
-                    
-                        <i>In Review</i> (2024)<br>
-                        
-                        
-                        
-                        
-                        
-                        
-                </div>
-                    
-                    
-                    
-            <!-- </a> -->
- <!--               <div class="listing-categories">
-                
-                <div class="listing-category" onclick="window.quartoListingCategory('flood risk'); return false;">flood risk</div>
-                
-                <div class="listing-category" onclick="window.quartoListingCategory('software'); return false;">software</div>
-                
-                <div class="listing-category" onclick="window.quartoListingCategory('building structures'); return false;">building structures</div>
-                
-                </div>
-                -->
-        </div>
-        <div class="metadata">
-
-            <!-- </a> -->
-            
-
-            
-            <div class="listing-pub-url">
-
-                    <a href="https://osf.io/jb9ta_v1">
-                    <p style="color:#b31b1b;"><i class="fa-regular fa-file"></i>&nbsp;preprint <i class="bi bi-box-arrow-up-right"></i></p>
-                    </a>
-                </div>
-                    
-
-            
-            <div class="listing-pub-url">
-    
-                    <a href="https://github.com/abpoll/unsafe">
                     <p style="color:#b31b1b;"><i class="fa-solid fa-laptop-code"></i>&nbsp;repository <i class="bi bi-box-arrow-up-right"></i></p>
                     </a>
             </div>
@@ -1084,13 +1094,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
