@@ -1,0 +1,35 @@
+---
+title: "A global perspective on local sea level change: A comment"
+date: 2026-01-01
+author: 
+  - name: Richard S. J. Tol
+    orcid: 0000-0002-8012-3988
+    url: https://profiles.sussex.ac.uk/p289812-richard-tol
+  - name: Robert E. Kopp
+    orcid: 0000-0003-4016-9428
+    url: https://www.bobkopp.net
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+categories:
+    - climate impacts
+    - sea-level rise
+url_source: 
+url_preprint: https://essopenarchive.org/users/1025341/articles/1385115-a-global-perspective-on-local-sea-level-change-a-comment
+url_repo: 
+journ: "Submitted"
+year: 2026
+---
+
+## Links
+
+* [Preprint](https://essopenarchive.org/users/1025341/articles/1385115-a-global-perspective-on-local-sea-level-change-a-comment)
+
+## Note
+
+This was an invited comment on [a paper](http://dx.doi.org/10.3390/jmse13091641) purporting to show that there has been no global acceleration in sea-level rise. Several authors wrote [a response and request for retraction](https://essopenarchive.org/users/17368/articles/1333505-faulty-science-and-faulty-statistics-can-t-stop-sea-level-acceleration-an-expression-of-concern-regarding-voortman-h-g-de-vos-r-2025-a-global-perspective-on-local-sea-level-changes-journal-of-marine-science-and-engineering-13-9-1641?commit=2d1751bf83089b7b747d35eb9e86c4bfb34f8e7f) based on the shoddy methods of the original paper. The journal declined to retract after the authors assured them they would share their code and data (which they would not do with us) and that this was simply a methodological disagreement; we were invited to submit this comment instead.
+
+## Abstract
+
+We replicate Voortman and de Vos (2025). Although we unfortunately lack access to their data and code, we qualitatively reproduce their results. We argue that their null result-no significant acceleration of sea level rise in the tide-gauge record-is the result of a regrettably misread statistical correction. We show that their main conclusion is due to a lack of power: They estimate an overly complicated model on too few observations and use inappropriate statistical methods to do so. Estimating simpler models or pooling data, we find statistically significant acceleration.
+

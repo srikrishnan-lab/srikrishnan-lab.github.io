@@ -17,6 +17,7 @@
   {
     "listing": "/research/climate-risk/index.html",
     "items": [
+      "/publications/unpublished/2026_SLR_Acceleration/index.html",
       "/publications/articles/2025_Emissions_Sea_Level_Rise/index.html",
       "/publications/articles/2025_Hydrothermal_Carbonization_LCA/index.html",
       "/publications/articles/2025_Policy_Window/index.html",
@@ -44,7 +45,7 @@
     "listing": "/people/srikrishnan-vivek/index.html",
     "items": [
       "/publications/articles/2026_Open_Science/index.html",
-      "/publications/unpublished/2025_FAIR_Usability/index.html",
+      "/publications/unpublished/2026_SLR_Acceleration/index.html",
       "/publications/articles/2025_Emissions_Sea_Level_Rise/index.html",
       "/publications/articles/2025_Hydrothermal_Carbonization_LCA/index.html",
       "/publications/articles/2025_Interpretable_ML_Hedonic/index.html",
@@ -199,7 +200,7 @@
       "/publications/reports/2022_MSD_Vision/index.html",
       "/publications/reports/2025_DOE_Response/index.html",
       "/publications/books/2022_Uncertainty_Analysis/index.html",
-      "/publications/unpublished/2025_FAIR_Usability/index.html",
+      "/publications/unpublished/2026_SLR_Acceleration/index.html",
       "/publications/unpublished/2025_Hydro_Futures/index.html",
       "/publications/unpublished/2025_NSI_bias/index.html",
       "/publications/unpublished/2025_Pressure_Points/index.html",
