@@ -17,7 +17,7 @@ categories:
 url_source: 
 url_preprint: https://arxiv.org/abs/2508.08513
 url_repo: https://github.com/kbtang28/tang-etal_inprep
-journ: "In revision"
+journ: "Resubmitted"
 image: featured.png
 year: 2025
 ---
