@@ -1,0 +1,51 @@
+---
+title: "Identification of pressure points in modern power systems using transfer entropy"
+date: 2025-01-01
+author: 
+  - name: Katerina Tang
+  - name: M. Vivienne Liu
+    orcid: 0000-0002-5676-8591
+  - name: C. Lindsay Anderson
+    orcid: 0000-0002-5148-0118
+    url: https://andersonenergylab-cornell.github.io/
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+categories:
+    - electric power systems
+    - climate impacts
+url_source: https://doi.org/10.1016/j.crsus.2026.100660
+url_preprint: https://arxiv.org/abs/2508.08513
+url_repo: https://github.com/kbtang28/tang-etal_inprep
+journ: "Cell Rep. Sustain"
+image: featured.jpg
+doi: 10.1016/j.crsus.2026.100660
+page: 100660
+issue: 0
+year: 2025
+---
+
+## Links
+
+* [Preprint](https://arxiv.org/abs/2508.08513)
+* [Code Repository](https://github.com/kbtang28/tang-etal_inprep)
+
+## Abstract
+
+Integration of variable energy resources -- e.g., solar, wind, and hydro -- and end-use electrification increase modern energy systems' weather-dependence. Identifying critical infrastructure constraining the power grid's ability to meet electricity demand under weather-induced shocks and stressors is essential for understanding risks and guiding adaptation. We use transfer entropy to identify predictive pressure points: grid components whose utilization patterns provide early signals of downstream power shortages. We apply this method to simulations of New York State's proposed future grid under various meteorological and technological scenarios, showing that pressure points often arise from complex, system-wide interactions between generation, transmission, and demand. While transfer entropy does not support conclusions about causality, the identified pressure points align with known bottlenecks and offer insight into failure pathways. Furthermore, these pressure points are not easily predicted by high-level scenario features alone, underscoring the need for holistic and adaptive approaches to reliability planning in power systems with intermittent resources.
+
+## Citation
+
+```bibtex
+@ARTICLE{Tang2026-xy,
+  title = {{Identification of pressure points in modern power systems using
+  transfer entropy}},
+  author = {Tang, Katerina and Liu, M Vivienne and Anderson, C Lindsay and
+  Srikrishnan, Vivek},
+  journaltitle = {Cell Rep. Sustain.},
+  volume = {0},
+  pages = {100660},
+  date = {2026},
+  doi = {10.1016/j.crsus.2026.100660}
+}
+```
