@@ -22,7 +22,7 @@ image: featured.jpg
 doi: 10.1016/j.crsus.2026.100660
 page: 100660
 issue: 0
-year: 2025
+year: 2026
 ---
 
 ## Links
