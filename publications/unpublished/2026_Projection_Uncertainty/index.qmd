@@ -1,0 +1,51 @@
+---
+title: "Varying sources of uncertainty in risk-relevant hazard projections across the United States"
+date: 2026-01-01
+author: 
+  - name: David Lafferty
+    orcid: 0000-0003-2098-6885
+    url: https://david0811.github.io
+  - name: Samantha Hartke
+    orcid: 0000-0002-0239-4723
+  - name: Ryan Sriver
+    orcid: 0000-0001-9587-3741
+    url: https://rsriver.web.illinois.edu
+  - name: Andrew Newman
+    orcid: 0000-0001-8796-0861
+    url: https://impacts.ucar.edu/en/persons/andrew-newman/
+  - name: Ethan Gutmann
+    orcid: 0000-0003-4077-3430
+    url: https://impacts.ucar.edu/en/persons/ethan-gutmann/
+  - name: Flavio Lehner
+    orcid: 0000-0003-4632-9701
+    url: https://flaviolehner.eas.cornell.edu
+  - name: Paul Ullrich
+    orcid: 0000-0003-4118-4590
+    url: https://people.llnl.gov/ullrich4
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+categories:
+    - climate variability
+    - uncertainty decomposition
+    - climate impacts
+url_source: 
+url_preprint: https://essopenarchive.org/doi/full/10.22541/essoar.15003332/v1
+url_repo: https://github.com/david0811/conus_comparison_lafferty-etal-2026
+journ: "Submitted"
+year: 2026
+image: featured.png
+---
+
+## Links
+
+* [Code Repository](https://github.com/david0811/conus_comparison_lafferty-etal-2026)
+* [Preprint](https://essopenarchive.org/doi/full/10.22541/essoar.15003332/v1)
+
+## Abstract
+
+Long-term projections of climate and weather extremes are highly uncertain owing to several factors related to modeling the Earth system at high resolution. Understanding the relative importance of these factors can better inform communities and planners and help mitigate future risks. We combine three sets of high-resolution climate simulations covering the continental United States to estimate the contribution of different uncertainty sources in projections of temperature and precipitation. We find that the dominant source of uncertainty changes across variables and depends on the metric of interest —- for example, whether the metric reflects average or extreme conditions. Temperature projections are most sensitive to assumptions around future greenhouse gas emissions, as well as the Earth system model used for simulations. In contrast, precipitation metrics are often dominated by internal variability -— the irreducible randomness of the climate system. For understanding changes to rare events that occur every 50 years or longer, statistical methods used to estimate their frequency can introduce more uncertainty than the climate science itself. Our findings show that no single source of uncertainty is universally dominant, and prudent climate risk assessment requires carefully accounting for all statistical and physical sources of uncertainty.
+
+## Meme
+
+![](meme.jpg){width=60%}
