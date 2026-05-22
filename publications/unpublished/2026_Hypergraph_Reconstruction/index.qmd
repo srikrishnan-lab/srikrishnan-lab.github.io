@@ -1,0 +1,30 @@
+---
+title: "Bayesian hypergraph inference from scarce and noisy dynamical observations"
+date: 2026-01-01
+author: 
+  - name: Katerina Tang
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Jackson Kulik
+    orcid: 0009-0007-0740-0436
+    url: https://jkulik11.github.io
+categories:
+    - uncertainty quantification
+    - bayesian statistics
+url_source: 
+url_preprint: https://arxiv.org/abs/2605.04218
+url_repo: https://github.com/kbtang28/bayesian-hypergraph-inference
+journ: "Submitted"
+year: 2026
+image: featured.png
+---
+
+## Links
+
+* [Code Repository](https://github.com/kbtang28/bayesian-hypergraph-inference)
+* [Preprint](https://arxiv.org/abs/2605.04218)
+
+## Abstract
+
+Inferring higher-order interaction structure from observations of dynamics is a central challenge in complex systems, particularly when data are scarce, noisy, or concentrated in lower-dimensional regions of state space. We develop Bayes-THIS, a Bayesian extension of Taylor-based Hypergraph Inference using SINDy (THIS), which reconstructs hypergraph structure from time-series data by identifying sparse Taylor coefficients associated with pairwise and higher-order interactions. By replacing fixed-threshold sparse regression with sparse Bayesian regression using automatic relevance determination, Bayes-THIS explicitly models residual variance and applies adaptive, term-wise coefficient shrinkage, improving robustness in data-limited, high-noise, and ill-conditioned regimes. The resulting Gaussian posterior also enables an uncertainty-aware inference workflow: a posterior predictive check assesses whether the data contain sufficient higher-order signal to reliably support inference beyond a pairwise model, and credible-interval pruning selects hyperedges whose inferred coefficients are statistically distinguishable from zero. Finally, we characterize a fundamental limitation of the Taylor-based inference framework: when higher-order interactions concentrate on nodes that lack lower-order connections, the Taylor expansion systematically inflates lower-order coefficient estimates, producing spurious edges indistinguishable from genuine lower-order interactions. This structural non-identifiability cannot be resolved by either THIS or Bayes-THIS.

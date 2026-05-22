@@ -28,7 +28,7 @@ categories:
     - uncertainty quantification
     - sensitivity analysis
     - decision-making under uncertainty
-    - sea level rise
+    - sea-level rise
     - storm surge
 url_source: https://doi.org/10.1111/risa.12888
 url_preprint: 
