@@ -23,7 +23,7 @@ url_preprint: https://dx.doi.org/10.2139/ssrn.4375665
 url_repo: 
 journ: "In Review"
 doi: 10.2139/ssrn.4375665
-year: 2024
+year: 2026
 ---
 
 ## Links

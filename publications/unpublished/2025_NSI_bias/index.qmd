@@ -41,6 +41,7 @@ url_preprint: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5575271
 url_repo: https://github.com/abpoll/nsi_fit
 journ: "Submitted"
 year: 2025
+image: featured.png
 ---
 
 ## Links
