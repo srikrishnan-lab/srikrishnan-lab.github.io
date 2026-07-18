@@ -1,6 +1,6 @@
 ---
 title: "Technology indicators enable early detection of decarbonization failures"
-date: 2025-01-01
+date: 2026-01-01
 author: 
   - name: Jingyu Shiwang
   - name: Wei Peng
@@ -20,13 +20,13 @@ categories:
     - climate risk management
     - climate policy
     - climate change mitigation
-url_source: 
+url_source: https://doi.org/10.1016/j.apenergy.2026.128448
 url_preprint: https://doi.org/10.31219/osf.io/bfrzp_v1
 url_repo: 
-doi: https://doi.org/10.31219/osf.io/bfrzp_v1
-journ: "In Review"
+doi: 10.1016/j.apenergy.2026.128448
+journ: "Applied Energy"
 image: featured.jpg
-year: 2025
+year: 2026
 ---
 
 ## Links
@@ -40,3 +40,17 @@ Assessing decarbonization progress traditionally relies solely on tracking carbo
 ## Meme
 
 ![](meme.png){width=60%}
+
+## Citation
+
+@ARTICLE{Shiwang2026-ul,
+  title = {Technology indicators enable early detection of decarbonization
+  failures},
+  author = {Shiwang, Jinyu and Peng, Wei and Huang, Xinyuan and Iyer, Gokul and
+  Srikrishnan, Vivek and Keller, Klaus},
+  journaltitle = {Appl. Energy},
+  volume = {424},
+  pages = {128448},
+  date = {2026-12-01},
+  doi = {10.1016/j.apenergy.2026.128448}
+}
