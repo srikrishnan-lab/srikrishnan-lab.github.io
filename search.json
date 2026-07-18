@@ -305,7 +305,7 @@
     "href": "publications/articles/2025_Technology_Indicators/index.html#citation",
     "title": "Technology indicators enable early detection of decarbonization failures",
     "section": "Citation",
-    "text": "Citation\n@ARTICLE{Shiwang2026-ul, title = {Technology indicators enable early detection of decarbonization failures}, author = {Shiwang, Jinyu and Peng, Wei and Huang, Xinyuan and Iyer, Gokul and Srikrishnan, Vivek and Keller, Klaus}, journaltitle = {Appl. Energy}, volume = {424}, pages = {128448}, date = {2026-12-01}, doi = {10.1016/j.apenergy.2026.128448} }"
+    "text": "Citation\n@ARTICLE{Shiwang2026-ul,\n  title = {Technology indicators enable early detection of decarbonization\n  failures},\n  author = {Shiwang, Jinyu and Peng, Wei and Huang, Xinyuan and Iyer, Gokul and\n  Srikrishnan, Vivek and Keller, Klaus},\n  journaltitle = {Appl. Energy},\n  volume = {424},\n  pages = {128448},\n  date = {2026-12-01},\n  doi = {10.1016/j.apenergy.2026.128448}\n}"
   },
   {
     "objectID": "publications/articles/2025_Levee_Effect/index.html",
