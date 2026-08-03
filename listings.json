@@ -161,11 +161,13 @@
     "items": []
   },
   {
-    "listing": "/people/darnell-chloe/index.html",
+    "listing": "/people/brito-luan/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/ackermannlogan-gabriela/index.html",
     "items": [
-      "/publications/articles/2025_Emissions_Sea_Level_Rise/index.html",
-      "/publications/articles/2025_Warming_Levels/index.html",
-      "/publications/theses/2023_Darnell_SLR/index.html"
+      "/publications/theses/2025_AckermannLogan_Hydrogen/index.html"
     ]
   },
   {
@@ -177,14 +179,12 @@
     ]
   },
   {
-    "listing": "/people/ackermannlogan-gabriela/index.html",
+    "listing": "/people/darnell-chloe/index.html",
     "items": [
-      "/publications/theses/2025_AckermannLogan_Hydrogen/index.html"
+      "/publications/articles/2025_Emissions_Sea_Level_Rise/index.html",
+      "/publications/articles/2025_Warming_Levels/index.html",
+      "/publications/theses/2023_Darnell_SLR/index.html"
     ]
-  },
-  {
-    "listing": "/people/brito-luan/index.html",
-    "items": []
   },
   {
     "listing": "/people/index.html",
