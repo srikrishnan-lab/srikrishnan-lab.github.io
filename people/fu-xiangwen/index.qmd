@@ -8,13 +8,13 @@ education:
   - Ph.D. Public Affairs in Science, Technology, and Environmental Policy | Princeton University | 2024 <br> M.S. Environmental Sciences | Peking University | 2018 <br> B.S. Environmental Sciences | Peking University | 2015
 subtitle: "Research Associate, Biological & Environmental Engineering"
 affiliation: Cornell University
-image: xiangwenfu.jpg
+image: Fu_Xiangwen_RRZ9327.jpg
 page-layout: full
 about: 
   id: about
   template: trestles
   image-shape: round
-  image: xiangwenfu.jpg
+  image: Fu_Xiangwen_RRZ9327.jpg
   links:
     - icon: envelope
       text: Email
