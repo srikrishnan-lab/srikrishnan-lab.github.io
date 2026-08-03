@@ -161,6 +161,10 @@
     "items": []
   },
   {
+    "listing": "/people/fu-xiangwen/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/brito-luan/index.html",
     "items": []
   },
@@ -190,6 +194,7 @@
     "listing": "/people/index.html",
     "items": [
       "/people/srikrishnan-vivek/index.html",
+      "/people/fu-xiangwen/index.html",
       "/people/tang-katerina/index.html",
       "/people/brito-luan/index.html",
       "/people/kacharava-nino/index.html",
