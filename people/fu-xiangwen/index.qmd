@@ -42,7 +42,7 @@ listing:
 
 :::{#about}
 
-Xiangwen Fu is a postdoctoral research associate at the Department of Biological & Environmental Engineering at Cornell University. His research interest lies in policy opportunities for cities to mitigate carbon emissions while delivering co-benefits for energy, air quality, and human health, with a particular focus on the transport and building sectors. He completed his Ph.D. in Public Affairs, specializing in Science, Technology, and Environmental Policy (STEP), at Princeton University in 2024. His dissertation examined strategies for reducing transport and building energy demand in Chinese cities and their implications for climate, air quality, and health. He also holds a master’s and a bachelor’s degree in Environmental Sciences from Peking University. Outside of academics, Xiangwen enjoys reading, watching animes, and traveling.
+Xiangwen Fu is a postdoctoral research associate at the Department of Biological & Environmental Engineering at Cornell University. His research interest lies in policy opportunities for cities to mitigate carbon emissions while delivering co-benefits for energy, air quality, and human health, with a particular focus on the transport and building sectors. He completed his Ph.D. in Public Affairs, specializing in Science, Technology, and Environmental Policy (STEP), at Princeton University in 2024. His dissertation examined strategies for reducing transport and building energy demand in Chinese cities and their implications for climate, air quality, and health. He also holds a master’s and a bachelor’s degree in Environmental Sciences from Peking University. Outside of academics, Xiangwen enjoys reading, watching anime, and traveling.
 
 
 ## Education
