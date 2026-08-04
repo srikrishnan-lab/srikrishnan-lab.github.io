@@ -2,10 +2,10 @@
 title: &TITLE Parin Bhaduri
 last: Bhaduri
 first: Parin
-people_group: "gradstudent"
+people_group: "alumni"
 email: "pbb62@cornell.edu"
 education:
-  - M.S. Biological & Environmental Engineering | Cornell University | 2025 <br> B.S. Environmental Health and Engineering | Johns Hopkins University | 2021 <br> B.A. Public Health Studies | Johns Hopkins University | 2021
+  - Ph.D. Biological & Environmental Engineering | Cornell University | 2026 <br> M.S. Biological & Environmental Engineering | Cornell University | 2025 <br> B.S. Environmental Health and Engineering | Johns Hopkins University | 2021 <br> B.A. Public Health Studies | Johns Hopkins University | 2021
 subtitle: "Ph.D. Student, Biological & Environmental Engineering"
 affiliation: Cornell University
 image: pbhaduri.jpg
