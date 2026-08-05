@@ -1,7 +1,7 @@
 ---
-title: "Impact of Hydropower Availability on Resource Adequacy of the
+title: "Impact of hydropower availability on resource adequacy of the
 United States Western Interconnection"
-date: 2026-01-01
+date: 2026-06-23
 author: 
   - name: Sai Veena Sunkara
     orcid: 0000-0002-5160-9663

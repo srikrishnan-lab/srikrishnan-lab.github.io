@@ -1,6 +1,6 @@
 ---
 title: "Markov-Switching Models for Probabilistic Solar Resource Assessment and Forecasting"
-date: 2018-01-01
+date: 2018-01-12
 author: 
   - name: Vivek Srikrishnan
     orcid: 0000-0003-4390-2656

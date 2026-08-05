@@ -1,6 +1,6 @@
 ---
 title: "Varying sources of uncertainty in risk-relevant hazard projections across the United States"
-date: 2026-01-01
+date: 2026-05-14
 author: 
   - name: David Lafferty
     orcid: 0000-0003-2098-6885
@@ -32,7 +32,7 @@ categories:
 url_source: 
 url_preprint: https://essopenarchive.org/doi/full/10.22541/essoar.15003332/v1
 url_repo: https://github.com/david0811/conus_comparison_lafferty-etal-2026
-journ: "Submitted"
+journ: "In Review"
 year: 2026
 image: featured.png
 ---

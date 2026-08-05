@@ -1,6 +1,6 @@
 ---
 title: "Emulation methods and adaptive sampling increase the efficiency of sensitivity analysis for computationally expensive models"
-date: 2024-01-01
+date: 2026-01-01
 author: 
   - name: Samantha Roth
     orcid: 0000-0002-8867-4426
@@ -21,7 +21,7 @@ categories:
 url_source: 
 url_preprint: https://dx.doi.org/10.2139/ssrn.4375665
 url_repo: 
-journ: "In Review"
+journ: "In Review After Resubmission"
 doi: 10.2139/ssrn.4375665
 year: 2026
 ---

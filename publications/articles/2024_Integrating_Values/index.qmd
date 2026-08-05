@@ -1,6 +1,6 @@
 ---
 title: "Integrating values to improve the relevance of climate‐risk research"
-date: 2024-01-01
+date: 2024-10-01
 author: 
   - name: Casey Helgeson
     orcid: 0000-0001-5333-9954

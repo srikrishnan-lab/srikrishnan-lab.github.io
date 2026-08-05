@@ -1,6 +1,6 @@
 ---
 title: "Estimation of direct normal irradiance with multi-pyranometer arrays and artificial neural networks"
-date: 2014-01-01
+date: 2015-03-18
 author: 
   - name: Vivek Srikrishnan
     orcid: 0000-0003-4390-2656
@@ -11,7 +11,7 @@ url_source: https://etda.libraries.psu.edu/catalog/26267
 url_preprint:
 url_repo: 
 journ: "M.S. Thesis, Pennsylvania State University"
-year: 2014
+year: 2015
 ---
 
 

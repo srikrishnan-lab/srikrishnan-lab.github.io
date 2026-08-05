@@ -1,6 +1,6 @@
 ---
 title: "Explaining drivers of housing prices with nonlinear hedonic regressions"
-date: 2025-01-01
+date: 2025-07-01
 author: 
   - name: Heng Wan
     orcid: 0000-0002-3747-6964

@@ -1,6 +1,6 @@
 ---
-title: " Small increases in agent-based model complexity can result in large increases in required calibration data"
-date: 2021-01-01
+title: "Small increases in agent-based model complexity can result in large increases in required calibration data"
+date: 2021-04-01
 author: 
   - name: Vivek Srikrishnan
     orcid: 0000-0003-0049-3805

@@ -1,6 +1,6 @@
 ---
 title: "Equity is more important for the social cost of methane than climate uncertainty"
-date: 2021-01-01
+date: 2021-04-22
 author: 
   - name: Frank C. Errickson
     orcid: 0000-0003-2195-9424

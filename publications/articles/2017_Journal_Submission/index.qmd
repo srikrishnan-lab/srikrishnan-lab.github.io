@@ -1,6 +1,6 @@
 ---
 title: "A multi-objective decision-making approach to the journal submission problem"
-date: 2017-01-01
+date: 2017-06-05
 author: 
   - name: Tony E. Wong
     orcid: 0000-0002-7304-3883

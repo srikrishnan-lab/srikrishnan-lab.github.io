@@ -1,6 +1,6 @@
 ---
 title: "Unrefined national building inventories can mislead risk assessments and decision"
-date: 2025-01-01
+date: 2025-10-02
 author: 
   - name: Adam B. Pollack
     orcid: 0000-0001-6642-0591
@@ -39,7 +39,7 @@ categories:
 url_source: 
 url_preprint: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5575271
 url_repo: https://github.com/abpoll/nsi_fit
-journ: "Submitted"
+journ: "In Review After Resubmission"
 year: 2025
 image: featured.png
 ---

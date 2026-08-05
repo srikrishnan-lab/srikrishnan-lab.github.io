@@ -1,6 +1,6 @@
 ---
 title: "Unlocking the benefits of transparent and reusable science for climate risk management"
-date: 2026-01-01
+date: 2026-01-20
 author: 
   - name: Adam Pollack
     orcid: 0000-0001-6642-0591

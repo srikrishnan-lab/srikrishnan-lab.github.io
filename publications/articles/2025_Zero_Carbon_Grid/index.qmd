@@ -1,6 +1,6 @@
 ---
 title: "Energy system vulnerabilities in a zero-emission grid: The role of climate variability and technology uncertainty"
-date: 2025-01-01
+date: 2025-08-13
 author: 
   - name: M. Vivienne Liu
     orcid: 0000-0002-5676-8591

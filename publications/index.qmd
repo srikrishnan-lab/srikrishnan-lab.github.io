@@ -4,11 +4,11 @@ listing:
   - id: pubs
     template: ../_ejs/publications.ejs
     contents: articles/*/index.qmd
-    sort: "year desc"
+    sort: "date desc"
     page-size: 30
     filter-ui: true
     sort-ui: true
-    fields: [image, title, publication, author, url_source]
+    fields: [image, title, publication, author, date]
     categories: true
   - id: conferences
     template: ../_ejs/publications.ejs
@@ -17,7 +17,7 @@ listing:
     page-size: 30
     filter-ui: true
     sort-ui: true
-    fields: [image, title, publication, author, url_source]
+    fields: [image, title, publication, author, date]
     categories: true  
   - id: reports
     template: ../_ejs/publications.ejs
@@ -26,7 +26,7 @@ listing:
     page-size: 30
     filter-ui: true
     sort-ui: true
-    fields: [image, title, publication, author, url_source]
+    fields: [image, title, publication, author, date]
     categories: true  
   - id: books
     template: ../_ejs/publications.ejs
@@ -35,7 +35,7 @@ listing:
     page-size: 30
     filter-ui: true
     sort-ui: true
-    fields: [image, title, publication, author, url_source]
+    fields: [image, title, publication, author, date]
     categories: true  
   - id: unpublished
     template: ../_ejs/publications.ejs
@@ -44,7 +44,7 @@ listing:
     page-size: 30
     filter-ui: true
     sort-ui: true
-    fields: [image, title, publication, author, url_source]
+    fields: [image, title, publication, author, date]
     categories: true  
   - id: theses
     template: ../_ejs/publications.ejs
@@ -53,7 +53,7 @@ listing:
     page-size: 30
     filter-ui: true
     sort-ui: true
-    fields: [image, title, publication, author, url_source]
+    fields: [image, title, publication, author, date]
     categories: true  
 page-layout: full
 ---

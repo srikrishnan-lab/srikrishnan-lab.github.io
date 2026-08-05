@@ -1,6 +1,6 @@
 ---
 title: "Multisector dynamics: Advancing the science of complex adaptive human-Earth systems"
-date: 2022-01-01
+date: 2022-03-01
 author: 
   - name: Patrick M. Reed
     orcid: 0000-0002-7963-6102

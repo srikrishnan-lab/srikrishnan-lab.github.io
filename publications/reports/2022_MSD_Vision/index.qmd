@@ -1,6 +1,6 @@
 ---
 title: "MultiSector Dynamics: Scientific Challenges and a Research Vision for 2030, A Community of Practice Supported by the United States Department of Energy's Office of Science"
-date: 2022-01-01
+date: 2022-01-26
 author: 
   - name: Patrick M. Reed
     orcid: 0000-0002-7963-6102

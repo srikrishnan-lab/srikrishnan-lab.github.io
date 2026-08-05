@@ -1,6 +1,6 @@
 ---
 title: "MimiBRICK.jl: A Julia package for the BRICK model for sea-level change in the Mimi integrated modeling framework"
-date: 2022-01-01
+date: 2022-08-20
 author: 
   - name: Tony E. Wong
     orcid: 0000-0002-7304-3883

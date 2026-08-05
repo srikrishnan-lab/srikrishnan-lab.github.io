@@ -1,6 +1,6 @@
 ---
 title: "Coastal adaptation and damage costs at different global warming thresholds"
-date: 2025-01-01
+date: 2025-04-24
 author: 
   - name: Tony E. Wong
     orcid: 0000-0002-7304-3883

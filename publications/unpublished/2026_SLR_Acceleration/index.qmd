@@ -1,6 +1,6 @@
 ---
 title: "A global perspective on local sea level change: A comment"
-date: 2026-01-01
+date: 2026-02-07
 author: 
   - name: Richard S. J. Tol
     orcid: 0000-0002-8012-3988
@@ -17,7 +17,7 @@ categories:
 url_source: 
 url_preprint: https://essopenarchive.org/users/1025341/articles/1385115-a-global-perspective-on-local-sea-level-change-a-comment
 url_repo: 
-journ: "Submitted"
+journ: "In Review After Resubmission"
 year: 2026
 ---
 

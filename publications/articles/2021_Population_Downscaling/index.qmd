@@ -1,6 +1,6 @@
 ---
 title: "Population downscaling using high-resolution, temporally-rich U.S. property data"
-date: 2021-01-01
+date: 2021-11-16
 author: 
   - name: Heng Wan
     orcid: 0000-0002-3747-6964

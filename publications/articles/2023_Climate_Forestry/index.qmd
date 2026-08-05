@@ -1,6 +1,6 @@
 ---
 title: "Balancing multiple forest management objectives under climate change in central Wisconsin, U.S.A."
-date: 2023-01-01
+date: 2023-12-01
 author: 
   - name: Melissa Lucash
     url: https://www.melissalucash.com/

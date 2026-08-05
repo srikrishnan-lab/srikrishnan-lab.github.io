@@ -1,0 +1,51 @@
+---
+title: "Flood Risk is Driven by Complex Combinations of Human and Hazard Uncertainties"
+date: 2026-03-26
+author: 
+  - name: Parin Bhaduri
+    orcid: 0000-0002-4618-1121
+  - name: Adam Pollack
+    orcid: 0000-0001-6642-0591
+    url: https://abpoll.github.io/
+  - name: Youngjun Son
+    orcid: 0000-0001-5128-2499
+  - name: Jim Yoon
+    url: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3295
+  - name: Brent Daniel
+    orcid: 0000-0001-7398-6796
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+categories:
+    - flood risk
+    - agent-based modeling
+    - uncertainty quantification
+url_source: 
+url_preprint: https://ssrn.com/abstract=6701898
+url_repo: https://github.com/parinbhaduri/Bhaduri_et_al_inprep
+doi: 10.2139/ssrn.6701898
+journ: "Submitted"
+issue: 
+page: 
+year: 2026
+---
+
+## Links
+
+* [Preprint](https://ssrn.com/abstract=6701898)
+* [Code Repository](https://github.com/parinbhaduri/Bhaduri_et_al_inprep)
+
+## Abstract
+
+Flood-risk assessments increasingly consider how flood risk outcomes are distributed across populations. These outcomes are influenced by uncertainties related to flood hazard, exposure, vulnerability, and human response, but understanding which uncertainties drive future flood risk disparities remains unclear. Using an agent-based model, we simulate household relocation in response to flooding in the city of Philadelphia, Pennsylvania over the course of a multi-decadal simulation. We then perform a large-scale uncertainty characterization experiment to better understand which uncertainties have the most influence on flood risk outcomes across household income groups. We find that failing to account for key uncertainties related to flood damage estimation and human response results in major discrepancies in estimates of future flood losses. We also find that factors related to household memory and aversion to flood exposure are the most influential in shaping high-income population recovery, but factors related to housing preference and affordability are the most influential in shaping low-income recovery. Our results highlight the need to systematically account for multiple sources of uncertainty to better understand the distribution of flood risks.
+
+## Citation
+
+```bibtex
+@misc{bhaduriFloodRiskDriven2026,
+  title = {Flood {{Risk}} Is {{Driven}} by {{Complex Combinations}} of {{Human}} and {{Hazard Uncertainties}}},
+  author = {Bhaduri, Parin and Pollack, Adam and Son, Youngjun and Yoon, Jim and Daniel, Brent and Srikrishnan, Vivek},
+  year = 2026,
+  doi = {10.2139/ssrn.6701898},
+}
+```

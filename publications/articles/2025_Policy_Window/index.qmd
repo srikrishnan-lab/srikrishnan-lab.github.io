@@ -1,6 +1,6 @@
 ---
 title: "Seizing the policy opportunities for health- and equity-improving energy decisions"
-date: 2025-01-01
+date: 2025-01-20
 author: 
   - name: Wei Peng
     orcid: 0000-0002-1980-0759

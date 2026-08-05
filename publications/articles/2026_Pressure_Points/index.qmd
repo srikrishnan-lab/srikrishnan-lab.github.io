@@ -1,6 +1,6 @@
 ---
 title: "Identification of pressure points in modern power systems using transfer entropy"
-date: 2025-01-01
+date: 2026-03-26
 author: 
   - name: Katerina Tang
   - name: M. Vivienne Liu

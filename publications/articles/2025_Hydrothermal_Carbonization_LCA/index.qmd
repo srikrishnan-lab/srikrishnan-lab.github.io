@@ -1,6 +1,6 @@
 ---
 title: "Environmental trade-offs in hydrothermal carbonization process selection determined via attributional life cycle assessment and multi-criteria decision making"
-date: 2025-01-01
+date: 2025-08-01
 author: 
   - name: Demola Ogunnaike
   - name: Vivek Srikrishnan

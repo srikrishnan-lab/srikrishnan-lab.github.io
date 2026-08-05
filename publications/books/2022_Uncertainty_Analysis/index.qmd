@@ -1,6 +1,6 @@
 ---
 title: "Addressing Uncertainty in Multisector Dynamics Research"
-date: 2022-01-01
+date: 2022-02-17
 author: 
   - name: Patrick M. Reed
     orcid: 0000-0002-7963-6102

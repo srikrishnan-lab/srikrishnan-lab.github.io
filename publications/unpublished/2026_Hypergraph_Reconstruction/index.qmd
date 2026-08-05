@@ -1,6 +1,6 @@
 ---
 title: "Bayesian hypergraph inference from scarce and noisy dynamical observations"
-date: 2026-01-01
+date: 2026-05-05
 author: 
   - name: Katerina Tang
   - name: Vivek Srikrishnan
@@ -15,7 +15,7 @@ categories:
 url_source: 
 url_preprint: https://arxiv.org/abs/2605.04218
 url_repo: https://github.com/kbtang28/bayesian-hypergraph-inference
-journ: "Submitted"
+journ: "In Revision"
 year: 2026
 image: featured.png
 ---

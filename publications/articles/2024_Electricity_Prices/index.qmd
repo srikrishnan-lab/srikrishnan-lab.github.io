@@ -1,6 +1,6 @@
 ---
 title: "Quantifying the impact of multi-scale climate variability on electricity prices in a renewable-dominated power grid"
-date: 2024-01-01
+date: 2024-03-01
 author: 
   - name: Elnaz Kabir
     orcid: 0000-0002-5211-7433

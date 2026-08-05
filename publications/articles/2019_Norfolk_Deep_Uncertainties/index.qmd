@@ -1,6 +1,6 @@
 ---
 title: "Characterizing the deep uncertainties surrounding coastal flood hazard projections: A case study for Norfolk, VA"
-date: 2019-01-01
+date: 2019-08-06
 author: 
   - name: Kelsey L. Ruckert
     orcid: 0000-0001-9513-2636
