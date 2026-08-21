@@ -1,0 +1,48 @@
+---
+title: "Regret-based global coastal adaptation decision-making under sea level uncertainty"
+date: 2025-08-21
+author: 
+  - name: Carolina Estevez
+  - name: Kelly Feke
+  - name: Vivek Srikrishnan
+    orcid: 0000-0003-0049-3805
+    url: https://viveks.me
+  - name: Tony E. Wong
+    orcid: 0000-0002-7304-3883
+    url: https://tonyewong.github.io
+categories:
+    - climate adaptation
+    - coastal flood risk
+    - decision making under uncertainty
+url_source: https://doi.org/10.1371/journal.pclm.0000947
+url_preprint: 
+url_repo: https://github.com/CarolinaEstevez/MimiCIAMRegret.jl
+journ: "PLOS Climate"
+issue: "5 (8)"
+page: e0000947
+year: 2026
+doi: 10.1371/journal.pclm.0000947
+image: featured.jpg
+---
+
+## Links
+
+- [Code Repository](https://github.com/CarolinaEstevez/MimiCIAMRegret.jl)
+
+## Abstract
+
+Sea-level rise has large impacts on coastal areas. Many approaches to quantify the net benefits of regional or global coastal adaptation rely on strong assumptions about economically efficient decision-making and may neglect critical uncertainties about future extreme water levels and socioeconomic development. In particular, the deep and dynamic uncertainties associated with future sea levels complicate efforts to adapt coastal areas and infrastructure to account for sea-level rise. Robust decision-making (RDM) provides a way to identify adaptation strategies that perform well across uncertain sea-level futures. In this work, we quantified the impacts of an RDM approach on regional and global coastal adaptation using an economic regret, defined as the difference in cost of a strategy compared to the “optimal” outcome. We modeled decision-making using a regret-based criterion and computed the economic regret of each adaptation decision candidate, which we then compared to classical decision-making approaches. We found that the majority of coastal segments that changed strategies under regret-based criteria opted for a higher level of adaptation, primarily by expanding their retreat elevation. Although the total adaptation costs remained comparable to those under the cost-minimizing criterion, the use of regret led to a 3–50% reduction in flood damage, highlighting the advantages of prioritizing robust outcomes over purely cost optimization. While our analysis assumed immediate implementation of adaptation and evaluated a limited set of decision criteria, the results demonstrate that incorporating regret-based decision-making into coastal impact models can provide policy-relevant insights for designing more robust adaptation strategies under deep uncertainty.
+
+## Citation
+
+```bibtex
+@article{estevezRegretbasedGlobalCoastal2026,
+  title = {Regret-Based Global Coastal Adaptation Decision-Making under Sea Level Uncertainty},
+  author = {Estevez, Carolina and Feke, Kelly and Srikrishnan, Vivek and Wong, Tony E.},
+  date = {2026},
+  journaltitle = {PLOS Climate},
+  volume = {5},
+  number = {8},
+  pages = {e0000947},
+  doi = {10.1371/journal.pclm.0000947},
+}```
