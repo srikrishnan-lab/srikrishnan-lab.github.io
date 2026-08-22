@@ -1,6 +1,5 @@
 ---
-title: "Impact of hydropower availability on resource adequacy of the
-United States Western Interconnection"
+title: "Impact of hydropower availability on resource adequacy of the United States Western Interconnection"
 date: 2026-06-23
 author: 
   - name: Sai Veena Sunkara

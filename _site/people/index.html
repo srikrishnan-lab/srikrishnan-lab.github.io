@@ -113,9 +113,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-pagetitle","listing-author-meta","listing-website","listing-format","listing-resources","listing-engines","listing-_quarto-vars","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-affiliation","listing-image","listing-page-layout","listing-about","listing-listing","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -322,6 +322,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link active" data-scroll-target="#principal-investigator">Principal Investigator</a></li>
+  <li><a href="#postdoctoral-fellows" id="toc-postdoctoral-fellows" class="nav-link" data-scroll-target="#postdoctoral-fellows">Postdoctoral Fellows</a></li>
   <li><a href="#graduate-students" id="toc-graduate-students" class="nav-link" data-scroll-target="#graduate-students">Graduate Students</a></li>
   <li><a href="#undergraduate-students" id="toc-undergraduate-students" class="nav-link" data-scroll-target="#undergraduate-students">Undergraduate Students</a></li>
   <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a></li>
@@ -408,12 +409,65 @@ window.Quarto = {
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<!----
-## Postdoctoral Fellows
+</section>
+<section id="postdoctoral-fellows" class="level2">
+<h2 class="anchored" data-anchor-id="postdoctoral-fellows">Postdoctoral Fellows</h2>
+<div id="listing-postdoc" class="quarto-listing quarto-listing-container-custom">
 
-::: {#postdoc}
-:::
---->
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list grid quarto-listing-cols-3"> 
+
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/fu-xiangwen/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Xiangwen Fu" src="../people/fu-xiangwen/Fu_Xiangwen_RRZ9327.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Xiangwen Fu<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Research Associate, Biological &amp; Environmental Engineering<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  Ph.D. Public Affairs in Science, Technology, and Environmental Policy | Princeton University | 2024 <br> M.S. Environmental Sciences | Peking University | 2018 <br> B.S. Environmental Sciences | Peking University | 2015<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+  
+</div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="graduate-students" class="level2">
 <h2 class="anchored" data-anchor-id="graduate-students">Graduate Students</h2>
@@ -539,49 +593,6 @@ window.Quarto = {
                 
                 
                   M.S. Civil &amp; Environmental Engineering | Cornell University | 2025 <br> B.S. Civil Engineering | Georgian Technical University | 2022<br>
-                  
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/bhaduri-parin/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Parin Bhaduri" src="../people/bhaduri-parin/pbhaduri.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Parin Bhaduri<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-              Ph.D. Student, Biological &amp; Environmental Engineering<br>
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                  M.S. Biological &amp; Environmental Engineering | Cornell University | 2025 <br> B.S. Environmental Health and Engineering | Johns Hopkins University | 2021 <br> B.A. Public Health Studies | Johns Hopkins University | 2021<br>
                   
                     
               </div>  
@@ -858,6 +869,53 @@ window.Quarto = {
       
     </div>
   
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/bhaduri-parin/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Parin Bhaduri" src="../people/bhaduri-parin/pbhaduri.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Parin Bhaduri<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+
+              
+                  Ph.D. Student, Biological &amp; Environmental Engineering<br>
+                  
+
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Biological &amp; Environmental Engineering | Cornell University | 2026 <br> M.S. Biological &amp; Environmental Engineering | Cornell University | 2025 <br> B.S. Environmental Health and Engineering | Johns Hopkins University | 2021 <br> B.A. Public Health Studies | Johns Hopkins University | 2021<br>
+                    
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
     
   
 </div>
@@ -870,19 +928,7 @@ window.Quarto = {
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-postdoc">
-
-<div class="quarto-listing quarto-listing-container-grid">
-  
-  <div class="list grid quarto-listing-cols-3"> 
-
-    
-  
-</div>
-</div>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

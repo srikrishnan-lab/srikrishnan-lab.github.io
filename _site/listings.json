@@ -2,6 +2,7 @@
   {
     "listing": "/research/flood-risk/index.html",
     "items": [
+      "/publications/articles/2026_Coastal_Regret/index.html",
       "/publications/unpublished/2026_ABM_Uncertainty/index.html",
       "/publications/articles/2025_Levee_Effect/index.html",
       "/publications/articles/2025_UNSAFE/index.html",
@@ -18,6 +19,7 @@
   {
     "listing": "/research/climate-risk/index.html",
     "items": [
+      "/publications/articles/2026_Coastal_Regret/index.html",
       "/publications/articles/2026_Hydro_Futures/index.html",
       "/publications/articles/2026_Pressure_Points/index.html",
       "/publications/articles/2026_Technology_Indicators/index.html",
@@ -44,76 +46,10 @@
     ]
   },
   {
-    "listing": "/people/tang-katerina/index.html",
-    "items": [
-      "/publications/articles/2026_Pressure_Points/index.html",
-      "/publications/unpublished/2026_Hypergraph_Reconstruction/index.html"
-    ]
-  },
-  {
-    "listing": "/people/schnabel-cella/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/lafferty-david/index.html",
-    "items": [
-      "/publications/articles/2022_Uncertainty_MultiSectorDynamics/index.html"
-    ]
-  },
-  {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/srikrishnan-vivek/index.html",
-      "/people/tang-katerina/index.html",
-      "/people/brito-luan/index.html",
-      "/people/kacharava-nino/index.html",
-      "/people/bhaduri-parin/index.html",
-      "/people/luo-yifan/index.html",
-      "/people/schnabel-cella/index.html",
-      "/people/darnell-chloe/index.html",
-      "/people/lafferty-david/index.html",
-      "/people/ackermannlogan-gabriela/index.html"
-    ]
-  },
-  {
-    "listing": "/people/brito-luan/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/ackermannlogan-gabriela/index.html",
-    "items": [
-      "/publications/theses/2025_AckermannLogan_Hydrogen/index.html"
-    ]
-  },
-  {
-    "listing": "/people/bhaduri-parin/index.html",
-    "items": [
-      "/publications/unpublished/2026_ABM_Uncertainty/index.html",
-      "/publications/articles/2025_Interpretable_ML_Hedonic/index.html",
-      "/publications/articles/2025_Levee_Effect/index.html",
-      "/publications/conference/2024_Neural_ODE/index.html"
-    ]
-  },
-  {
-    "listing": "/people/darnell-chloe/index.html",
-    "items": [
-      "/publications/articles/2025_Emissions_Sea_Level_Rise/index.html",
-      "/publications/articles/2025_Warming_Levels/index.html",
-      "/publications/theses/2023_Darnell_SLR/index.html"
-    ]
-  },
-  {
-    "listing": "/people/kacharava-nino/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/luo-yifan/index.html",
-    "items": []
-  },
-  {
     "listing": "/people/srikrishnan-vivek/index.html",
     "items": [
       "/publications/articles/2026_Open_Science/index.html",
+      "/publications/articles/2026_Coastal_Regret/index.html",
       "/publications/articles/2026_Hydro_Futures/index.html",
       "/publications/articles/2026_Pressure_Points/index.html",
       "/publications/articles/2026_Technology_Indicators/index.html",
@@ -166,6 +102,78 @@
     ]
   },
   {
+    "listing": "/people/luo-yifan/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/kacharava-nino/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/fu-xiangwen/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/brito-luan/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/ackermannlogan-gabriela/index.html",
+    "items": [
+      "/publications/theses/2025_AckermannLogan_Hydrogen/index.html"
+    ]
+  },
+  {
+    "listing": "/people/bhaduri-parin/index.html",
+    "items": [
+      "/publications/unpublished/2026_ABM_Uncertainty/index.html",
+      "/publications/articles/2025_Interpretable_ML_Hedonic/index.html",
+      "/publications/articles/2025_Levee_Effect/index.html",
+      "/publications/conference/2024_Neural_ODE/index.html"
+    ]
+  },
+  {
+    "listing": "/people/darnell-chloe/index.html",
+    "items": [
+      "/publications/articles/2025_Emissions_Sea_Level_Rise/index.html",
+      "/publications/articles/2025_Warming_Levels/index.html",
+      "/publications/theses/2023_Darnell_SLR/index.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/srikrishnan-vivek/index.html",
+      "/people/fu-xiangwen/index.html",
+      "/people/tang-katerina/index.html",
+      "/people/brito-luan/index.html",
+      "/people/kacharava-nino/index.html",
+      "/people/luo-yifan/index.html",
+      "/people/schnabel-cella/index.html",
+      "/people/darnell-chloe/index.html",
+      "/people/lafferty-david/index.html",
+      "/people/ackermannlogan-gabriela/index.html",
+      "/people/bhaduri-parin/index.html"
+    ]
+  },
+  {
+    "listing": "/people/lafferty-david/index.html",
+    "items": [
+      "/publications/articles/2022_Uncertainty_MultiSectorDynamics/index.html"
+    ]
+  },
+  {
+    "listing": "/people/schnabel-cella/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/tang-katerina/index.html",
+    "items": [
+      "/publications/articles/2026_Pressure_Points/index.html",
+      "/publications/unpublished/2026_Hypergraph_Reconstruction/index.html"
+    ]
+  },
+  {
     "listing": "/publications/index.html",
     "items": [
       "/publications/articles/2026_Technology_Indicators/index.html",
@@ -175,6 +183,7 @@
       "/publications/articles/2025_Emissions_Sea_Level_Rise/index.html",
       "/publications/articles/2025_Levee_Effect/index.html",
       "/publications/articles/2025_UNSAFE/index.html",
+      "/publications/articles/2026_Coastal_Regret/index.html",
       "/publications/articles/2025_Zero_Carbon_Grid/index.html",
       "/publications/articles/2025_Hydrothermal_Carbonization_LCA/index.html",
       "/publications/articles/2025_Interpretable_ML_Hedonic/index.html",

@@ -1,6 +1,6 @@
 ---
 title: "Regret-based global coastal adaptation decision-making under sea level uncertainty"
-date: 2025-08-21
+date: 2025-08-26
 author: 
   - name: Carolina Estevez
   - name: Kelly Feke
@@ -22,7 +22,7 @@ issue: "5 (8)"
 page: e0000947
 year: 2026
 doi: 10.1371/journal.pclm.0000947
-image: featured.jpg
+image: featured.png
 ---
 
 ## Links
