@@ -43,7 +43,7 @@ url_source: https://uc-ebook.org/
 url_preprint: 
 url_repo: https://github.com/IMMM-SFA/msd_uncertainty_ebook
 year: 2022
-doi: 10.1029/2021EF002621
+doi: 10.5281/zenodo.6110623
 image: featured.png
 ---
 

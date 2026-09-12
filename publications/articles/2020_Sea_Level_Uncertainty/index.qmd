@@ -37,7 +37,7 @@ journ: "Risk Analysis"
 issue: "40 (1)"
 page: 153-168
 year: 2020
-doi: 10.1371/journal.pone.0178874
+doi: 10.1111/risa.12888
 image: featured.jpg
 ---
 
