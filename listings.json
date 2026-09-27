@@ -1,48 +1,21 @@
 [
   {
-    "listing": "/research/flood-risk/index.html",
+    "listing": "/research/index.html",
     "items": [
-      "/publications/articles/2026_Coastal_Regret/index.html",
-      "/publications/unpublished/2026_ABM_Uncertainty/index.html",
-      "/publications/articles/2025_Levee_Effect/index.html",
-      "/publications/articles/2025_UNSAFE/index.html",
-      "/publications/articles/2025_Warming_Levels/index.html",
-      "/publications/unpublished/2025_NSI_bias/index.html",
-      "/publications/articles/2024_Riverine_Uncertainty/index.html",
-      "/publications/articles/2023_ABM_Structural_Uncertainty/index.html",
-      "/publications/articles/2020_House_Elevation/index.html",
-      "/publications/articles/2020_Sea_Level_Uncertainty/index.html",
-      "/publications/articles/2019_Investing_Science/index.html",
-      "/publications/articles/2019_Norfolk_Deep_Uncertainties/index.html"
+      "/research/climate-risk/index.html",
+      "/research/energy-climate/index.html",
+      "/research/flood-risk/index.html",
+      "/research/mitigation-valuation/index.html"
     ]
   },
   {
-    "listing": "/research/climate-risk/index.html",
+    "listing": "/research/energy-climate/index.html",
     "items": [
-      "/publications/articles/2026_Coastal_Regret/index.html",
       "/publications/articles/2026_Hydro_Futures/index.html",
       "/publications/articles/2026_Pressure_Points/index.html",
-      "/publications/articles/2026_Technology_Indicators/index.html",
-      "/publications/unpublished/2026_Projection_Uncertainty/index.html",
-      "/publications/unpublished/2026_SLR_Acceleration/index.html",
-      "/publications/articles/2025_Emissions_Sea_Level_Rise/index.html",
-      "/publications/articles/2025_Hydrothermal_Carbonization_LCA/index.html",
-      "/publications/articles/2025_Policy_Window/index.html",
-      "/publications/articles/2025_Warming_Levels/index.html",
       "/publications/articles/2025_Zero_Carbon_Grid/index.html",
-      "/publications/unpublished/2025_NSI_bias/index.html",
       "/publications/articles/2024_Electricity_Prices/index.html",
-      "/publications/articles/2024_Integrating_Values/index.html",
-      "/publications/articles/2023_Climate_Forestry/index.html",
-      "/publications/articles/2022_CO2_Projections/index.html",
-      "/publications/articles/2022_MimiBRICK/index.html",
-      "/publications/articles/2023_Mitigation_Air_Quality/index.html",
-      "/publications/articles/2021_Climate_Risk_Management/index.html",
-      "/publications/articles/2021_Social_Cost_Methane/index.html",
-      "/publications/articles/2020_House_Elevation/index.html",
-      "/publications/articles/2020_Sea_Level_Uncertainty/index.html",
-      "/publications/articles/2019_Investing_Science/index.html",
-      "/publications/articles/2018_Surge_Uncertainty/index.html"
+      "/publications/articles/2018_Hedging_Strategies/index.html"
     ]
   },
   {
@@ -126,6 +99,7 @@
   {
     "listing": "/people/bhaduri-parin/index.html",
     "items": [
+      "/publications/theses/2026_Bhaduri_Flooding/index.html",
       "/publications/unpublished/2026_ABM_Uncertainty/index.html",
       "/publications/articles/2025_Interpretable_ML_Hedonic/index.html",
       "/publications/articles/2025_Levee_Effect/index.html",
@@ -225,6 +199,7 @@
       "/publications/unpublished/2026_Projection_Uncertainty/index.html",
       "/publications/unpublished/2026_SLR_Acceleration/index.html",
       "/publications/unpublished/2025_NSI_bias/index.html",
+      "/publications/theses/2026_Bhaduri_Flooding/index.html",
       "/publications/theses/2025_AckermannLogan_Hydrogen/index.html",
       "/publications/theses/2023_Darnell_SLR/index.html",
       "/publications/theses/2018_Srikrishnan_Solar_Genome/index.html",
@@ -232,21 +207,60 @@
     ]
   },
   {
-    "listing": "/research/energy-climate/index.html",
+    "listing": "/research/climate-risk/index.html",
     "items": [
+      "/publications/articles/2026_Coastal_Regret/index.html",
       "/publications/articles/2026_Hydro_Futures/index.html",
       "/publications/articles/2026_Pressure_Points/index.html",
+      "/publications/articles/2026_Technology_Indicators/index.html",
+      "/publications/unpublished/2026_Projection_Uncertainty/index.html",
+      "/publications/unpublished/2026_SLR_Acceleration/index.html",
+      "/publications/articles/2025_Emissions_Sea_Level_Rise/index.html",
+      "/publications/articles/2025_Hydrothermal_Carbonization_LCA/index.html",
+      "/publications/articles/2025_Policy_Window/index.html",
+      "/publications/articles/2025_Warming_Levels/index.html",
       "/publications/articles/2025_Zero_Carbon_Grid/index.html",
+      "/publications/unpublished/2025_NSI_bias/index.html",
       "/publications/articles/2024_Electricity_Prices/index.html",
-      "/publications/articles/2018_Hedging_Strategies/index.html"
+      "/publications/articles/2024_Integrating_Values/index.html",
+      "/publications/articles/2023_Climate_Forestry/index.html",
+      "/publications/articles/2022_CO2_Projections/index.html",
+      "/publications/articles/2022_MimiBRICK/index.html",
+      "/publications/articles/2023_Mitigation_Air_Quality/index.html",
+      "/publications/articles/2021_Climate_Risk_Management/index.html",
+      "/publications/articles/2021_Social_Cost_Methane/index.html",
+      "/publications/articles/2020_House_Elevation/index.html",
+      "/publications/articles/2020_Sea_Level_Uncertainty/index.html",
+      "/publications/articles/2019_Investing_Science/index.html",
+      "/publications/articles/2018_Surge_Uncertainty/index.html"
     ]
   },
   {
-    "listing": "/research/index.html",
+    "listing": "/research/flood-risk/index.html",
     "items": [
-      "/research/climate-risk/index.html",
-      "/research/energy-climate/index.html",
-      "/research/flood-risk/index.html"
+      "/publications/articles/2026_Coastal_Regret/index.html",
+      "/publications/unpublished/2026_ABM_Uncertainty/index.html",
+      "/publications/articles/2025_Levee_Effect/index.html",
+      "/publications/articles/2025_UNSAFE/index.html",
+      "/publications/articles/2025_Warming_Levels/index.html",
+      "/publications/unpublished/2025_NSI_bias/index.html",
+      "/publications/articles/2024_Riverine_Uncertainty/index.html",
+      "/publications/articles/2023_ABM_Structural_Uncertainty/index.html",
+      "/publications/articles/2020_House_Elevation/index.html",
+      "/publications/articles/2020_Sea_Level_Uncertainty/index.html",
+      "/publications/articles/2019_Investing_Science/index.html",
+      "/publications/articles/2019_Norfolk_Deep_Uncertainties/index.html"
+    ]
+  },
+  {
+    "listing": "/research/mitigation-valuation/index.html",
+    "items": [
+      "/publications/articles/2026_Technology_Indicators/index.html",
+      "/publications/articles/2025_Hydrothermal_Carbonization_LCA/index.html",
+      "/publications/articles/2025_Policy_Window/index.html",
+      "/publications/articles/2022_CO2_Projections/index.html",
+      "/publications/articles/2023_Mitigation_Air_Quality/index.html",
+      "/publications/articles/2021_Social_Cost_Methane/index.html"
     ]
   }
 ]
