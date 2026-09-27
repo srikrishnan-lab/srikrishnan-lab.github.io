@@ -3,11 +3,11 @@ title: &TITLE Parin Bhaduri
 last: Bhaduri
 first: Parin
 people_group: "alumni"
-email: "pbb62@cornell.edu"
+email: "pbhaduri@udel.edu"
 education:
   - Ph.D. Biological & Environmental Engineering | Cornell University | 2026 <br> M.S. Biological & Environmental Engineering | Cornell University | 2025 <br> B.S. Environmental Health and Engineering | Johns Hopkins University | 2021 <br> B.A. Public Health Studies | Johns Hopkins University | 2021
-subtitle: "Ph.D. Student, Biological & Environmental Engineering"
-affiliation: Cornell University
+subtitle: "Postdoctoral Scholar"
+affiliation: University of Delaware
 image: pbhaduri.jpg
 page-layout: full
 about: 
@@ -18,7 +18,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:pbb62@cornell.edu
+      href: mailto:pbhaduri@udel.edu
     - text: "{{< ai orcid >}} Orcid"
       href: https://orcid.org/0000-0002-4618-1121
     - icon: github
@@ -45,7 +45,7 @@ listing:
 :::{#about}
 
 
-Parin Bhaduri is a Ph.D. student in the Department of Biological and Environmental Engineering at Cornell.  Parin is interested in the utilization of systems-level modeling to inform decision makers on climate adaptation, particularly on issues surrounding climate justice and equity. In his free time, Parin enjoys baking, photography, and playing soccer.
+Parin Bhaduri is a Postdoctoral Scholar at the University of Delaware, working on the [CHEER (Coastal Hazards, Economic Prosperity, and Resilience Hub) Project](https://www.drc.udel.edu/cheer/cheer-team/). Previously, Parin completed his Ph.D. in Biological & Environmental Engineering at Cornell in 2026. Parin is interested in the utilization of systems-level modeling to inform decision makers on climate adaptation, particularly on issues surrounding climate justice and equity. In his free time, Parin enjoys baking, photography, and playing soccer.
 
 
 ## Education

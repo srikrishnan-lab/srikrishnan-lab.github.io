@@ -1,0 +1,47 @@
+---
+title: "Understanding the Role of Human and Hydroclimatic Uncertainties in Flood Risk Assessments Within Coastal-Urban Systems"
+date: 2026-08-01
+author: 
+  - name: Parin Bhaduri
+categories:
+    - coastal flood risk
+    - flood risk
+    - climate impacts
+    - climate adaptation
+    - uncertainty decomposition
+    - sensitivity analysis
+    - uncertainty quantification
+    - agent-based modeling
+url_source: https://www.proquest.com/docview/3386986457
+url_preprint:
+url_repo: 
+journ: "Ph.D. Dissertation, Cornell University"
+year: 2026
+---
+
+
+## Abstract
+
+Coastal cities face escalating flood risks driven by climate change, urbanization,
+and the complex interactions among hydrologic, socioeconomic, and technological systems that define urban environments. Projections of future flood risk rely on tools and methods that routinely neglect key uncertainties arising from the physical representation of flood hazards, the behavioral and socioeconomic dynamics of exposed populations, and the characteristics of the built environment. This dissertation characterizes how neglecting these uncertainties biases projections of coastal flood risk and potentially misinforms future adaptation interventions. 
+
+The first study in this dissertation develops an agent-based modeling framework to characterize how uncertainty in household behavior shapes the occurrence and magnitude of the levee effect, where structural flood protections lead to increased development that can worsen overall flood risk. Using both an idealized experiment and a real-world case study of a proposed levee project in Baltimore, Maryland, a global sensitivity analysis reveals that behavioral factors, particularly household flood risk aversion, are the dominant drivers of flood risk transference in complex coastal settings, while engineering and hydrologic factors are more influential under idealized conditions. 
+
+The second study extends this framework to a study area in Philadelphia, Pennsylvania, to evaluate how multiple interacting uncertainties influence the distribution of flood impacts across income groups. A large-scale global sensitivity analysis shows that flood hazard and housing market dynamics are the dominant sources of uncertainty in flood loss burden across income groups, and factors related to flood risk behavior and housing preferences influence longterm population recovery. Critically, the ranking of uncertainty sources differs across income groups, reflecting the unequal capacity of low-income households to compete for safer housing following flood disasters. 
+
+The third study evaluates whether climate change strongly influences projections of tropical cyclone damages relative to internal climate variability and damage estimation uncertainty. Simulations of Hurricanes Irene and Floyd under future warming scenarios show major damage increases above historical baselines at aggregate scales. However, damage assessments at the neighborhood level are substantially complicated by internal variability, limiting the utility of standard attribution approaches for spatially targeted local adaptation planning.
+
+
+## Citation
+
+```bibtex
+@phdthesis{Bhaduri2026,
+  title = {Understanding the Role of Human and Hydroclimatic Uncertainties in Flood Risk Assessments Within Coastal-Urban Systems},
+  author = {Bhaduri, Parin},
+  school = {Cornell University},
+  address = {Ithaca, NY, USA},
+  date = {2026},
+  mon = {Aug},
+  type = {Ph.D. Dissertation}
+}
+```

@@ -6,6 +6,8 @@ listing:
 page-layout: full
 ---
 
+Our work spans four problem areas. These differ in scale and in the systems involved, but share a common question: which of the many uncertainties involved are relevant for the decisions at hand?
+
 ::: {#research}
 :::
 
