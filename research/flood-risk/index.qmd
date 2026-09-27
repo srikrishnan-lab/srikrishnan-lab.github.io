@@ -21,7 +21,7 @@ listing:
 
 One near-to-medium-term effect of climate change is an increase in flooding hazard due to sea-level rise and changes in storm and precipitation patterns. Managing flooding hazards is complex due to feedbacks resulting from built infrastructure and human-system adaptations which can ameliorate or exacerbate the corresponding risks. We work on understanding how these feedbacks, and their associated uncertainties, influence both flooding risks and the efficacy of planned risk management interventions, including both "hard" infrastructure such as levees and "soft" adaptations such as zoning changes or relocation.
 
-Flood risk estimates are often reported as though the hazard were the dominant uncertainty. We regularly find that it is not: uncertainties in how buildings are described and valued, and in how households respond to risk information and protection, can be large enough to change the ranking of management options. We develop and release tools which make these assumptions explicit and testable, including [UNSAFE](https://github.com/abpoll/unsafe).
+Flood risk estimates are often reported as though the hazard were the dominant uncertainty. We regularly find that it is not: uncertainties in how buildings are described and valued, and in how households respond to risk information and protection, can be large enough to change the ranking of management options. We collaborate on the development of tools which make these assumptions explicit and testable, including [CHANCE-C](https://github.com/srikrishnan-lab/CHANCE_C.jl) and [UNSAFE](https://github.com/abpoll/unsafe).
 
 ## Selected Publications
 
