@@ -6,7 +6,7 @@ people_group: "alumni"
 email: "pbhaduri@udel.edu"
 education:
   - Ph.D. Biological & Environmental Engineering | Cornell University | 2026 <br> M.S. Biological & Environmental Engineering | Cornell University | 2025 <br> B.S. Environmental Health and Engineering | Johns Hopkins University | 2021 <br> B.A. Public Health Studies | Johns Hopkins University | 2021
-subtitle: "Postdoctoral Scholar"
+subtitle: "Postdoctoral Scholar, University of Delaware"
 affiliation: University of Delaware
 image: pbhaduri.jpg
 page-layout: full
